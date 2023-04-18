@@ -1102,3 +1102,288 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.04.18-11.12.30:456][752]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Assets/Whale_Bones_Mesh/Bone.Bone
 [2023.04.18-11.12.30:456][752]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Whale_Bones_Mesh/NHM_Blue_Whale_6k.NHM_Blue_Whale_6k
 [2023.04.18-11.12.30:457][752]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Assets/Whale_Bones_Mesh/NHM_Blue_Whale_6k_occlusion.NHM_Blue_Whale_6k_occlusion
+[2023.04.18-11.12.50:950][134]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Whale_Bones_Mesh/NHM_Blue_Whale_6k.NHM_Blue_Whale_6k
+[2023.04.18-11.12.50:951][134]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Whale_Bones_Mesh/NHM_Blue_Whale_6k.NHM_Blue_Whale_6k
+[2023.04.18-11.12.50:951][134]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Whale_Bones_Mesh/NHM_Blue_Whale_6k.NHM_Blue_Whale_6k as actor: StaticMeshActor /Game/LevelBuild.LevelBuild:PersistentLevel.StaticMeshActor_0
+[2023.04.18-11.12.52:715][238]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Whale_Bones_Mesh/NHM_Blue_Whale_6k.NHM_Blue_Whale_6k
+[2023.04.18-11.12.52:715][238]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Whale_Bones_Mesh/NHM_Blue_Whale_6k.NHM_Blue_Whale_6k
+[2023.04.18-11.12.52:717][238]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Whale_Bones_Mesh/NHM_Blue_Whale_6k.NHM_Blue_Whale_6k as actor: StaticMeshActor /Game/LevelBuild.LevelBuild:PersistentLevel.StaticMeshActor_UAID_2CF05DFCF5CC4D7A01_1319512543
+[2023.04.18-11.13.34:721][670]LogDerivedDataCache: C:/Users/larss/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:14.207 and deleted 0 files with total size 0 MiB. Scanned 7882 files in 7796 folders with total size 470 MiB.
+[2023.04.18-11.15.20:677][333]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.18-11.15.20:709][333]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/2/94/COR9AVKLB3KMC4IU1AWUSP
+[2023.04.18-11.15.20:709][333]LogSavePackage: Moving '../../../../../../Users/larss/Documents/Github repositories/Inventory/Doomsday-Penguins/DoomsdayPenguins/Saved/COR9AVKLB3KMC4IU1AWUSPE9B294834130984F8AE85E9BD08F0452.tmp' to '../../../../../../Users/larss/Documents/Github repositories/Inventory/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/2/94/COR9AVKLB3KMC4IU1AWUSP.uasset'
+[2023.04.18-11.15.20:720][333]LogFileHelpers: InternalPromptForCheckoutAndSave took 42 ms (total: 170 ms)
+[2023.04.18-11.15.20:724][333]AssetCheck: New page: Asset Save: StaticMeshActor_UAID_2CF05DFCF5CC4D7A01_1319512543
+[2023.04.18-11.15.20:724][333]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/LevelBuild.LevelBuild:PersistentLevel.StaticMeshActor_UAID_2CF05DFCF5CC4D7A01_1319512543
+[2023.04.18-11.15.45:490][224]LogLinker: Warning: [AssetLog] C:\Users\larss\Documents\Github repositories\Inventory\Doomsday-Penguins\DoomsdayPenguins\Content\Blueprints\BP_Bullet.uasset: Failed to load '/Game/Assets/Bullet/Bullet_Temp': Can't find file.
+[2023.04.18-11.15.45:490][224]LogLinker: Warning: [AssetLog] C:\Users\larss\Documents\Github repositories\Inventory\Doomsday-Penguins\DoomsdayPenguins\Content\Blueprints\BP_Bullet.uasset: VerifyImport: Failed to load package for import object 'Package /Game/Assets/Bullet/Bullet_Temp'
+[2023.04.18-11.15.45:573][226]LogShaderCompilers: Display: ================================================
+[2023.04.18-11.15.45:573][226]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.04.18-11.15.45:573][226]LogShaderCompilers: Display: Total job queries 146, among them cache hits 12 (8.22%)
+[2023.04.18-11.15.45:573][226]LogShaderCompilers: Display: Tracking 134 distinct input hashes that result in 106 distinct outputs (79.10%)
+[2023.04.18-11.15.45:573][226]LogShaderCompilers: Display: RAM used: 1.10 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.07%
+[2023.04.18-11.15.45:573][226]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.04.18-11.15.45:573][226]LogShaderCompilers: Display: Shaders Compiled: 2
+[2023.04.18-11.15.45:573][226]LogShaderCompilers: Display: Jobs assigned 2, completed 2 (100.00%)
+[2023.04.18-11.15.45:573][226]LogShaderCompilers: Display: Time job spent in pending queue: average 0.09 s, longest 0.09 s
+[2023.04.18-11.15.45:573][226]LogShaderCompilers: Display: Job execution time: average 0.69 s, max 0.74 s
+[2023.04.18-11.15.45:573][226]LogShaderCompilers: Display: Job life time (pending + execution): average 0.78 s, max 0.83
+[2023.04.18-11.15.45:573][226]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.83 s
+[2023.04.18-11.15.45:573][226]LogShaderCompilers: Display: Jobs were issued in 2 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.04.18-11.15.45:573][226]LogShaderCompilers: Display: Average processing rate: 2.41 jobs/sec
+[2023.04.18-11.15.45:573][226]LogShaderCompilers: Display: Total thread time: 0.82 s
+[2023.04.18-11.15.45:573][226]LogShaderCompilers: Display: Total thread preprocess time: 0.06 s
+[2023.04.18-11.15.45:573][226]LogShaderCompilers: Display: Percentage time preprocessing: 7.25%
+[2023.04.18-11.15.45:573][226]LogShaderCompilers: Display: Effective parallelization: 0.99 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2023.04.18-11.15.45:573][226]LogShaderCompilers: Display: Top 2 most expensive shader types by average time:
+[2023.04.18-11.15.45:573][226]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.41 sec, max 0.41 sec, min 0.41 sec)
+[2023.04.18-11.15.45:573][226]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.41 sec, max 0.41 sec, min 0.41 sec)
+[2023.04.18-11.15.45:573][226]LogShaderCompilers: Display: Top 2 shader types by total compile time:
+[2023.04.18-11.15.45:573][226]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 50.26% of total time (compiled    1 times, average 0.41 sec, max 0.41 sec, min 0.41 sec)
+[2023.04.18-11.15.45:573][226]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 49.74% of total time (compiled    1 times, average 0.41 sec, max 0.41 sec, min 0.41 sec)
+[2023.04.18-11.15.45:573][226]LogShaderCompilers: Display: ================================================
+[2023.04.18-11.15.45:649][228]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.15.45:649][228]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.15.45:650][228]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_0
+[2023.04.18-11.15.45:650][228]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_0
+[2023.04.18-11.15.45:652][228]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2023.04.18-11.15.47:456][335]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.15.47:457][335]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.15.47:460][335]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1494252544
+[2023.04.18-11.15.47:460][335]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1494252544
+[2023.04.18-11.15.57:940][932]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.15.57:940][932]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.15.57:941][932]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_1
+[2023.04.18-11.15.57:941][932]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_1
+[2023.04.18-11.16.05:695][388]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.16.05:695][388]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.16.05:696][388]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_2
+[2023.04.18-11.16.05:696][388]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_2
+[2023.04.18-11.16.07:128][472]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.16.07:128][472]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.16.07:130][472]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1513924545
+[2023.04.18-11.16.07:130][472]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1513924545
+[2023.04.18-11.16.11:279][709]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.16.11:279][709]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.16.11:279][709]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_3
+[2023.04.18-11.16.11:280][709]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_3
+[2023.04.18-11.16.13:301][828]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.16.13:301][828]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.16.13:303][828]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1520097546
+[2023.04.18-11.16.13:303][828]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1520097546
+[2023.04.18-11.16.21:371][297]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.16.21:371][297]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.16.21:373][297]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1528167547
+[2023.04.18-11.16.21:373][297]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1528167547
+[2023.04.18-11.16.26:930][617]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.16.26:930][617]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.16.26:931][617]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_4
+[2023.04.18-11.16.26:931][617]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_4
+[2023.04.18-11.16.27:473][648]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.16.27:473][648]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.16.27:475][648]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1534269548
+[2023.04.18-11.16.27:475][648]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1534269548
+[2023.04.18-11.16.33:983][ 29]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.16.33:983][ 29]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.16.33:984][ 29]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_5
+[2023.04.18-11.16.33:984][ 29]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_5
+[2023.04.18-11.16.34:970][ 87]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.16.34:970][ 87]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.16.34:972][ 87]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1541766549
+[2023.04.18-11.16.34:972][ 87]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1541766549
+[2023.04.18-11.16.38:596][290]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.16.38:596][290]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.16.38:597][290]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_6
+[2023.04.18-11.16.38:597][290]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_6
+[2023.04.18-11.16.40:159][382]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.16.40:159][382]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.16.40:161][382]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1546955550
+[2023.04.18-11.16.40:161][382]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1546955550
+[2023.04.18-11.16.45:142][666]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.16.45:142][666]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.16.45:142][666]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_7
+[2023.04.18-11.16.45:143][666]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_7
+[2023.04.18-11.16.46:719][757]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.16.46:719][757]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.16.46:721][757]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1553515551
+[2023.04.18-11.16.46:721][757]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1553515551
+[2023.04.18-11.16.51:530][ 38]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.16.51:530][ 38]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.16.51:530][ 38]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_8
+[2023.04.18-11.16.51:530][ 38]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_8
+[2023.04.18-11.16.52:466][ 93]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.16.52:466][ 93]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.16.52:468][ 93]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1559262552
+[2023.04.18-11.16.52:468][ 93]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1559262552
+[2023.04.18-11.17.02:865][697]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.17.02:865][697]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.17.02:866][697]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_9
+[2023.04.18-11.17.02:866][697]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_9
+[2023.04.18-11.17.06:513][910]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.17.06:513][910]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.17.06:513][910]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_10
+[2023.04.18-11.17.06:514][910]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_10
+[2023.04.18-11.17.06:673][919]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.17.06:673][919]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.17.06:673][919]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_11
+[2023.04.18-11.17.06:673][919]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_11
+[2023.04.18-11.17.07:738][982]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.17.07:738][982]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.17.07:740][982]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1574534553
+[2023.04.18-11.17.07:740][982]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1574534553
+[2023.04.18-11.17.11:829][217]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.17.11:830][217]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.17.11:831][217]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1578626554
+[2023.04.18-11.17.11:832][217]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1578626554
+[2023.04.18-11.17.12:913][279]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.17.12:913][279]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.17.12:915][279]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1579709555
+[2023.04.18-11.17.12:915][279]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1579709555
+[2023.04.18-11.17.20:265][687]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.17.20:265][687]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.17.20:266][687]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_12
+[2023.04.18-11.17.20:266][687]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_12
+[2023.04.18-11.17.20:414][694]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.17.20:414][694]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.17.20:414][694]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_13
+[2023.04.18-11.17.20:414][694]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_13
+[2023.04.18-11.17.20:894][720]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.17.20:894][720]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.17.20:895][720]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1587690556
+[2023.04.18-11.17.20:895][720]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1587690556
+[2023.04.18-11.17.23:837][889]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.17.23:837][889]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.17.23:838][889]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_14
+[2023.04.18-11.17.23:838][889]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_14
+[2023.04.18-11.17.24:334][918]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.17.24:334][918]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.17.24:336][918]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1591130557
+[2023.04.18-11.17.24:337][918]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1591130557
+[2023.04.18-11.17.27:043][ 71]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.17.27:043][ 71]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.17.27:044][ 71]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_15
+[2023.04.18-11.17.27:044][ 71]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_15
+[2023.04.18-11.17.27:286][ 85]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.17.27:286][ 85]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.17.27:288][ 85]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1594082558
+[2023.04.18-11.17.27:288][ 85]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1594082558
+[2023.04.18-11.17.32:629][397]Cmd: TRANSACTION UNDO
+[2023.04.18-11.17.32:629][397]LogEditorTransaction: Undo Rotate Elements
+[2023.04.18-11.17.37:236][654]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.17.37:236][654]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.17.37:236][654]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_16
+[2023.04.18-11.17.37:236][654]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_16
+[2023.04.18-11.17.37:967][696]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.17.37:967][696]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.17.37:969][696]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1604763559
+[2023.04.18-11.17.37:969][696]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1604763559
+[2023.04.18-11.17.40:892][863]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.17.40:892][863]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.17.40:892][863]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_17
+[2023.04.18-11.17.40:893][863]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_17
+[2023.04.18-11.17.42:601][964]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.17.42:601][964]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.17.42:603][964]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1609397560
+[2023.04.18-11.17.42:603][964]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1609397560
+[2023.04.18-11.17.50:694][434]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.17.50:694][434]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.17.50:694][434]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_18
+[2023.04.18-11.17.50:694][434]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_18
+[2023.04.18-11.17.51:628][489]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.17.51:628][489]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.17.51:630][489]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1618424561
+[2023.04.18-11.17.51:630][489]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1618424561
+[2023.04.18-11.17.55:868][736]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.17.55:868][736]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.17.55:869][736]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_19
+[2023.04.18-11.17.55:869][736]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_19
+[2023.04.18-11.17.57:015][803]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.17.57:015][803]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.17.57:017][803]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1623811562
+[2023.04.18-11.17.57:017][803]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1623811562
+[2023.04.18-11.18.00:555][  6]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.18.00:556][  6]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.18.00:556][  6]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_20
+[2023.04.18-11.18.00:556][  6]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_20
+[2023.04.18-11.18.01:909][ 86]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.18.01:909][ 86]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C
+[2023.04.18-11.18.01:911][ 86]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1628705563
+[2023.04.18-11.18.01:911][ 86]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard as actor: BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1628705563
+[2023.04.18-11.18.07:076][390]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.18-11.18.07:108][390]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/6/FP/WX04M166VNYW74U2QGW99O
+[2023.04.18-11.18.07:109][390]LogSavePackage: Moving '../../../../../../Users/larss/Documents/Github repositories/Inventory/Doomsday-Penguins/DoomsdayPenguins/Saved/WX04M166VNYW74U2QGW99OCC0755414F11DCA9CD6D31ADD0D4DFBA.tmp' to '../../../../../../Users/larss/Documents/Github repositories/Inventory/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/6/FP/WX04M166VNYW74U2QGW99O.uasset'
+[2023.04.18-11.18.07:113][390]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/1/VZ/37MCDRNK36IWZF6GNOF4LW
+[2023.04.18-11.18.07:113][390]LogSavePackage: Moving '../../../../../../Users/larss/Documents/Github repositories/Inventory/Doomsday-Penguins/DoomsdayPenguins/Saved/37MCDRNK36IWZF6GNOF4LWBB2BCE8E4775C93151BC8982EAFF110E.tmp' to '../../../../../../Users/larss/Documents/Github repositories/Inventory/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/1/VZ/37MCDRNK36IWZF6GNOF4LW.uasset'
+[2023.04.18-11.18.07:118][390]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/3/7J/B7SQ0T2YLDMBN66T7K3QYP
+[2023.04.18-11.18.07:118][390]LogSavePackage: Moving '../../../../../../Users/larss/Documents/Github repositories/Inventory/Doomsday-Penguins/DoomsdayPenguins/Saved/B7SQ0T2YLDMBN66T7K3QYPDB738CC7416B09CD452D8DBEAE892BC0.tmp' to '../../../../../../Users/larss/Documents/Github repositories/Inventory/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/3/7J/B7SQ0T2YLDMBN66T7K3QYP.uasset'
+[2023.04.18-11.18.07:123][390]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/4/KG/N7MR7E1JN3S4ZQYVB5XAQ5
+[2023.04.18-11.18.07:123][390]LogSavePackage: Moving '../../../../../../Users/larss/Documents/Github repositories/Inventory/Doomsday-Penguins/DoomsdayPenguins/Saved/N7MR7E1JN3S4ZQYVB5XAQ53EC82A5045E0C9C96654B685D19BBA1F.tmp' to '../../../../../../Users/larss/Documents/Github repositories/Inventory/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/4/KG/N7MR7E1JN3S4ZQYVB5XAQ5.uasset'
+[2023.04.18-11.18.07:128][390]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/1/KW/DM3AM8LQLUH7J8XBL6GPBZ
+[2023.04.18-11.18.07:128][390]LogSavePackage: Moving '../../../../../../Users/larss/Documents/Github repositories/Inventory/Doomsday-Penguins/DoomsdayPenguins/Saved/DM3AM8LQLUH7J8XBL6GPBZ6159EB7244D28A197384CD8491546D54.tmp' to '../../../../../../Users/larss/Documents/Github repositories/Inventory/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/1/KW/DM3AM8LQLUH7J8XBL6GPBZ.uasset'
+[2023.04.18-11.18.07:132][390]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/1/MT/ZYAVXWHUY128Q5AJ2ZE21G
+[2023.04.18-11.18.07:132][390]LogSavePackage: Moving '../../../../../../Users/larss/Documents/Github repositories/Inventory/Doomsday-Penguins/DoomsdayPenguins/Saved/ZYAVXWHUY128Q5AJ2ZE21G114667D64365A8DDE6A0BF8B0F810830.tmp' to '../../../../../../Users/larss/Documents/Github repositories/Inventory/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/1/MT/ZYAVXWHUY128Q5AJ2ZE21G.uasset'
+[2023.04.18-11.18.07:136][390]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/E/FS/YB4M9I1WTEPZXKECQO7DRL
+[2023.04.18-11.18.07:136][390]LogSavePackage: Moving '../../../../../../Users/larss/Documents/Github repositories/Inventory/Doomsday-Penguins/DoomsdayPenguins/Saved/YB4M9I1WTEPZXKECQO7DRLA233396B4182BDA1B2D1DBA7FB61337B.tmp' to '../../../../../../Users/larss/Documents/Github repositories/Inventory/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/E/FS/YB4M9I1WTEPZXKECQO7DRL.uasset'
+[2023.04.18-11.18.07:140][390]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/6/K4/O8G88A42NAIM2U59FG3XTB
+[2023.04.18-11.18.07:140][390]LogSavePackage: Moving '../../../../../../Users/larss/Documents/Github repositories/Inventory/Doomsday-Penguins/DoomsdayPenguins/Saved/O8G88A42NAIM2U59FG3XTB769F090C48A5D9477BEE0F8B1BC93368.tmp' to '../../../../../../Users/larss/Documents/Github repositories/Inventory/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/6/K4/O8G88A42NAIM2U59FG3XTB.uasset'
+[2023.04.18-11.18.07:145][390]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/2/3F/77Y000YP9WOVVZO9F7SCPN
+[2023.04.18-11.18.07:145][390]LogSavePackage: Moving '../../../../../../Users/larss/Documents/Github repositories/Inventory/Doomsday-Penguins/DoomsdayPenguins/Saved/77Y000YP9WOVVZO9F7SCPN1953753B4E410AA29ADEAF859BC20601.tmp' to '../../../../../../Users/larss/Documents/Github repositories/Inventory/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/2/3F/77Y000YP9WOVVZO9F7SCPN.uasset'
+[2023.04.18-11.18.07:149][390]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/C/NG/DLMZ70VNHFFOME76KRPPTI
+[2023.04.18-11.18.07:149][390]LogSavePackage: Moving '../../../../../../Users/larss/Documents/Github repositories/Inventory/Doomsday-Penguins/DoomsdayPenguins/Saved/DLMZ70VNHFFOME76KRPPTI76714FED433DC85822ED9F88603403E2.tmp' to '../../../../../../Users/larss/Documents/Github repositories/Inventory/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/C/NG/DLMZ70VNHFFOME76KRPPTI.uasset'
+[2023.04.18-11.18.07:154][390]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/8/W5/7ZDQMK1GN7W5W55LP0PR0N
+[2023.04.18-11.18.07:154][390]LogSavePackage: Moving '../../../../../../Users/larss/Documents/Github repositories/Inventory/Doomsday-Penguins/DoomsdayPenguins/Saved/7ZDQMK1GN7W5W55LP0PR0N149BC1864D49B1682A39978F87A03E9B.tmp' to '../../../../../../Users/larss/Documents/Github repositories/Inventory/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/8/W5/7ZDQMK1GN7W5W55LP0PR0N.uasset'
+[2023.04.18-11.18.07:158][390]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/8/BY/5P20IBUBK30PBB0ONW1OZG
+[2023.04.18-11.18.07:158][390]LogSavePackage: Moving '../../../../../../Users/larss/Documents/Github repositories/Inventory/Doomsday-Penguins/DoomsdayPenguins/Saved/5P20IBUBK30PBB0ONW1OZG2F005B0A4D63718FE09E5092A17F8C1E.tmp' to '../../../../../../Users/larss/Documents/Github repositories/Inventory/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/8/BY/5P20IBUBK30PBB0ONW1OZG.uasset'
+[2023.04.18-11.18.07:163][390]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/3/6I/XV0HCDMYIYN25JIK20JJC8
+[2023.04.18-11.18.07:163][390]LogSavePackage: Moving '../../../../../../Users/larss/Documents/Github repositories/Inventory/Doomsday-Penguins/DoomsdayPenguins/Saved/XV0HCDMYIYN25JIK20JJC89A7433F4451CBB707F5FC08AC00C0530.tmp' to '../../../../../../Users/larss/Documents/Github repositories/Inventory/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/3/6I/XV0HCDMYIYN25JIK20JJC8.uasset'
+[2023.04.18-11.18.07:168][390]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/C/R1/H5ZJY4WXMWUGB8LE910U6N
+[2023.04.18-11.18.07:168][390]LogSavePackage: Moving '../../../../../../Users/larss/Documents/Github repositories/Inventory/Doomsday-Penguins/DoomsdayPenguins/Saved/H5ZJY4WXMWUGB8LE910U6NFF9ED2FE499BC557DAAE888A53586467.tmp' to '../../../../../../Users/larss/Documents/Github repositories/Inventory/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/C/R1/H5ZJY4WXMWUGB8LE910U6N.uasset'
+[2023.04.18-11.18.07:172][390]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/2/6A/QNMGRSOM1EXFFHOTX7DPD0
+[2023.04.18-11.18.07:172][390]LogSavePackage: Moving '../../../../../../Users/larss/Documents/Github repositories/Inventory/Doomsday-Penguins/DoomsdayPenguins/Saved/QNMGRSOM1EXFFHOTX7DPD0D237CEA54A0407CD6F357991F8F4BB18.tmp' to '../../../../../../Users/larss/Documents/Github repositories/Inventory/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/2/6A/QNMGRSOM1EXFFHOTX7DPD0.uasset'
+[2023.04.18-11.18.07:177][390]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/7/BF/QFEKWD2YWLXILHVL4UTBMY
+[2023.04.18-11.18.07:177][390]LogSavePackage: Moving '../../../../../../Users/larss/Documents/Github repositories/Inventory/Doomsday-Penguins/DoomsdayPenguins/Saved/QFEKWD2YWLXILHVL4UTBMY9BB1D27C4A1F2D04388AF8AD4B9FD2E1.tmp' to '../../../../../../Users/larss/Documents/Github repositories/Inventory/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/7/BF/QFEKWD2YWLXILHVL4UTBMY.uasset'
+[2023.04.18-11.18.07:181][390]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/9/PF/GZUWS2R30PSDLZY02W5YFD
+[2023.04.18-11.18.07:181][390]LogSavePackage: Moving '../../../../../../Users/larss/Documents/Github repositories/Inventory/Doomsday-Penguins/DoomsdayPenguins/Saved/GZUWS2R30PSDLZY02W5YFD9B3F80C4440ED1DA9EB26295510D01C7.tmp' to '../../../../../../Users/larss/Documents/Github repositories/Inventory/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/9/PF/GZUWS2R30PSDLZY02W5YFD.uasset'
+[2023.04.18-11.18.07:185][390]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/1/5R/4PVMKVJ2HZ4G0SGP9LUUFI
+[2023.04.18-11.18.07:185][390]LogSavePackage: Moving '../../../../../../Users/larss/Documents/Github repositories/Inventory/Doomsday-Penguins/DoomsdayPenguins/Saved/4PVMKVJ2HZ4G0SGP9LUUFI087138BC48063691A1C7B0901F7F8461.tmp' to '../../../../../../Users/larss/Documents/Github repositories/Inventory/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/1/5R/4PVMKVJ2HZ4G0SGP9LUUFI.uasset'
+[2023.04.18-11.18.07:189][390]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/E/RL/PB527S8D04JMOPYZM0TFNJ
+[2023.04.18-11.18.07:189][390]LogSavePackage: Moving '../../../../../../Users/larss/Documents/Github repositories/Inventory/Doomsday-Penguins/DoomsdayPenguins/Saved/PB527S8D04JMOPYZM0TFNJEC4011994C4DD25E311F7FBA56EA25A1.tmp' to '../../../../../../Users/larss/Documents/Github repositories/Inventory/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/E/RL/PB527S8D04JMOPYZM0TFNJ.uasset'
+[2023.04.18-11.18.07:193][390]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/0/HH/MNH0ABZV6ALTUCQY37MOJP
+[2023.04.18-11.18.07:193][390]LogSavePackage: Moving '../../../../../../Users/larss/Documents/Github repositories/Inventory/Doomsday-Penguins/DoomsdayPenguins/Saved/MNH0ABZV6ALTUCQY37MOJPCA0562E944BA84D3EACEA5BC06776D35.tmp' to '../../../../../../Users/larss/Documents/Github repositories/Inventory/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/0/HH/MNH0ABZV6ALTUCQY37MOJP.uasset'
+[2023.04.18-11.18.07:205][390]LogFileHelpers: InternalPromptForCheckoutAndSave took 128 ms (total: 298 ms)
+[2023.04.18-11.18.07:212][390]AssetCheck: New page: Asset Save: multiple assets
+[2023.04.18-11.18.07:212][390]LogContentValidation: Display: Validating /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1628705563
+[2023.04.18-11.18.07:213][390]LogContentValidation: Display: Validating /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1623811562
+[2023.04.18-11.18.07:213][390]LogContentValidation: Display: Validating /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1618424561
+[2023.04.18-11.18.07:213][390]LogContentValidation: Display: Validating /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1609397560
+[2023.04.18-11.18.07:213][390]LogContentValidation: Display: Validating /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1604763559
+[2023.04.18-11.18.07:213][390]LogContentValidation: Display: Validating /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1594082558
+[2023.04.18-11.18.07:213][390]LogContentValidation: Display: Validating /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1591130557
+[2023.04.18-11.18.07:213][390]LogContentValidation: Display: Validating /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1587690556
+[2023.04.18-11.18.07:213][390]LogContentValidation: Display: Validating /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1579709555
+[2023.04.18-11.18.07:213][390]LogContentValidation: Display: Validating /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1578626554
+[2023.04.18-11.18.07:213][390]LogContentValidation: Display: Validating /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1574534553
+[2023.04.18-11.18.07:213][390]LogContentValidation: Display: Validating /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1559262552
+[2023.04.18-11.18.07:213][390]LogContentValidation: Display: Validating /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1553515551
+[2023.04.18-11.18.07:213][390]LogContentValidation: Display: Validating /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1546955550
+[2023.04.18-11.18.07:213][390]LogContentValidation: Display: Validating /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1541766549
+[2023.04.18-11.18.07:213][390]LogContentValidation: Display: Validating /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1534269548
+[2023.04.18-11.18.07:213][390]LogContentValidation: Display: Validating /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1528167547
+[2023.04.18-11.18.07:213][390]LogContentValidation: Display: Validating /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1520097546
+[2023.04.18-11.18.07:213][390]LogContentValidation: Display: Validating /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1513924545
+[2023.04.18-11.18.07:213][390]LogContentValidation: Display: Validating /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1494252544
+[2023.04.18-11.18.13:209][737]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_Penguin.BP_Penguin_C
+[2023.04.18-11.18.13:209][737]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_Penguin.BP_Penguin_C
+[2023.04.18-11.18.13:210][737]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_Penguin.BP_Penguin as actor: BP_Penguin_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_Penguin_C_0
+[2023.04.18-11.18.13:210][737]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_Penguin.BP_Penguin as actor: BP_Penguin_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_Penguin_C_0
+[2023.04.18-11.18.14:310][800]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_Penguin.BP_Penguin_C
+[2023.04.18-11.18.14:310][800]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_Penguin.BP_Penguin_C
+[2023.04.18-11.18.14:315][800]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_Penguin.BP_Penguin as actor: BP_Penguin_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_Penguin_C_UAID_2CF05DFCF5CC4D7A01_1641106564
+[2023.04.18-11.18.14:315][800]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_Penguin.BP_Penguin as actor: BP_Penguin_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_Penguin_C_UAID_2CF05DFCF5CC4D7A01_1641106564
+[2023.04.18-11.18.14:471][801]LogViewport: Scene viewport resized to 672x549, mode Windowed.
+[2023.04.18-11.18.23:838][308]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.18-11.18.23:878][308]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/B/YB/JS9MK1TLBDZ8MLKUPB9FHH
+[2023.04.18-11.18.23:878][308]LogSavePackage: Moving '../../../../../../Users/larss/Documents/Github repositories/Inventory/Doomsday-Penguins/DoomsdayPenguins/Saved/JS9MK1TLBDZ8MLKUPB9FHH532D903D440528AECE3747B6AE4900C9.tmp' to '../../../../../../Users/larss/Documents/Github repositories/Inventory/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/B/YB/JS9MK1TLBDZ8MLKUPB9FHH.uasset'
+[2023.04.18-11.18.23:888][308]LogFileHelpers: InternalPromptForCheckoutAndSave took 50 ms (total: 348 ms)
+[2023.04.18-11.18.23:890][308]AssetCheck: New page: Asset Save: BP_Penguin_C_UAID_2CF05DFCF5CC4D7A01_1641106564
+[2023.04.18-11.18.23:890][308]LogContentValidation: Display: Validating /Game/Blueprints/BP_Penguin.BP_Penguin_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_Penguin_C_UAID_2CF05DFCF5CC4D7A01_1641106564
