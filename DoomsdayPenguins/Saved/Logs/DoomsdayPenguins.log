@@ -29003,3 +29003,34 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.04.18-11.09.24:585][466]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2023.04.18-11.09.24:593][466]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
 [2023.04.18-11.09.24:636][467]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2023.04.18-11.10.37:095][120]LogSlate: Window 'BP_Bullet' being destroyed
+[2023.04.18-11.10.37:098][120]LogSlate: Window 'BP_Bullet' being destroyed
+[2023.04.18-11.10.37:106][120]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2023.04.18-11.10.37:106][120]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.18-11.10.37:149][120]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.04.18-11.10.37:149][120]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2023.04.18-11.10.37:149][120]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.18-11.10.37:188][120]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.04.18-11.10.37:188][120]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2023.04.18-11.10.37:188][120]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.18-11.19.02:449][959]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2023.04.18-11.19.02:454][959]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/LevelBuild' took 0.021
+[2023.04.18-11.22.05:891][282]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2023.04.18-11.22.07:946][282]LogSlate: Window 'Save Content' being destroyed
+[2023.04.18-11.22.07:974][282]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.18-11.22.08:017][282]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2023.04.18-11.22.08:031][282]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2023.04.18-11.22.08:042][282]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2023.04.18-11.22.08:050][282]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/6/AB/AS0WZHE8UE4U8WGYD27CC9
+[2023.04.18-11.22.08:050][282]LogSavePackage: Moving '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Saved/AS0WZHE8UE4U8WGYD27CC979E73A44447D5C0F4F52F1A60F6B0278.tmp' to '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/6/AB/AS0WZHE8UE4U8WGYD27CC9.uasset'
+[2023.04.18-11.22.08:051][282]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/A/16/DR2O8KLIJ8JBI4G5A7UWLC
+[2023.04.18-11.22.08:051][282]LogSavePackage: Moving '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Saved/DR2O8KLIJ8JBI4G5A7UWLC48D034B347B822CE4B5F3795FF7D4A0E.tmp' to '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/A/16/DR2O8KLIJ8JBI4G5A7UWLC.uasset'
+[2023.04.18-11.22.08:052][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Bullet/Bullet_Temp" FILE="../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Content/Assets/Bullet/Bullet_Temp.uasset" SILENT=true
+[2023.04.18-11.22.08:054][282]LogSavePackage: Moving output files for package: /Game/Assets/Bullet/Bullet_Temp
+[2023.04.18-11.22.08:054][282]LogSavePackage: Moving '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Saved/Bullet_Temp024B085F43164735C8C7DF950D3A3891.tmp' to '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Content/Assets/Bullet/Bullet_Temp.uasset'
+[2023.04.18-11.22.08:059][282]LogFileHelpers: InternalPromptForCheckoutAndSave took 84 ms (total: 1.97 sec)
+[2023.04.18-11.22.08:066][282]AssetCheck: New page: Asset Save: multiple assets
+[2023.04.18-11.22.08:066][282]LogContentValidation: Display: Validating /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_C87F5450F7254C7A01_1513862367
+[2023.04.18-11.22.08:066][282]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Bullet/Bullet_Temp.Bullet_Temp
+[2023.04.18-11.22.08:066][282]LogContentValidation: Display: Validating /Game/Blueprints/BP_Penguin.BP_Penguin_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_Penguin_C_UAID_C87F5450F7254C7A01_1718234368
+[2023.04.18-11.22.08:076][283]LogAutomationController: Ignoring very large delta of 2.20 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
