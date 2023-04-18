@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"D:\\Programming II\\Doomsday-Penguins\\DoomsdayPenguins\\Source\\DoomsdayPenguins\\DoomsdayPenguins.Build.cs",
-		"D:\\Programming II\\Doomsday-Penguins\\DoomsdayPenguins\\Source\\DoomsdayPenguins.Target.cs",
-		"D:\\Programming II\\Doomsday-Penguins\\DoomsdayPenguins\\Source\\DoomsdayPenguinsEditor.Target.cs"
+		"C:\\Users\\larss\\Documents\\Github repositories\\Inventory\\Doomsday-Penguins\\DoomsdayPenguins\\Source\\DoomsdayPenguins\\DoomsdayPenguins.Build.cs",
+		"C:\\Users\\larss\\Documents\\Github repositories\\Inventory\\Doomsday-Penguins\\DoomsdayPenguins\\Source\\DoomsdayPenguins.Target.cs",
+		"C:\\Users\\larss\\Documents\\Github repositories\\Inventory\\Doomsday-Penguins\\DoomsdayPenguins\\Source\\DoomsdayPenguinsEditor.Target.cs"
 	],
 	"EngineVersion": "5.1.1"
 }
