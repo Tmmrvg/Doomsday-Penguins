@@ -1,3 +1,6 @@
+// Fill out your copyright notice in the Description page of Project Settings.
+
+
 #include "Penguin.h"
 #include "EnhancedInputComponent.h"
 #include "EnhancedInputSubsystems.h"
@@ -11,7 +14,7 @@
 // Sets default values
 APenguin::APenguin()
 {
- 	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+ //	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
 	SpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("SpringArm"));
@@ -86,29 +89,29 @@ void APenguin::Tick(float DeltaTime)
 	}
 	
 
-	/*if ((Controller != nullptr) && (XInput != 0.f))
-	{
-		FRotator Rotation = Controller->GetControlRotation();
-		Rotation.Pitch = 0.f;
-		Rotation.Roll = 0.f;
-
-		FVector Direction = FRotationMatrix(Rotation).GetUnitAxis(EAxis::X);
-		SetActorLocation(GetActorLocation() + (Direction * XInput  * DeltaTime));
-
-		SetActorRotation(Rotation);
-	}
-
-	if ((Controller != nullptr) && (YInput != 0.f))
-	{
-		FRotator Rotation = Controller->GetControlRotation();
-		Rotation.Pitch = 0.f;
-		Rotation.Roll = 0.f;
-
-		FVector Direction = FRotationMatrix(Rotation).GetUnitAxis(EAxis::Y);
-		SetActorLocation(GetActorLocation() + (Direction * YInput  * DeltaTime));
-
-		SetActorRotation(Rotation);
-	}*/
+	// if ((Controller != nullptr) && (XInput != 0.f))
+	// {
+	// 	FRotator Rotation = Controller->GetControlRotation();
+	// 	Rotation.Pitch = 0.f;
+	// 	Rotation.Roll = 0.f;
+	//
+	// 	FVector Direction = FRotationMatrix(Rotation).GetUnitAxis(EAxis::X);
+	// 	SetActorLocation(GetActorLocation() + (Direction * XInput  * DeltaTime));
+	//
+	// 	SetActorRotation(Rotation);
+	// }
+	//
+	// if ((Controller != nullptr) && (YInput != 0.f))
+	// {
+	// 	FRotator Rotation = Controller->GetControlRotation();
+	// 	Rotation.Pitch = 0.f;
+	// 	Rotation.Roll = 0.f;
+	//
+	// 	FVector Direction = FRotationMatrix(Rotation).GetUnitAxis(EAxis::Y);
+	// 	SetActorLocation(GetActorLocation() + (Direction * YInput  * DeltaTime));
+	//
+	// 	SetActorRotation(Rotation);
+	// }
 
 }
 
