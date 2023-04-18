@@ -10,6 +10,7 @@
 #include "Camera/CameraComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "Kismet/KismetMathLibrary.h"
+#include "Math/UnitConversion.h"
 
 // Sets default values
 APenguin::APenguin()
@@ -52,6 +53,8 @@ void APenguin::BeginPlay()
 	GetCharacterMovement()->GravityScale = 10;
 
 	Lives = 10;
+	Seconds = 0;
+	Minutes = 0;
 	
 	
 	APlayerController* PlayerController = Cast<APlayerController>(Controller);
@@ -87,7 +90,13 @@ void APenguin::Tick(float DeltaTime)
 	{
 		GetCharacterMovement()->bOrientRotationToMovement = true;
 	}
-	
+
+	Seconds += DeltaTime;
+	if (Seconds > 59)
+	{
+		Seconds = 0;
+		Minutes += 1;
+	}
 
 	// if ((Controller != nullptr) && (XInput != 0.f))
 	// {

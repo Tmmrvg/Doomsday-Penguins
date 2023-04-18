@@ -52,6 +52,12 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "My Variables")
 	int Lives;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "My Variables")
+	int Seconds;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "My Variables")
+	int Minutes;
+	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = InputSystem)
 	class UInputMappingContext* MappingContext;
 
