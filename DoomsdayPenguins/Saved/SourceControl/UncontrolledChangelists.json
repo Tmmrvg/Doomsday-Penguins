@@ -5,6 +5,11 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"D:/Programming II/Doomsday-Penguins/DoomsdayPenguins/Content/Blueprints/BP_SeaLeopard.uasset",
+				"D:/Programming II/Doomsday-Penguins/DoomsdayPenguins/Content/BP_Bullet.uasset",
+				"D:/Programming II/Doomsday-Penguins/DoomsdayPenguins/Content/Blueprints/BP_Bullet.uasset",
+				"D:/Programming II/Doomsday-Penguins/DoomsdayPenguins/Content/BP_Penguin.uasset",
+				"D:/Programming II/Doomsday-Penguins/DoomsdayPenguins/Content/Blueprints/BP_Penguin.uasset",
 				"D:/Programming_02/DoomsdayPenguins/Doomsday-Penguins/DoomsdayPenguins/Content/Input/IMP_Player.uasset",
 				"D:/Programming_02/DoomsdayPenguins/Doomsday-Penguins/DoomsdayPenguins/Content/Input/IM_Player_Input.uasset",
 				"D:/Programming_02/DoomsdayPenguins/Doomsday-Penguins/DoomsdayPenguins/Content/Input/IA_Camera_X.uasset",
