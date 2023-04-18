@@ -1,0 +1,29 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\programming_02\\doomsdaypenguins\\doomsday-penguins\\doomsdaypenguins\\source\\doomsdaypenguins\\bullet.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\programming_02\\doomsdaypenguins\\doomsday-penguins\\doomsdaypenguins\\intermediate\\build\\win64\\doomsdaypenguinseditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\programming_02\\doomsdaypenguins\\doomsday-penguins\\doomsdaypenguins\\intermediate\\build\\win64\\unrealeditor\\development\\doomsdaypenguins\\definitions.doomsdaypenguins.h",
+            "d:\\programming_02\\doomsdaypenguins\\doomsday-penguins\\doomsdaypenguins\\source\\doomsdaypenguins\\bullet.h",
+            "d:\\programming_02\\doomsdaypenguins\\doomsday-penguins\\doomsdaypenguins\\intermediate\\build\\win64\\unrealeditor\\inc\\doomsdaypenguins\\uht\\bullet.generated.h",
+            "d:\\epiclibrary\\ue_5.1\\engine\\source\\runtime\\engine\\classes\\components\\spherecomponent.h",
+            "d:\\epiclibrary\\ue_5.1\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
+            "d:\\epiclibrary\\ue_5.1\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\shapecomponent.generated.h",
+            "d:\\epiclibrary\\ue_5.1\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\spherecomponent.generated.h",
+            "d:\\programming_02\\doomsdaypenguins\\doomsday-penguins\\doomsdaypenguins\\source\\doomsdaypenguins\\sealeopard.h",
+            "d:\\programming_02\\doomsdaypenguins\\doomsday-penguins\\doomsdaypenguins\\intermediate\\build\\win64\\unrealeditor\\inc\\doomsdaypenguins\\uht\\sealeopard.generated.h",
+            "d:\\programming_02\\doomsdaypenguins\\doomsday-penguins\\doomsdaypenguins\\source\\doomsdaypenguins\\penguin.h",
+            "d:\\epiclibrary\\ue_5.1\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
+            "d:\\epiclibrary\\ue_5.1\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
+            "d:\\epiclibrary\\ue_5.1\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\charactermovementreplication.generated.h",
+            "d:\\epiclibrary\\ue_5.1\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
+            "d:\\epiclibrary\\ue_5.1\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\rootmotionsource.generated.h",
+            "d:\\epiclibrary\\ue_5.1\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\character.generated.h",
+            "d:\\programming_02\\doomsdaypenguins\\doomsday-penguins\\doomsdaypenguins\\intermediate\\build\\win64\\unrealeditor\\inc\\doomsdaypenguins\\uht\\penguin.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

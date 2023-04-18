@@ -1,0 +1,21 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/Programming_02/DoomsdayPenguins/Doomsday-Penguins/DoomsdayPenguins/Content/Input/IMP_Player.uasset",
+				"D:/Programming_02/DoomsdayPenguins/Doomsday-Penguins/DoomsdayPenguins/Content/Input/IM_Player_Input.uasset",
+				"D:/Programming_02/DoomsdayPenguins/Doomsday-Penguins/DoomsdayPenguins/Content/Input/IA_Camera_X.uasset",
+				"D:/Programming_02/DoomsdayPenguins/Doomsday-Penguins/DoomsdayPenguins/Content/Input/IA_Camera_Y.uasset",
+				"D:/Programming_02/DoomsdayPenguins/Doomsday-Penguins/DoomsdayPenguins/Content/Input/IA_Forward.uasset",
+				"D:/Programming_02/DoomsdayPenguins/Doomsday-Penguins/DoomsdayPenguins/Content/Input/IA_Left.uasset",
+				"D:/Programming_02/DoomsdayPenguins/Doomsday-Penguins/DoomsdayPenguins/Content/Input/IA_Reload.uasset",
+				"D:/Programming_02/DoomsdayPenguins/Doomsday-Penguins/DoomsdayPenguins/Content/Input/IA_Right.uasset",
+				"D:/Programming_02/DoomsdayPenguins/Doomsday-Penguins/DoomsdayPenguins/Content/Input/IA_Shoot.uasset",
+				"D:/Programming_02/DoomsdayPenguins/Doomsday-Penguins/DoomsdayPenguins/Content/Input/IMC_Player_Input.uasset"
+			]
+		}
+	]
+}

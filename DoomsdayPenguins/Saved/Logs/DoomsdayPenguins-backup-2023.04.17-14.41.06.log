@@ -1,0 +1,825 @@
+﻿Log file open, 04/17/23 16:39:12
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=0)
+LogWindows: File 'aqProf.dll' does not exist
+LogProfilingDebugging: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=0)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=0)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogWindows: Started CrashReportClient (pid=27176)
+LogWindows: Custom abort handler registered for crash reporting.
+LogInit: Display: Running engine for game: DoomsdayPenguins
+LogCore: UnrealTraceServer: Trace store launch successful
+LogCore: Initializing trace...
+LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark'
+LogCore: Finished trace initialization.
+LogCsvProfiler: Display: Metadata set : platform="Windows"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.1-CL-23901901"
+LogCsvProfiler: Display: Metadata set : engineversion="5.1.1-23901901+++UE5+Release-5.1"
+LogCsvProfiler: Display: Metadata set : commandline="" D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\DoomsdayPenguins.uproject""
+LogCsvProfiler: Display: Metadata set : os="Windows 11 (22H2) [10.0.22621.1555] "
+LogCsvProfiler: Display: Metadata set : cpu="AuthenticAMD|AMD Ryzen 7 5800H with Radeon Graphics"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : loginid="60f50c734c5026abaecc1093a86fc4c6"
+LogCsvProfiler: Display: Metadata set : asan="0"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogStats: Stats thread started at 0.570843
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Windows-77F8E0F04C477358A73A6088B29EC857
+         Session CrashGUID >====================================================
+LogConfig: Display: Loading VulkanPC ini files took 0.04 seconds
+LogConfig: Display: Loading HoloLens ini files took 0.04 seconds
+LogConfig: Display: Loading Mac ini files took 0.04 seconds
+LogConfig: Display: Loading Unix ini files took 0.04 seconds
+LogConfig: Display: Loading Windows ini files took 0.04 seconds
+LogConfig: Display: Loading Android ini files took 0.04 seconds
+LogConfig: Display: Loading IOS ini files took 0.05 seconds
+LogConfig: Display: Loading LinuxArm64 ini files took 0.05 seconds
+LogConfig: Display: Loading TVOS ini files took 0.05 seconds
+LogConfig: Display: Loading Linux ini files took 0.05 seconds
+LogPluginManager: Mounting Engine plugin Bridge
+LogPluginManager: Mounting Engine plugin EnhancedInput
+LogPluginManager: Mounting Engine plugin FastBuildController
+LogPluginManager: Mounting Engine plugin MeshPainting
+LogPluginManager: Mounting Engine plugin TraceUtilities
+LogPluginManager: Mounting Engine plugin XGEController
+LogPluginManager: Mounting Engine plugin AISupport
+LogPluginManager: Mounting Engine plugin EnvironmentQueryEditor
+LogPluginManager: Mounting Engine plugin AutomationUtils
+LogPluginManager: Mounting Engine plugin BackChannel
+LogPluginManager: Mounting Engine plugin ChaosCaching
+LogPluginManager: Mounting Engine plugin ChaosCloth
+LogPluginManager: Mounting Engine plugin ChaosClothEditor
+LogPluginManager: Mounting Engine plugin ChaosEditor
+LogPluginManager: Mounting Engine plugin ChaosNiagara
+LogPluginManager: Mounting Engine plugin ChaosUserDataPT
+LogPluginManager: Mounting Engine plugin ChaosSolverPlugin
+LogPluginManager: Mounting Engine plugin CharacterAI
+LogPluginManager: Mounting Engine plugin Dataflow
+LogPluginManager: Mounting Engine plugin FullBodyIK
+LogPluginManager: Mounting Engine plugin GeometryCollectionPlugin
+LogPluginManager: Mounting Engine plugin GeometryFlow
+LogPluginManager: Mounting Engine plugin Iris
+LogPluginManager: Mounting Engine plugin MeshLODToolset
+LogPluginManager: Mounting Engine plugin MeshModelingToolsetExp
+LogPluginManager: Mounting Engine plugin OpenImageDenoise
+LogPluginManager: Mounting Engine plugin PlanarCut
+LogPluginManager: Mounting Engine plugin PlatformCrypto
+LogPluginManager: Mounting Engine plugin ProxyLODPlugin
+LogPluginManager: Mounting Engine plugin PythonScriptPlugin
+LogPluginManager: Mounting Engine plugin SkeletalReduction
+LogPluginManager: Mounting Engine plugin UVEditor
+LogPluginManager: Mounting Engine plugin OodleNetwork
+LogPluginManager: Mounting Engine plugin AndroidMedia
+LogPluginManager: Mounting Engine plugin AvfMedia
+LogPluginManager: Mounting Engine plugin ImgMedia
+LogPluginManager: Mounting Engine plugin MediaCompositing
+LogPluginManager: Mounting Engine plugin InterchangeTests
+LogPluginManager: Mounting Engine plugin MediaPlayerEditor
+LogPluginManager: Mounting Engine plugin MediaPlate
+LogPluginManager: Mounting Engine plugin WmfMedia
+LogPluginManager: Mounting Engine plugin WebMMedia
+LogPluginManager: Mounting Engine plugin AlembicImporter
+LogPluginManager: Mounting Engine plugin ActorLayerUtilities
+LogPluginManager: Mounting Engine plugin ActorSequence
+LogPluginManager: Mounting Engine plugin LevelSequenceEditor
+LogPluginManager: Mounting Engine plugin SequencerScripting
+LogPluginManager: Mounting Engine plugin TemplateSequence
+LogPluginManager: Mounting Engine plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin AndroidPermission
+LogPluginManager: Mounting Engine plugin AndroidFileServer
+LogPluginManager: Mounting Engine plugin AndroidMoviePlayer
+LogPluginManager: Mounting Engine plugin AppleImageUtils
+LogPluginManager: Mounting Engine plugin AppleMoviePlayer
+LogPluginManager: Mounting Engine plugin ArchVisCharacter
+LogPluginManager: Mounting Engine plugin AudioCapture
+LogPluginManager: Mounting Engine plugin AssetTags
+LogPluginManager: Mounting Engine plugin AudioSynesthesia
+LogPluginManager: Mounting Engine plugin AudioWidgets
+LogPluginManager: Mounting Engine plugin CableComponent
+LogPluginManager: Mounting Engine plugin ChunkDownloader
+LogPluginManager: Mounting Engine plugin CustomMeshComponent
+LogPluginManager: Mounting Engine plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin GeometryCache
+LogPluginManager: Mounting Engine plugin GeometryProcessing
+LogPluginManager: Mounting Engine plugin GoogleCloudMessaging
+LogPluginManager: Mounting Engine plugin GooglePAD
+LogPluginManager: Mounting Engine plugin InputDebugging
+LogPluginManager: Mounting Engine plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LocationServicesBPLibrary
+LogPluginManager: Mounting Engine plugin MeshModelingToolset
+LogPluginManager: Mounting Engine plugin Metasound
+LogPluginManager: Mounting Engine plugin MobilePatchingUtils
+LogPluginManager: Mounting Engine plugin ProceduralMeshComponent
+LogPluginManager: Mounting Engine plugin PropertyAccessEditor
+LogPluginManager: Mounting Engine plugin SignificanceManager
+LogPluginManager: Mounting Engine plugin ResonanceAudio
+LogPluginManager: Mounting Engine plugin SoundFields
+LogPluginManager: Mounting Engine plugin Synthesis
+LogPluginManager: Mounting Engine plugin DatasmithContent
+LogPluginManager: Mounting Engine plugin WaveTable
+LogPluginManager: Mounting Engine plugin WebMMoviePlayer
+LogPluginManager: Mounting Engine plugin WindowsDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin WindowsMoviePlayer
+LogPluginManager: Mounting Engine plugin GLTFExporter
+LogPluginManager: Mounting Engine plugin VariantManagerContent
+LogPluginManager: Mounting Engine plugin VariantManager
+LogPluginManager: Mounting Engine plugin AssetManagerEditor
+LogPluginManager: Mounting Engine plugin BlueprintHeaderView
+LogPluginManager: Mounting Engine plugin CryptoKeys
+LogPluginManager: Mounting Engine plugin CurveEditorTools
+LogPluginManager: Mounting Engine plugin DataValidation
+LogPluginManager: Mounting Engine plugin EditorDebugTools
+LogPluginManager: Mounting Engine plugin EditorScriptingUtilities
+LogPluginManager: Mounting Engine plugin FacialAnimation
+LogPluginManager: Mounting Engine plugin GameplayTagsEditor
+LogPluginManager: Mounting Engine plugin GeometryMode
+LogPluginManager: Mounting Engine plugin GLTFImporter
+LogPluginManager: Mounting Engine plugin MacGraphicsSwitching
+LogPluginManager: Mounting Engine plugin MaterialAnalyzer
+LogPluginManager: Mounting Engine plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting Engine plugin ModelingToolsEditorMode
+LogPluginManager: Mounting Engine plugin SequencerAnimTools
+LogPluginManager: Mounting Engine plugin OnlineBase
+LogPluginManager: Mounting Engine plugin PluginBrowser
+LogPluginManager: Mounting Engine plugin SpeedTreeImporter
+LogPluginManager: Mounting Engine plugin StylusInput
+LogPluginManager: Mounting Engine plugin WorldPartitionHLODUtilities
+LogPluginManager: Mounting Engine plugin OnlineServices
+LogPluginManager: Mounting Engine plugin CameraShakePreviewer
+LogPluginManager: Mounting Engine plugin OnlineSubsystem
+LogPluginManager: Mounting Engine plugin GameplayCameras
+LogPluginManager: Mounting Engine plugin OnlineSubsystemNull
+LogPluginManager: Mounting Engine plugin AnimationSharing
+LogPluginManager: Mounting Engine plugin OnlineSubsystemUtils
+LogPluginManager: Mounting Engine plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting Engine plugin CLionSourceCodeAccess
+LogPluginManager: Mounting Engine plugin DumpGPUServices
+LogPluginManager: Mounting Engine plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting Engine plugin GitSourceControl
+LogPluginManager: Mounting Engine plugin NullSourceCodeAccess
+LogPluginManager: Mounting Engine plugin PerforceSourceControl
+LogPluginManager: Mounting Engine plugin PlasticSourceControl
+LogPluginManager: Mounting Engine plugin PropertyAccessNode
+LogPluginManager: Mounting Engine plugin PixWinPlugin
+LogPluginManager: Mounting Engine plugin PluginUtils
+LogPluginManager: Mounting Engine plugin RiderSourceCodeAccess
+LogPluginManager: Mounting Engine plugin TcpMessaging
+LogPluginManager: Mounting Engine plugin UdpMessaging
+LogPluginManager: Mounting Engine plugin SubversionSourceControl
+LogPluginManager: Mounting Engine plugin TextureFormatOodle
+LogPluginManager: Mounting Engine plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin UObjectPlugin
+LogPluginManager: Mounting Engine plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting Engine plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin TraceDataFilters
+LogPluginManager: Mounting Engine plugin AnimationModifierLibrary
+LogPluginManager: Mounting Engine plugin Takes
+LogPluginManager: Mounting Engine plugin ControlRig
+LogPluginManager: Mounting Engine plugin BlendSpaceMotionAnalysis
+LogPluginManager: Mounting Engine plugin Interchange
+LogPluginManager: Found config from plugin[Interchange] Game
+LogPluginManager: Mounting Engine plugin InterchangeEditor
+LogPluginManager: Mounting Engine plugin ControlRigSpline
+LogPluginManager: Mounting Engine plugin Niagara
+LogPluginManager: Mounting Engine plugin IKRig
+LogPluginManager: Mounting Engine plugin LauncherChunkInstaller
+LogPluginManager: Mounting Engine plugin Paper2D
+LogPluginManager: Mounting Engine plugin OnlineSubsystemIOS
+LogPluginManager: Mounting Engine plugin LightMixer
+LogPluginManager: Mounting Engine plugin ObjectMixer
+LogPluginManager: Mounting Engine plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting Engine plugin OnlineSubsystemGooglePlay
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Bridge/Content/' mounted to '/Bridge/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosCaching/Content/' mounted to '/ChaosCaching/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosClothEditor/Content/' mounted to '/ChaosClothEditor/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosNiagara/Content/' mounted to '/ChaosNiagara/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosSolverPlugin/Content/' mounted to '/ChaosSolverPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/Dataflow/Content/' mounted to '/Dataflow/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/FullBodyIK/Content/' mounted to '/FullBodyIK/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/GeometryCollectionPlugin/Content/' mounted to '/GeometryCollectionPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/GeometryFlow/Content/' mounted to '/GeometryFlow/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/MeshLODToolset/Content/' mounted to '/MeshLODToolset/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/MeshModelingToolsetExp/Content/' mounted to '/MeshModelingToolsetExp/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/PythonScriptPlugin/Content/' mounted to '/PythonScriptPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/UVEditor/Content/' mounted to '/UVEditor/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Media/MediaCompositing/Content/' mounted to '/MediaCompositing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Media/MediaPlate/Content/' mounted to '/MediaPlate/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/MovieScene/SequencerScripting/Content/' mounted to '/SequencerScripting/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/AudioSynesthesia/Content/' mounted to '/AudioSynesthesia/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/AudioWidgets/Content/' mounted to '/AudioWidgets/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/GeometryProcessing/Content/' mounted to '/GeometryProcessing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/MeshModelingToolset/Content/' mounted to '/MeshModelingToolset/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/Metasound/Content/' mounted to '/Metasound/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/ResonanceAudio/Content/' mounted to '/ResonanceAudio/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/Synthesis/Content/' mounted to '/Synthesis/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Enterprise/DatasmithContent/Content/' mounted to '/DatasmithContent/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/WaveTable/Content/' mounted to '/WaveTable/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Enterprise/GLTFExporter/Content/' mounted to '/GLTFExporter/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/BlueprintHeaderView/Content/' mounted to '/BlueprintHeaderView/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/GeometryMode/Content/' mounted to '/GeometryMode/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/GLTFImporter/Content/' mounted to '/GLTFImporter/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/ModelingToolsEditorMode/Content/' mounted to '/ModelingToolsEditorMode/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/SpeedTreeImporter/Content/' mounted to '/SpeedTreeImporter/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Developer/AnimationSharing/Content/' mounted to '/AnimationSharing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/VirtualProduction/Takes/Content/' mounted to '/Takes/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ControlRig/Content/' mounted to '/ControlRig/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Interchange/Runtime/Content/' mounted to '/Interchange/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ControlRigSpline/Content/' mounted to '/ControlRigSpline/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/FX/Niagara/Content/' mounted to '/Niagara/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/IKRig/Content/' mounted to '/IKRig/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/2D/Paper2D/Content/' mounted to '/Paper2D/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/ObjectMixer/LightMixer/Content/' mounted to '/LightMixer/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/ObjectMixer/ObjectMixer/Content/' mounted to '/ObjectMixer/'
+SourceControl: Source control is disabled
+SourceControl: Source control is disabled
+LogInit: Warning: Incompatible or missing module: DoomsdayPenguins
+Running D:/EpicLibrary/UE_5.1/Engine/Build/BatchFiles/Build.bat Development Win64 -Project="D:/Programming_02/DoomsdayPenguins/Doomsday-Penguins/DoomsdayPenguins/DoomsdayPenguins.uproject" -TargetType=Editor -Progress -NoEngineChanges -NoHotReloadFromIDE
+Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" Development Win64 -Project="D:/Programming_02/DoomsdayPenguins/Doomsday-Penguins/DoomsdayPenguins/DoomsdayPenguins.uproject" -TargetType=Editor -Progress -NoEngineChanges -NoHotReloadFromIDE
+Log file: C:\Users\oetom\AppData\Local\UnrealBuildTool\Log.txt
+Using 'git status' to determine working set for adaptive non-unity build (D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins).
+Creating makefile for DoomsdayPenguinsEditor (no existing makefile)
+@progress push 5%
+Parsing headers for DoomsdayPenguinsEditor
+  Running Internal UnrealHeaderTool D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\DoomsdayPenguins.uproject D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\DoomsdayPenguinsEditor\Development\DoomsdayPenguinsEditor.uhtmanifest -WarningsAsErrors -installed
+Total of 10 written
+Reflection code generated for DoomsdayPenguinsEditor in 1.2517212 seconds
+@progress pop
+Building DoomsdayPenguinsEditor...
+Using Visual Studio 2022 14.34.31937 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[Adaptive Build] Excluded from DoomsdayPenguins unity file: Bullet.cpp, Penguin.cpp, SeaLeopard.cpp
+Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+  Executing up to 8 processes, one per physical core
+  Requested 1.5 GB free memory per action, 3.55 GB available: limiting max parallel actions to 2
+Building 15 actions with 2 processes...
+[1/15] Resource Default.rc2
+[2/15] Compile SharedPCH.Engine.ShadowErrors.cpp
+[3/15] Compile Bullet.cpp
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.h(12): error C2079: 'ABullet' uses undefined class 'SUICIDAL_PENGUINS_API'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.h(12): error C2143: syntax error: missing ';' before ':'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.h(12): error C2059: syntax error: 'public'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.h(13): error C2143: syntax error: missing ';' before '{'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.h(13): error C2447: '{': missing function header (old-style formal list?)
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.h(14): error C2079: 'ASeaLeopard' uses undefined class 'SUICIDAL_PENGUINS_API'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.h(14): error C2143: syntax error: missing ';' before ':'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.h(14): error C2059: syntax error: 'public'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.h(15): error C2143: syntax error: missing ';' before '{'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.h(15): error C2447: '{': missing function header (old-style formal list?)
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.h(13): error C2079: 'ATest_Code' uses undefined class 'SUICIDAL_PENGUINS_API'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.h(13): error C2143: syntax error: missing ';' before ':'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.h(13): error C2059: syntax error: 'public'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.h(14): error C2143: syntax error: missing ';' before '{'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.h(14): error C2447: '{': missing function header (old-style formal list?)
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.cpp(9): error C2027: use of undefined type 'ABullet'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.h(10): note: see declaration of 'ABullet'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.cpp(10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.cpp(12): error C2065: 'PrimaryActorTick': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.cpp(13): error C2065: 'Collider': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.cpp(13): error C2065: 'CreateDefaultSubobject': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.cpp(13): error C2275: 'USphereComponent': expected an expression instead of a type
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.cpp(14): error C2065: 'Collider': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.cpp(14): error C3861: 'SetRootComponent': identifier not found
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.cpp(15): error C2065: 'Collider': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.cpp(16): error C2065: 'Collider': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.cpp(16): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.cpp(16): error C2027: use of undefined type 'ABullet'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.h(10): note: see declaration of 'ABullet'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.cpp(16): error C2065: 'OnOverlap': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.cpp(18): error C2065: 'StaticMesh': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.cpp(18): error C2065: 'CreateDefaultSubobject': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.cpp(18): error C2275: 'UStaticMeshComponent': expected an expression instead of a type
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.cpp(19): error C2065: 'StaticMesh': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.cpp(19): error C3861: 'GetRootComponent': identifier not found
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.cpp(20): error C2065: 'StaticMesh': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.cpp(22): error C2065: 'MovementSpeed': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.cpp(23): error C2065: 'TimeLived': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.cpp(24): error C2065: 'LifeSpan': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.cpp(26): error C4508: '{ctor}': function should return a value; 'void' return type assumed
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.cpp(29): error C2027: use of undefined type 'ABullet'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.h(10): note: see declaration of 'ABullet'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.cpp(31): error C2653: 'Super': is not a class or namespace name
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.cpp(36): error C2027: use of undefined type 'ABullet'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.h(10): note: see declaration of 'ABullet'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.cpp(38): error C2653: 'Super': is not a class or namespace name
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.cpp(40): error C3861: 'GetActorLocation': identifier not found
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.cpp(41): error C3861: 'GetActorForwardVector': identifier not found
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.cpp(41): error C2065: 'MovementSpeed': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.cpp(42): error C3861: 'SetActorLocation': identifier not found
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.cpp(45): error C2065: 'TimeLived': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.cpp(46): error C2065: 'TimeLived': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.cpp(46): error C2065: 'LifeSpan': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.cpp(48): error C3861: 'DestroyBullet': identifier not found
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.cpp(52): error C2027: use of undefined type 'ABullet'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.h(10): note: see declaration of 'ABullet'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.cpp(54): error C2065: 'APenguin': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.cpp(54): error C2672: 'UObjectBaseUtility::IsA': no matching overloaded function found
+D:\EpicLibrary\UE_5.1\Engine\Source\Runtime\CoreUObject\Public\UObject\UObjectBaseUtility.h(742): note: could be 'bool UObjectBaseUtility::IsA(void) const'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.cpp(54): note: 'UObjectBaseUtility::IsA': invalid template argument for 'T', type expected
+D:\EpicLibrary\UE_5.1\Engine\Source\Runtime\CoreUObject\Public\UObject\UObjectBaseUtility.h(721): note: or       'bool UObjectBaseUtility::IsA(OtherClassType) const'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.cpp(54): note: 'UObjectBaseUtility::IsA': invalid template argument for 'OtherClassType', type expected
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.cpp(60): error C3861: 'DestroyBullet': identifier not found
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.cpp(78): error C2027: use of undefined type 'ABullet'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.h(10): note: see declaration of 'ABullet'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.cpp(80): error C3861: 'SetActorHiddenInGame': identifier not found
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.cpp(81): error C3861: 'SetActorEnableCollision': identifier not found
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.cpp(82): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+[4/15] Compile Penguin.gen.cpp
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.h(13): error C2079: 'ATest_Code' uses undefined class 'SUICIDAL_PENGUINS_API'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.h(13): error C2143: syntax error: missing ';' before ':'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.h(13): error C2059: syntax error: 'public'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.h(14): error C2143: syntax error: missing ';' before '{'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.h(14): error C2447: '{': missing function header (old-style formal list?)
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.gen.cpp(21): error C2027: use of undefined type 'ATest_Code'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.generated.h(92): note: see declaration of 'ATest_Code'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.gen.cpp(24): error C2027: use of undefined type 'ATest_Code'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.generated.h(92): note: see declaration of 'ATest_Code'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.gen.cpp(24): error C3861: 'StaticPackage': identifier not found
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.gen.cpp(24): error C2065: 'StaticClassFlags': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.gen.cpp(24): error C2061: syntax error: identifier 'ATest_Code'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.gen.cpp(27): error C2027: use of undefined type 'ATest_Code'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.generated.h(92): note: see declaration of 'ATest_Code'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.gen.cpp(27): error C2672: 'StaticClass': no matching overloaded function found
+D:\EpicLibrary\UE_5.1\Engine\Source\Runtime\CoreUObject\Public\UObject\ReflectedTypeAccessors.h(13): note: could be 'UClass *StaticClass(void)'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.gen.cpp(27): note: 'UClass *StaticClass(void)': could not deduce template argument for 'ClassType'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.gen.cpp(105): error C2615: 'offsetof' cannot be applied to non-class type 'int'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.gen.cpp(113): error C2615: 'offsetof' cannot be applied to non-class type 'int'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.gen.cpp(120): error C2615: 'offsetof' cannot be applied to non-class type 'int'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.gen.cpp(127): error C2615: 'offsetof' cannot be applied to non-class type 'int'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.gen.cpp(134): error C2615: 'offsetof' cannot be applied to non-class type 'int'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.gen.cpp(141): error C2615: 'offsetof' cannot be applied to non-class type 'int'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.gen.cpp(148): error C2615: 'offsetof' cannot be applied to non-class type 'int'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.gen.cpp(155): error C2615: 'offsetof' cannot be applied to non-class type 'int'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.gen.cpp(162): error C2615: 'offsetof' cannot be applied to non-class type 'int'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.gen.cpp(169): error C2615: 'offsetof' cannot be applied to non-class type 'int'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.gen.cpp(176): error C2615: 'offsetof' cannot be applied to non-class type 'int'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.gen.cpp(183): error C2615: 'offsetof' cannot be applied to non-class type 'int'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.gen.cpp(199): error C2923: 'TCppClassTypeTraits': 'ATest_Code' is not a valid template type argument for parameter 'CPPCLASS'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.h(13): note: see declaration of 'ATest_Code'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.gen.cpp(199): error C2955: 'TCppClassTypeTraits': use of class template requires template argument list
+D:\EpicLibrary\UE_5.1\Engine\Source\Runtime\CoreUObject\Public\UObject\Class.h(2459): note: see declaration of 'TCppClassTypeTraits'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.gen.cpp(199): error C4800: Implicit conversion from 'TCppClassTypeTraits<CPPCLASS>::<unnamed-enum-IsAbstract>' to bool. Possible information loss
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.gen.cpp(200): note: consider using explicit cast or comparison to 0 to avoid this warning
+D:\EpicLibrary\UE_5.1\Engine\Source\Runtime\CoreUObject\Public\UObject\Class.h(2462): note: see declaration of 'TCppClassTypeTraits<CPPCLASS>::<unnamed-enum-IsAbstract>'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.gen.cpp(200): warning C4305: 'initializing': truncation from 'TCppClassTypeTraits<CPPCLASS>::<unnamed-enum-IsAbstract>' to 'bool'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.gen.cpp(202): error C2027: use of undefined type 'ATest_Code'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.generated.h(92): note: see declaration of 'ATest_Code'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.gen.cpp(202): error C2440: 'initializing': cannot convert from 'overloaded-function' to 'UClass *(__cdecl *)(void)'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.gen.cpp(202): note: None of the functions with this name in scope match the target type
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.gen.cpp(225): error C2912: explicit specialization 'UClass *StaticClass<ATest_Code>(void)' is not a specialization of a function template
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.gen.cpp(226): error C2027: use of undefined type 'ATest_Code'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.generated.h(92): note: see declaration of 'ATest_Code'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.gen.cpp(226): error C2672: 'StaticClass': no matching overloaded function found
+D:\EpicLibrary\UE_5.1\Engine\Source\Runtime\CoreUObject\Public\UObject\ReflectedTypeAccessors.h(13): note: could be 'UClass *StaticClass(void)'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.gen.cpp(226): note: 'UClass *StaticClass(void)': could not deduce template argument for 'ClassType'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.gen.cpp(228): error C2027: use of undefined type 'ATest_Code'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.generated.h(92): note: see declaration of 'ATest_Code'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.gen.cpp(228): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.gen.cpp(228): error C2550: '{ctor}': constructor initializer lists are only allowed on constructor definitions
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.gen.cpp(228): error C4508: '{ctor}': function should return a value; 'void' return type assumed
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.gen.cpp(229): error C2027: use of undefined type 'ATest_Code'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.generated.h(92): note: see declaration of 'ATest_Code'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.gen.cpp(229): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.gen.cpp(229): error C4508: '{dtor}': function should return a value; 'void' return type assumed
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.gen.cpp(235): error C2027: use of undefined type 'ATest_Code'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.generated.h(92): note: see declaration of 'ATest_Code'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.gen.cpp(235): error C2440: 'initializing': cannot convert from 'UClass *(__cdecl *)(void)' to 'UClass *(__cdecl *)(void)'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.gen.cpp(235): note: None of the functions with this name in scope match the target type
+[5/15] Compile DoomsdayPenguins.init.gen.cpp
+[6/15] Compile Bullet.gen.cpp
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.h(12): error C2079: 'ABullet' uses undefined class 'SUICIDAL_PENGUINS_API'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.h(12): error C2143: syntax error: missing ';' before ':'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.h(12): error C2059: syntax error: 'public'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.h(13): error C2143: syntax error: missing ';' before '{'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.h(13): error C2447: '{': missing function header (old-style formal list?)
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.gen.cpp(23): error C2027: use of undefined type 'ABullet'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.generated.h(103): note: see declaration of 'ABullet'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.gen.cpp(27): error C2065: 'ThisClass': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.gen.cpp(27): error C2059: syntax error: ')'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.gen.cpp(30): error C2027: use of undefined type 'ABullet'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.generated.h(103): note: see declaration of 'ABullet'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.gen.cpp(40): error C2065: 'ThisClass': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.gen.cpp(40): error C2059: syntax error: ')'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.gen.cpp(43): error C2027: use of undefined type 'ABullet'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.generated.h(103): note: see declaration of 'ABullet'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.gen.cpp(45): error C2027: use of undefined type 'ABullet'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.generated.h(103): note: see declaration of 'ABullet'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.gen.cpp(45): error C2672: 'StaticClass': no matching overloaded function found
+D:\EpicLibrary\UE_5.1\Engine\Source\Runtime\CoreUObject\Public\UObject\ReflectedTypeAccessors.h(13): note: could be 'UClass *StaticClass(void)'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.gen.cpp(45): note: 'UClass *StaticClass(void)': could not deduce template argument for 'ClassType'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.gen.cpp(47): error C2027: use of undefined type 'ABullet'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.generated.h(103): note: see declaration of 'ABullet'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.gen.cpp(48): error C2027: use of undefined type 'ABullet'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.generated.h(103): note: see declaration of 'ABullet'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.gen.cpp(157): error C2027: use of undefined type 'ABullet'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.generated.h(103): note: see declaration of 'ABullet'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.gen.cpp(157): error C3861: 'StaticPackage': identifier not found
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.gen.cpp(157): error C2065: 'StaticClassFlags': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.gen.cpp(157): error C2061: syntax error: identifier 'ABullet'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.gen.cpp(160): error C2027: use of undefined type 'ABullet'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.generated.h(103): note: see declaration of 'ABullet'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.gen.cpp(160): error C2672: 'StaticClass': no matching overloaded function found
+D:\EpicLibrary\UE_5.1\Engine\Source\Runtime\CoreUObject\Public\UObject\ReflectedTypeAccessors.h(13): note: could be 'UClass *StaticClass(void)'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.gen.cpp(160): note: 'UClass *StaticClass(void)': could not deduce template argument for 'ClassType'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.gen.cpp(212): error C2615: 'offsetof' cannot be applied to non-class type 'int'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.gen.cpp(220): error C2615: 'offsetof' cannot be applied to non-class type 'int'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.gen.cpp(229): error C2615: 'offsetof' cannot be applied to non-class type 'int'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.gen.cpp(236): error C2615: 'offsetof' cannot be applied to non-class type 'int'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.gen.cpp(244): error C2923: 'TCppClassTypeTraits': 'ABullet' is not a valid template type argument for parameter 'CPPCLASS'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.h(12): note: see declaration of 'ABullet'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.gen.cpp(244): error C2955: 'TCppClassTypeTraits': use of class template requires template argument list
+D:\EpicLibrary\UE_5.1\Engine\Source\Runtime\CoreUObject\Public\UObject\Class.h(2459): note: see declaration of 'TCppClassTypeTraits'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.gen.cpp(244): error C4800: Implicit conversion from 'TCppClassTypeTraits<CPPCLASS>::<unnamed-enum-IsAbstract>' to bool. Possible information loss
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.gen.cpp(245): note: consider using explicit cast or comparison to 0 to avoid this warning
+D:\EpicLibrary\UE_5.1\Engine\Source\Runtime\CoreUObject\Public\UObject\Class.h(2462): note: see declaration of 'TCppClassTypeTraits<CPPCLASS>::<unnamed-enum-IsAbstract>'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.gen.cpp(245): warning C4305: 'initializing': truncation from 'TCppClassTypeTraits<CPPCLASS>::<unnamed-enum-IsAbstract>' to 'bool'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.gen.cpp(247): error C2027: use of undefined type 'ABullet'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.generated.h(103): note: see declaration of 'ABullet'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.gen.cpp(247): error C2440: 'initializing': cannot convert from 'overloaded-function' to 'UClass *(__cdecl *)(void)'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.gen.cpp(247): note: None of the functions with this name in scope match the target type
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.gen.cpp(270): error C2912: explicit specialization 'UClass *StaticClass<ABullet>(void)' is not a specialization of a function template
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.gen.cpp(271): error C2027: use of undefined type 'ABullet'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.generated.h(103): note: see declaration of 'ABullet'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.gen.cpp(271): error C2672: 'StaticClass': no matching overloaded function found
+D:\EpicLibrary\UE_5.1\Engine\Source\Runtime\CoreUObject\Public\UObject\ReflectedTypeAccessors.h(13): note: could be 'UClass *StaticClass(void)'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.gen.cpp(271): note: 'UClass *StaticClass(void)': could not deduce template argument for 'ClassType'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.gen.cpp(273): error C2027: use of undefined type 'ABullet'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.generated.h(103): note: see declaration of 'ABullet'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.gen.cpp(273): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.gen.cpp(273): error C2550: '{ctor}': constructor initializer lists are only allowed on constructor definitions
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.gen.cpp(273): error C4508: '{ctor}': function should return a value; 'void' return type assumed
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.gen.cpp(274): error C2027: use of undefined type 'ABullet'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.generated.h(103): note: see declaration of 'ABullet'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.gen.cpp(274): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.gen.cpp(274): error C4508: '{dtor}': function should return a value; 'void' return type assumed
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.gen.cpp(280): error C2027: use of undefined type 'ABullet'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.generated.h(103): note: see declaration of 'ABullet'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.gen.cpp(280): error C2440: 'initializing': cannot convert from 'UClass *(__cdecl *)(void)' to 'UClass *(__cdecl *)(void)'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Bullet.gen.cpp(280): note: None of the functions with this name in scope match the target type
+[7/15] Compile DoomsdayPenguinsGameModeBase.gen.cpp
+[8/15] Compile Penguin.cpp
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.h(13): error C2079: 'ATest_Code' uses undefined class 'SUICIDAL_PENGUINS_API'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.h(13): error C2143: syntax error: missing ';' before ':'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.h(13): error C2059: syntax error: 'public'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.h(14): error C2143: syntax error: missing ';' before '{'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.h(14): error C2447: '{': missing function header (old-style formal list?)
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.h(12): error C2079: 'ABullet' uses undefined class 'SUICIDAL_PENGUINS_API'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.h(12): error C2143: syntax error: missing ';' before ':'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.h(12): error C2059: syntax error: 'public'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.h(13): error C2143: syntax error: missing ';' before '{'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.h(13): error C2447: '{': missing function header (old-style formal list?)
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(12): error C2653: 'APenguin': is not a class or namespace name
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(15): error C2065: 'PrimaryActorTick': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(17): error C2065: 'SpringArm': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(17): error C2065: 'CreateDefaultSubobject': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(17): error C2275: 'USpringArmComponent': expected an expression instead of a type
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(18): error C2065: 'SpringArm': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(18): error C3861: 'GetRootComponent': identifier not found
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(19): error C2065: 'SpringArm': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(20): error C2065: 'SpringArm': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(22): error C2065: 'Camera': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(22): error C2065: 'CreateDefaultSubobject': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(22): error C2275: 'UCameraComponent': expected an expression instead of a type
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(23): error C2065: 'Camera': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(23): error C2065: 'SpringArm': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(25): error C2065: 'bUseControllerRotationYaw': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(26): error C2065: 'bUseControllerRotationPitch': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(27): error C2065: 'bUseControllerRotationRoll': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(29): error C2065: 'AutoPossessPlayer': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(31): error C2065: 'Velocity': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(32): error C2065: 'RightSlide': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(33): error C2065: 'Acceleration': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(34): error C2065: 'RightAcceleration': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(35): error C2065: 'VelocityIncrease': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(37): error C4508: 'APenguin': function should return a value; 'void' return type assumed
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(40): error C2653: 'APenguin': is not a class or namespace name
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(42): error C2653: 'Super': is not a class or namespace name
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(44): error C3861: 'GetCharacterMovement': identifier not found
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(45): error C3861: 'GetCharacterMovement': identifier not found
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(46): error C3861: 'GetCharacterMovement': identifier not found
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(47): error C3861: 'GetCharacterMovement': identifier not found
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(48): error C3861: 'GetCharacterMovement': identifier not found
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(49): error C3861: 'GetCharacterMovement': identifier not found
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(52): error C2065: 'Controller': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(58): error C2065: 'MappingContext': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(65): error C2653: 'APenguin': is not a class or namespace name
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(67): error C2653: 'Super': is not a class or namespace name
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(69): error C3861: 'Movement': identifier not found
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(71): error C2065: 'VelocityIncrease': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(71): error C2065: 'Velocity': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(71): error C2065: 'Acceleration': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(72): error C2065: 'SlideIncrease': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(72): error C2065: 'RightSlide': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(72): error C2065: 'RightAcceleration': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(74): error C2065: 'Yaw': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(74): error C3861: 'AddControllerYawInput': identifier not found
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(75): error C2065: 'Pitch': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(75): error C3861: 'AddControllerPitchInput': identifier not found
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(77): error C3861: 'GetCharacterMovement': identifier not found
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(79): error C3861: 'GetCharacterMovement': identifier not found
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(83): error C3861: 'GetCharacterMovement': identifier not found
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(114): error C2653: 'APenguin': is not a class or namespace name
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(116): error C2653: 'Super': is not a class or namespace name
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(117): error C3861: 'GetController': identifier not found
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(119): error C2065: 'ForwardInput': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(119): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(119): error C2027: use of undefined type 'ATest_Code'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.generated.h(92): note: see declaration of 'ATest_Code'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(120): error C2065: 'RightInput': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(120): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(120): error C2027: use of undefined type 'ATest_Code'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.generated.h(92): note: see declaration of 'ATest_Code'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(120): error C2065: 'Right': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(121): error C2065: 'ForwardInput': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(121): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(121): error C2027: use of undefined type 'ATest_Code'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.generated.h(92): note: see declaration of 'ATest_Code'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(122): error C2065: 'RightInput': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(122): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(122): error C2027: use of undefined type 'ATest_Code'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.generated.h(92): note: see declaration of 'ATest_Code'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(122): error C2065: 'Right': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(125): error C2065: 'MouseXInput': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(125): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(125): error C2027: use of undefined type 'ATest_Code'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.generated.h(92): note: see declaration of 'ATest_Code'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(125): error C2065: 'MouseX': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(126): error C2065: 'MouseYInput': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(126): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(126): error C2027: use of undefined type 'ATest_Code'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.generated.h(92): note: see declaration of 'ATest_Code'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(126): error C2065: 'MouseY': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(127): error C2065: 'MouseXInput': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(127): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(127): error C2027: use of undefined type 'ATest_Code'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.generated.h(92): note: see declaration of 'ATest_Code'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(127): error C2065: 'MouseX': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(128): error C2065: 'MouseYInput': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(128): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(128): error C2027: use of undefined type 'ATest_Code'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.generated.h(92): note: see declaration of 'ATest_Code'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(128): error C2065: 'MouseY': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(129): error C2065: 'MouseXInput': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(129): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(129): error C2027: use of undefined type 'ATest_Code'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.generated.h(92): note: see declaration of 'ATest_Code'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(129): error C2065: 'MouseX': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(130): error C2065: 'MouseYInput': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(130): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(130): error C2027: use of undefined type 'ATest_Code'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.generated.h(92): note: see declaration of 'ATest_Code'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(130): error C2065: 'MouseY': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(135): error C2653: 'APenguin': is not a class or namespace name
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.cpp(135): fatal error C1003: error count exceeds 100; stopping compilation
+[9/15] Compile DoomsdayPenguinsGameModeBase.cpp
+[10/15] Compile DoomsdayPenguins.cpp
+[11/15] Compile SeaLeopard.gen.cpp
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.h(14): error C2079: 'ASeaLeopard' uses undefined class 'SUICIDAL_PENGUINS_API'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.h(14): error C2143: syntax error: missing ';' before ':'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.h(14): error C2059: syntax error: 'public'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.h(15): error C2143: syntax error: missing ';' before '{'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.h(15): error C2447: '{': missing function header (old-style formal list?)
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(28): error C2027: use of undefined type 'ASeaLeopard'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.generated.h(108): note: see declaration of 'ASeaLeopard'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(32): error C2065: 'ThisClass': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(32): error C2059: syntax error: ')'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(35): error C2027: use of undefined type 'ASeaLeopard'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.generated.h(108): note: see declaration of 'ASeaLeopard'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(39): error C2065: 'ThisClass': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(39): error C2059: syntax error: ')'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(42): error C2027: use of undefined type 'ASeaLeopard'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.generated.h(108): note: see declaration of 'ASeaLeopard'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(52): error C2065: 'ThisClass': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(52): error C2059: syntax error: ')'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(55): error C2027: use of undefined type 'ASeaLeopard'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.generated.h(108): note: see declaration of 'ASeaLeopard'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(60): error C2065: 'ThisClass': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(60): error C2059: syntax error: ')'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(63): error C2027: use of undefined type 'ASeaLeopard'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.generated.h(108): note: see declaration of 'ASeaLeopard'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(65): error C2027: use of undefined type 'ASeaLeopard'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.generated.h(108): note: see declaration of 'ASeaLeopard'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(65): error C2672: 'StaticClass': no matching overloaded function found
+D:\EpicLibrary\UE_5.1\Engine\Source\Runtime\CoreUObject\Public\UObject\ReflectedTypeAccessors.h(13): note: could be 'UClass *StaticClass(void)'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(65): note: 'UClass *StaticClass(void)': could not deduce template argument for 'ClassType'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(67): error C2027: use of undefined type 'ASeaLeopard'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.generated.h(108): note: see declaration of 'ASeaLeopard'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(68): error C2027: use of undefined type 'ASeaLeopard'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.generated.h(108): note: see declaration of 'ASeaLeopard'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(69): error C2027: use of undefined type 'ASeaLeopard'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.generated.h(108): note: see declaration of 'ASeaLeopard'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(70): error C2027: use of undefined type 'ASeaLeopard'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.generated.h(108): note: see declaration of 'ASeaLeopard'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(231): error C2027: use of undefined type 'ASeaLeopard'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.generated.h(108): note: see declaration of 'ASeaLeopard'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(231): error C3861: 'StaticPackage': identifier not found
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(231): error C2065: 'StaticClassFlags': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(231): error C2061: syntax error: identifier 'ASeaLeopard'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(234): error C2027: use of undefined type 'ASeaLeopard'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.generated.h(108): note: see declaration of 'ASeaLeopard'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(234): error C2672: 'StaticClass': no matching overloaded function found
+D:\EpicLibrary\UE_5.1\Engine\Source\Runtime\CoreUObject\Public\UObject\ReflectedTypeAccessors.h(13): note: could be 'UClass *StaticClass(void)'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(234): note: 'UClass *StaticClass(void)': could not deduce template argument for 'ClassType'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(312): error C2615: 'offsetof' cannot be applied to non-class type 'int'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(320): error C2615: 'offsetof' cannot be applied to non-class type 'int'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(328): error C2615: 'offsetof' cannot be applied to non-class type 'int'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(338): error C2615: 'offsetof' cannot be applied to non-class type 'int'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(346): error C2615: 'offsetof' cannot be applied to non-class type 'int'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(354): error C2615: 'offsetof' cannot be applied to non-class type 'int'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(362): error C2615: 'offsetof' cannot be applied to non-class type 'int'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(372): error C2059: syntax error: ')'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(381): error C2615: 'offsetof' cannot be applied to non-class type 'int'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(389): error C2615: 'offsetof' cannot be applied to non-class type 'int'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(403): error C2923: 'TCppClassTypeTraits': 'ASeaLeopard' is not a valid template type argument for parameter 'CPPCLASS'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.h(14): note: see declaration of 'ASeaLeopard'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(403): error C2955: 'TCppClassTypeTraits': use of class template requires template argument list
+D:\EpicLibrary\UE_5.1\Engine\Source\Runtime\CoreUObject\Public\UObject\Class.h(2459): note: see declaration of 'TCppClassTypeTraits'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(403): error C4800: Implicit conversion from 'TCppClassTypeTraits<CPPCLASS>::<unnamed-enum-IsAbstract>' to bool. Possible information loss
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(404): note: consider using explicit cast or comparison to 0 to avoid this warning
+D:\EpicLibrary\UE_5.1\Engine\Source\Runtime\CoreUObject\Public\UObject\Class.h(2462): note: see declaration of 'TCppClassTypeTraits<CPPCLASS>::<unnamed-enum-IsAbstract>'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(404): warning C4305: 'initializing': truncation from 'TCppClassTypeTraits<CPPCLASS>::<unnamed-enum-IsAbstract>' to 'bool'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(406): error C2027: use of undefined type 'ASeaLeopard'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.generated.h(108): note: see declaration of 'ASeaLeopard'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(406): error C2440: 'initializing': cannot convert from 'overloaded-function' to 'UClass *(__cdecl *)(void)'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(406): note: None of the functions with this name in scope match the target type
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(429): error C2912: explicit specialization 'UClass *StaticClass<ASeaLeopard>(void)' is not a specialization of a function template
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(430): error C2027: use of undefined type 'ASeaLeopard'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.generated.h(108): note: see declaration of 'ASeaLeopard'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(430): error C2672: 'StaticClass': no matching overloaded function found
+D:\EpicLibrary\UE_5.1\Engine\Source\Runtime\CoreUObject\Public\UObject\ReflectedTypeAccessors.h(13): note: could be 'UClass *StaticClass(void)'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(430): note: 'UClass *StaticClass(void)': could not deduce template argument for 'ClassType'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(432): error C2027: use of undefined type 'ASeaLeopard'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.generated.h(108): note: see declaration of 'ASeaLeopard'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(432): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(432): error C2550: '{ctor}': constructor initializer lists are only allowed on constructor definitions
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(432): error C4508: '{ctor}': function should return a value; 'void' return type assumed
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(433): error C2027: use of undefined type 'ASeaLeopard'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.generated.h(108): note: see declaration of 'ASeaLeopard'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(433): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(433): error C4508: '{dtor}': function should return a value; 'void' return type assumed
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(439): error C2027: use of undefined type 'ASeaLeopard'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.generated.h(108): note: see declaration of 'ASeaLeopard'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(439): error C2440: 'initializing': cannot convert from 'UClass *(__cdecl *)(void)' to 'UClass *(__cdecl *)(void)'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.gen.cpp(439): note: None of the functions with this name in scope match the target type
+[12/15] Compile SeaLeopard.cpp
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.h(14): error C2079: 'ASeaLeopard' uses undefined class 'SUICIDAL_PENGUINS_API'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.h(14): error C2143: syntax error: missing ';' before ':'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.h(14): error C2059: syntax error: 'public'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.h(15): error C2143: syntax error: missing ';' before '{'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.h(15): error C2447: '{': missing function header (old-style formal list?)
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.h(13): error C2079: 'ATest_Code' uses undefined class 'SUICIDAL_PENGUINS_API'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.h(13): error C2143: syntax error: missing ';' before ':'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.h(13): error C2059: syntax error: 'public'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.h(14): error C2143: syntax error: missing ';' before '{'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Penguin.h(14): error C2447: '{': missing function header (old-style formal list?)
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.h(12): error C2079: 'ABullet' uses undefined class 'SUICIDAL_PENGUINS_API'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.h(12): error C2143: syntax error: missing ';' before ':'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.h(12): error C2059: syntax error: 'public'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.h(13): error C2143: syntax error: missing ';' before '{'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\Bullet.h(13): error C2447: '{': missing function header (old-style formal list?)
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(19): error C2027: use of undefined type 'ASeaLeopard'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.generated.h(108): note: see declaration of 'ASeaLeopard'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(22): error C2065: 'PrimaryActorTick': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(25): error C2065: 'PrimaryActorTick': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(26): error C2065: 'Collider': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(26): error C2065: 'CreateDefaultSubobject': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(26): error C2275: 'UBoxComponent': expected an expression instead of a type
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(27): error C2065: 'Collider': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(27): error C3861: 'SetRootComponent': identifier not found
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(28): error C2065: 'Collider': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(29): error C2065: 'Collider': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(29): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(29): error C2027: use of undefined type 'ASeaLeopard'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.generated.h(108): note: see declaration of 'ASeaLeopard'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(29): error C2065: 'OnOverlap': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(31): error C2065: 'StaticMesh': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(31): error C2065: 'CreateDefaultSubobject': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(31): error C2275: 'UStaticMeshComponent': expected an expression instead of a type
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(32): error C2065: 'StaticMesh': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(32): error C3861: 'GetRootComponent': identifier not found
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(33): error C2065: 'StaticMesh': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(34): error C2065: 'StaticMesh': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(41): error C2065: 'PawnSensing': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(41): error C2065: 'CreateDefaultSubobject': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(41): error C2275: 'UPawnSensingComponent': expected an expression instead of a type
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(42): error C2065: 'PawnSensing': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(43): error C2065: 'PawnSensing': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(44): error C2065: 'PawnSensing': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(45): error C2065: 'PawnSensing': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(45): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(45): error C2027: use of undefined type 'ASeaLeopard'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.generated.h(108): note: see declaration of 'ASeaLeopard'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(45): error C2065: 'PawnSeen': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(47): error C2065: 'MovementSpeed': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(48): error C2065: 'RotationSpeed': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(49): error C2065: 'ShootDelay': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(50): error C2065: 'TimeSinceShooting': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(51): error C2065: 'CanShoot': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(52): error C4508: '{ctor}': function should return a value; 'void' return type assumed
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(55): error C2027: use of undefined type 'ASeaLeopard'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.generated.h(108): note: see declaration of 'ASeaLeopard'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(57): error C2653: 'Super': is not a class or namespace name
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(60): error C2027: use of undefined type 'ASeaLeopard'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.generated.h(108): note: see declaration of 'ASeaLeopard'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(65): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(69): error C2065: 'PawnSensing': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(69): error C3861: 'GetDistanceTo': identifier not found
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(69): error C2065: 'PawnSensing': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(74): error C3861: 'GetActorLocation': identifier not found
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(76): error C3861: 'SetActorRotation': identifier not found
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(85): error C2065: 'PawnSensing': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(89): error C3861: 'GetActorLocation': identifier not found
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(90): error C3861: 'SetActorRotation': identifier not found
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(91): error C2065: 'CanShoot': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(96): error C2065: 'CanShoot': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(103): error C2027: use of undefined type 'ASeaLeopard'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.generated.h(108): note: see declaration of 'ASeaLeopard'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(105): error C2653: 'Super': is not a class or namespace name
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(107): error C2065: 'CanShoot': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(107): error C4805: '==': unsafe mix of type 'unknown-type' and type 'bool' in operation
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(109): error C2065: 'TimeSinceShooting': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(110): error C2065: 'TimeSinceShooting': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(110): error C2065: 'ShootDelay': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(112): error C3861: 'Shoot': identifier not found
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(113): error C2065: 'TimeSinceShooting': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(118): error C2027: use of undefined type 'ASeaLeopard'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.generated.h(108): note: see declaration of 'ASeaLeopard'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(121): error C2065: 'APenguin': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(121): error C2672: 'UObjectBaseUtility::IsA': no matching overloaded function found
+D:\EpicLibrary\UE_5.1\Engine\Source\Runtime\CoreUObject\Public\UObject\UObjectBaseUtility.h(742): note: could be 'bool UObjectBaseUtility::IsA(void) const'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(121): note: 'UObjectBaseUtility::IsA': invalid template argument for 'T', type expected
+D:\EpicLibrary\UE_5.1\Engine\Source\Runtime\CoreUObject\Public\UObject\UObjectBaseUtility.h(721): note: or       'bool UObjectBaseUtility::IsA(OtherClassType) const'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(121): note: 'UObjectBaseUtility::IsA': invalid template argument for 'OtherClassType', type expected
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(123): error C2065: 'APenguin': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(123): error C2672: 'Cast': no matching overloaded function found
+D:\EpicLibrary\UE_5.1\Engine\Source\Runtime\Engine\Classes\Engine\World.h(109): note: could be 'T *Cast(const FPawnIteratorObject &)'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(123): note: 'Cast': invalid template argument for 'T', type expected
+D:\EpicLibrary\UE_5.1\Engine\Source\Runtime\CoreUObject\Public\UObject\Linker.h(646): note: or       'T *Cast(FLinker *)'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(123): note: 'Cast': invalid template argument for 'T', type expected
+D:\EpicLibrary\UE_5.1\Engine\Source\Runtime\CoreUObject\Public\Templates\Casts.h(434): note: or       'const T *Cast(const U *)'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(123): note: 'Cast': invalid template argument for 'T', type expected
+D:\EpicLibrary\UE_5.1\Engine\Source\Runtime\CoreUObject\Public\Templates\Casts.h(430): note: or       'T *Cast(const TSubclassOf<U> &)'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(123): note: 'Cast': invalid template argument for 'T', type expected
+D:\EpicLibrary\UE_5.1\Engine\Source\Runtime\CoreUObject\Public\Templates\Casts.h(393): note: or       'T *Cast(const TObjectPtr<ValueType> &)'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(123): note: 'Cast': invalid template argument for 'T', type expected
+D:\EpicLibrary\UE_5.1\Engine\Source\Runtime\CoreUObject\Public\Templates\Casts.h(388): note: or       'T *Cast(const TWeakObjectPtr<UserClass,FWeakObjectPtr> &)'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(123): note: 'Cast': invalid template argument for 'T', type expected
+D:\EpicLibrary\UE_5.1\Engine\Source\Runtime\Core\Public\Delegates\DelegateSignatureImpl.inl(32): note: or       'To *Cast(From *)'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(123): note: 'Cast': invalid template argument for 'To', type expected
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(125): error C3861: 'DestroyTarget': identifier not found
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(129): error C2027: use of undefined type 'ASeaLeopard'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.generated.h(108): note: see declaration of 'ASeaLeopard'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(131): error C3861: 'SetActorHiddenInGame': identifier not found
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(132): error C3861: 'SetActorEnableCollision': identifier not found
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(133): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(137): error C2027: use of undefined type 'ASeaLeopard'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\SeaLeopard.generated.h(108): note: see declaration of 'ASeaLeopard'
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(139): error C3861: 'GetWorld': identifier not found
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(139): error C2065: 'BP_Bullet': undeclared identifier
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(140): error C3861: 'GetActorLocation': identifier not found
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source\DoomsdayPenguins\SeaLeopard.cpp(140): error C3861: 'GetActorRotation': identifier not found
+[13/15] Link UnrealEditor-DoomsdayPenguins.dll cancelled
+[14/15] Link UnrealEditor-DoomsdayPenguins.lib cancelled
+[15/15] WriteMetadata DoomsdayPenguinsEditor.target cancelled
+LogInit: Warning: Still incompatible or missing module: DoomsdayPenguins
+LogCore: Engine exit requested (reason: EngineExit() was called)
+LogExit: Preparing to exit.
+LogVirtualization: UE::Virtualization was shutdown
+LogModuleManager: Shutting down and abandoning module DesktopPlatform (58)
+LogModuleManager: Shutting down and abandoning module PerforceSourceControl (56)
+LogModuleManager: Shutting down and abandoning module SourceControl (55)
+LogModuleManager: Shutting down and abandoning module PythonScriptPluginPreload (52)
+LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (50)
+LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (48)
+LogModuleManager: Shutting down and abandoning module PlatformCrypto (46)
+LogModuleManager: Shutting down and abandoning module XGEController (44)
+LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+LogModuleManager: Shutting down and abandoning module FastBuildController (42)
+LogModuleManager: Shutting down and abandoning module AnimationModifiers (40)
+LogModuleManager: Shutting down and abandoning module AudioEditor (38)
+LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+LogModuleManager: Shutting down and abandoning module Virtualization (34)
+LogModuleManager: Shutting down and abandoning module MessageLog (33)
+LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+LogModuleManager: Shutting down and abandoning module RenderCore (28)
+LogModuleManager: Shutting down and abandoning module Landscape (26)
+LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (22)
+LogModuleManager: Shutting down and abandoning module Renderer (20)
+LogModuleManager: Shutting down and abandoning module Engine (18)
+LogModuleManager: Shutting down and abandoning module CoreUObject (16)
+LogModuleManager: Shutting down and abandoning module SandboxFile (14)
+LogModuleManager: Shutting down and abandoning module PakFile (12)
+LogModuleManager: Shutting down and abandoning module RSA (11)
+LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+LogModuleManager: Shutting down and abandoning module CookOnTheFly (4)
+LogModuleManager: Shutting down and abandoning module StorageServerClient (2)
+LogExit: Exiting.
+Log file closed, 04/17/23 16:41:06
