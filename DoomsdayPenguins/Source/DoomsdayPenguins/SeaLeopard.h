@@ -27,9 +27,6 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	UFUNCTION()
-	void PawnSeen(APawn* SeenPawn);
-
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	UBoxComponent* Collider {
 		nullptr

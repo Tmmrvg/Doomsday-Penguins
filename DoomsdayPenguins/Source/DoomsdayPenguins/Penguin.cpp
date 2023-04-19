@@ -1,6 +1,5 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-
 #include "Penguin.h"
 #include "EnhancedInputComponent.h"
 #include "EnhancedInputSubsystems.h"
@@ -21,6 +20,7 @@ APenguin::APenguin()
 	SpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("SpringArm"));
 	SpringArm->SetupAttachment(GetRootComponent());
 	SpringArm->TargetArmLength = 400.f; // Distance from player
+	SpringArm->SetRelativeRotation(FRotator(-15.f, 0.f, 0.f));
 	SpringArm->bUsePawnControlRotation = true; // Rotate arm based on controller
 
 	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
@@ -31,13 +31,6 @@ APenguin::APenguin()
 	bUseControllerRotationRoll = false;
 
 	AutoPossessPlayer = EAutoReceiveInput::Player0;
-
-	Velocity = FVector(1, 0, 0);
-	RightSlide = FVector(0, 1, 0);
-	Acceleration = FVector(100, 0, 0);
-	RightAcceleration = FVector(0, 100, 0);
-	VelocityIncrease;
-
 }
 
 // Called when the game starts or when spawned
@@ -45,17 +38,20 @@ void APenguin::BeginPlay()
 {
 	Super::BeginPlay();
 
-	GetCharacterMovement()->MaxWalkSpeed = 10000.f;
-	GetCharacterMovement()->MaxAcceleration = 2000.f;
+	GetCharacterMovement()->MaxWalkSpeed = 5000.f;
+	GetCharacterMovement()->MaxAcceleration = 1000.f;
 	GetCharacterMovement()->GroundFriction = 0.5f;
 	GetCharacterMovement()->RotationRate = FRotator(0.f, 90.0f, 0.0f);
 	GetCharacterMovement()->AirControl = 0.2;
 	GetCharacterMovement()->GravityScale = 10;
-
-	Lives = 10;
+	
 	Seconds = 0;
 	Minutes = 0;
-	
+	SlowTime = 0;
+
+	IsSlowed = false;
+	IsHit = false;
+	ShouldBeSlowed = false;
 	
 	APlayerController* PlayerController = Cast<APlayerController>(Controller);
 	if (PlayerController)
@@ -64,7 +60,6 @@ void APenguin::BeginPlay()
 		if (subsystem)
 		{
 			subsystem->AddMappingContext(MappingContext, 0);
-
 		}
 	}
 }
@@ -75,9 +70,6 @@ void APenguin::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 
 	Movement();
-
-	VelocityIncrease = (Velocity * (Acceleration * DeltaTime));
-	SlideIncrease = (RightSlide * (RightAcceleration * DeltaTime));
 
 	AddControllerYawInput(Yaw);
 	AddControllerPitchInput(Pitch);
@@ -90,7 +82,7 @@ void APenguin::Tick(float DeltaTime)
 	{
 		GetCharacterMovement()->bOrientRotationToMovement = true;
 	}
-
+	
 	Seconds += DeltaTime;
 	if (Seconds > 59)
 	{
@@ -98,30 +90,10 @@ void APenguin::Tick(float DeltaTime)
 		Minutes += 1;
 	}
 
-	// if ((Controller != nullptr) && (XInput != 0.f))
-	// {
-	// 	FRotator Rotation = Controller->GetControlRotation();
-	// 	Rotation.Pitch = 0.f;
-	// 	Rotation.Roll = 0.f;
-	//
-	// 	FVector Direction = FRotationMatrix(Rotation).GetUnitAxis(EAxis::X);
-	// 	SetActorLocation(GetActorLocation() + (Direction * XInput  * DeltaTime));
-	//
-	// 	SetActorRotation(Rotation);
-	// }
-	//
-	// if ((Controller != nullptr) && (YInput != 0.f))
-	// {
-	// 	FRotator Rotation = Controller->GetControlRotation();
-	// 	Rotation.Pitch = 0.f;
-	// 	Rotation.Roll = 0.f;
-	//
-	// 	FVector Direction = FRotationMatrix(Rotation).GetUnitAxis(EAxis::Y);
-	// 	SetActorLocation(GetActorLocation() + (Direction * YInput  * DeltaTime));
-	//
-	// 	SetActorRotation(Rotation);
-	// }
-
+	if (IsSlowed == true)
+	{
+		
+	}
 }
 
 // Called to bind functionality to input
@@ -182,16 +154,7 @@ void APenguin::Movement()
 
 	ForwardVector *= XInput;
 	RightVector *= YInput;
-	VelocityIncrease *= XInput;
-	SlideIncrease* YInput;
-	/*if (!FMath::IsNearlyZero(XInput))
-	{
-		SetActorLocation(GetActorLocation() + VelocityIncrease);
-	}
-	if (!FMath::IsNearlyZero(YInput))
-	{
-		SetActorLocation(GetActorLocation() + SlideIncrease);
-	}*/
+	
 	if (!FMath::IsNearlyZero(XInput))
 	{
 		AddMovementInput(ForwardVector);
@@ -204,11 +167,22 @@ void APenguin::Movement()
 
 void APenguin::HitByTarget()
 {
-	Lives--;
-	if (Lives <= 0)
+	GetCharacterMovement()->MaxWalkSpeed /= 2;
+	UE_LOG(LogTemp, Warning, TEXT("Player is slowed"));
+
+	SlowTime = 5;
+	IsSlowed = true;
+	
+}
+
+void APenguin::SlowDuration()
+{
+	for (int i = SlowTime; i < 0; i--)
 	{
-		/*GameOver = true;*/
-		return;
-		// TODO : Game over
+		if (i <= 0)
+		{
+			GetCharacterMovement()->MaxWalkSpeed = 5000;
+			UE_LOG(LogTemp, Warning, TEXT("Slowdown is gone"));
+		}
 	}
 }

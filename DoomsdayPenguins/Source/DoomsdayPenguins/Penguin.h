@@ -41,17 +41,6 @@ public:
 	float Pitch;
 	float Clock;
 
-	FVector Velocity;
-	FVector Acceleration;
-	FVector NaturalBrake;
-	FVector RightSlide;
-	FVector RightAcceleration;
-	FVector VelocityIncrease;
-	FVector SlideIncrease;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "My Variables")
-	int Lives;
-
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "My Variables")
 	int Seconds;
 
@@ -81,10 +70,25 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = InputSystem)
 	class UInputAction* MouseYInput;
+	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = InputSystem)
 	class UInputAction* RestartInput;
+	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = InputSystem)
 	class UInputAction* DriftInput;
+	
+
+	UPROPERTY(meta = (AllowPrivateAccess = "true"), EditAnywhere, BlueprintReadWrite, Category = "My Variables")
+	bool IsSlowed;
+
+	UPROPERTY(meta = (AllowPrivateAccess = "true"), EditAnywhere, BlueprintReadWrite, Category = "My Variables")
+	bool IsHit;
+
+	UPROPERTY(meta = (AllowPrivateAccess = "true"), EditAnywhere, BlueprintReadWrite, Category = "My Variables")
+	bool ShouldBeSlowed;
+
+	UPROPERTY(meta = (AllowPrivateAccess = "true"), EditAnywhere, BlueprintReadWrite, Category = "My Variables")
+	int SlowTime;
 
 	void Forward(const FInputActionValue& input);
 	void Right(const FInputActionValue& input);
@@ -94,5 +98,6 @@ public:
 
 	void Movement();
 	void HitByTarget();
+	void SlowDuration();
 
 };

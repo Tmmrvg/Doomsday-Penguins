@@ -42,7 +42,7 @@ ASeaLeopard::ASeaLeopard()
 	PawnSensing->SightRadius = 7000.f;
 	PawnSensing->SetPeripheralVisionAngle(45.f);
 	PawnSensing->bSeePawns = true;
-	PawnSensing->OnSeePawn.AddDynamic(this, &ASeaLeopard::PawnSeen);
+	// PawnSensing->OnSeePawn.AddDynamic(this, &ASeaLeopard::PawnSeen);
 	
 	MovementSpeed = 0;
 	RotationSpeed = 0.f;
@@ -66,7 +66,7 @@ void ASeaLeopard::Tick(float DeltaTime)
 	bool bCanSeePlayer = PawnSensing->HasLineOfSightTo(Player) && (GetDistanceTo(Player) <= PawnSensing->SightRadius);
 	if (bCanSeePlayer)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("Player seen"));
+		//UE_LOG(LogTemp, Warning, TEXT("Player seen"));
 		// Get the player's location
 		FVector PlayerLocation = Player->GetActorLocation();
 
@@ -90,7 +90,7 @@ void ASeaLeopard::Tick(float DeltaTime)
 	else
 	{
 		CanShoot = false;
-		UE_LOG(LogTemp, Warning, TEXT("No Player seen"));
+		//UE_LOG(LogTemp, Warning, TEXT("No Player seen"));
 	}
 
 	if (CanShoot == true)
@@ -102,11 +102,6 @@ void ASeaLeopard::Tick(float DeltaTime)
 			TimeSinceShooting = 0.f;
 		}
 	}
-}
-
-void ASeaLeopard::PawnSeen(APawn* SeenPawn)
-{
-	
 }
 
 void ASeaLeopard::OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,

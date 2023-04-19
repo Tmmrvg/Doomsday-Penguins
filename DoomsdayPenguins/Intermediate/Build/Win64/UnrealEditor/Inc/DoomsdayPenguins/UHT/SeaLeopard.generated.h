@@ -10,7 +10,6 @@
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 class AActor;
-class APawn;
 class UPrimitiveComponent;
 struct FHitResult;
 #ifdef DOOMSDAYPENGUINS_SeaLeopard_generated_h
@@ -23,16 +22,14 @@ struct FHitResult;
  \
 	DECLARE_FUNCTION(execShoot); \
 	DECLARE_FUNCTION(execDestroyTarget); \
-	DECLARE_FUNCTION(execOnOverlap); \
-	DECLARE_FUNCTION(execPawnSeen);
+	DECLARE_FUNCTION(execOnOverlap);
 
 
 #define FID_Programming_II_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_SeaLeopard_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execShoot); \
 	DECLARE_FUNCTION(execDestroyTarget); \
-	DECLARE_FUNCTION(execOnOverlap); \
-	DECLARE_FUNCTION(execPawnSeen);
+	DECLARE_FUNCTION(execOnOverlap);
 
 
 #define FID_Programming_II_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_SeaLeopard_h_16_ACCESSORS
