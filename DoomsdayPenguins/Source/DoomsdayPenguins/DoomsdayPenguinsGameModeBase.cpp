@@ -5,11 +5,13 @@
 #include "Kismet/GameplayStatics.h"
 #include "MySaveGame.h"
 #include "Penguin.h"
+#include "Goal.h"
 #include "SeaLeopard.h"
 
 ADoomsdayPenguinsGameModeBase::ADoomsdayPenguinsGameModeBase()
 {
 	PrimaryActorTick.bCanEverTick = true;
+	
 }
 
 void ADoomsdayPenguinsGameModeBase::BeginPlay()
@@ -21,11 +23,12 @@ void ADoomsdayPenguinsGameModeBase::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	Restart();
+	
 }
 
 void ADoomsdayPenguinsGameModeBase::Restart()
 {
-	if (const APlayerController* pc = GetWorld()->GetFirstPlayerController())
+	/*if (const APlayerController* pc = GetWorld()->GetFirstPlayerController())
 	{
 		if (APenguin* Player = Cast<APenguin>(pc->GetPawn()))
 		{
@@ -46,7 +49,7 @@ void ADoomsdayPenguinsGameModeBase::Restart()
 
 			}
 		}
-	}
+	}*/
 }
 void ADoomsdayPenguinsGameModeBase::SaveGame()
 {

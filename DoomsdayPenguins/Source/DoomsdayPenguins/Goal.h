@@ -6,6 +6,7 @@
 #include "GameFramework/Actor.h"
 #include "Goal.generated.h"
 
+class UBoxComponent;
 UCLASS()
 class DOOMSDAYPENGUINS_API AGoal : public AActor
 {
@@ -22,8 +23,19 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+public:
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UBoxComponent* Collider;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UStaticMeshComponent* StaticMesh;
+
+
 	UFUNCTION()
 		void OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
 			UPrimitiveComponent* OtherComponent, int32 OtherBodyIndex,
 			bool bFromSweep, const FHitResult& SweepResult);
+	UFUNCTION()
+		void NewGameState();
+	bool GameWon;
 };

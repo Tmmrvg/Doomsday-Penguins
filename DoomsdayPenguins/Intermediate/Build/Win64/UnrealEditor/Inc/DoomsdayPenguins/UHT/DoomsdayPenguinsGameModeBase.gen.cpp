@@ -12,6 +12,7 @@ void EmptyLinkFunctionForGeneratedCodeDoomsdayPenguinsGameModeBase() {}
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	DOOMSDAYPENGUINS_API UClass* Z_Construct_UClass_ADoomsdayPenguinsGameModeBase();
 	DOOMSDAYPENGUINS_API UClass* Z_Construct_UClass_ADoomsdayPenguinsGameModeBase_NoRegister();
+	DOOMSDAYPENGUINS_API UClass* Z_Construct_UClass_AGoal_NoRegister();
 	DOOMSDAYPENGUINS_API UClass* Z_Construct_UClass_UMySaveGame_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AGameModeBase();
 	UPackage* Z_Construct_UPackage__Script_DoomsdayPenguins();
@@ -130,10 +131,9 @@ void EmptyLinkFunctionForGeneratedCodeDoomsdayPenguinsGameModeBase() {}
 #endif
 		static const UECodeGen_Private::FClassPropertyParams NewProp_SaveGame_BP;
 #if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam NewProp_GameWon_MetaData[];
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_BP_Goal_MetaData[];
 #endif
-		static void NewProp_GameWon_SetBit(void* Obj);
-		static const UECodeGen_Private::FBoolPropertyParams NewProp_GameWon;
+		static const UECodeGen_Private::FClassPropertyParams NewProp_BP_Goal;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -164,20 +164,15 @@ void EmptyLinkFunctionForGeneratedCodeDoomsdayPenguinsGameModeBase() {}
 #endif
 	const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_ADoomsdayPenguinsGameModeBase_Statics::NewProp_SaveGame_BP = { "SaveGame_BP", nullptr, (EPropertyFlags)0x0014000000000015, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ADoomsdayPenguinsGameModeBase, SaveGame_BP), Z_Construct_UClass_UClass, Z_Construct_UClass_UMySaveGame_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ADoomsdayPenguinsGameModeBase_Statics::NewProp_SaveGame_BP_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ADoomsdayPenguinsGameModeBase_Statics::NewProp_SaveGame_BP_MetaData)) };
 #if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ADoomsdayPenguinsGameModeBase_Statics::NewProp_GameWon_MetaData[] = {
-		{ "AllowPrivateAccess", "true" },
-		{ "Category", "Bullet" },
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ADoomsdayPenguinsGameModeBase_Statics::NewProp_BP_Goal_MetaData[] = {
+		{ "Category", "Goal" },
 		{ "ModuleRelativePath", "DoomsdayPenguinsGameModeBase.h" },
 	};
 #endif
-	void Z_Construct_UClass_ADoomsdayPenguinsGameModeBase_Statics::NewProp_GameWon_SetBit(void* Obj)
-	{
-		((ADoomsdayPenguinsGameModeBase*)Obj)->GameWon = 1;
-	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ADoomsdayPenguinsGameModeBase_Statics::NewProp_GameWon = { "GameWon", nullptr, (EPropertyFlags)0x0040000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(ADoomsdayPenguinsGameModeBase), &Z_Construct_UClass_ADoomsdayPenguinsGameModeBase_Statics::NewProp_GameWon_SetBit, METADATA_PARAMS(Z_Construct_UClass_ADoomsdayPenguinsGameModeBase_Statics::NewProp_GameWon_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ADoomsdayPenguinsGameModeBase_Statics::NewProp_GameWon_MetaData)) };
+	const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_ADoomsdayPenguinsGameModeBase_Statics::NewProp_BP_Goal = { "BP_Goal", nullptr, (EPropertyFlags)0x0014000000000015, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ADoomsdayPenguinsGameModeBase, BP_Goal), Z_Construct_UClass_UClass, Z_Construct_UClass_AGoal_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ADoomsdayPenguinsGameModeBase_Statics::NewProp_BP_Goal_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ADoomsdayPenguinsGameModeBase_Statics::NewProp_BP_Goal_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ADoomsdayPenguinsGameModeBase_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADoomsdayPenguinsGameModeBase_Statics::NewProp_SaveGame_BP,
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADoomsdayPenguinsGameModeBase_Statics::NewProp_GameWon,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADoomsdayPenguinsGameModeBase_Statics::NewProp_BP_Goal,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ADoomsdayPenguinsGameModeBase_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ADoomsdayPenguinsGameModeBase>::IsAbstract,
@@ -216,9 +211,9 @@ void EmptyLinkFunctionForGeneratedCodeDoomsdayPenguinsGameModeBase() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_larss_Documents_Github_repositories_Inventory_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_DoomsdayPenguinsGameModeBase_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ADoomsdayPenguinsGameModeBase, ADoomsdayPenguinsGameModeBase::StaticClass, TEXT("ADoomsdayPenguinsGameModeBase"), &Z_Registration_Info_UClass_ADoomsdayPenguinsGameModeBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ADoomsdayPenguinsGameModeBase), 3562170763U) },
+		{ Z_Construct_UClass_ADoomsdayPenguinsGameModeBase, ADoomsdayPenguinsGameModeBase::StaticClass, TEXT("ADoomsdayPenguinsGameModeBase"), &Z_Registration_Info_UClass_ADoomsdayPenguinsGameModeBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ADoomsdayPenguinsGameModeBase), 1250557508U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_larss_Documents_Github_repositories_Inventory_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_DoomsdayPenguinsGameModeBase_h_431434569(TEXT("/Script/DoomsdayPenguins"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_larss_Documents_Github_repositories_Inventory_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_DoomsdayPenguinsGameModeBase_h_2892204120(TEXT("/Script/DoomsdayPenguins"),
 		Z_CompiledInDeferFile_FID_Users_larss_Documents_Github_repositories_Inventory_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_DoomsdayPenguinsGameModeBase_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_larss_Documents_Github_repositories_Inventory_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_DoomsdayPenguinsGameModeBase_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

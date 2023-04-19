@@ -10,6 +10,8 @@
 #include "Camera/CameraComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "Kismet/KismetMathLibrary.h"
+#include "InputTriggers.h"
+#include "Components/SphereComponent.h"
 
 // Sets default values
 APenguin::APenguin()

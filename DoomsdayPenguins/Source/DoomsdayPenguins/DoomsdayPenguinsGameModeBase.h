@@ -7,7 +7,7 @@
 #include "DoomsdayPenguinsGameModeBase.generated.h"
 
 
-
+class AGoal;
 class UMySaveGame;
 /**
  * 
@@ -29,6 +29,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "SaveGame")
 		TSubclassOf<UMySaveGame> SaveGame_BP;
 
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Goal")
+		TSubclassOf<AGoal> BP_Goal;
+
 	UFUNCTION(BlueprintCallable)
 	void Restart();
 
@@ -39,7 +42,6 @@ public:
 		void LoadGame();
 
 	
-private:
-	UPROPERTY(meta = (AllowPrivateAccess = "true"), EditAnywhere, BlueprintReadWrite, Category = Bullet)
-		bool GameWon;
+
+	
 };

@@ -2,15 +2,27 @@
 
 
 #include "Goal.h"
-#include "DoomsdayPenguinsGameModeBase.h"
+
+#include "Components/BoxComponent.h"
 #include "Penguin.h"
 
 // Sets default values
 AGoal::AGoal()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
+	Collider = CreateDefaultSubobject<UBoxComponent>(TEXT("Collider"));
+	SetRootComponent(Collider);
+	Collider->InitBoxExtent(FVector(100, 100, 100));
+	Collider->OnComponentBeginOverlap.AddDynamic(this, &AGoal::OnOverlap);
 
+	StaticMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("StaticMesh"));
+	StaticMesh->SetupAttachment(GetRootComponent());
+	StaticMesh->SetRelativeScale3D(FVector(0.1f, 1.f, 1.f));
+	StaticMesh->SetRelativeLocation(FVector(0.f, 0.f, 40));
+	
+	
+	
 }
 
 // Called when the game starts or when spawned
@@ -24,18 +36,27 @@ void AGoal::BeginPlay()
 void AGoal::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	if(GameWon)
+	{
+		UE_LOG(LogTemp, Display, TEXT("Game is Won"));
 
+	}
 }
 
 void AGoal::OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComponent, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
 	if (OtherActor->IsA<APenguin>())
 	{
-		/*DoomsdayPenguinsGameModeBase->GameWon = true;*/
-
+		UE_LOG(LogTemp, Warning, TEXT("Player seen"));
+		NewGameState();
 	}
-	/*else*/
-		/*GameWon = false;*/
+
 	
 
+}
+
+void AGoal::NewGameState()
+{
+	GameWon = true;
+	UE_LOG(LogTemp, Warning, TEXT("Player seen"));
 }
