@@ -41,13 +41,10 @@ public:
 	float Pitch;
 	float Clock;
 
-	FVector Velocity;
-	FVector Acceleration;
-	FVector NaturalBrake;
-	FVector RightSlide;
-	FVector RightAcceleration;
-	FVector VelocityIncrease;
-	FVector SlideIncrease;
+	bool GameOver = false;
+
+	UFUNCTION(BlueprintImplementableEvent)
+		void ToggleSettings();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "My Variables")
 	int Lives;
@@ -78,7 +75,7 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = InputSystem)
 	class UInputAction* RestartInput;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = InputSystem)
-	class UInputAction* DriftInput;
+		class UInputAction* SettingsInput;
 
 	void Forward(const FInputActionValue& input);
 	void Right(const FInputActionValue& input);
