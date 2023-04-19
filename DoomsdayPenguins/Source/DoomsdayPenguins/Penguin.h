@@ -40,12 +40,8 @@ public:
 	float Yaw;
 	float Pitch;
 	float Clock;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "My Variables")
-	int Seconds;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "My Variables")
-	int Minutes;
+	// int Seconds;
+	// int Minutes;
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = InputSystem)
 	class UInputMappingContext* MappingContext;
@@ -89,7 +85,7 @@ public:
 
 	UPROPERTY(meta = (AllowPrivateAccess = "true"), EditAnywhere, BlueprintReadWrite, Category = "My Variables")
 	int SlowTime;
-
+	
 	void Forward(const FInputActionValue& input);
 	void Right(const FInputActionValue& input);
 	void MouseX(const FInputActionValue& input);
@@ -99,5 +95,13 @@ public:
 	void Movement();
 	void HitByTarget();
 	void SlowDuration();
+
+private:
+
+	UPROPERTY(meta = (AllowPrivateAccess = "true"), BlueprintReadOnly, Category = "My Variables")
+	int Seconds;
+	
+	UPROPERTY(meta = (AllowPrivateAccess = "true"), BlueprintReadOnly, Category = "My Variables")
+	int Minutes;
 
 };

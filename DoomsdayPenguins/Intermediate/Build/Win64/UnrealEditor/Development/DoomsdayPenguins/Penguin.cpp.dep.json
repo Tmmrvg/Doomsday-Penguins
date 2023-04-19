@@ -63,7 +63,10 @@
             "d:\\epicgames\\ue_5.1\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\charactermovementcomponent.generated.h",
             "d:\\epicgames\\ue_5.1\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetmathlibrary.h",
             "d:\\epicgames\\ue_5.1\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\kismetmathlibrary.generated.h",
-            "d:\\epicgames\\ue_5.1\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetmathlibrary.inl"
+            "d:\\epicgames\\ue_5.1\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetmathlibrary.inl",
+            "d:\\epicgames\\ue_5.1\\engine\\source\\runtime\\core\\public\\math\\unitconversion.h",
+            "d:\\epicgames\\ue_5.1\\engine\\source\\runtime\\core\\public\\math\\unitconversion.inl",
+            "d:\\epicgames\\ue_5.1\\engine\\source\\runtime\\core\\public\\misc\\optionalfwd.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

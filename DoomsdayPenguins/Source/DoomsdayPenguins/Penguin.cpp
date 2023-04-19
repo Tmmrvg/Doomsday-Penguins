@@ -69,10 +69,22 @@ void APenguin::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	Seconds += DeltaTime;
+	if (Seconds > 59)
+	{
+		Seconds = 0;
+		Minutes += 1;
+	}
+	
 	Movement();
 
 	AddControllerYawInput(Yaw);
 	AddControllerPitchInput(Pitch);
+
+	if (IsSlowed == true)
+	{
+		SlowDuration();
+	}
 
 	if (GetCharacterMovement()->IsFalling())
 	{
@@ -81,18 +93,6 @@ void APenguin::Tick(float DeltaTime)
 	else
 	{
 		GetCharacterMovement()->bOrientRotationToMovement = true;
-	}
-	
-	Seconds += DeltaTime;
-	if (Seconds > 59)
-	{
-		Seconds = 0;
-		Minutes += 1;
-	}
-
-	if (IsSlowed == true)
-	{
-		
 	}
 }
 
