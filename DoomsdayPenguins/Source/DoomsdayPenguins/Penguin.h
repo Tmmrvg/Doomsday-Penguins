@@ -95,13 +95,4 @@ public:
 	void Movement();
 	void HitByTarget();
 	void SlowDuration();
-
-private:
-
-	UPROPERTY(meta = (AllowPrivateAccess = "true"), BlueprintReadOnly, Category = "My Variables")
-	int Seconds;
-	
-	UPROPERTY(meta = (AllowPrivateAccess = "true"), BlueprintReadOnly, Category = "My Variables")
-	int Minutes;
-
 };

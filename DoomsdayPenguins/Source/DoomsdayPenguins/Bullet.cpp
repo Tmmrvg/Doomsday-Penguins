@@ -21,7 +21,7 @@ ABullet::ABullet()
 	StaticMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("StaticMesh"));
 	StaticMesh->SetupAttachment(GetRootComponent());
 	StaticMesh->SetRelativeScale3D(FVector(1.f, 1.f, 1.f));
-
+	
 	MovementSpeed = 3000.f;
 	TimeLived = 0.f;
 	LifeSpan = 5.f;
@@ -31,7 +31,6 @@ ABullet::ABullet()
 void ABullet::BeginPlay()
 {
 	Super::BeginPlay();
-
 }
 
 // Called every frame

@@ -45,8 +45,6 @@ void APenguin::BeginPlay()
 	GetCharacterMovement()->AirControl = 0.2;
 	GetCharacterMovement()->GravityScale = 10;
 	
-	Seconds = 0;
-	Minutes = 0;
 	SlowTime = 0;
 
 	IsSlowed = false;
@@ -68,13 +66,6 @@ void APenguin::BeginPlay()
 void APenguin::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
-	Seconds += DeltaTime;
-	if (Seconds > 59)
-	{
-		Seconds = 0;
-		Minutes += 1;
-	}
 	
 	Movement();
 
@@ -167,22 +158,21 @@ void APenguin::Movement()
 
 void APenguin::HitByTarget()
 {
-	GetCharacterMovement()->MaxWalkSpeed /= 2;
+	GetCharacterMovement()->MaxWalkSpeed = 2500;
+	GetCharacterMovement()->Velocity /= 2;
 	UE_LOG(LogTemp, Warning, TEXT("Player is slowed"));
 
-	SlowTime = 5;
+	SlowTime = 100;
 	IsSlowed = true;
-	
 }
 
 void APenguin::SlowDuration()
 {
-	for (int i = SlowTime; i < 0; i--)
+	SlowTime--;
+	if (SlowTime <= 0)
 	{
-		if (i <= 0)
-		{
-			GetCharacterMovement()->MaxWalkSpeed = 5000;
-			UE_LOG(LogTemp, Warning, TEXT("Slowdown is gone"));
-		}
+		GetCharacterMovement()->MaxWalkSpeed = 5000;
+		UE_LOG(LogTemp, Warning, TEXT("Slowdown is gone"));
+		IsSlowed = false;
 	}
 }
