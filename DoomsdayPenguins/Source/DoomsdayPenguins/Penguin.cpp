@@ -42,7 +42,7 @@ APenguin::APenguin()
 void APenguin::BeginPlay()
 {
 	Super::BeginPlay();
-
+	
 	GetCharacterMovement()->MaxWalkSpeed = 10000.f;
 	GetCharacterMovement()->MaxAcceleration = 2000.f;
 	GetCharacterMovement()->GroundFriction = 0.5f;
