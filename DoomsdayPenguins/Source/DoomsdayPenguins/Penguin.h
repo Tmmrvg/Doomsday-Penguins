@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "Kismet/KismetSystemLibrary.h"
 #include "Penguin.generated.h"
 
 struct FInputActionValue;
@@ -35,14 +36,16 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "PlayerVariables")
 		class UCameraComponent* Camera{ nullptr };
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = GameState)
+	bool GameOver = false;
+
 	float XInput;
 	float YInput;
 	float Yaw;
 	float Pitch;
 	float Clock;
-
-	bool GameOver = false;
-
+	
+	
 	UFUNCTION(BlueprintImplementableEvent)
 		void ToggleSettings();
 
@@ -82,8 +85,17 @@ public:
 	void MouseX(const FInputActionValue& input);
 	void MouseY(const FInputActionValue& input);
 	void Attack(const FInputActionValue& input);
-
+	void GameStateChange();
 	void Movement();
+	void Quit();
 	void HitByTarget();
 
+
+	static void QuitGame
+	(
+		const UObject* WorldContextObject,
+		class APlayerController* SpecificPlayer,
+		TEnumAsByte< EQuitPreference::Type > QuitPreference,
+		bool bIgnorePlatformRestrictions
+	);
 };

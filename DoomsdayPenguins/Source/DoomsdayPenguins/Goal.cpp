@@ -2,7 +2,6 @@
 
 
 #include "Goal.h"
-
 #include "Components/BoxComponent.h"
 #include "Penguin.h"
 
@@ -21,7 +20,7 @@ AGoal::AGoal()
 	StaticMesh->SetRelativeScale3D(FVector(0.1f, 1.f, 1.f));
 	StaticMesh->SetRelativeLocation(FVector(0.f, 0.f, 40));
 	
-	
+	GoalReached = false;
 	
 }
 
@@ -36,19 +35,15 @@ void AGoal::BeginPlay()
 void AGoal::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	if(GameWon)
-	{
-		UE_LOG(LogTemp, Display, TEXT("Game is Won"));
-
-	}
+	
 }
 
 void AGoal::OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComponent, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
 	if (OtherActor->IsA<APenguin>())
 	{
-		UE_LOG(LogTemp, Warning, TEXT("Player seen"));
-		NewGameState();
+		Cast<APenguin>(OtherActor)->GameStateChange();
+		/*GoalReached = true;*/
 	}
 
 	
@@ -57,6 +52,6 @@ void AGoal::OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherAct
 
 void AGoal::NewGameState()
 {
-	GameWon = true;
-	UE_LOG(LogTemp, Warning, TEXT("Player seen"));
+	GoalReached = true;
+
 }

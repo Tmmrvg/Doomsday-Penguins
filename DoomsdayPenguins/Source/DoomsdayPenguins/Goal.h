@@ -23,7 +23,7 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-public:
+
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UBoxComponent* Collider;
@@ -37,5 +37,6 @@ public:
 			bool bFromSweep, const FHitResult& SweepResult);
 	UFUNCTION()
 		void NewGameState();
-	bool GameWon;
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "GameState")
+	bool GoalReached;
 };

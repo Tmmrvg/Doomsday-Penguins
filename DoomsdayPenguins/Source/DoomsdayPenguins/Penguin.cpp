@@ -10,6 +10,7 @@
 #include "Camera/CameraComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "Kismet/KismetMathLibrary.h"
+#include "Kismet/KismetSystemLibrary.h"
 #include "InputTriggers.h"
 #include "Components/SphereComponent.h"
 
@@ -111,6 +112,7 @@ void APenguin::Tick(float DeltaTime)
 
 }
 
+
 // Called to bind functionality to input
 void APenguin::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
@@ -131,8 +133,15 @@ void APenguin::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 		EnhanceInputCom->BindAction(MouseYInput, ETriggerEvent::Completed, this, &APenguin::MouseY);
 
 		EnhanceInputCom->BindAction(SettingsInput, ETriggerEvent::Started, this, &APenguin::ToggleSettings);
+		EnhanceInputCom->BindAction(SettingsInput, ETriggerEvent::Started, this, &APenguin::Quit);
+		
 	}
 
+}
+
+void APenguin::GameStateChange()
+{
+	GameOver = true;
 }
 
 void APenguin::Forward(const FInputActionValue& input)
@@ -155,6 +164,8 @@ void APenguin::MouseY(const FInputActionValue& input)
 {
 	Pitch = input.Get<float>();
 }
+
+
 
 
 void APenguin::Movement()
@@ -181,6 +192,11 @@ void APenguin::Movement()
 	{
 		AddMovementInput(RightVector);
 	}
+}
+
+void APenguin::Quit()
+{
+	GameOver = true;
 }
 
 void APenguin::HitByTarget()

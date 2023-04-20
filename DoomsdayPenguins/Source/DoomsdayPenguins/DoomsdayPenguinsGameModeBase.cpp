@@ -5,8 +5,7 @@
 #include "Kismet/GameplayStatics.h"
 #include "MySaveGame.h"
 #include "Penguin.h"
-#include "Goal.h"
-#include "SeaLeopard.h"
+
 
 ADoomsdayPenguinsGameModeBase::ADoomsdayPenguinsGameModeBase()
 {
