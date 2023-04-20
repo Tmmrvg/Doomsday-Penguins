@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "Kismet/KismetSystemLibrary.h"
 #include "Penguin.generated.h"
 
 struct FInputActionValue;
@@ -35,19 +36,18 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "PlayerVariables")
 		class UCameraComponent* Camera{ nullptr };
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = GameState)
+	bool GameOver = false;
+
 	float XInput;
 	float YInput;
 	float Yaw;
 	float Pitch;
 	float Clock;
-
-	FVector Velocity;
-	FVector Acceleration;
-	FVector NaturalBrake;
-	FVector RightSlide;
-	FVector RightAcceleration;
-	FVector VelocityIncrease;
-	FVector SlideIncrease;
+	
+	
+	UFUNCTION(BlueprintImplementableEvent)
+		void ToggleSettings();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "My Variables")
 	int Lives;
@@ -78,15 +78,24 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = InputSystem)
 	class UInputAction* RestartInput;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = InputSystem)
-	class UInputAction* DriftInput;
+		class UInputAction* SettingsInput;
 
 	void Forward(const FInputActionValue& input);
 	void Right(const FInputActionValue& input);
 	void MouseX(const FInputActionValue& input);
 	void MouseY(const FInputActionValue& input);
 	void Attack(const FInputActionValue& input);
-
+	void GameStateChange();
 	void Movement();
+	void Quit();
 	void HitByTarget();
 
+
+	static void QuitGame
+	(
+		const UObject* WorldContextObject,
+		class APlayerController* SpecificPlayer,
+		TEnumAsByte< EQuitPreference::Type > QuitPreference,
+		bool bIgnorePlatformRestrictions
+	);
 };

@@ -18,8 +18,35 @@ void EmptyLinkFunctionForGeneratedCodePenguin() {}
 	ENHANCEDINPUT_API UClass* Z_Construct_UClass_UInputMappingContext_NoRegister();
 	UPackage* Z_Construct_UPackage__Script_DoomsdayPenguins();
 // End Cross Module References
+	static FName NAME_APenguin_ToggleSettings = FName(TEXT("ToggleSettings"));
+	void APenguin::ToggleSettings()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_APenguin_ToggleSettings),NULL);
+	}
 	void APenguin::StaticRegisterNativesAPenguin()
 	{
+	}
+	struct Z_Construct_UFunction_APenguin_ToggleSettings_Statics
+	{
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APenguin_ToggleSettings_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Penguin.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_APenguin_ToggleSettings_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APenguin, nullptr, "ToggleSettings", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APenguin_ToggleSettings_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_APenguin_ToggleSettings_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_APenguin_ToggleSettings()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_APenguin_ToggleSettings_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(APenguin);
 	UClass* Z_Construct_UClass_APenguin_NoRegister()
@@ -29,6 +56,7 @@ void EmptyLinkFunctionForGeneratedCodePenguin() {}
 	struct Z_Construct_UClass_APenguin_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -40,6 +68,11 @@ void EmptyLinkFunctionForGeneratedCodePenguin() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_Camera_MetaData[];
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_Camera;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_GameOver_MetaData[];
+#endif
+		static void NewProp_GameOver_SetBit(void* Obj);
+		static const UECodeGen_Private::FBoolPropertyParams NewProp_GameOver;
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_Lives_MetaData[];
 #endif
@@ -81,9 +114,9 @@ void EmptyLinkFunctionForGeneratedCodePenguin() {}
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_RestartInput;
 #if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam NewProp_DriftInput_MetaData[];
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_SettingsInput_MetaData[];
 #endif
-		static const UECodeGen_Private::FObjectPropertyParams NewProp_DriftInput;
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_SettingsInput;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -91,6 +124,9 @@ void EmptyLinkFunctionForGeneratedCodePenguin() {}
 	UObject* (*const Z_Construct_UClass_APenguin_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_ACharacter,
 		(UObject* (*)())Z_Construct_UPackage__Script_DoomsdayPenguins,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_APenguin_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_APenguin_ToggleSettings, "ToggleSettings" }, // 970880934
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APenguin_Statics::Class_MetaDataParams[] = {
@@ -115,6 +151,17 @@ void EmptyLinkFunctionForGeneratedCodePenguin() {}
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APenguin_Statics::NewProp_Camera = { "Camera", nullptr, (EPropertyFlags)0x001000000008000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(APenguin, Camera), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APenguin_Statics::NewProp_Camera_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APenguin_Statics::NewProp_Camera_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APenguin_Statics::NewProp_GameOver_MetaData[] = {
+		{ "Category", "GameState" },
+		{ "ModuleRelativePath", "Penguin.h" },
+	};
+#endif
+	void Z_Construct_UClass_APenguin_Statics::NewProp_GameOver_SetBit(void* Obj)
+	{
+		((APenguin*)Obj)->GameOver = 1;
+	}
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_APenguin_Statics::NewProp_GameOver = { "GameOver", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(APenguin), &Z_Construct_UClass_APenguin_Statics::NewProp_GameOver_SetBit, METADATA_PARAMS(Z_Construct_UClass_APenguin_Statics::NewProp_GameOver_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APenguin_Statics::NewProp_GameOver_MetaData)) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APenguin_Statics::NewProp_Lives_MetaData[] = {
 		{ "Category", "My Variables" },
@@ -186,15 +233,16 @@ void EmptyLinkFunctionForGeneratedCodePenguin() {}
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APenguin_Statics::NewProp_RestartInput = { "RestartInput", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(APenguin, RestartInput), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APenguin_Statics::NewProp_RestartInput_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APenguin_Statics::NewProp_RestartInput_MetaData)) };
 #if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APenguin_Statics::NewProp_DriftInput_MetaData[] = {
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APenguin_Statics::NewProp_SettingsInput_MetaData[] = {
 		{ "Category", "InputSystem" },
 		{ "ModuleRelativePath", "Penguin.h" },
 	};
 #endif
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APenguin_Statics::NewProp_DriftInput = { "DriftInput", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(APenguin, DriftInput), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APenguin_Statics::NewProp_DriftInput_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APenguin_Statics::NewProp_DriftInput_MetaData)) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APenguin_Statics::NewProp_SettingsInput = { "SettingsInput", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(APenguin, SettingsInput), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APenguin_Statics::NewProp_SettingsInput_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APenguin_Statics::NewProp_SettingsInput_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APenguin_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APenguin_Statics::NewProp_SpringArm,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APenguin_Statics::NewProp_Camera,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APenguin_Statics::NewProp_GameOver,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APenguin_Statics::NewProp_Lives,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APenguin_Statics::NewProp_MappingContext,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APenguin_Statics::NewProp_ForwardInput,
@@ -205,7 +253,7 @@ void EmptyLinkFunctionForGeneratedCodePenguin() {}
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APenguin_Statics::NewProp_MouseXInput,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APenguin_Statics::NewProp_MouseYInput,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APenguin_Statics::NewProp_RestartInput,
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APenguin_Statics::NewProp_DriftInput,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APenguin_Statics::NewProp_SettingsInput,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_APenguin_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<APenguin>::IsAbstract,
@@ -215,11 +263,11 @@ void EmptyLinkFunctionForGeneratedCodePenguin() {}
 		"Game",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		Z_Construct_UClass_APenguin_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
-		0,
+		UE_ARRAY_COUNT(FuncInfo),
 		UE_ARRAY_COUNT(Z_Construct_UClass_APenguin_Statics::PropPointers),
 		0,
 		0x009000A4u,
@@ -239,15 +287,15 @@ void EmptyLinkFunctionForGeneratedCodePenguin() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(APenguin);
 	APenguin::~APenguin() {}
-	struct Z_CompiledInDeferFile_FID_Programming_II_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_Statics
+	struct Z_CompiledInDeferFile_FID_Users_larss_Documents_Github_repositories_Inventory_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Programming_II_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_APenguin, APenguin::StaticClass, TEXT("APenguin"), &Z_Registration_Info_UClass_APenguin, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APenguin), 1743987683U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_larss_Documents_Github_repositories_Inventory_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_APenguin, APenguin::StaticClass, TEXT("APenguin"), &Z_Registration_Info_UClass_APenguin, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APenguin), 1680382522U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Programming_II_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_215466933(TEXT("/Script/DoomsdayPenguins"),
-		Z_CompiledInDeferFile_FID_Programming_II_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Programming_II_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_larss_Documents_Github_repositories_Inventory_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_96921708(TEXT("/Script/DoomsdayPenguins"),
+		Z_CompiledInDeferFile_FID_Users_larss_Documents_Github_repositories_Inventory_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_larss_Documents_Github_repositories_Inventory_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

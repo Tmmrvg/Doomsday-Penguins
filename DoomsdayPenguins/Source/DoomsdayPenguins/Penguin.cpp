@@ -10,6 +10,9 @@
 #include "Camera/CameraComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "Kismet/KismetMathLibrary.h"
+#include "Kismet/KismetSystemLibrary.h"
+#include "InputTriggers.h"
+#include "Components/SphereComponent.h"
 
 // Sets default values
 APenguin::APenguin()
@@ -31,11 +34,7 @@ APenguin::APenguin()
 
 	AutoPossessPlayer = EAutoReceiveInput::Player0;
 
-	Velocity = FVector(1, 0, 0);
-	RightSlide = FVector(0, 1, 0);
-	Acceleration = FVector(100, 0, 0);
-	RightAcceleration = FVector(0, 100, 0);
-	VelocityIncrease;
+	
 
 }
 
@@ -43,7 +42,7 @@ APenguin::APenguin()
 void APenguin::BeginPlay()
 {
 	Super::BeginPlay();
-
+	
 	GetCharacterMovement()->MaxWalkSpeed = 10000.f;
 	GetCharacterMovement()->MaxAcceleration = 2000.f;
 	GetCharacterMovement()->GroundFriction = 0.5f;
@@ -73,8 +72,6 @@ void APenguin::Tick(float DeltaTime)
 
 	Movement();
 
-	VelocityIncrease = (Velocity * (Acceleration * DeltaTime));
-	SlideIncrease = (RightSlide * (RightAcceleration * DeltaTime));
 
 	AddControllerYawInput(Yaw);
 	AddControllerPitchInput(Pitch);
@@ -115,6 +112,7 @@ void APenguin::Tick(float DeltaTime)
 
 }
 
+
 // Called to bind functionality to input
 void APenguin::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
@@ -133,8 +131,17 @@ void APenguin::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 		EnhanceInputCom->BindAction(MouseYInput, ETriggerEvent::Triggered, this, &APenguin::MouseY);
 		EnhanceInputCom->BindAction(MouseXInput, ETriggerEvent::Completed, this, &APenguin::MouseX);
 		EnhanceInputCom->BindAction(MouseYInput, ETriggerEvent::Completed, this, &APenguin::MouseY);
+
+		EnhanceInputCom->BindAction(SettingsInput, ETriggerEvent::Started, this, &APenguin::ToggleSettings);
+		EnhanceInputCom->BindAction(SettingsInput, ETriggerEvent::Started, this, &APenguin::Quit);
+		
 	}
 
+}
+
+void APenguin::GameStateChange()
+{
+	GameOver = true;
 }
 
 void APenguin::Forward(const FInputActionValue& input)
@@ -159,6 +166,8 @@ void APenguin::MouseY(const FInputActionValue& input)
 }
 
 
+
+
 void APenguin::Movement()
 {
 	//Movement
@@ -173,16 +182,8 @@ void APenguin::Movement()
 
 	ForwardVector *= XInput;
 	RightVector *= YInput;
-	VelocityIncrease *= XInput;
-	SlideIncrease* YInput;
-	/*if (!FMath::IsNearlyZero(XInput))
-	{
-		SetActorLocation(GetActorLocation() + VelocityIncrease);
-	}
-	if (!FMath::IsNearlyZero(YInput))
-	{
-		SetActorLocation(GetActorLocation() + SlideIncrease);
-	}*/
+	
+	
 	if (!FMath::IsNearlyZero(XInput))
 	{
 		AddMovementInput(ForwardVector);
@@ -193,11 +194,17 @@ void APenguin::Movement()
 	}
 }
 
+void APenguin::Quit()
+{
+	GameOver = true;
+}
+
 void APenguin::HitByTarget()
 {
 	Lives--;
 	if (Lives <= 0)
 	{
+		GameOver = true;
 		/*GameOver = true;*/
 		return;
 		// TODO : Game over
