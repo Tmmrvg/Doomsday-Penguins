@@ -10,6 +10,7 @@
 #include "GameFramework/CharacterMovementComponent.h"
 #include "Kismet/KismetMathLibrary.h"
 #include "Math/UnitConversion.h"
+#include "Components/BoxComponent.h"
 
 // Sets default values
 APenguin::APenguin()
@@ -17,6 +18,10 @@ APenguin::APenguin()
  //	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	Collider = CreateDefaultSubobject<UBoxComponent>(TEXT("Collider"));
+	SetRootComponent(Collider);
+	Collider->InitBoxExtent(FVector(50, 50, 50));
+	
 	SpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("SpringArm"));
 	SpringArm->SetupAttachment(GetRootComponent());
 	SpringArm->TargetArmLength = 400.f; // Distance from player
@@ -162,7 +167,7 @@ void APenguin::HitByTarget()
 	GetCharacterMovement()->Velocity /= 2;
 	UE_LOG(LogTemp, Warning, TEXT("Player is slowed"));
 
-	SlowTime = 100;
+	SlowTime = 200;
 	IsSlowed = true;
 }
 
