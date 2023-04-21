@@ -43,8 +43,15 @@ public:
 	float Yaw;
 	float Pitch;
 	float Clock;
-	// int Seconds;
-	// int Minutes;
+	
+    UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+	float Seconds;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+	int Minutes;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	bool bHasGameStarted = true;
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = InputSystem)
 	class UInputMappingContext* MappingContext;
@@ -79,13 +86,7 @@ public:
 
 	UPROPERTY(meta = (AllowPrivateAccess = "true"), EditAnywhere, BlueprintReadWrite, Category = "My Variables")
 	bool IsSlowed;
-
-	UPROPERTY(meta = (AllowPrivateAccess = "true"), EditAnywhere, BlueprintReadWrite, Category = "My Variables")
-	bool IsHit;
-
-	UPROPERTY(meta = (AllowPrivateAccess = "true"), EditAnywhere, BlueprintReadWrite, Category = "My Variables")
-	bool ShouldBeSlowed;
-
+	
 	UPROPERTY(meta = (AllowPrivateAccess = "true"), EditAnywhere, BlueprintReadWrite, Category = "My Variables")
 	int SlowTime;
 	

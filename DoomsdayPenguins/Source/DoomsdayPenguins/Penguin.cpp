@@ -5,6 +5,7 @@
 #include "EnhancedInputSubsystems.h"
 #include "InputMappingContext.h"
 #include "Bullet.h"
+#include "VectorTypes.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
@@ -51,10 +52,9 @@ void APenguin::BeginPlay()
 	GetCharacterMovement()->GravityScale = 10;
 	
 	SlowTime = 0;
-
 	IsSlowed = false;
-	IsHit = false;
-	ShouldBeSlowed = false;
+	Seconds  = 0;
+	Minutes = 0;
 	
 	APlayerController* PlayerController = Cast<APlayerController>(Controller);
 	if (PlayerController)
@@ -71,6 +71,19 @@ void APenguin::BeginPlay()
 void APenguin::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+	if (!bHasGameStarted) return;
+	Seconds = Seconds + DeltaTime;
+	
+	// UE_LOG(LogTemp, Warning, TEXT("Timer Working"));
+	// UE_LOG(LogTemp, Warning, TEXT("Seconds count is: %d"), Seconds);
+	
+	if (Seconds > 59)
+	{
+		//UE_LOG(LogTemp, Warning, TEXT("Seconds count is: %d"), Minutes);
+		Seconds = 0;
+		Minutes++;
+	}
 	
 	Movement();
 
