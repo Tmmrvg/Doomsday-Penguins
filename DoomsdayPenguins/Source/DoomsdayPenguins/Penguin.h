@@ -45,7 +45,23 @@ public:
 	float Pitch;
 	float Clock;
 	
-	
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		float Seconds;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		int Minutes;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		bool bHasGameStarted = true;
+
+	UPROPERTY(meta = (AllowPrivateAccess = "true"), EditAnywhere, BlueprintReadWrite, Category = "My Variables")
+		bool IsSlowed;
+
+	UPROPERTY(meta = (AllowPrivateAccess = "true"), EditAnywhere, BlueprintReadWrite, Category = "My Variables")
+		int SlowTime;
+
+	//
 	UFUNCTION(BlueprintImplementableEvent)
 		void ToggleSettings();
 
@@ -84,18 +100,12 @@ public:
 	void Right(const FInputActionValue& input);
 	void MouseX(const FInputActionValue& input);
 	void MouseY(const FInputActionValue& input);
-	void Attack(const FInputActionValue& input);
 	void GameStateChange(const FInputActionValue& input);
 	void Movement();
 	void Quit(const FInputActionValue& input);
 	void HitByTarget();
+	void SlowDuration();
 
 
-	static void QuitGame
-	(
-		const UObject* WorldContextObject,
-		class APlayerController* SpecificPlayer,
-		TEnumAsByte< EQuitPreference::Type > QuitPreference,
-		bool bIgnorePlatformRestrictions
-	);
+	
 };

@@ -43,15 +43,17 @@ void APenguin::BeginPlay()
 {
 	Super::BeginPlay();
 	
-	GetCharacterMovement()->MaxWalkSpeed = 10000.f;
-	GetCharacterMovement()->MaxAcceleration = 2000.f;
+	GetCharacterMovement()->MaxWalkSpeed = 5000.f;
+	GetCharacterMovement()->MaxAcceleration = 1000.f;
 	GetCharacterMovement()->GroundFriction = 0.5f;
 	GetCharacterMovement()->RotationRate = FRotator(0.f, 90.0f, 0.0f);
 	GetCharacterMovement()->AirControl = 0.2;
 	GetCharacterMovement()->GravityScale = 10;
-	GameOver = false;
-	Lives = 10;
 	
+	SlowTime = 0;
+	IsSlowed = false;
+	Seconds = 0;
+	Minutes = 0;
 	
 	APlayerController* PlayerController = Cast<APlayerController>(Controller);
 	if (PlayerController)
@@ -70,6 +72,20 @@ void APenguin::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	if (!bHasGameStarted) return;
+	Seconds = Seconds + DeltaTime;
+
+	if (Seconds > 59)
+	{
+		//UE_LOG(LogTemp, Warning, TEXT("Seconds count is: %d"), Minutes);
+		Seconds = 0;
+		Minutes++;
+	}
+
+	if (IsSlowed == true)
+	{
+		SlowDuration();
+	}
 	Movement();
 
 
@@ -86,29 +102,7 @@ void APenguin::Tick(float DeltaTime)
 	}
 	
 
-	// if ((Controller != nullptr) && (XInput != 0.f))
-	// {
-	// 	FRotator Rotation = Controller->GetControlRotation();
-	// 	Rotation.Pitch = 0.f;
-	// 	Rotation.Roll = 0.f;
-	//
-	// 	FVector Direction = FRotationMatrix(Rotation).GetUnitAxis(EAxis::X);
-	// 	SetActorLocation(GetActorLocation() + (Direction * XInput  * DeltaTime));
-	//
-	// 	SetActorRotation(Rotation);
-	// }
-	//
-	// if ((Controller != nullptr) && (YInput != 0.f))
-	// {
-	// 	FRotator Rotation = Controller->GetControlRotation();
-	// 	Rotation.Pitch = 0.f;
-	// 	Rotation.Roll = 0.f;
-	//
-	// 	FVector Direction = FRotationMatrix(Rotation).GetUnitAxis(EAxis::Y);
-	// 	SetActorLocation(GetActorLocation() + (Direction * YInput  * DeltaTime));
-	//
-	// 	SetActorRotation(Rotation);
-	// }
+	
 
 }
 
@@ -206,12 +200,20 @@ void APenguin::Quit(const FInputActionValue& input)
 
 void APenguin::HitByTarget()
 {
-	Lives--;
-	if (Lives <= 0)
+	GetCharacterMovement()->MaxWalkSpeed = 2500;
+	GetCharacterMovement()->Velocity /= 2;
+	UE_LOG(LogTemp, Warning, TEXT("Player is slowed"));
+
+	SlowTime = 200;
+	IsSlowed = true;
+}
+void APenguin::SlowDuration()
+{
+	SlowTime--;
+	if (SlowTime <= 0)
 	{
-		GameOver = true;
-		/*GameOver = true;*/
-		return;
-		// TODO : Game over
+		GetCharacterMovement()->MaxWalkSpeed = 5000;
+		UE_LOG(LogTemp, Warning, TEXT("Slowdown is gone"));
+		IsSlowed = false;
 	}
 }
