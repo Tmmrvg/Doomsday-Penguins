@@ -134,7 +134,6 @@ void APenguin::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 
 		
 		EnhanceInputCom->BindAction(SettingsInput, ETriggerEvent::Triggered, this, &APenguin::Quit);
-		EnhanceInputCom->BindAction(RestartInput, ETriggerEvent::Triggered, this, &APenguin::GameStateChange);
 		
 		
 	}
