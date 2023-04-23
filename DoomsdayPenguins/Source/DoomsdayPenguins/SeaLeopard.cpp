@@ -66,7 +66,7 @@ void ASeaLeopard::Tick(float DeltaTime)
 	bool bCanSeePlayer = PawnSensing->HasLineOfSightTo(Player) && (GetDistanceTo(Player) <= PawnSensing->SightRadius);
 	if (bCanSeePlayer)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("Player seen"));
+		
 		// Get the player's location
 		FVector PlayerLocation = Player->GetActorLocation();
 
@@ -90,7 +90,7 @@ void ASeaLeopard::Tick(float DeltaTime)
 	else
 	{
 		CanShoot = false;
-		UE_LOG(LogTemp, Warning, TEXT("No Player seen"));
+		
 	}
 
 	if (CanShoot == true)

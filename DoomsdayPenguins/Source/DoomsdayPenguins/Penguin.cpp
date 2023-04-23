@@ -49,7 +49,7 @@ void APenguin::BeginPlay()
 	GetCharacterMovement()->RotationRate = FRotator(0.f, 90.0f, 0.0f);
 	GetCharacterMovement()->AirControl = 0.2;
 	GetCharacterMovement()->GravityScale = 10;
-
+	GameOver = false;
 	Lives = 10;
 	
 	
@@ -132,16 +132,19 @@ void APenguin::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 		EnhanceInputCom->BindAction(MouseXInput, ETriggerEvent::Completed, this, &APenguin::MouseX);
 		EnhanceInputCom->BindAction(MouseYInput, ETriggerEvent::Completed, this, &APenguin::MouseY);
 
-		EnhanceInputCom->BindAction(SettingsInput, ETriggerEvent::Started, this, &APenguin::ToggleSettings);
-		EnhanceInputCom->BindAction(SettingsInput, ETriggerEvent::Started, this, &APenguin::Quit);
+		
+		EnhanceInputCom->BindAction(SettingsInput, ETriggerEvent::Triggered, this, &APenguin::Quit);
+		EnhanceInputCom->BindAction(RestartInput, ETriggerEvent::Triggered, this, &APenguin::GameStateChange);
+		
 		
 	}
 
 }
 
-void APenguin::GameStateChange()
+void APenguin::GameStateChange(const FInputActionValue& input)
 {
-	GameOver = true;
+	if (!GameOver && input.IsNonZero())
+		GameOver = true;
 }
 
 void APenguin::Forward(const FInputActionValue& input)
@@ -194,9 +197,12 @@ void APenguin::Movement()
 	}
 }
 
-void APenguin::Quit()
+void APenguin::Quit(const FInputActionValue& input)
 {
-	GameOver = true;
+	if (GameOver && input.IsNonZero())
+		GameOver = false;
+	
+	UE_LOG(LogTemp, Warning, TEXT("Bool changed"));
 }
 
 void APenguin::HitByTarget()

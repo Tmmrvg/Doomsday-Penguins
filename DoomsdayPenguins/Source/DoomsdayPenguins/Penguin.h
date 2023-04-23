@@ -37,7 +37,7 @@ public:
 		class UCameraComponent* Camera{ nullptr };
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = GameState)
-	bool GameOver = false;
+	bool GameOver;
 
 	float XInput;
 	float YInput;
@@ -85,9 +85,9 @@ public:
 	void MouseX(const FInputActionValue& input);
 	void MouseY(const FInputActionValue& input);
 	void Attack(const FInputActionValue& input);
-	void GameStateChange();
+	void GameStateChange(const FInputActionValue& input);
 	void Movement();
-	void Quit();
+	void Quit(const FInputActionValue& input);
 	void HitByTarget();
 
 
