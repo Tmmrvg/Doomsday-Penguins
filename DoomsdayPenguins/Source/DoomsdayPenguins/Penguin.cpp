@@ -12,13 +12,16 @@
 #include "Kismet/KismetMathLibrary.h"
 #include "Kismet/KismetSystemLibrary.h"
 #include "InputTriggers.h"
-#include "Components/SphereComponent.h"
+#include "Components/BoxComponent.h"
 
 // Sets default values
 APenguin::APenguin()
 {
  //	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
+
+	Collider = CreateDefaultSubobject<UBoxComponent>(TEXT("Collider"));
+	Collider->InitBoxExtent(FVector(50, 50, 50));
 
 	SpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("SpringArm"));
 	SpringArm->SetupAttachment(GetRootComponent());
@@ -71,7 +74,7 @@ void APenguin::BeginPlay()
 void APenguin::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
+	
 	if (!bHasGameStarted) return;
 	Seconds = Seconds + DeltaTime;
 
@@ -81,7 +84,7 @@ void APenguin::Tick(float DeltaTime)
 		Seconds = 0;
 		Minutes++;
 	}
-
+	
 	if (IsSlowed == true)
 	{
 		SlowDuration();
@@ -102,7 +105,7 @@ void APenguin::Tick(float DeltaTime)
 	}
 	
 
-	
+	SetGamePaused(GameOver);
 
 }
 
@@ -128,6 +131,9 @@ void APenguin::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 
 		
 		EnhanceInputCom->BindAction(SettingsInput, ETriggerEvent::Triggered, this, &APenguin::Quit);
+		EnhanceInputCom->BindAction(SettingsInput, ETriggerEvent::Completed, this, &APenguin::Quit);
+		
+
 		
 		
 	}
@@ -192,15 +198,14 @@ void APenguin::Movement()
 
 void APenguin::Quit(const FInputActionValue& input)
 {
-	if (GameOver && input.IsNonZero())
-		GameOver = false;
+	GameOver = !GameOver;
 	
 	UE_LOG(LogTemp, Warning, TEXT("Bool changed"));
 }
 
 void APenguin::HitByTarget()
 {
-	GetCharacterMovement()->MaxWalkSpeed = 2500;
+	GetCharacterMovement()->MaxWalkSpeed = 2500.f;
 	GetCharacterMovement()->Velocity /= 2;
 	UE_LOG(LogTemp, Warning, TEXT("Player is slowed"));
 
@@ -215,5 +220,14 @@ void APenguin::SlowDuration()
 		GetCharacterMovement()->MaxWalkSpeed = 5000;
 		UE_LOG(LogTemp, Warning, TEXT("Slowdown is gone"));
 		IsSlowed = false;
+	}
+}
+
+void APenguin::SetGamePaused(bool bIsPaused)
+{
+	APlayerController* const MyPlayer = Cast<APlayerController>(GEngine->GetFirstLocalPlayerController(GetWorld()));
+	if (MyPlayer != NULL)
+	{
+		MyPlayer->SetPause(bIsPaused);
 	}
 }

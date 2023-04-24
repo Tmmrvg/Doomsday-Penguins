@@ -23,6 +23,7 @@ void ADoomsdayPenguinsGameModeBase::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 	Restart();
 	
+	
 }
 
 void ADoomsdayPenguinsGameModeBase::Restart()
