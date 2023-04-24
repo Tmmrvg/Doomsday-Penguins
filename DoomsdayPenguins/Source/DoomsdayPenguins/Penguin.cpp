@@ -13,6 +13,7 @@
 #include "Kismet/KismetSystemLibrary.h"
 #include "InputTriggers.h"
 #include "Components/SphereComponent.h"
+#include "Components/BoxComponent.h"
 
 // Sets default values
 APenguin::APenguin()
@@ -20,6 +21,10 @@ APenguin::APenguin()
  //	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	Collider = CreateDefaultSubobject<UBoxComponent>(TEXT("Collider"));
+	SetRootComponent(Collider);
+	Collider->InitBoxExtent(FVector(50, 50, 50));
+	
 	SpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("SpringArm"));
 	SpringArm->SetupAttachment(GetRootComponent());
 	SpringArm->TargetArmLength = 400.f; // Distance from player
@@ -89,8 +94,8 @@ void APenguin::Tick(float DeltaTime)
 	Movement();
 
 
-	AddControllerYawInput(Yaw);
-	AddControllerPitchInput(Pitch);
+	// AddControllerYawInput(Yaw);
+	// AddControllerPitchInput(Pitch);
 
 	if (GetCharacterMovement()->IsFalling())
 	{

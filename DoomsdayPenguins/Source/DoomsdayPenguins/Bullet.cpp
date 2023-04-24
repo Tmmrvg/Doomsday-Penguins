@@ -22,7 +22,7 @@ ABullet::ABullet()
 	StaticMesh->SetupAttachment(GetRootComponent());
 	StaticMesh->SetRelativeScale3D(FVector(0.2f, 0.2f, 0.2f));
 
-	MovementSpeed = 3000.f;
+	MovementSpeed = 10000.f;
 	TimeLived = 0.f;
 	LifeSpan = 5.f;
 

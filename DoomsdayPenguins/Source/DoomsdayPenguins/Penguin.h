@@ -36,6 +36,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "PlayerVariables")
 		class UCameraComponent* Camera{ nullptr };
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "PlayerVariables")
+	class UBoxComponent* Collider;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = GameState)
 	bool GameOver;
 
