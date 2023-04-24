@@ -35,6 +35,7 @@ void EmptyLinkFunctionForGeneratedCodePenguin() {}
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APenguin_ToggleSettings_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "//\n" },
 		{ "ModuleRelativePath", "Penguin.h" },
 	};
 #endif
@@ -73,6 +74,28 @@ void EmptyLinkFunctionForGeneratedCodePenguin() {}
 #endif
 		static void NewProp_GameOver_SetBit(void* Obj);
 		static const UECodeGen_Private::FBoolPropertyParams NewProp_GameOver;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_Seconds_MetaData[];
+#endif
+		static const UECodeGen_Private::FFloatPropertyParams NewProp_Seconds;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_Minutes_MetaData[];
+#endif
+		static const UECodeGen_Private::FUnsizedIntPropertyParams NewProp_Minutes;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_bHasGameStarted_MetaData[];
+#endif
+		static void NewProp_bHasGameStarted_SetBit(void* Obj);
+		static const UECodeGen_Private::FBoolPropertyParams NewProp_bHasGameStarted;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_IsSlowed_MetaData[];
+#endif
+		static void NewProp_IsSlowed_SetBit(void* Obj);
+		static const UECodeGen_Private::FBoolPropertyParams NewProp_IsSlowed;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_SlowTime_MetaData[];
+#endif
+		static const UECodeGen_Private::FUnsizedIntPropertyParams NewProp_SlowTime;
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_Lives_MetaData[];
 #endif
@@ -126,7 +149,7 @@ void EmptyLinkFunctionForGeneratedCodePenguin() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_DoomsdayPenguins,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_APenguin_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_APenguin_ToggleSettings, "ToggleSettings" }, // 970880934
+		{ &Z_Construct_UFunction_APenguin_ToggleSettings, "ToggleSettings" }, // 1986827783
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APenguin_Statics::Class_MetaDataParams[] = {
@@ -162,6 +185,51 @@ void EmptyLinkFunctionForGeneratedCodePenguin() {}
 		((APenguin*)Obj)->GameOver = 1;
 	}
 	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_APenguin_Statics::NewProp_GameOver = { "GameOver", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(APenguin), &Z_Construct_UClass_APenguin_Statics::NewProp_GameOver_SetBit, METADATA_PARAMS(Z_Construct_UClass_APenguin_Statics::NewProp_GameOver_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APenguin_Statics::NewProp_GameOver_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APenguin_Statics::NewProp_Seconds_MetaData[] = {
+		{ "Category", "Penguin" },
+		{ "ModuleRelativePath", "Penguin.h" },
+	};
+#endif
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APenguin_Statics::NewProp_Seconds = { "Seconds", nullptr, (EPropertyFlags)0x0010000000020015, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(APenguin, Seconds), METADATA_PARAMS(Z_Construct_UClass_APenguin_Statics::NewProp_Seconds_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APenguin_Statics::NewProp_Seconds_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APenguin_Statics::NewProp_Minutes_MetaData[] = {
+		{ "Category", "Penguin" },
+		{ "ModuleRelativePath", "Penguin.h" },
+	};
+#endif
+	const UECodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_APenguin_Statics::NewProp_Minutes = { "Minutes", nullptr, (EPropertyFlags)0x0010000000020015, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(APenguin, Minutes), METADATA_PARAMS(Z_Construct_UClass_APenguin_Statics::NewProp_Minutes_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APenguin_Statics::NewProp_Minutes_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APenguin_Statics::NewProp_bHasGameStarted_MetaData[] = {
+		{ "Category", "Penguin" },
+		{ "ModuleRelativePath", "Penguin.h" },
+	};
+#endif
+	void Z_Construct_UClass_APenguin_Statics::NewProp_bHasGameStarted_SetBit(void* Obj)
+	{
+		((APenguin*)Obj)->bHasGameStarted = 1;
+	}
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_APenguin_Statics::NewProp_bHasGameStarted = { "bHasGameStarted", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(APenguin), &Z_Construct_UClass_APenguin_Statics::NewProp_bHasGameStarted_SetBit, METADATA_PARAMS(Z_Construct_UClass_APenguin_Statics::NewProp_bHasGameStarted_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APenguin_Statics::NewProp_bHasGameStarted_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APenguin_Statics::NewProp_IsSlowed_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "My Variables" },
+		{ "ModuleRelativePath", "Penguin.h" },
+	};
+#endif
+	void Z_Construct_UClass_APenguin_Statics::NewProp_IsSlowed_SetBit(void* Obj)
+	{
+		((APenguin*)Obj)->IsSlowed = 1;
+	}
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_APenguin_Statics::NewProp_IsSlowed = { "IsSlowed", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(APenguin), &Z_Construct_UClass_APenguin_Statics::NewProp_IsSlowed_SetBit, METADATA_PARAMS(Z_Construct_UClass_APenguin_Statics::NewProp_IsSlowed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APenguin_Statics::NewProp_IsSlowed_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APenguin_Statics::NewProp_SlowTime_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "My Variables" },
+		{ "ModuleRelativePath", "Penguin.h" },
+	};
+#endif
+	const UECodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_APenguin_Statics::NewProp_SlowTime = { "SlowTime", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(APenguin, SlowTime), METADATA_PARAMS(Z_Construct_UClass_APenguin_Statics::NewProp_SlowTime_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APenguin_Statics::NewProp_SlowTime_MetaData)) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APenguin_Statics::NewProp_Lives_MetaData[] = {
 		{ "Category", "My Variables" },
@@ -243,6 +311,11 @@ void EmptyLinkFunctionForGeneratedCodePenguin() {}
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APenguin_Statics::NewProp_SpringArm,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APenguin_Statics::NewProp_Camera,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APenguin_Statics::NewProp_GameOver,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APenguin_Statics::NewProp_Seconds,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APenguin_Statics::NewProp_Minutes,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APenguin_Statics::NewProp_bHasGameStarted,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APenguin_Statics::NewProp_IsSlowed,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APenguin_Statics::NewProp_SlowTime,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APenguin_Statics::NewProp_Lives,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APenguin_Statics::NewProp_MappingContext,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APenguin_Statics::NewProp_ForwardInput,
@@ -292,9 +365,9 @@ void EmptyLinkFunctionForGeneratedCodePenguin() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_larss_Documents_Github_repositories_Inventory_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_APenguin, APenguin::StaticClass, TEXT("APenguin"), &Z_Registration_Info_UClass_APenguin, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APenguin), 1680382522U) },
+		{ Z_Construct_UClass_APenguin, APenguin::StaticClass, TEXT("APenguin"), &Z_Registration_Info_UClass_APenguin, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APenguin), 3167491235U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_larss_Documents_Github_repositories_Inventory_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_96921708(TEXT("/Script/DoomsdayPenguins"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_larss_Documents_Github_repositories_Inventory_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_4133004414(TEXT("/Script/DoomsdayPenguins"),
 		Z_CompiledInDeferFile_FID_Users_larss_Documents_Github_repositories_Inventory_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_larss_Documents_Github_repositories_Inventory_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

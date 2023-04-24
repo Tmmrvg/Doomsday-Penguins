@@ -22,9 +22,9 @@ ABullet::ABullet()
 	StaticMesh->SetupAttachment(GetRootComponent());
 	StaticMesh->SetRelativeScale3D(FVector(0.2f, 0.2f, 0.2f));
 
-	MovementSpeed = 2000.f;
+	MovementSpeed = 3000.f;
 	TimeLived = 0.f;
-	LifeSpan = 10.f;
+	LifeSpan = 5.f;
 
 }
 
@@ -56,25 +56,10 @@ void ABullet::OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherA
 {
 	if (OtherActor->IsA<APenguin>())
 	{
-		// //Destroy Target
-		// Cast<AEnemy>(OtherActor)->DestroyTarget();
-
+		
 		//Destroys bullet
 		DestroyBullet();
 	}
-	// else if (OtherActor->IsA<ASeaLeopard>())
-	// {
-	// 	//Destroy Target
-	// 	Cast<AEnemy>(OtherActor)->DestroyTarget();
-	//
-	// 	//Destroys bullet
-	// 	DestroyBullet();
-	// }
-	// else if (OtherActor->IsA<APlayer_Penguin>())
-	// {
-	// 	//Destroys bullet
-	// 	DestroyBullet();
-	// }
 	
 }
 
