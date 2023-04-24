@@ -92,8 +92,8 @@ void APenguin::Tick(float DeltaTime)
 	Movement();
 
 
-	AddControllerYawInput(Yaw);
-	AddControllerPitchInput(Pitch);
+	//AddControllerYawInput(Yaw);
+	//AddControllerPitchInput(Pitch);
 
 	if (GetCharacterMovement()->IsFalling())
 	{
@@ -195,7 +195,8 @@ void APenguin::Movement()
 
 void APenguin::Quit(const FInputActionValue& input)
 {
-	GameOver = !GameOver;
+	if (GameOver && input.IsNonZero())
+		GameOver = false;
 	
 	UE_LOG(LogTemp, Warning, TEXT("Bool changed"));
 }

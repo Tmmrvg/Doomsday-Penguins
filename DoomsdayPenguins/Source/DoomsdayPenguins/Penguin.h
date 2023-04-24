@@ -8,7 +8,7 @@
 #include "Penguin.generated.h"
 
 struct FInputActionValue;
-
+class UBoxComponent;
 
 UCLASS()
 class DOOMSDAYPENGUINS_API APenguin : public ACharacter
@@ -35,6 +35,9 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "PlayerVariables")
 		class UCameraComponent* Camera{ nullptr };
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "PlayerVariables")
+		class UBoxComponent* Collider;
+
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = GameState)
 	bool GameOver;

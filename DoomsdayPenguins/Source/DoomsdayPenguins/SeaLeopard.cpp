@@ -116,7 +116,7 @@ void ASeaLeopard::OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* Ot
 	{
 		Cast<APenguin>(OtherActor)->HitByTarget();
 
-		DestroyTarget();
+		//DestroyTarget();
 	}
 }
 
