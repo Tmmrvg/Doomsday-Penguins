@@ -98,6 +98,8 @@ public:
 	class UInputAction* RestartInput;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = InputSystem)
 		class UInputAction* SettingsInput;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = InputSystem)
+		class UInputAction* PauseInput; 
 
 	void Forward(const FInputActionValue& input);
 	void Right(const FInputActionValue& input);
@@ -108,6 +110,8 @@ public:
 	void Quit(const FInputActionValue& input);
 	void HitByTarget();
 	void SlowDuration();
+
+	void SetGamePaused(bool bIsPaused);
 
 
 	

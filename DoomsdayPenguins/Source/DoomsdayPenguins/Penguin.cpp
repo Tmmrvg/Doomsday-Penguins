@@ -74,7 +74,7 @@ void APenguin::BeginPlay()
 void APenguin::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
+	
 	if (!bHasGameStarted) return;
 	Seconds = Seconds + DeltaTime;
 
@@ -84,7 +84,7 @@ void APenguin::Tick(float DeltaTime)
 		Seconds = 0;
 		Minutes++;
 	}
-
+	
 	if (IsSlowed == true)
 	{
 		SlowDuration();
@@ -105,7 +105,7 @@ void APenguin::Tick(float DeltaTime)
 	}
 	
 
-	
+	SetGamePaused(GameOver);
 
 }
 
@@ -131,6 +131,9 @@ void APenguin::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 
 		
 		EnhanceInputCom->BindAction(SettingsInput, ETriggerEvent::Triggered, this, &APenguin::Quit);
+		EnhanceInputCom->BindAction(SettingsInput, ETriggerEvent::Completed, this, &APenguin::Quit);
+		
+
 		
 		
 	}
@@ -217,5 +220,14 @@ void APenguin::SlowDuration()
 		GetCharacterMovement()->MaxWalkSpeed = 5000;
 		UE_LOG(LogTemp, Warning, TEXT("Slowdown is gone"));
 		IsSlowed = false;
+	}
+}
+
+void APenguin::SetGamePaused(bool bIsPaused)
+{
+	APlayerController* const MyPlayer = Cast<APlayerController>(GEngine->GetFirstLocalPlayerController(GetWorld()));
+	if (MyPlayer != NULL)
+	{
+		MyPlayer->SetPause(bIsPaused);
 	}
 }
