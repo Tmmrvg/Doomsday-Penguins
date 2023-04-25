@@ -94,8 +94,8 @@ void APenguin::Tick(float DeltaTime)
 	Movement();
 
 
-	// AddControllerYawInput(Yaw);
-	// AddControllerPitchInput(Pitch);
+	AddControllerYawInput(Yaw);
+	AddControllerPitchInput(Pitch);
 
 	if (GetCharacterMovement()->IsFalling())
 	{
