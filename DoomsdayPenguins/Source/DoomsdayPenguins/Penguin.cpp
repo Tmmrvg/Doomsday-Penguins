@@ -37,7 +37,7 @@ APenguin::APenguin()
 
 	AutoPossessPlayer = EAutoReceiveInput::Player0;
 
-	
+	OffTrack = false;
 
 }
 
@@ -89,8 +89,13 @@ void APenguin::Tick(float DeltaTime)
 	{
 		SlowDuration();
 	}
+
 	Movement();
 
+	if (!OffTrack)
+		GetCharacterMovement()->MaxWalkSpeed = 5000.f;
+	else if(OffTrack)
+		GetCharacterMovement()->MaxWalkSpeed = 1000.f;
 
 	AddControllerYawInput(Yaw);
 	AddControllerPitchInput(Pitch);
@@ -222,6 +227,13 @@ void APenguin::SlowDuration()
 		IsSlowed = false;
 	}
 }
+
+void APenguin::OnTrack()
+{
+	GetCharacterMovement()->MaxWalkSpeed = 5000.f;
+}
+
+
 
 void APenguin::SetGamePaused(bool bIsPaused)
 {

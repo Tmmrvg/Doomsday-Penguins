@@ -53,7 +53,7 @@ public:
 		float Seconds;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
-		int Minutes;
+		float Minutes;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool bHasGameStarted = true;
@@ -110,6 +110,8 @@ public:
 	void Quit(const FInputActionValue& input);
 	void HitByTarget();
 	void SlowDuration();
+	void OnTrack();
+	bool OffTrack;
 
 	void SetGamePaused(bool bIsPaused);
 
