@@ -31,13 +31,13 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "PlayerVariables")
-		class USpringArmComponent* SpringArm{ nullptr };
+	class USpringArmComponent* SpringArm{ nullptr };
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "PlayerVariables")
-		class UCameraComponent* Camera{ nullptr };
+	class UCameraComponent* Camera{ nullptr };
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "PlayerVariables")
-	class UBoxComponent* Collider;
+	// UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "PlayerVariables")
+	// class UBoxComponent* Collider;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = GameState)
 	bool GameOver;
@@ -50,23 +50,23 @@ public:
 	
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
-		float Seconds;
+	float Seconds;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
-		int Minutes;
+	int Minutes;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		bool bHasGameStarted = true;
+	bool bHasGameStarted = true;
+	
+	UPROPERTY(meta = (AllowPrivateAccess = "true"), EditAnywhere, BlueprintReadWrite, Category = "My Variables")
+	bool IsSlowed;
 
 	UPROPERTY(meta = (AllowPrivateAccess = "true"), EditAnywhere, BlueprintReadWrite, Category = "My Variables")
-		bool IsSlowed;
-
-	UPROPERTY(meta = (AllowPrivateAccess = "true"), EditAnywhere, BlueprintReadWrite, Category = "My Variables")
-		int SlowTime;
+	int SlowTime;
 
 	//
 	UFUNCTION(BlueprintImplementableEvent)
-		void ToggleSettings();
+	void ToggleSettings();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "My Variables")
 	int Lives;
@@ -94,10 +94,12 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = InputSystem)
 	class UInputAction* MouseYInput;
+	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = InputSystem)
 	class UInputAction* RestartInput;
+	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = InputSystem)
-		class UInputAction* SettingsInput;
+	class UInputAction* SettingsInput;
 
 	void Forward(const FInputActionValue& input);
 	void Right(const FInputActionValue& input);
@@ -108,7 +110,4 @@ public:
 	void Quit(const FInputActionValue& input);
 	void HitByTarget();
 	void SlowDuration();
-
-
-	
 };

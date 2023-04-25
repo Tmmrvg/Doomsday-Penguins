@@ -43,8 +43,7 @@ void ABullet::Tick(float DeltaTime)
 	FVector NewLocation = GetActorLocation();
 	NewLocation += GetActorForwardVector() * MovementSpeed * DeltaTime;
 	SetActorLocation(NewLocation);
-
-
+	
 	TimeLived += DeltaTime;
 	if (TimeLived > LifeSpan)
 	{
@@ -56,6 +55,7 @@ void ABullet::OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherA
 {
 	if (OtherActor->IsA<APenguin>())
 	{
+		Cast<APenguin>(OtherActor)->HitByTarget();
 		
 		//Destroys bullet
 		DestroyBullet();

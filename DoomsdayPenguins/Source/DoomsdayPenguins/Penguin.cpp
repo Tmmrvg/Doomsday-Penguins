@@ -21,9 +21,9 @@ APenguin::APenguin()
  //	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	Collider = CreateDefaultSubobject<UBoxComponent>(TEXT("Collider"));
-	SetRootComponent(Collider);
-	Collider->InitBoxExtent(FVector(50, 50, 50));
+	// Collider = CreateDefaultSubobject<UBoxComponent>(TEXT("Collider"));
+	// SetRootComponent(Collider);
+	// Collider->InitBoxExtent(FVector(50, 50, 50));
 	
 	SpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("SpringArm"));
 	SpringArm->SetupAttachment(GetRootComponent());
@@ -38,9 +38,6 @@ APenguin::APenguin()
 	bUseControllerRotationRoll = false;
 
 	AutoPossessPlayer = EAutoReceiveInput::Player0;
-
-	
-
 }
 
 // Called when the game starts or when spawned
@@ -67,7 +64,6 @@ void APenguin::BeginPlay()
 		if (subsystem)
 		{
 			subsystem->AddMappingContext(MappingContext, 0);
-
 		}
 	}
 }
@@ -105,10 +101,6 @@ void APenguin::Tick(float DeltaTime)
 	{
 		GetCharacterMovement()->bOrientRotationToMovement = true;
 	}
-	
-
-	
-
 }
 
 
@@ -130,11 +122,8 @@ void APenguin::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 		EnhanceInputCom->BindAction(MouseYInput, ETriggerEvent::Triggered, this, &APenguin::MouseY);
 		EnhanceInputCom->BindAction(MouseXInput, ETriggerEvent::Completed, this, &APenguin::MouseX);
 		EnhanceInputCom->BindAction(MouseYInput, ETriggerEvent::Completed, this, &APenguin::MouseY);
-
 		
 		EnhanceInputCom->BindAction(SettingsInput, ETriggerEvent::Triggered, this, &APenguin::Quit);
-		
-		
 	}
 
 }
@@ -165,9 +154,6 @@ void APenguin::MouseY(const FInputActionValue& input)
 {
 	Pitch = input.Get<float>();
 }
-
-
-
 
 void APenguin::Movement()
 {
@@ -207,6 +193,7 @@ void APenguin::HitByTarget()
 {
 	GetCharacterMovement()->MaxWalkSpeed = 2500;
 	GetCharacterMovement()->Velocity /= 2;
+	GetCharacterMovement()->MaxAcceleration = 500;
 	UE_LOG(LogTemp, Warning, TEXT("Player is slowed"));
 
 	SlowTime = 200;
@@ -218,6 +205,7 @@ void APenguin::SlowDuration()
 	if (SlowTime <= 0)
 	{
 		GetCharacterMovement()->MaxWalkSpeed = 5000;
+		GetCharacterMovement()->MaxAcceleration = 1000;
 		UE_LOG(LogTemp, Warning, TEXT("Slowdown is gone"));
 		IsSlowed = false;
 	}

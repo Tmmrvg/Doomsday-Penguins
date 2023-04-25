@@ -74,4 +74,7 @@ public:
 private:
 	UPROPERTY(VisibleAnywhere, Category = "AI")
 	UPawnSensingComponent* PawnSensing;
+
+	FVector3d ActorLocation;
+	FVector3d NewSpawnLocation;
 };
