@@ -253,10 +253,6 @@ void EmptyLinkFunctionForGeneratedCodeSeaLeopard() {}
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_StaticMesh;
 #if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam NewProp_MovementSpeed_MetaData[];
-#endif
-		static const UECodeGen_Private::FFloatPropertyParams NewProp_MovementSpeed;
-#if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_RotationSpeed_MetaData[];
 #endif
 		static const UECodeGen_Private::FFloatPropertyParams NewProp_RotationSpeed;
@@ -327,20 +323,12 @@ void EmptyLinkFunctionForGeneratedCodeSeaLeopard() {}
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASeaLeopard_Statics::NewProp_StaticMesh = { "StaticMesh", nullptr, (EPropertyFlags)0x001000000008000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ASeaLeopard, StaticMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ASeaLeopard_Statics::NewProp_StaticMesh_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ASeaLeopard_Statics::NewProp_StaticMesh_MetaData)) };
 #if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASeaLeopard_Statics::NewProp_MovementSpeed_MetaData[] = {
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASeaLeopard_Statics::NewProp_RotationSpeed_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "My Variables" },
 		{ "Comment", "//Variables\n" },
 		{ "ModuleRelativePath", "SeaLeopard.h" },
 		{ "ToolTip", "Variables" },
-	};
-#endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ASeaLeopard_Statics::NewProp_MovementSpeed = { "MovementSpeed", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ASeaLeopard, MovementSpeed), METADATA_PARAMS(Z_Construct_UClass_ASeaLeopard_Statics::NewProp_MovementSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ASeaLeopard_Statics::NewProp_MovementSpeed_MetaData)) };
-#if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASeaLeopard_Statics::NewProp_RotationSpeed_MetaData[] = {
-		{ "AllowPrivateAccess", "true" },
-		{ "Category", "My Variables" },
-		{ "ModuleRelativePath", "SeaLeopard.h" },
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ASeaLeopard_Statics::NewProp_RotationSpeed = { "RotationSpeed", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ASeaLeopard, RotationSpeed), METADATA_PARAMS(Z_Construct_UClass_ASeaLeopard_Statics::NewProp_RotationSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ASeaLeopard_Statics::NewProp_RotationSpeed_MetaData)) };
@@ -391,7 +379,6 @@ void EmptyLinkFunctionForGeneratedCodeSeaLeopard() {}
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASeaLeopard_Statics::NewProp_Collider,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASeaLeopard_Statics::NewProp_SkeletalMesh,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASeaLeopard_Statics::NewProp_StaticMesh,
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASeaLeopard_Statics::NewProp_MovementSpeed,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASeaLeopard_Statics::NewProp_RotationSpeed,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASeaLeopard_Statics::NewProp_ShootDelay,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASeaLeopard_Statics::NewProp_TimeSinceShooting,
@@ -436,9 +423,9 @@ void EmptyLinkFunctionForGeneratedCodeSeaLeopard() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Programming_II_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_SeaLeopard_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ASeaLeopard, ASeaLeopard::StaticClass, TEXT("ASeaLeopard"), &Z_Registration_Info_UClass_ASeaLeopard, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASeaLeopard), 856094550U) },
+		{ Z_Construct_UClass_ASeaLeopard, ASeaLeopard::StaticClass, TEXT("ASeaLeopard"), &Z_Registration_Info_UClass_ASeaLeopard, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASeaLeopard), 762277117U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Programming_II_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_SeaLeopard_h_3435298717(TEXT("/Script/DoomsdayPenguins"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Programming_II_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_SeaLeopard_h_344869573(TEXT("/Script/DoomsdayPenguins"),
 		Z_CompiledInDeferFile_FID_Programming_II_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_SeaLeopard_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Programming_II_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_SeaLeopard_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
