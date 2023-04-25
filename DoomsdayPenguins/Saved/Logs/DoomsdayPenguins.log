@@ -2524,3 +2524,120 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.04.25-11.20.56:150][615]LogWorldPartition: Actor /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1623811562 is unreachable without properly detaching object /Game/__ExternalActors__/LevelBuild/E/RL/PB527S8D04JMOPYZM0TFNJ.PackageMetaData in its package
 [2023.04.25-11.20.56:152][615]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
 [2023.04.25-11.20.56:230][616]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2023.04.25-11.51.47:665][434]Cmd: DELETE
+[2023.04.25-11.51.47:665][434]Cmd: ACTOR DELETE
+[2023.04.25-11.51.47:666][434]LogEditorActor: Deleted Actor: BP_SeaLeopard_C
+[2023.04.25-11.51.47:722][434]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2023.04.25-11.51.47:729][434]LogEditorActor: Deleted 1 Actors (0.063 secs)
+[2023.04.25-11.53.46:029][725]LogDerivedDataCache: C:/Users/oetom/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:08.094 and deleted 0 files with total size 0 MiB. Scanned 4630 files in 4599 folders with total size 199 MiB.
+[2023.04.25-11.54.47:671][753]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2023.04.25-11.54.49:241][753]LogSlate: Window 'Save Content' being destroyed
+[2023.04.25-11.54.49:246][753]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.25-11.54.49:326][753]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2023.04.25-11.54.49:375][753]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2023.04.25-11.54.49:422][753]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2023.04.25-11.54.49:425][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/8/BY/5P20IBUBK30PBB0ONW1OZG
+[2023.04.25-11.54.49:425][753]LogSavePackage: Moving '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Saved/5P20IBUBK30PBB0ONW1OZG8165D47040FB5843643BE890D31B5A48.tmp' to '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/8/BY/5P20IBUBK30PBB0ONW1OZG.uasset'
+[2023.04.25-11.54.49:427][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/E/XB/XH8HTK5J8PEBCLQ8GQLZPX
+[2023.04.25-11.54.49:427][753]LogSavePackage: Moving '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Saved/XH8HTK5J8PEBCLQ8GQLZPX4710F3C445EE4020FC3B0288B959B211.tmp' to '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/E/XB/XH8HTK5J8PEBCLQ8GQLZPX.uasset'
+[2023.04.25-11.54.49:429][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/7/BF/QFEKWD2YWLXILHVL4UTBMY
+[2023.04.25-11.54.49:429][753]LogSavePackage: Moving '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Saved/QFEKWD2YWLXILHVL4UTBMY059AB0D64F02D54289317E8577D2DA9F.tmp' to '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/7/BF/QFEKWD2YWLXILHVL4UTBMY.uasset'
+[2023.04.25-11.54.49:430][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/4/3Q/YZ70S1YJ7SXFG5VFAYJ31R
+[2023.04.25-11.54.49:430][753]LogSavePackage: Moving '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Saved/YZ70S1YJ7SXFG5VFAYJ31RE1BD8DE042B952B908D987BC443E623E.tmp' to '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/4/3Q/YZ70S1YJ7SXFG5VFAYJ31R.uasset'
+[2023.04.25-11.54.49:432][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/B/79/X9LX9C9SO2JG4JCO67HTQ6
+[2023.04.25-11.54.49:432][753]LogSavePackage: Moving '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Saved/X9LX9C9SO2JG4JCO67HTQ696DF778D47372EB2450D00B93AF45FD1.tmp' to '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/B/79/X9LX9C9SO2JG4JCO67HTQ6.uasset'
+[2023.04.25-11.54.49:435][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/9/YD/V3VUX4QQR8PVW0SLEIY247
+[2023.04.25-11.54.49:435][753]LogSavePackage: Moving '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Saved/V3VUX4QQR8PVW0SLEIY24768F65AEE48794919678E40A17FBC125A.tmp' to '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/9/YD/V3VUX4QQR8PVW0SLEIY247.uasset'
+[2023.04.25-11.54.49:436][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/C/B1/YDGWFSVWVOR8CDQ7L0M7A0
+[2023.04.25-11.54.49:437][753]LogSavePackage: Moving '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Saved/YDGWFSVWVOR8CDQ7L0M7A00510E9214E09EEFA6D64C09C243A0289.tmp' to '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/C/B1/YDGWFSVWVOR8CDQ7L0M7A0.uasset'
+[2023.04.25-11.54.49:438][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/D/4R/E2KSBRGB3NIWE2D3EGJC89
+[2023.04.25-11.54.49:438][753]LogSavePackage: Moving '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Saved/E2KSBRGB3NIWE2D3EGJC8978F3DE724D3FF2A6233578B441B1D360.tmp' to '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/D/4R/E2KSBRGB3NIWE2D3EGJC89.uasset'
+[2023.04.25-11.54.49:439][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/A/V9/TQKH4ZI46OCILHNU6SZRLO
+[2023.04.25-11.54.49:440][753]LogSavePackage: Moving '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Saved/TQKH4ZI46OCILHNU6SZRLO4513C9E94947AC22C2D448BCE8E77E40.tmp' to '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/A/V9/TQKH4ZI46OCILHNU6SZRLO.uasset'
+[2023.04.25-11.54.49:440][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/A/SR/V4H7SJIWG61K7EVSIVQI6P
+[2023.04.25-11.54.49:442][753]LogSavePackage: Moving '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Saved/V4H7SJIWG61K7EVSIVQI6P0B5DA8E844888725667433BB33011C36.tmp' to '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/A/SR/V4H7SJIWG61K7EVSIVQI6P.uasset'
+[2023.04.25-11.54.49:443][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/1/HC/KI7NHVH2BO6PJKBMSIUA8M
+[2023.04.25-11.54.49:443][753]LogSavePackage: Moving '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Saved/KI7NHVH2BO6PJKBMSIUA8MA51AC6E24BDF999E4D448CAD88F88F3F.tmp' to '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/1/HC/KI7NHVH2BO6PJKBMSIUA8M.uasset'
+[2023.04.25-11.54.49:466][753]LogFileHelpers: InternalPromptForCheckoutAndSave took 220 ms (total: 450 ms)
+[2023.04.25-11.54.49:477][753]AssetCheck: New page: Asset Save: multiple assets
+[2023.04.25-11.54.49:477][753]LogContentValidation: Display: Validating /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1604763559
+[2023.04.25-11.54.49:477][753]LogContentValidation: Display: Validating /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1579709555
+[2023.04.25-11.54.49:477][753]LogContentValidation: Display: Validating /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CCBA7A01_2140661758
+[2023.04.25-11.54.49:477][753]LogContentValidation: Display: Validating /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CCBA7A01_2107974752
+[2023.04.25-11.54.49:477][753]LogContentValidation: Display: Validating /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CCBA7A01_1891315739
+[2023.04.25-11.54.49:477][753]LogContentValidation: Display: Validating /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CCBA7A01_2082427744
+[2023.04.25-11.54.49:477][753]LogContentValidation: Display: Validating /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CCBA7A01_2101317750
+[2023.04.25-11.54.49:477][753]LogContentValidation: Display: Validating /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CCBA7A01_2098075749
+[2023.04.25-11.54.49:477][753]LogContentValidation: Display: Validating /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CCBA7A01_2091235747
+[2023.04.25-11.54.49:477][753]LogContentValidation: Display: Validating /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CCBA7A01_2104048751
+[2023.04.25-11.54.49:477][753]LogContentValidation: Display: Validating /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CCBA7A01_2094551748
+[2023.04.25-11.57.51:181][  8]Cmd: DELETE
+[2023.04.25-11.57.51:181][  8]Cmd: ACTOR DELETE
+[2023.04.25-11.57.51:183][  8]LogEditorActor: Deleted Actor: BP_SeaLeopard_C
+[2023.04.25-11.57.51:232][  8]LogWorldPartition: Actor /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1559262552 is unreachable without properly detaching object /Game/__ExternalActors__/LevelBuild/2/3F/77Y000YP9WOVVZO9F7SCPN.PackageMetaData in its package
+[2023.04.25-11.57.51:235][  8]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2023.04.25-11.57.51:241][  8]LogEditorActor: Deleted 1 Actors (0.060 secs)
+[2023.04.25-11.57.51:305][  9]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2023.04.25-11.57.58:315][696]Cmd: DELETE
+[2023.04.25-11.57.58:315][696]Cmd: ACTOR DELETE
+[2023.04.25-11.57.58:317][696]LogEditorActor: Deleted Actor: BP_SeaLeopard_C
+[2023.04.25-11.57.58:367][696]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2023.04.25-11.57.58:370][696]LogEditorActor: Deleted 1 Actors (0.054 secs)
+[2023.04.25-11.58.05:231][433]Cmd: DELETE
+[2023.04.25-11.58.05:231][433]Cmd: ACTOR DELETE
+[2023.04.25-11.58.05:232][433]LogEditorActor: Deleted Actor: BP_SeaLeopard_C
+[2023.04.25-11.58.05:281][433]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2023.04.25-11.58.05:285][433]LogEditorActor: Deleted 1 Actors (0.054 secs)
+[2023.04.25-11.58.50:170][716]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2023.04.25-11.58.51:454][716]LogSlate: Window 'Save Content' being destroyed
+[2023.04.25-11.58.51:460][716]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.25-11.58.51:557][716]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2023.04.25-11.58.51:604][716]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2023.04.25-11.58.51:654][716]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2023.04.25-11.58.51:656][716]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/7/BF/QFEKWD2YWLXILHVL4UTBMY
+[2023.04.25-11.58.51:656][716]LogSavePackage: Moving '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Saved/QFEKWD2YWLXILHVL4UTBMYD5CBEECC4D223D076B7E6CA81F9F89A2.tmp' to '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/7/BF/QFEKWD2YWLXILHVL4UTBMY.uasset'
+[2023.04.25-11.58.51:659][716]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/3/JS/5UXMFW4PJZUXO57ZFUXG4B
+[2023.04.25-11.58.51:659][716]LogSavePackage: Moving '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Saved/5UXMFW4PJZUXO57ZFUXG4BA53C216147768BD946925BA77B283CE5.tmp' to '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/3/JS/5UXMFW4PJZUXO57ZFUXG4B.uasset'
+[2023.04.25-11.58.51:660][716]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/B/79/X9LX9C9SO2JG4JCO67HTQ6
+[2023.04.25-11.58.51:660][716]LogSavePackage: Moving '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Saved/X9LX9C9SO2JG4JCO67HTQ64DAD24094B96F9CB8694938E1BB3341D.tmp' to '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/B/79/X9LX9C9SO2JG4JCO67HTQ6.uasset'
+[2023.04.25-11.58.51:661][716]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/9/YD/V3VUX4QQR8PVW0SLEIY247
+[2023.04.25-11.58.51:662][716]LogSavePackage: Moving '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Saved/V3VUX4QQR8PVW0SLEIY2478A31534441E3B5D49C01958052FD8008.tmp' to '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/9/YD/V3VUX4QQR8PVW0SLEIY247.uasset'
+[2023.04.25-11.58.51:663][716]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/C/B1/YDGWFSVWVOR8CDQ7L0M7A0
+[2023.04.25-11.58.51:663][716]LogSavePackage: Moving '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Saved/YDGWFSVWVOR8CDQ7L0M7A0601E0B1145DB63F085F6089071C5E1DD.tmp' to '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/C/B1/YDGWFSVWVOR8CDQ7L0M7A0.uasset'
+[2023.04.25-11.58.51:664][716]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/D/4R/E2KSBRGB3NIWE2D3EGJC89
+[2023.04.25-11.58.51:664][716]LogSavePackage: Moving '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Saved/E2KSBRGB3NIWE2D3EGJC89453D65824F25339EFC9813B88BF205D0.tmp' to '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/D/4R/E2KSBRGB3NIWE2D3EGJC89.uasset'
+[2023.04.25-11.58.51:665][716]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/A/V9/TQKH4ZI46OCILHNU6SZRLO
+[2023.04.25-11.58.51:666][716]LogSavePackage: Moving '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Saved/TQKH4ZI46OCILHNU6SZRLOF958F83E4DF9814AB04144A371FCEA99.tmp' to '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/A/V9/TQKH4ZI46OCILHNU6SZRLO.uasset'
+[2023.04.25-11.58.51:666][716]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/A/SR/V4H7SJIWG61K7EVSIVQI6P
+[2023.04.25-11.58.51:666][716]LogSavePackage: Moving '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Saved/V4H7SJIWG61K7EVSIVQI6P15D4D21B42EE4350BBDAB0B934B8DA22.tmp' to '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/A/SR/V4H7SJIWG61K7EVSIVQI6P.uasset'
+[2023.04.25-11.58.51:668][716]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/C/K5/XGL06UK67JHRV92CYCUKJN
+[2023.04.25-11.58.51:668][716]LogSavePackage: Moving '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Saved/XGL06UK67JHRV92CYCUKJN3FFC5F794572EB0E8C2117AE6F35ACAC.tmp' to '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/C/K5/XGL06UK67JHRV92CYCUKJN.uasset'
+[2023.04.25-11.58.51:669][716]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/5/I0/B6DX63TQ1YWEUHUCPW1A5K
+[2023.04.25-11.58.51:670][716]LogSavePackage: Moving '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Saved/B6DX63TQ1YWEUHUCPW1A5K3FD90D724C81A5C65DD237A338A97302.tmp' to '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/5/I0/B6DX63TQ1YWEUHUCPW1A5K.uasset'
+[2023.04.25-11.58.51:671][716]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/0/UF/IY1TAX7P388FJW4DHV8GA4
+[2023.04.25-11.58.51:671][716]LogSavePackage: Moving '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Saved/IY1TAX7P388FJW4DHV8GA4B6FE877A4A122A49101E79B8893FFD68.tmp' to '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/0/UF/IY1TAX7P388FJW4DHV8GA4.uasset'
+[2023.04.25-11.58.51:693][716]LogFileHelpers: InternalPromptForCheckoutAndSave took 233 ms (total: 683 ms)
+[2023.04.25-11.58.51:703][716]AssetCheck: New page: Asset Save: multiple assets
+[2023.04.25-11.58.51:703][716]LogContentValidation: Display: Validating /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1604763559
+[2023.04.25-11.58.51:703][716]LogContentValidation: Display: Validating /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CCBA7A01_1833353735
+[2023.04.25-11.58.51:703][716]LogContentValidation: Display: Validating /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CCBA7A01_2124655754
+[2023.04.25-11.58.51:703][716]LogContentValidation: Display: Validating /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CCBA7A01_2114622753
+[2023.04.25-11.58.51:703][716]LogContentValidation: Display: Validating /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CCBA7A01_2107974752
+[2023.04.25-11.58.51:703][716]LogContentValidation: Display: Validating /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CCBA7A01_2101317750
+[2023.04.25-11.58.51:703][716]LogContentValidation: Display: Validating /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CCBA7A01_2098075749
+[2023.04.25-11.58.51:703][716]LogContentValidation: Display: Validating /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CCBA7A01_2091235747
+[2023.04.25-11.58.51:703][716]LogContentValidation: Display: Validating /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CCBA7A01_2104048751
+[2023.04.25-11.58.51:703][716]LogContentValidation: Display: Validating /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CCBA7A01_2094551748
+[2023.04.25-11.58.51:704][716]LogContentValidation: Display: Validating /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CCBA7A01_2085265745
+[2023.04.25-11.59.39:737][135]LogWorldPartition: Actor /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CCBA7A01_2131053755 is unreachable without properly detaching object /Game/__ExternalActors__/LevelBuild/0/HZ/PJMZ3KROLQYUUM0C9PVN8V.PackageMetaData in its package
+[2023.04.25-11.59.39:737][135]LogWorldPartition: Actor /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CCBA7A01_1830340734 is unreachable without properly detaching object /Game/__ExternalActors__/LevelBuild/2/2P/5CK2VHAUOI6NA0EMUS33JS.PackageMetaData in its package
+[2023.04.25-11.59.39:737][135]LogWorldPartition: Actor /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CCBA7A01_2140661758 is unreachable without properly detaching object /Game/__ExternalActors__/LevelBuild/1/HC/KI7NHVH2BO6PJKBMSIUA8M.PackageMetaData in its package
+[2023.04.25-11.59.39:739][135]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2023.04.25-11.59.40:725][135]LogSlate: Window 'Save Content' being destroyed
+[2023.04.25-11.59.40:730][135]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.25-11.59.40:753][135]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/1/VZ/37MCDRNK36IWZF6GNOF4LW
+[2023.04.25-11.59.40:753][135]LogSavePackage: Moving '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Saved/37MCDRNK36IWZF6GNOF4LW00015C304049E0D1849EFE86B89CB506.tmp' to '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/1/VZ/37MCDRNK36IWZF6GNOF4LW.uasset'
+[2023.04.25-11.59.40:775][135]LogFileHelpers: InternalPromptForCheckoutAndSave took 45 ms (total: 729 ms)
+[2023.04.25-11.59.40:785][135]AssetCheck: New page: Asset Save: BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1513924545
+[2023.04.25-11.59.40:785][135]LogContentValidation: Display: Validating /Game/Blueprints/BP_SeaLeopard.BP_SeaLeopard_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_SeaLeopard_C_UAID_2CF05DFCF5CC4D7A01_1513924545
+[2023.04.25-11.59.40:842][136]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
