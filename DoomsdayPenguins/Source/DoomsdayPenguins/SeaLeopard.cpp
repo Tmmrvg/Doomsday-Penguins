@@ -8,7 +8,6 @@
 #include "AIController.h"
 #include "Engine/StaticMeshSocket.h"
 #include "Bullet.h"
-#include "SNegativeActionButton.h"
 #include "BehaviorTree/Tasks/BTTask_PawnActionBase.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "Components/StaticMeshComponent.h"
