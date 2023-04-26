@@ -56,7 +56,7 @@ public:
 		float Minutes;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		bool bHasGameStarted = false;
+		bool bHasGameStarted = true;
 
 	UPROPERTY(meta = (AllowPrivateAccess = "true"), EditAnywhere, BlueprintReadWrite, Category = "My Variables")
 		bool IsSlowed;

@@ -110,7 +110,7 @@ void APenguin::Tick(float DeltaTime)
 	}
 	
 
-	/*SetGamePaused(GameOver);*/
+	SetGamePaused(GameOver);
 
 }
 
