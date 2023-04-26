@@ -89,16 +89,12 @@ void APenguin::Tick(float DeltaTime)
 	{
 		SlowDuration();
 	}
+	if (GameOver == false || GameWon == false) {
+		Movement();
 
-	Movement();
-
-	if (!OffTrack)
-		GetCharacterMovement()->MaxWalkSpeed = 5000.f;
-	else if(OffTrack)
-		GetCharacterMovement()->MaxWalkSpeed = 1000.f;
-
-	AddControllerYawInput(Yaw);
-	AddControllerPitchInput(Pitch);
+		AddControllerYawInput(Yaw);
+		AddControllerPitchInput(Pitch);
+	}
 
 	if (GetCharacterMovement()->IsFalling())
 	{
@@ -109,9 +105,14 @@ void APenguin::Tick(float DeltaTime)
 		GetCharacterMovement()->bOrientRotationToMovement = true;
 	}
 	
-
-	/*SetGamePaused(GameOver);*/
-
+	/*if (GameOver)
+	{
+		SetGamePaused(true);
+	}
+	if (!GameOver) 
+	{
+		SetGamePaused(false);
+	}*/
 }
 
 
@@ -136,7 +137,7 @@ void APenguin::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 
 		
 		EnhanceInputCom->BindAction(SettingsInput, ETriggerEvent::Triggered, this, &APenguin::Quit);
-		EnhanceInputCom->BindAction(SettingsInput, ETriggerEvent::Completed, this, &APenguin::Quit);
+		
 		
 
 		
@@ -145,10 +146,9 @@ void APenguin::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 
 }
 
-void APenguin::GameStateChange(const FInputActionValue& input)
+void APenguin::GameStateChange()
 {
-	if (!GameOver && input.IsNonZero())
-		GameOver = true;
+	GameWon = true;
 }
 
 void APenguin::Forward(const FInputActionValue& input)
@@ -203,7 +203,7 @@ void APenguin::Movement()
 
 void APenguin::Quit(const FInputActionValue& input)
 {
-	GameOver = !GameOver;
+	GameOver = true;
 	
 	UE_LOG(LogTemp, Warning, TEXT("Bool changed"));
 }

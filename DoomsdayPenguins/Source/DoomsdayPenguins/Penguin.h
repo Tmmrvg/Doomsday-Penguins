@@ -42,6 +42,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = GameState)
 	bool GameOver;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = GameState)
+	bool GameWon;
+
 	float XInput;
 	float YInput;
 	float Yaw;
@@ -103,9 +106,11 @@ public:
 
 	void Forward(const FInputActionValue& input);
 	void Right(const FInputActionValue& input);
+
 	void MouseX(const FInputActionValue& input);
 	void MouseY(const FInputActionValue& input);
-	void GameStateChange(const FInputActionValue& input);
+
+	void GameStateChange();
 	void Movement();
 	void Quit(const FInputActionValue& input);
 	void HitByTarget();
