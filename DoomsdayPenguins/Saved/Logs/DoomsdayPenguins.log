@@ -24698,3 +24698,204 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.04.27-17.27.28:404][ 18]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
 [2023.04.27-17.27.28:419][ 18]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
 [2023.04.27-17.27.28:475][ 19]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2023.04.27-17.27.53:654][275]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2023.04.27-17.27.53:660][275]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/LevelBuild/B/CO/HQPXODDMJ8RR64XJ9Q9EVB_Auto3
+[2023.04.27-17.27.53:660][275]LogSavePackage: Moving '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Saved/HQPXODDMJ8RR64XJ9Q9EVB_Auto3BA49172C48DC378B5F6F798274BBCD46.tmp' to '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Saved/Autosaves/Game/__ExternalActors__/LevelBuild/B/CO/HQPXODDMJ8RR64XJ9Q9EVB_Auto3.uasset'
+[2023.04.27-17.27.53:660][275]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/LevelBuild' took 0.061
+[2023.04.27-17.27.53:660][275]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.061
+[2023.04.27-17.27.53:661][275]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Timer] ([2] browsable assets)...
+[2023.04.27-17.27.53:663][275]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/Timer.Timer]
+[2023.04.27-17.27.53:663][275]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Timer]
+[2023.04.27-17.27.53:670][275]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Timer_Auto3
+[2023.04.27-17.27.53:670][275]LogSavePackage: Moving '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Saved/Timer_Auto37F891E124B0DF71406F5298DB5825A77.tmp' to '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Saved/Autosaves/Game/Blueprints/Timer_Auto3.uasset'
+[2023.04.27-17.27.53:670][275]LogFileHelpers: Auto-saving content packages took 0.011
+[2023.04.27-17.31.17:353][125]BlueprintLog: New page: Compile Timer
+[2023.04.27-17.31.17:358][125]LogBlueprint: Error: [AssetLog] D:\Programming II\Doomsday-Penguins\DoomsdayPenguins\Content\Blueprints\Timer.uasset: [Compiler] Binding: Property ' /Script/UMG.TextBlock:TextDelegate ' on Widget ' TextBlock_3 ': Binding: 'None' : 'None' was not found on 'Timer'.
+[2023.04.27-17.31.17:437][125]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2023.04.27-17.31.18:140][201]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.27-17.31.18:161][201]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Timer" FILE="../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Content/Blueprints/Timer.uasset" SILENT=true
+[2023.04.27-17.31.18:165][201]LogSavePackage: Moving output files for package: /Game/Blueprints/Timer
+[2023.04.27-17.31.18:165][201]LogSavePackage: Moving '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Saved/TimerF0722BDC4B22D15CDD6A9694AF71AC1D.tmp' to '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Content/Blueprints/Timer.uasset'
+[2023.04.27-17.31.18:169][201]LogFileHelpers: InternalPromptForCheckoutAndSave took 28 ms (total: 467 ms)
+[2023.04.27-17.31.18:177][201]AssetCheck: New page: Asset Save: Timer
+[2023.04.27-17.31.18:177][201]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/Timer.Timer
+[2023.04.27-17.31.32:893][931]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2023.04.27-17.31.32:893][931]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.27-17.31.32:905][931]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2023.04.27-17.31.32:905][931]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.27-17.31.33:678][ 17]LogSlate: Took 0.000235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.04.27-17.31.41:512][872]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2023.04.27-17.31.45:045][872]LogSlate: Window 'Delete Assets' being destroyed
+[2023.04.27-17.31.45:166][872]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2023.04.27-17.31.45:166][872]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.27-17.31.45:233][872]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.04.27-17.31.45:233][872]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2023.04.27-17.31.45:233][872]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.27-17.31.45:287][872]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Blueprints/Timer.Timer
+	Asset Type: WidgetBlueprint
+[2023.04.27-17.31.45:794][872]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2023.04.27-17.31.45:877][872]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2023.04.27-17.31.45:925][872]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2023.04.27-17.31.50:288][385]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2023.04.27-17.31.52:190][385]LogSlate: Window 'Save Content' being destroyed
+[2023.04.27-17.31.52:197][385]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.27-17.31.52:221][385]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_HUD_Doomsday_Penguins
+[2023.04.27-17.31.52:221][385]LogSavePackage: Moving '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Saved/BP_HUD_Doomsday_Penguins83CD09D24FC977777FB76CB3AC293EEA.tmp' to '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Content/Blueprints/BP_HUD_Doomsday_Penguins.uasset'
+[2023.04.27-17.31.52:242][385]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Penguin" FILE="../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Content/Blueprints/BP_Penguin.uasset" SILENT=true
+[2023.04.27-17.31.52:245][385]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Penguin
+[2023.04.27-17.31.52:246][385]LogSavePackage: Moving '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Saved/BP_Penguin2B86E54940314F8324CEC6AAAA8B1346.tmp' to '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Content/Blueprints/BP_Penguin.uasset'
+[2023.04.27-17.31.52:247][385]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/B/CO/HQPXODDMJ8RR64XJ9Q9EVB
+[2023.04.27-17.31.52:247][385]LogSavePackage: Moving '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Saved/HQPXODDMJ8RR64XJ9Q9EVB5803DBA94C343E225D5B73AE4B51704D.tmp' to '../../../../../Programming II/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/B/CO/HQPXODDMJ8RR64XJ9Q9EVB.uasset'
+[2023.04.27-17.31.52:254][385]LogFileHelpers: InternalPromptForCheckoutAndSave took 57 ms (total: 525 ms)
+[2023.04.27-17.31.52:261][385]AssetCheck: New page: Asset Save: multiple assets
+[2023.04.27-17.31.52:261][385]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Penguin.BP_Penguin
+[2023.04.27-17.31.52:261][385]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_HUD_Doomsday_Penguins.BP_HUD_Doomsday_Penguins
+[2023.04.27-17.31.52:261][385]LogContentValidation: Display: Validating /Game/Blueprints/BP_Penguin.BP_Penguin_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_Penguin_C_UAID_2CF05DFCF5CCBA7A01_1911324742
+[2023.04.27-17.31.54:729][641]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.04.27-17.31.54:735][641]LogContentBundle: [Container: LevelBuild] Generating Streaming for 0 Content Bundles.
+[2023.04.27-17.31.54:736][641]MapCheck: Warning: Spatially loaded actor LandscapeSplineActor (/Game/LevelBuild) references Non-spatially loaded actor Landscape 
+[2023.04.27-17.31.54:736][641]MapCheck: Warning: Spatially loaded actor LandscapeSplineActor3 (/Game/LevelBuild) references Non-spatially loaded actor Landscape 
+[2023.04.27-17.31.54:736][641]MapCheck: Warning: Spatially loaded actor LandscapeSplineActor4 (/Game/LevelBuild) references Non-spatially loaded actor Landscape 
+[2023.04.27-17.31.54:736][641]MapCheck: Warning: Spatially loaded actor LandscapeSplineActor3 (/Game/LevelBuild) references Non-spatially loaded actor Landscape 
+[2023.04.27-17.31.54:736][641]MapCheck: Warning: Spatially loaded actor LandscapeSplineActor2 (/Game/LevelBuild) references Non-spatially loaded actor Landscape 
+[2023.04.27-17.31.54:739][641]LogWorldPartition: Display: GenerateStreaming started...
+[2023.04.27-17.31.54:739][641]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.04.27-17.31.54:739][641]LogWorldPartition: Display: GetPartitionedActors took 23 us (total: 206 us)
+[2023.04.27-17.31.54:857][641]LogWorldPartition: Display: GenerateStreaming took 118 ms (total: 975 ms)
+[2023.04.27-17.31.54:857][641]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.04.27-17.31.54:857][641]LogPlayLevel: [PlayLevel] Compiling BP_HUD_Doomsday_Penguins before play...
+[2023.04.27-17.31.54:898][641]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2023.04.27-17.31.54:900][641]LogPlayLevel: PlayLevel: Blueprint regeneration took 43 ms (1 blueprints)
+[2023.04.27-17.31.54:901][641]PIE: New page: PIE session: LevelBuild (27 Apr 2023, 21:31:54)
+[2023.04.27-17.31.54:949][641]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LevelBuild
+[2023.04.27-17.31.55:024][641]LogPlayLevel: PIE: StaticDuplicateObject took: (0.075269s)
+[2023.04.27-17.31.55:024][641]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelBuild.LevelBuild to /Game/UEDPIE_0_LevelBuild.LevelBuild (0.075304s)
+[2023.04.27-17.31.55:025][641]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.27-17.31.55:025][641]LogAIModule: Creating AISystem for world LevelBuild
+[2023.04.27-17.31.55:025][641]LogWorldPartition: ULevel::OnLevelLoaded(LevelBuild)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.04.27-17.31.55:025][641]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.04.27-17.31.55:025][641]LogWorldPartition: UWorldPartition::Initialize(Asset=LevelBuild, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.04.27-17.31.55:041][641]LogContentBundle: [Container: LevelBuild] Creating new contrainer.
+[2023.04.27-17.31.55:041][641]LogWorldPartition: Display: WorldPartition initialize took 14 ms (total: 562 ms)
+[2023.04.27-17.31.55:041][641]LogPlayLevel: PIE: World Init took: (0.015909s)
+[2023.04.27-17.31.55:077][641]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2023.04.27-17.31.55:079][641]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2023.04.27-17.31.55:079][641]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.27-17.31.55:079][641]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.27-17.31.55:079][641]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.27-17.31.55:079][641]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.27-17.31.55:079][641]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.04.27-17.31.55:079][641]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.04.27-17.31.55:079][641]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.04.27-17.31.55:079][641]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.27-17.31.55:080][641]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.04.27-17.31.55:080][641]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.04.27-17.31.55:080][641]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.04.27-17.31.55:081][641]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.04.27-17.31.55:098][641]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- SteelSeries Arctis 7P)
+[2023.04.27-17.31.55:099][641]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.27-17.31.55:099][641]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.27-17.31.55:099][641]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.27-17.31.55:099][641]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2023.04.27-17.31.55:099][641]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2023.04.27-17.31.55:100][641]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2023.04.27-17.31.55:100][641]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2023.04.27-17.31.55:100][641]LogInit: FAudioDevice initialized.
+[2023.04.27-17.31.55:100][641]LogAudio: Display: Audio Device (ID: 11) registered with world 'LevelBuild'.
+[2023.04.27-17.31.55:102][641]LogLoad: Game class is 'BP_GM_DoomsdayPenguins_C'
+[2023.04.27-17.31.55:115][641]LogWorld: Bringing World /Game/UEDPIE_0_LevelBuild.LevelBuild up for play (max tick rate 0) at 2023.04.27-19.31.55
+[2023.04.27-17.31.55:118][641]LogWorld: Bringing up level for play took: 0.015877
+[2023.04.27-17.31.55:121][641]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2023.04.27-17.31.55:122][641]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=-40385.159 Y=18600.854 Z=28008.498
+[2023.04.27-17.31.55:122][641]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(12), CellsToLoad(0), CellsToUnload(0)
+[2023.04.27-17.31.55:122][641]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-40385.159 Y=18600.854 Z=28008.498,P=-0.000000 Y=-69.999999 R=0.000000
+[2023.04.27-17.31.55:122][641]LogStreaming: Display: FlushAsyncLoading(-1): 30 QueuedPackages, 0 AsyncPackages
+[2023.04.27-17.31.56:393][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/E/9P/WI2927BYS0G4QYX0JJMCH1.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:393][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/E/9H/AX8GWHQVHA4BWJV406VBEP.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:393][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/D/M8/RIYCQJCJ2HNHFX2NNMV7Z8.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:393][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/D/JO/8RBYWHL2WFCHB1LXW00SH0.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:393][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/D/GE/1103HEIXT2YOO2V83GNQO8.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:393][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/D/9M/JSEAJUB95YUCHZ9AWSZY3Z.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:393][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/D/3R/P6F5LUB62LJIQU8JBIJFED.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:393][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/C/YZ/ROKPQ9O0JKUOMCGUJ6F3N9.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:393][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/C/VR/98BSKTB8MBUFC5BGNWIGL0.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:393][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/C/J6/KMXFD4GFDX3CCHG2KKQ3X7.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:393][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/C/8J/KU5TG1XLKG09QOXFMAOS8E.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:393][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/C/28/SSWIWR7CXGV3HKF0LZW4IZ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:393][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/B/RP/NN0U5QRUXKPBME84Y8R5JT.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:393][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/B/HD/LNLYKIE6ZBXF4AJHRP4G83.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:393][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/B/61/UT45G3Y9TVCG3DH6TCLANW.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:393][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/A/ZV/61380HQJCDGM5YY9CXI70Z.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:393][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/A/ZA/DBS47MDO20IKR8SOXQQJHJ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:393][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/A/L9/Z3T588PU2M0D80XUMXQG2L.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:393][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/A/JR/9YFK30S3RCKHTIGLSWO7UZ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:393][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/A/EP/92EZP8KEBMS0IEKHO4RDO1.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:393][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/A/3M/BQKJ142UMV8XCZCRQ8UO5I.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:393][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/9/HC/FNLRPHV4TEOGAXYB0HDZL9.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:393][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/9/G4/IYO3HF9HCTIDLKGSPWCBSF.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:393][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/8/I4/S7UJI0XGM8VOGUNNYM4R9Q.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:393][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/8/9G/GQGONCSQWF9Z7IBIKPE5CW.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:393][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/8/52/K4PE6FZZPQHBJPKLRJQ5ZW.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:393][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/8/4B/JW2Q54Y34NSS57ESTURWGL.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:393][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/8/S9/UD4R812CVDEJITB14H57FX.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:393][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/7/UO/IC4YWHUWXFFZL1775PSO3I.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:393][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/7/HD/EUB02IQOIQOWV7ELPHMR1J.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:393][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/7/EU/RBEML27ZPDNS725TGNEN36.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:393][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/7/22/GURQR1GFTRLLO1OQV9ZJ52.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:393][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/6/VE/V7WXC8WAI9BTDWJ3OXGRZ7.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:393][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/6/UO/EVN9YOY3C1Q7EO8NU40Z99.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:393][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/6/36/G57FHXRBMV5UWQKQN7G1RO.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:393][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/5/R8/GX2PCFGSIHHVG4L5HGE3C4.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:393][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/7/XR/FBP5ZKO701X4V54OVIMBQG.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:393][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/5/5K/QOD7IB3IDYYFU6PRF9P10W.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.04.27-17.31.56:393][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/4/TA/NR8PLMBSUXUCFYBGSG4EZ2.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:393][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/4/SZ/SY0V71H9XIH783KRU3TS5P.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:393][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/4/PH/XYQEHLAL89PR8UYPOMEXG5.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:393][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/4/F3/ZE3GLR083AKQBDHMV0KKVY.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:393][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/4/A0/4CY9C0V2D5GHOSQ9X9IPDP.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:393][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/4/7M/F94H89BC8GSWXK3QEVCBCG.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:393][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/4/34/CEZ9E93U5C0SXHID0JH8QI.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:393][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/3/XQ/J3SVQO8IF4MP16JYW9VB0R.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:393][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/3/X2/SA3XGM18BMVWSGF4KXAL3R.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:393][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/3/VR/3ZHZ5EVXWDP6FKQMKY7UVU.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:393][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/3/GC/PQ74PDMG4CIQ3JBSTISGD0.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:393][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/3/7D/OVWM80H9JIZ1UT4Z3EH7BZ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:394][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/2/ZM/OHMPB5G54ZIXMR3ARVGHTL.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:394][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/2/D8/7C3PE8243NVRM342PWPRJI.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:394][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/2/BN/ZFP6EA749Y4UDW9UNE58IA.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:394][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/1/NR/DZMH2X4DQFLKAYFFRK4VYX.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:394][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/1/C1/FCQ9RRJJMF6W7DNN78XWUH.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:394][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/1/AS/9KMLPG6WSPZ5LPRS9V2EO3.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:394][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/1/AF/9JOULFIEMQQISOT562B0M4.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:394][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/1/2R/DO57918JYCX0YKSR10K657.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:394][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/1/1G/QMPK5O9ZB2PCYQDB1U25L1.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:394][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/0/ZL/MZA27F6LAAEYH8QZAFILE3.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:394][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/5/EH/DH9LJE9D7IPRSUFBBYWTEG.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:394][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/0/TM/XHWG9M7F8KA82CAOH98Z15.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:394][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/0/RD/FK3PU9QQ77TXF0CDERSP2H.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:394][641]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/0/P7/X21UKMFQ04S22AUSRB93JW.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.27-17.31.56:825][641]PIE: Server logged in
+[2023.04.27-17.31.56:825][641]PIE: Play in editor total start time 2.09 seconds.
+[2023.04.27-17.31.56:896][641]LogShaderCompilers: Display: ================================================
+[2023.04.27-17.31.56:896][641]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.04.27-17.31.56:896][641]LogShaderCompilers: Display: Total job queries 257, among them cache hits 74 (28.79%)
+[2023.04.27-17.31.56:896][641]LogShaderCompilers: Display: Tracking 183 distinct input hashes that result in 122 distinct outputs (66.67%)
+[2023.04.27-17.31.56:896][641]LogShaderCompilers: Display: RAM used: 1.46 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.09%
+[2023.04.27-17.31.56:896][641]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.04.27-17.31.56:896][641]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.04.27-17.31.56:896][641]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.04.27-17.31.56:896][641]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.04.27-17.31.56:896][641]LogShaderCompilers: Display: ================================================
+[2023.04.27-17.32.12:530][385]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.27-17.32.12:530][385]LogWorld: BeginTearingDown for /Game/UEDPIE_0_LevelBuild
+[2023.04.27-17.32.12:531][385]LogWorld: UWorld::CleanupWorld for LevelBuild, bSessionEnded=true, bCleanupResources=true
+[2023.04.27-17.32.12:533][385]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.27-17.32.12:533][385]LogContentBundle: [Container: LevelBuild] Deleting container.
+[2023.04.27-17.32.12:536][385]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.27-17.32.12:541][385]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.27-17.32.12:584][385]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.27-17.32.12:584][385]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.04.27-17.32.12:585][385]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.04.27-17.32.12:599][385]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2023.04.27-17.32.12:636][386]LogPlayLevel: Display: Destroying online subsystem :Context_30
