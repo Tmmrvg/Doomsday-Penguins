@@ -74,7 +74,6 @@ void APenguin::BeginPlay()
 void APenguin::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	if (GameWon) SetGamePaused(true);
 	
 	if (!bHasGameStarted) return;
 	Seconds = Seconds + DeltaTime;
@@ -90,8 +89,7 @@ void APenguin::Tick(float DeltaTime)
 	{
 		SlowDuration();
 	}
-	if (GameOver == true || GameWon == false) 
-	{
+	if (GameOver == true || GameWon == false) {
 		Movement();
 
 		AddControllerYawInput(Yaw);
@@ -107,11 +105,14 @@ void APenguin::Tick(float DeltaTime)
 		GetCharacterMovement()->bOrientRotationToMovement = true;
 	}
 	
-	if (GameOver)
+	/*if (GameOver)
 	{
 		SetGamePaused(true);
 	}
-	
+	if (!GameOver) 
+	{
+		SetGamePaused(false);
+	}*/
 }
 
 
