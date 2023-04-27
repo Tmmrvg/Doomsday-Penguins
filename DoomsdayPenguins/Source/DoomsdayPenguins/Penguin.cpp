@@ -54,6 +54,7 @@ void APenguin::BeginPlay()
 	GetCharacterMovement()->AirControl = 0.2;
 	GetCharacterMovement()->GravityScale = 10;
 	
+	bHasGameStarted = false;
 	SlowTime = 0;
 	IsSlowed = false;
 	Seconds = 0;
@@ -79,10 +80,9 @@ void APenguin::Tick(float DeltaTime)
 
 	if (!bHasGameStarted) return;
 	Seconds = Seconds + DeltaTime;
-
 	if (Seconds > 59)
 	{
-		//UE_LOG(LogTemp, Warning, TEXT("Seconds count is: %d"), Minutes);
+		UE_LOG(LogTemp, Warning, TEXT("Seconds count is: %d"), Minutes);
 		Seconds = 0;
 		Minutes++;
 	}
