@@ -57,7 +57,7 @@ public:
 	float Seconds;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
-<<<<<<< HEAD
+
 	int Minutes;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
@@ -65,12 +65,8 @@ public:
 	
 	UPROPERTY(meta = (AllowPrivateAccess = "true"), EditAnywhere, BlueprintReadWrite, Category = "My Variables")
 	bool IsSlowed;
-=======
-		float Minutes;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		bool bHasGameStarted = false;
->>>>>>> origin/Hennings-Works
+	//float Minutes;
 
 	UPROPERTY(meta = (AllowPrivateAccess = "true"), EditAnywhere, BlueprintReadWrite, Category = "My Variables")
 	int SlowTime;
@@ -123,14 +119,10 @@ public:
 	void Quit(const FInputActionValue& input);
 	void HitByTarget();
 	void SlowDuration();
-<<<<<<< HEAD
-=======
+
 	void OnTrack();
 	bool OffTrack;
 
 	void SetGamePaused(bool bIsPaused);
 
-
-	
->>>>>>> origin/Hennings-Works
 };

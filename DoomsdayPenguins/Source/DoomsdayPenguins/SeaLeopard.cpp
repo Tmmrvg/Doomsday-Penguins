@@ -58,7 +58,7 @@ void ASeaLeopard::BeginPlay()
 	
 	if (PawnSensing)
 	{
-		PawnSensing->OnSeePawn.AddDynamic(this, &ASeaLeopard::PawnSeen);
+		// PawnSensing->OnSeePawn.AddDynamic(this, &ASeaLeopard::PawnSeen);
 	}
 }
 
