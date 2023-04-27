@@ -134,7 +134,6 @@ void APenguin::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 		EnhanceInputCom->BindAction(MouseXInput, ETriggerEvent::Completed, this, &APenguin::MouseX);
 		EnhanceInputCom->BindAction(MouseYInput, ETriggerEvent::Completed, this, &APenguin::MouseY);
 
-		
 		EnhanceInputCom->BindAction(SettingsInput, ETriggerEvent::Triggered, this, &APenguin::Quit);
 		
 		
