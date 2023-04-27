@@ -38,6 +38,12 @@ APenguin::APenguin()
 	bUseControllerRotationRoll = false;
 
 	AutoPossessPlayer = EAutoReceiveInput::Player0;
+<<<<<<< HEAD
+=======
+
+	OffTrack = false;
+
+>>>>>>> origin/Hennings-Works
 }
 
 // Called when the game starts or when spawned
@@ -72,7 +78,12 @@ void APenguin::BeginPlay()
 void APenguin::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+<<<<<<< HEAD
 
+=======
+	if (GameWon) SetGamePaused(true);
+	
+>>>>>>> origin/Hennings-Works
 	if (!bHasGameStarted) return;
 	Seconds = Seconds + DeltaTime;
 
@@ -87,11 +98,13 @@ void APenguin::Tick(float DeltaTime)
 	{
 		SlowDuration();
 	}
-	Movement();
+	if (GameOver == true || GameWon == false) 
+	{
+		Movement();
 
-
-	AddControllerYawInput(Yaw);
-	AddControllerPitchInput(Pitch);
+		AddControllerYawInput(Yaw);
+		AddControllerPitchInput(Pitch);
+	}
 
 	if (GetCharacterMovement()->IsFalling())
 	{
@@ -101,6 +114,15 @@ void APenguin::Tick(float DeltaTime)
 	{
 		GetCharacterMovement()->bOrientRotationToMovement = true;
 	}
+<<<<<<< HEAD
+=======
+	
+	if (GameOver)
+	{
+		SetGamePaused(true);
+	}
+	
+>>>>>>> origin/Hennings-Works
 }
 
 
@@ -122,16 +144,25 @@ void APenguin::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 		EnhanceInputCom->BindAction(MouseYInput, ETriggerEvent::Triggered, this, &APenguin::MouseY);
 		EnhanceInputCom->BindAction(MouseXInput, ETriggerEvent::Completed, this, &APenguin::MouseX);
 		EnhanceInputCom->BindAction(MouseYInput, ETriggerEvent::Completed, this, &APenguin::MouseY);
+<<<<<<< HEAD
 		
 		EnhanceInputCom->BindAction(SettingsInput, ETriggerEvent::Triggered, this, &APenguin::Quit);
+=======
+
+		EnhanceInputCom->BindAction(SettingsInput, ETriggerEvent::Triggered, this, &APenguin::Quit);
+		
+		
+
+		
+		
+>>>>>>> origin/Hennings-Works
 	}
 
 }
 
-void APenguin::GameStateChange(const FInputActionValue& input)
+void APenguin::GameStateChange()
 {
-	if (!GameOver && input.IsNonZero())
-		GameOver = true;
+	GameWon = true;
 }
 
 void APenguin::Forward(const FInputActionValue& input)
@@ -183,8 +214,12 @@ void APenguin::Movement()
 
 void APenguin::Quit(const FInputActionValue& input)
 {
+<<<<<<< HEAD
 	if (GameOver && input.IsNonZero())
 		GameOver = false;
+=======
+	GameOver = true;
+>>>>>>> origin/Hennings-Works
 	
 	UE_LOG(LogTemp, Warning, TEXT("Bool changed"));
 }
@@ -209,4 +244,23 @@ void APenguin::SlowDuration()
 		UE_LOG(LogTemp, Warning, TEXT("Slowdown is gone"));
 		IsSlowed = false;
 	}
+<<<<<<< HEAD
+=======
+}
+
+void APenguin::OnTrack()
+{
+	GetCharacterMovement()->MaxWalkSpeed = 5000.f;
+}
+
+
+
+void APenguin::SetGamePaused(bool bIsPaused)
+{
+	APlayerController* const MyPlayer = Cast<APlayerController>(GEngine->GetFirstLocalPlayerController(GetWorld()));
+	if (MyPlayer != NULL)
+	{
+		MyPlayer->SetPause(bIsPaused);
+	}
+>>>>>>> origin/Hennings-Works
 }

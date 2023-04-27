@@ -42,8 +42,8 @@ void AGoal::OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherAct
 {
 	if (OtherActor->IsA<APenguin>())
 	{
-		/*Cast<APenguin>(OtherActor)->GameStateChange();*/
-		/*GoalReached = true;*/
+		Cast<APenguin>(OtherActor)->GameStateChange();
+		GoalReached = true;
 	}
 
 	

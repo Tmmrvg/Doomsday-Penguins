@@ -17,13 +17,22 @@ void EmptyLinkFunctionForGeneratedCodeDoomsdayPenguins_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
+<<<<<<< HEAD
 				0xA9211EC4,
 				0x8E49E217,
+=======
+				0xAD8F9C59,
+				0x324FD99A,
+>>>>>>> origin/Hennings-Works
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_DoomsdayPenguins.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_DoomsdayPenguins.OuterSingleton;
 	}
+<<<<<<< HEAD
 	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_DoomsdayPenguins(Z_Construct_UPackage__Script_DoomsdayPenguins, TEXT("/Script/DoomsdayPenguins"), Z_Registration_Info_UPackage__Script_DoomsdayPenguins, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xA9211EC4, 0x8E49E217));
+=======
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_DoomsdayPenguins(Z_Construct_UPackage__Script_DoomsdayPenguins, TEXT("/Script/DoomsdayPenguins"), Z_Registration_Info_UPackage__Script_DoomsdayPenguins, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xAD8F9C59, 0x324FD99A));
+>>>>>>> origin/Hennings-Works
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -6,6 +6,7 @@
 /NAME:"UnrealEditor-DoomsdayPenguins.dll"
 /IGNORE:4221
 /NODEFAULTLIB
+<<<<<<< HEAD
 "D:\Programming II\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\DoomsdayPenguinsEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
 "D:\Programming II\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Development\DoomsdayPenguins\Bullet.gen.cpp.obj"
 "D:\Programming II\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Development\DoomsdayPenguins\DoomsdayPenguins.init.gen.cpp.obj"
@@ -25,3 +26,26 @@
 "D:\Programming II\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Development\DoomsdayPenguins\SeaLeopard.cpp.obj"
 "D:\Programming II\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Development\DoomsdayPenguins\Default.rc2.res"
 /OUT:"D:\Programming II\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Development\DoomsdayPenguins\UnrealEditor-DoomsdayPenguins.lib"
+=======
+"C:\Users\larss\Documents\Github repositories\Inventory\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\DoomsdayPenguinsEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\larss\Documents\Github repositories\Inventory\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Development\DoomsdayPenguins\Bullet.gen.cpp.obj"
+"C:\Users\larss\Documents\Github repositories\Inventory\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Development\DoomsdayPenguins\DoomsdayPenguins.init.gen.cpp.obj"
+"C:\Users\larss\Documents\Github repositories\Inventory\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Development\DoomsdayPenguins\DoomsdayPenguinsGameModeBase.gen.cpp.obj"
+"C:\Users\larss\Documents\Github repositories\Inventory\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Development\DoomsdayPenguins\Goal.gen.cpp.obj"
+"C:\Users\larss\Documents\Github repositories\Inventory\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Development\DoomsdayPenguins\HUD_Doomsday_Penguins.gen.cpp.obj"
+"C:\Users\larss\Documents\Github repositories\Inventory\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Development\DoomsdayPenguins\MySaveGame.gen.cpp.obj"
+"C:\Users\larss\Documents\Github repositories\Inventory\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Development\DoomsdayPenguins\Penguin.gen.cpp.obj"
+"C:\Users\larss\Documents\Github repositories\Inventory\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Development\DoomsdayPenguins\SeaLeopard.gen.cpp.obj"
+"C:\Users\larss\Documents\Github repositories\Inventory\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Development\DoomsdayPenguins\Track_class.gen.cpp.obj"
+"C:\Users\larss\Documents\Github repositories\Inventory\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Development\DoomsdayPenguins\Bullet.cpp.obj"
+"C:\Users\larss\Documents\Github repositories\Inventory\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Development\DoomsdayPenguins\DoomsdayPenguins.cpp.obj"
+"C:\Users\larss\Documents\Github repositories\Inventory\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Development\DoomsdayPenguins\DoomsdayPenguinsGameModeBase.cpp.obj"
+"C:\Users\larss\Documents\Github repositories\Inventory\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Development\DoomsdayPenguins\Goal.cpp.obj"
+"C:\Users\larss\Documents\Github repositories\Inventory\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Development\DoomsdayPenguins\HUD_Doomsday_Penguins.cpp.obj"
+"C:\Users\larss\Documents\Github repositories\Inventory\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Development\DoomsdayPenguins\MySaveGame.cpp.obj"
+"C:\Users\larss\Documents\Github repositories\Inventory\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Development\DoomsdayPenguins\Penguin.cpp.obj"
+"C:\Users\larss\Documents\Github repositories\Inventory\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Development\DoomsdayPenguins\SeaLeopard.cpp.obj"
+"C:\Users\larss\Documents\Github repositories\Inventory\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Development\DoomsdayPenguins\Track_class.cpp.obj"
+"C:\Users\larss\Documents\Github repositories\Inventory\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Development\DoomsdayPenguins\Default.rc2.res"
+/OUT:"C:\Users\larss\Documents\Github repositories\Inventory\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Development\DoomsdayPenguins\UnrealEditor-DoomsdayPenguins.lib"
+>>>>>>> origin/Hennings-Works

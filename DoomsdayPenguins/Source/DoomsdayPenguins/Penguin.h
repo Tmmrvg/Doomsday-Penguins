@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "GameFramework/CharacterMovementComponent.h"
 #include "Kismet/KismetSystemLibrary.h"
 #include "Penguin.generated.h"
 
@@ -42,6 +43,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = GameState)
 	bool GameOver;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = GameState)
+	bool GameWon;
+
 	float XInput;
 	float YInput;
 	float Yaw;
@@ -53,6 +57,7 @@ public:
 	float Seconds;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+<<<<<<< HEAD
 	int Minutes;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
@@ -60,6 +65,12 @@ public:
 	
 	UPROPERTY(meta = (AllowPrivateAccess = "true"), EditAnywhere, BlueprintReadWrite, Category = "My Variables")
 	bool IsSlowed;
+=======
+		float Minutes;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		bool bHasGameStarted = false;
+>>>>>>> origin/Hennings-Works
 
 	UPROPERTY(meta = (AllowPrivateAccess = "true"), EditAnywhere, BlueprintReadWrite, Category = "My Variables")
 	int SlowTime;
@@ -103,11 +114,23 @@ public:
 
 	void Forward(const FInputActionValue& input);
 	void Right(const FInputActionValue& input);
+
 	void MouseX(const FInputActionValue& input);
 	void MouseY(const FInputActionValue& input);
-	void GameStateChange(const FInputActionValue& input);
+
+	void GameStateChange();
 	void Movement();
 	void Quit(const FInputActionValue& input);
 	void HitByTarget();
 	void SlowDuration();
+<<<<<<< HEAD
+=======
+	void OnTrack();
+	bool OffTrack;
+
+	void SetGamePaused(bool bIsPaused);
+
+
+	
+>>>>>>> origin/Hennings-Works
 };

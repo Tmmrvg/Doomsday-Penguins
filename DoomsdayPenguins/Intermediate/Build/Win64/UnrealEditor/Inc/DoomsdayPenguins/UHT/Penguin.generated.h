@@ -14,12 +14,21 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define DOOMSDAYPENGUINS_Penguin_generated_h
 
+<<<<<<< HEAD
 #define FID_Programming_II_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_16_SPARSE_DATA
 #define FID_Programming_II_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_16_RPC_WRAPPERS
 #define FID_Programming_II_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_16_RPC_WRAPPERS_NO_PURE_DECLS
 #define FID_Programming_II_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_16_ACCESSORS
 #define FID_Programming_II_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_16_CALLBACK_WRAPPERS
 #define FID_Programming_II_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_16_INCLASS_NO_PURE_DECLS \
+=======
+#define FID_Users_larss_Documents_Github_repositories_Inventory_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_17_SPARSE_DATA
+#define FID_Users_larss_Documents_Github_repositories_Inventory_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_17_RPC_WRAPPERS
+#define FID_Users_larss_Documents_Github_repositories_Inventory_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_17_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Users_larss_Documents_Github_repositories_Inventory_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_17_ACCESSORS
+#define FID_Users_larss_Documents_Github_repositories_Inventory_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_17_CALLBACK_WRAPPERS
+#define FID_Users_larss_Documents_Github_repositories_Inventory_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_17_INCLASS_NO_PURE_DECLS \
+>>>>>>> origin/Hennings-Works
 private: \
 	static void StaticRegisterNativesAPenguin(); \
 	friend struct Z_Construct_UClass_APenguin_Statics; \
@@ -28,7 +37,11 @@ public: \
 	DECLARE_SERIALIZER(APenguin)
 
 
+<<<<<<< HEAD
 #define FID_Programming_II_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_16_INCLASS \
+=======
+#define FID_Users_larss_Documents_Github_repositories_Inventory_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_17_INCLASS \
+>>>>>>> origin/Hennings-Works
 private: \
 	static void StaticRegisterNativesAPenguin(); \
 	friend struct Z_Construct_UClass_APenguin_Statics; \
@@ -37,7 +50,11 @@ public: \
 	DECLARE_SERIALIZER(APenguin)
 
 
+<<<<<<< HEAD
 #define FID_Programming_II_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_16_STANDARD_CONSTRUCTORS \
+=======
+#define FID_Users_larss_Documents_Github_repositories_Inventory_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_17_STANDARD_CONSTRUCTORS \
+>>>>>>> origin/Hennings-Works
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API APenguin(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(APenguin) \
@@ -51,7 +68,11 @@ public: \
 	NO_API virtual ~APenguin();
 
 
+<<<<<<< HEAD
 #define FID_Programming_II_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_16_ENHANCED_CONSTRUCTORS \
+=======
+#define FID_Users_larss_Documents_Github_repositories_Inventory_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_17_ENHANCED_CONSTRUCTORS \
+>>>>>>> origin/Hennings-Works
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API APenguin(APenguin&&); \
@@ -63,6 +84,7 @@ public: \
 	NO_API virtual ~APenguin();
 
 
+<<<<<<< HEAD
 #define FID_Programming_II_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_13_PROLOG
 #define FID_Programming_II_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_16_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
@@ -73,10 +95,23 @@ public: \
 	FID_Programming_II_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_16_CALLBACK_WRAPPERS \
 	FID_Programming_II_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_16_INCLASS \
 	FID_Programming_II_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_16_STANDARD_CONSTRUCTORS \
+=======
+#define FID_Users_larss_Documents_Github_repositories_Inventory_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_14_PROLOG
+#define FID_Users_larss_Documents_Github_repositories_Inventory_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_17_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Users_larss_Documents_Github_repositories_Inventory_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_17_SPARSE_DATA \
+	FID_Users_larss_Documents_Github_repositories_Inventory_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_17_RPC_WRAPPERS \
+	FID_Users_larss_Documents_Github_repositories_Inventory_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_17_ACCESSORS \
+	FID_Users_larss_Documents_Github_repositories_Inventory_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_17_CALLBACK_WRAPPERS \
+	FID_Users_larss_Documents_Github_repositories_Inventory_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_17_INCLASS \
+	FID_Users_larss_Documents_Github_repositories_Inventory_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_17_STANDARD_CONSTRUCTORS \
+>>>>>>> origin/Hennings-Works
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
+<<<<<<< HEAD
 #define FID_Programming_II_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
@@ -86,6 +121,17 @@ public: \
 	FID_Programming_II_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_16_CALLBACK_WRAPPERS \
 	FID_Programming_II_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_16_INCLASS_NO_PURE_DECLS \
 	FID_Programming_II_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_16_ENHANCED_CONSTRUCTORS \
+=======
+#define FID_Users_larss_Documents_Github_repositories_Inventory_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_17_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Users_larss_Documents_Github_repositories_Inventory_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_17_SPARSE_DATA \
+	FID_Users_larss_Documents_Github_repositories_Inventory_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Users_larss_Documents_Github_repositories_Inventory_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_17_ACCESSORS \
+	FID_Users_larss_Documents_Github_repositories_Inventory_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_17_CALLBACK_WRAPPERS \
+	FID_Users_larss_Documents_Github_repositories_Inventory_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_17_INCLASS_NO_PURE_DECLS \
+	FID_Users_larss_Documents_Github_repositories_Inventory_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_17_ENHANCED_CONSTRUCTORS \
+>>>>>>> origin/Hennings-Works
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
