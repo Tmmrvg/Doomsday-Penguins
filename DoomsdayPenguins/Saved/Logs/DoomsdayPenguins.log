@@ -8963,3 +8963,18 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.04.29-15.02.17:255][125]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Assets/Font/Dommsdaypenguins-Regular_Auto3
 [2023.04.29-15.02.17:255][125]LogSavePackage: Moving '../../../../../Programming_02/DoomsdayPenguins/Doomsday-Penguins/DoomsdayPenguins/Saved/Dommsdaypenguins-Regular_Auto3A329144F4FDEE14BDECB9D8F6E4B3F33.tmp' to '../../../../../Programming_02/DoomsdayPenguins/Doomsday-Penguins/DoomsdayPenguins/Saved/Autosaves/Game/Assets/Font/Dommsdaypenguins-Regular_Auto3.uasset'
 [2023.04.29-15.02.17:256][125]LogFileHelpers: Auto-saving content packages took 0.043
+[2023.04.29-15.06.03:198][643]LogDerivedDataCache: C:/Users/oetom/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:05.448 and deleted 0 files with total size 0 MiB. Scanned 3156 files in 3142 folders with total size 139 MiB.
+[2023.04.29-15.14.23:809][327]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2023.04.29-15.14.25:597][327]LogSlate: Window 'Save Content' being destroyed
+[2023.04.29-15.14.25:612][327]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.29-15.14.25:733][327]LogSavePackage: Moving output files for package: /Game/Assets/Font/Dommsdaypenguins-Regular
+[2023.04.29-15.14.25:733][327]LogSavePackage: Moving '../../../../../Programming_02/DoomsdayPenguins/Doomsday-Penguins/DoomsdayPenguins/Saved/Dommsdaypenguins-RegularEC9A03AC4BD3AAF04F196CA1028B472A.tmp' to '../../../../../Programming_02/DoomsdayPenguins/Doomsday-Penguins/DoomsdayPenguins/Content/Assets/Font/Dommsdaypenguins-Regular.uasset'
+[2023.04.29-15.14.25:739][327]LogSavePackage: Moving output files for package: /Game/Assets/Font/Dommsdaypenguins-Regular_Font
+[2023.04.29-15.14.25:739][327]LogSavePackage: Moving '../../../../../Programming_02/DoomsdayPenguins/Doomsday-Penguins/DoomsdayPenguins/Saved/Dommsdaypenguins-Regular_FontEDD239BF4EA45CCBC2ED719713A70CE5.tmp' to '../../../../../Programming_02/DoomsdayPenguins/Doomsday-Penguins/DoomsdayPenguins/Content/Assets/Font/Dommsdaypenguins-Regular_Font.uasset'
+[2023.04.29-15.14.25:771][327]LogSavePackage: Moving output files for package: /Game/Blueprints/WT_Doomsday_Penguin
+[2023.04.29-15.14.25:771][327]LogSavePackage: Moving '../../../../../Programming_02/DoomsdayPenguins/Doomsday-Penguins/DoomsdayPenguins/Saved/WT_Doomsday_Penguin995EDAAC47E1C70F7DC4B484372D8AAF.tmp' to '../../../../../Programming_02/DoomsdayPenguins/Doomsday-Penguins/DoomsdayPenguins/Content/Blueprints/WT_Doomsday_Penguin.uasset'
+[2023.04.29-15.14.25:783][327]LogFileHelpers: InternalPromptForCheckoutAndSave took 171 ms (total: 377 ms)
+[2023.04.29-15.14.25:800][327]AssetCheck: New page: Asset Save: multiple assets
+[2023.04.29-15.14.25:800][327]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/WT_Doomsday_Penguin.WT_Doomsday_Penguin
+[2023.04.29-15.14.25:801][327]LogContentValidation: Display: Validating /Script/Engine.Font /Game/Assets/Font/Dommsdaypenguins-Regular_Font.Dommsdaypenguins-Regular_Font
+[2023.04.29-15.14.25:801][327]LogContentValidation: Display: Validating /Script/Engine.FontFace /Game/Assets/Font/Dommsdaypenguins-Regular.Dommsdaypenguins-Regular
