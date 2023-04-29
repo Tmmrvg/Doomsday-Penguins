@@ -56,6 +56,7 @@ void APenguin::BeginPlay()
 	
 	bHasGameStarted = false;
 	SlowTime = 0;
+	SpeedBoostTimer = 10000;
 	IsSlowed = false;
 	Seconds = 0;
 	Minutes = 0;
@@ -82,7 +83,7 @@ void APenguin::Tick(float DeltaTime)
 	Seconds = Seconds + DeltaTime;
 	if (Seconds > 59)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("Seconds count is: %d"), Minutes);
+		//UE_LOG(LogTemp, Warning, TEXT("Minutes count is: %d"), Minutes);
 		Seconds = 0;
 		Minutes++;
 	}
@@ -111,6 +112,29 @@ void APenguin::Tick(float DeltaTime)
 	if (GameOver)
 	{
 		SetGamePaused(true);
+	}
+
+	//Hinder player to go up steep slopes when their speed is too low.
+	if (GetCharacterMovement()->Velocity.Size() >= 4500) {
+		GetCharacterMovement()->SetWalkableFloorAngle(65);
+		UE_LOG(LogTemp, Warning, TEXT("slope is 60"));
+	}
+	else
+	{
+		GetCharacterMovement()->SetWalkableFloorAngle(30);
+		UE_LOG(LogTemp, Warning, TEXT("slope is 30"));
+	}
+
+	//If SpeedBoostTimer is more than 0, timer starts. 
+	if (SpeedBoostTimer > 0)
+	{
+		SpeedBoostTimer -= DeltaTime;
+		if (SpeedBoostTimer <= 0) // Resets speed when timer is 0.
+		{
+				UE_LOG(LogTemp, Warning, TEXT("Reseting speed"));
+				GetCharacterMovement()->MaxWalkSpeed = 5000;
+				GetCharacterMovement()->MaxAcceleration = 1000;
+		}
 	}
 }
 
@@ -222,6 +246,15 @@ void APenguin::SlowDuration()
 		UE_LOG(LogTemp, Warning, TEXT("Slowdown is gone"));
 		IsSlowed = false;
 	}
+}
+
+void APenguin::SpeedBoost()
+{
+	SpeedBoostTimer = 5;
+	
+	UE_LOG(LogTemp, Warning, TEXT("Got speedboost"));
+	GetCharacterMovement()->MaxWalkSpeed = 6000;
+	GetCharacterMovement()->MaxAcceleration = 2000;
 }
 
 void APenguin::OnTrack()

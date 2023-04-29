@@ -57,16 +57,21 @@ public:
 	float Seconds;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
-
 	int Minutes;
 
+	//float Minutes;
+	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	bool bHasGameStarted = true;
 	
 	UPROPERTY(meta = (AllowPrivateAccess = "true"), EditAnywhere, BlueprintReadWrite, Category = "My Variables")
 	bool IsSlowed;
 
-	//float Minutes;
+	UPROPERTY(meta = (AllowPrivateAccess = "true"), EditAnywhere, BlueprintReadWrite, Category = "My Variables")
+	float SpeedBoostTimer;
+
+	UPROPERTY(meta = (AllowPrivateAccess = "true"), EditAnywhere, BlueprintReadWrite, Category = "My Variables")
+	float bHasSpeedBoost;
 
 	UPROPERTY(meta = (AllowPrivateAccess = "true"), EditAnywhere, BlueprintReadWrite, Category = "My Variables")
 	int SlowTime;
@@ -119,6 +124,7 @@ public:
 	void Quit(const FInputActionValue& input);
 	void HitByTarget();
 	void SlowDuration();
+	void SpeedBoost();
 
 	void OnTrack();
 	bool OffTrack;
