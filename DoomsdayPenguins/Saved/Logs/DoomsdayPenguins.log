@@ -6785,3 +6785,2181 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.04.29-14.51.30:418][677]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Penguin.BP_Penguin
 [2023.04.29-14.51.30:420][677]LogContentValidation: Display: Validating /Game/Blueprints/BP_PickUp.BP_PickUp_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_PickUp_C_UAID_FC34974B2373CD7D01_1270220239
 [2023.04.29-14.51.30:420][677]LogContentValidation: Display: Validating /Game/Blueprints/BP_Penguin.BP_Penguin_C /Game/LevelBuild.LevelBuild:PersistentLevel.BP_Penguin_C_UAID_2CF05DFCF5CCBA7A01_1911324742
+[2023.04.29-14.59.09:028][977]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:/Users/oetom/Downloads/Dommsdaypenguins-Regular.ttf)
+[2023.04.29-14.59.11:687][977]LogSlate: Window 'Font Face Import Options' being destroyed
+[2023.04.29-14.59.11:699][977]Message dialog closed, result: Yes, title: Font Face Import Options, text: Would you like to create a new Font asset using the imported Font Face as its default font?
+[2023.04.29-14.59.11:709][977]LogSlate: FontCache flush requested. Reason: UFontFace::PostEditChangeProperty
+[2023.04.29-14.59.11:736][977]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.29-14.59.11:748][978]LogSlate: Took 0.001838 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.04.29-14.59.11:752][978]LogSlate: Took 0.000807 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2023.04.29-14.59.11:755][978]LogSlate: Took 0.001401 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.04.29-14.59.11:812][979]LogSlate: Took 0.002256 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.04.29-14.59.11:824][980]LogSlate: Last resort fallback font was requested. Font: '/Game/Assets/Font/Dommsdaypenguins-Regular.Dommsdaypenguins-Regular', Character: 'D (U+0044)'
+[2023.04.29-14.59.11:836][980]LogSlate: Took 0.010676 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2023.04.29-14.59.30:311][800]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/WT_Doomsday_Penguin.WT_Doomsday_Penguin
+[2023.04.29-14.59.30:315][800]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.29-14.59.30:324][800]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.29-14.59.30:336][800]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2023.04.29-14.59.31:018][800]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.04.29-14.59.31:018][800]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.04.29-14.59.31:341][800]LogSlate: Took 0.000580 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.04.29-14.59.31:353][800]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
+[2023.04.29-14.59.31:362][800]LogSlate: Took 0.007263 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.04.29-14.59.33:233][965]LogSlate: Took 0.007885 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2023.04.29-14.59.37:614][421]LogSlate: Took 0.000219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.04.29-14.59.55:653][205]LogEditorTransaction: Undo Drag and Drop Widget
+[2023.04.29-15.00.09:784][608]LogEditorTransaction: Undo Drag and Drop Widget
+[2023.04.29-15.00.21:061][783]LogEditorTransaction: Undo Resize Widget
+[2023.04.29-15.01.05:076][679]BlueprintLog: New page: Compile WT_Doomsday_Penguin
+[2023.04.29-15.01.05:243][679]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2023.04.29-15.01.08:012][825]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.04.29-15.01.08:020][825]LogContentBundle: [Container: LevelBuild] Generating Streaming for 0 Content Bundles.
+[2023.04.29-15.01.08:021][825]MapCheck: Warning: Spatially loaded actor LandscapeSplineActor (/Game/LevelBuild) references Non-spatially loaded actor Landscape 
+[2023.04.29-15.01.08:021][825]MapCheck: Warning: Spatially loaded actor LandscapeSplineActor3 (/Game/LevelBuild) references Non-spatially loaded actor Landscape 
+[2023.04.29-15.01.08:021][825]MapCheck: Warning: Spatially loaded actor LandscapeSplineActor4 (/Game/LevelBuild) references Non-spatially loaded actor Landscape 
+[2023.04.29-15.01.08:021][825]MapCheck: Warning: Spatially loaded actor LandscapeSplineActor3 (/Game/LevelBuild) references Non-spatially loaded actor Landscape 
+[2023.04.29-15.01.08:021][825]MapCheck: Warning: Spatially loaded actor LandscapeSplineActor2 (/Game/LevelBuild) references Non-spatially loaded actor Landscape 
+[2023.04.29-15.01.08:024][825]LogWorldPartition: Display: GenerateStreaming started...
+[2023.04.29-15.01.08:024][825]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.04.29-15.01.08:024][825]LogWorldPartition: Display: GetPartitionedActors took 29 us (total: 1 ms)
+[2023.04.29-15.01.08:188][825]LogWorldPartition: Display: GenerateStreaming took 164 ms (total: 2.32 sec)
+[2023.04.29-15.01.08:188][825]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.04.29-15.01.08:188][825]PIE: New page: PIE session: LevelBuild (29 Apr 2023, 19:01:08)
+[2023.04.29-15.01.08:212][825]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LevelBuild
+[2023.04.29-15.01.08:335][825]LogPlayLevel: PIE: StaticDuplicateObject took: (0.123206s)
+[2023.04.29-15.01.08:335][825]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelBuild.LevelBuild to /Game/UEDPIE_0_LevelBuild.LevelBuild (0.123254s)
+[2023.04.29-15.01.08:335][825]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.29-15.01.08:336][825]LogAIModule: Creating AISystem for world LevelBuild
+[2023.04.29-15.01.08:336][825]LogWorldPartition: ULevel::OnLevelLoaded(LevelBuild)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.04.29-15.01.08:336][825]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.04.29-15.01.08:336][825]LogWorldPartition: UWorldPartition::Initialize(Asset=LevelBuild, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.04.29-15.01.08:358][825]LogContentBundle: [Container: LevelBuild] Creating new contrainer.
+[2023.04.29-15.01.08:358][825]LogWorldPartition: Display: WorldPartition initialize took 22 ms (total: 1.09 sec)
+[2023.04.29-15.01.08:358][825]LogPlayLevel: PIE: World Init took: (0.023834s)
+[2023.04.29-15.01.08:422][825]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2023.04.29-15.01.08:427][825]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2023.04.29-15.01.08:427][825]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.29-15.01.08:427][825]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.29-15.01.08:427][825]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.29-15.01.08:427][825]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.29-15.01.08:427][825]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.04.29-15.01.08:427][825]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.04.29-15.01.08:427][825]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.04.29-15.01.08:427][825]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.29-15.01.08:427][825]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.04.29-15.01.08:427][825]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.04.29-15.01.08:427][825]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.04.29-15.01.08:429][825]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.04.29-15.01.08:458][825]LogAudioMixer: Display: Using Audio Hardware Device Høyttalere (Realtek(R) Audio)
+[2023.04.29-15.01.08:458][825]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.29-15.01.08:458][825]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.29-15.01.08:458][825]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.29-15.01.08:459][825]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2023.04.29-15.01.08:459][825]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2023.04.29-15.01.08:460][825]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2023.04.29-15.01.08:461][825]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2023.04.29-15.01.08:461][825]LogInit: FAudioDevice initialized.
+[2023.04.29-15.01.08:461][825]LogAudio: Display: Audio Device (ID: 14) registered with world 'LevelBuild'.
+[2023.04.29-15.01.08:463][825]LogLoad: Game class is 'BP_GM_DoomsdayPenguins_C'
+[2023.04.29-15.01.08:481][825]LogWorld: Bringing World /Game/UEDPIE_0_LevelBuild.LevelBuild up for play (max tick rate 0) at 2023.04.29-17.01.08
+[2023.04.29-15.01.08:486][825]LogWorld: Bringing up level for play took: 0.022162
+[2023.04.29-15.01.08:488][825]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2023.04.29-15.01.08:489][825]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=18936.884 Y=-19771.344 Z=13895.176
+[2023.04.29-15.01.08:489][825]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(12), CellsToLoad(0), CellsToUnload(0)
+[2023.04.29-15.01.08:489][825]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=18936.884 Y=-19771.344 Z=13895.176,P=-0.000000 Y=-2.275001 R=0.000000
+[2023.04.29-15.01.08:490][825]LogStreaming: Display: FlushAsyncLoading(-1): 31 QueuedPackages, 0 AsyncPackages
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/E/9P/WI2927BYS0G4QYX0JJMCH1.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/E/9H/AX8GWHQVHA4BWJV406VBEP.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/D/M8/RIYCQJCJ2HNHFX2NNMV7Z8.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/D/JO/8RBYWHL2WFCHB1LXW00SH0.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/D/GE/1103HEIXT2YOO2V83GNQO8.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/D/9M/JSEAJUB95YUCHZ9AWSZY3Z.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/D/3R/P6F5LUB62LJIQU8JBIJFED.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/C/YZ/ROKPQ9O0JKUOMCGUJ6F3N9.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/C/VR/98BSKTB8MBUFC5BGNWIGL0.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/C/J6/KMXFD4GFDX3CCHG2KKQ3X7.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/C/8J/KU5TG1XLKG09QOXFMAOS8E.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/C/28/SSWIWR7CXGV3HKF0LZW4IZ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/B/RP/NN0U5QRUXKPBME84Y8R5JT.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/B/HD/LNLYKIE6ZBXF4AJHRP4G83.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/B/61/UT45G3Y9TVCG3DH6TCLANW.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/A/ZV/61380HQJCDGM5YY9CXI70Z.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/A/ZA/DBS47MDO20IKR8SOXQQJHJ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/A/L9/Z3T588PU2M0D80XUMXQG2L.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/A/JR/9YFK30S3RCKHTIGLSWO7UZ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/A/EP/92EZP8KEBMS0IEKHO4RDO1.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/A/3M/BQKJ142UMV8XCZCRQ8UO5I.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/9/HC/FNLRPHV4TEOGAXYB0HDZL9.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/9/G4/IYO3HF9HCTIDLKGSPWCBSF.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/8/I4/S7UJI0XGM8VOGUNNYM4R9Q.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/8/9G/GQGONCSQWF9Z7IBIKPE5CW.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/8/52/K4PE6FZZPQHBJPKLRJQ5ZW.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/8/4B/JW2Q54Y34NSS57ESTURWGL.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/8/S9/UD4R812CVDEJITB14H57FX.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/7/UO/IC4YWHUWXFFZL1775PSO3I.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/7/HD/EUB02IQOIQOWV7ELPHMR1J.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/7/EU/RBEML27ZPDNS725TGNEN36.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/7/22/GURQR1GFTRLLO1OQV9ZJ52.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/6/VE/V7WXC8WAI9BTDWJ3OXGRZ7.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/6/UO/EVN9YOY3C1Q7EO8NU40Z99.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/6/36/G57FHXRBMV5UWQKQN7G1RO.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/5/R8/GX2PCFGSIHHVG4L5HGE3C4.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/7/XR/FBP5ZKO701X4V54OVIMBQG.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/5/5K/QOD7IB3IDYYFU6PRF9P10W.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/4/TA/NR8PLMBSUXUCFYBGSG4EZ2.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/4/SZ/SY0V71H9XIH783KRU3TS5P.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/4/PH/XYQEHLAL89PR8UYPOMEXG5.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/4/F3/ZE3GLR083AKQBDHMV0KKVY.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/4/A0/4CY9C0V2D5GHOSQ9X9IPDP.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/4/7M/F94H89BC8GSWXK3QEVCBCG.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/4/34/CEZ9E93U5C0SXHID0JH8QI.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/3/XQ/J3SVQO8IF4MP16JYW9VB0R.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/3/X2/SA3XGM18BMVWSGF4KXAL3R.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/3/VR/3ZHZ5EVXWDP6FKQMKY7UVU.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/3/GC/PQ74PDMG4CIQ3JBSTISGD0.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/3/7D/OVWM80H9JIZ1UT4Z3EH7BZ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/2/ZM/OHMPB5G54ZIXMR3ARVGHTL.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/2/D8/7C3PE8243NVRM342PWPRJI.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/2/BN/ZFP6EA749Y4UDW9UNE58IA.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/1/NR/DZMH2X4DQFLKAYFFRK4VYX.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/1/C1/FCQ9RRJJMF6W7DNN78XWUH.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/1/AS/9KMLPG6WSPZ5LPRS9V2EO3.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/1/AF/9JOULFIEMQQISOT562B0M4.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/1/2R/DO57918JYCX0YKSR10K657.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/1/1G/QMPK5O9ZB2PCYQDB1U25L1.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/0/ZL/MZA27F6LAAEYH8QZAFILE3.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/5/EH/DH9LJE9D7IPRSUFBBYWTEG.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/0/TM/XHWG9M7F8KA82CAOH98Z15.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/0/RD/FK3PU9QQ77TXF0CDERSP2H.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:025][825]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/LevelBuild/0/P7/X21UKMFQ04S22AUSRB93JW.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.04.29-15.01.09:216][825]LogShaderCompilers: Display: ================================================
+[2023.04.29-15.01.09:216][825]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.04.29-15.01.09:216][825]LogShaderCompilers: Display: Total job queries 237, among them cache hits 66 (27.85%)
+[2023.04.29-15.01.09:216][825]LogShaderCompilers: Display: Tracking 171 distinct input hashes that result in 118 distinct outputs (69.01%)
+[2023.04.29-15.01.09:216][825]LogShaderCompilers: Display: RAM used: 1.40 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.17%
+[2023.04.29-15.01.09:216][825]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.04.29-15.01.09:216][825]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.04.29-15.01.09:216][825]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.04.29-15.01.09:216][825]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.04.29-15.01.09:216][825]LogShaderCompilers: Display: ================================================
+[2023.04.29-15.01.09:222][825]LogWorldPartition: Detected Streaming Source Teleport: PlayerController_0 -> Last Position: X=18936.884 Y=-19771.344 Z=13895.176 -> New Position: X=-40248.351 Y=18224.977 Z=27746.498
+[2023.04.29-15.01.09:225][825]PIE: Server logged in
+[2023.04.29-15.01.09:226][825]PIE: Play in editor total start time 1.205 seconds.
+[2023.04.29-15.01.10:556][881]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.10:576][882]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.10:595][883]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.10:619][884]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.10:636][885]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.10:656][886]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.10:676][887]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.10:696][888]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.10:716][889]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.10:737][890]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.10:759][891]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.10:779][892]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.10:799][893]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.10:820][894]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.10:840][895]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.10:862][896]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.10:882][897]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.10:901][898]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.10:924][899]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.10:943][900]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.10:965][901]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.10:983][902]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.11:004][903]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.11:025][904]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.11:045][905]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.11:064][906]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.11:084][907]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.11:107][908]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.11:126][909]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.11:148][910]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.11:168][911]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.11:186][912]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.11:211][913]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.11:231][914]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.11:251][915]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.11:270][916]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.11:290][917]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.11:309][918]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.11:328][919]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.11:347][920]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.11:364][921]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.11:385][922]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.11:407][923]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.11:426][924]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.11:447][925]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.11:468][926]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.11:488][927]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.11:508][928]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.11:530][929]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.11:548][930]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.11:568][931]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.11:589][932]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.11:610][933]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.11:633][934]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.11:651][935]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.11:670][936]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.11:688][937]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.11:706][938]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.11:729][939]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.11:748][940]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.11:769][941]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.11:788][942]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.11:806][943]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.11:826][944]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.11:844][945]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.11:864][946]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.11:882][947]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.11:904][948]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.11:922][949]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.11:945][950]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.11:966][951]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.11:986][952]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.12:005][953]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.12:024][954]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.12:044][955]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.12:065][956]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.12:084][957]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.12:103][958]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.12:122][959]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.12:145][960]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.12:164][961]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.12:186][962]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.12:204][963]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.12:227][964]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.12:245][965]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.12:268][966]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.12:287][967]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.12:305][968]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.12:326][969]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.12:345][970]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.12:368][971]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.12:386][972]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.12:406][973]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.12:428][974]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.12:446][975]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.12:465][976]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.12:487][977]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.12:506][978]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.12:525][979]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.12:544][980]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.12:563][981]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.12:583][982]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.12:603][983]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.12:624][984]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.12:644][985]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.12:662][986]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.12:682][987]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.12:703][988]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.12:722][989]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.12:742][990]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.12:761][991]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.12:780][992]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.12:801][993]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.12:820][994]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.12:840][995]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.12:860][996]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.12:883][997]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.12:904][998]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.12:924][999]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.12:943][  0]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.12:962][  1]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.12:985][  2]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.13:004][  3]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.13:026][  4]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.13:043][  5]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.13:065][  6]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.13:086][  7]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.13:106][  8]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.13:127][  9]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.13:145][ 10]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.13:167][ 11]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.13:187][ 12]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.13:209][ 13]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.13:233][ 14]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.13:252][ 15]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.13:271][ 16]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.13:292][ 17]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.13:313][ 18]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.13:334][ 19]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.13:355][ 20]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.13:375][ 21]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.13:396][ 22]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.13:415][ 23]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.13:434][ 24]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.13:454][ 25]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.13:475][ 26]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.13:495][ 27]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.13:513][ 28]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.13:534][ 29]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.13:552][ 30]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.13:571][ 31]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.13:591][ 32]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.13:609][ 33]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.13:628][ 34]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.13:648][ 35]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.13:667][ 36]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.13:686][ 37]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.13:705][ 38]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.13:724][ 39]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.13:742][ 40]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.13:761][ 41]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.13:781][ 42]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.13:804][ 43]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.13:825][ 44]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.13:847][ 45]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.13:874][ 46]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.13:893][ 47]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.13:915][ 48]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.13:934][ 49]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.13:953][ 50]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.13:975][ 51]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.13:996][ 52]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.14:017][ 53]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.14:036][ 54]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.14:061][ 55]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.14:079][ 56]LogTemp: Warning: Got speedboost
+[2023.04.29-15.01.14:079][ 56]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.14:100][ 57]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.14:119][ 58]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.14:139][ 59]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.14:159][ 60]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.14:178][ 61]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.14:196][ 62]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.14:215][ 63]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.14:235][ 64]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.14:255][ 65]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.14:275][ 66]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.14:294][ 67]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.14:312][ 68]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.14:331][ 69]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.14:351][ 70]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.14:371][ 71]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.14:394][ 72]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.14:415][ 73]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.14:436][ 74]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.14:460][ 75]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.14:479][ 76]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.14:497][ 77]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.14:517][ 78]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.14:536][ 79]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.14:557][ 80]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.14:576][ 81]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.14:594][ 82]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.14:615][ 83]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.14:633][ 84]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.14:658][ 85]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.14:676][ 86]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.14:696][ 87]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.14:718][ 88]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.14:741][ 89]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.14:760][ 90]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.14:778][ 91]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.14:798][ 92]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.14:817][ 93]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.14:837][ 94]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.14:856][ 95]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.14:874][ 96]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.14:897][ 97]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.14:917][ 98]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.14:936][ 99]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.14:954][100]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.14:975][101]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.14:996][102]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.15:014][103]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.15:034][104]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.15:055][105]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.15:075][106]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.15:094][107]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.15:114][108]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.15:135][109]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.15:154][110]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.15:174][111]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.15:194][112]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.15:214][113]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.15:232][114]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.15:255][115]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.15:277][116]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.15:296][117]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.15:316][118]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.15:335][119]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.15:354][120]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.15:374][121]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.15:394][122]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.15:414][123]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.15:432][124]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.15:454][125]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.15:475][126]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.15:495][127]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.15:514][128]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.15:537][129]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.15:559][130]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.15:581][131]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.15:600][132]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.15:620][133]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.15:643][134]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.15:663][135]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.15:682][136]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.15:701][137]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.15:721][138]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.15:739][139]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.15:758][140]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.15:778][141]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.15:797][142]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.15:816][143]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.15:834][144]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.15:856][145]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.15:876][146]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.15:898][147]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.15:919][148]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.15:941][149]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.15:960][150]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.15:980][151]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.16:001][152]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.16:019][153]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.16:040][154]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.16:063][155]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.16:083][156]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.16:103][157]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.16:121][158]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.16:141][159]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.16:160][160]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.16:179][161]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.16:199][162]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.16:218][163]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.16:236][164]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.16:255][165]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.16:278][166]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.16:297][167]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.16:316][168]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.16:336][169]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.16:354][170]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.16:373][171]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.16:392][172]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.16:414][173]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.16:434][174]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.16:453][175]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.16:475][176]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.16:495][177]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.16:515][178]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.16:537][179]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.16:562][180]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.16:582][181]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.16:603][182]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.16:624][183]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.16:644][184]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.16:664][185]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.16:687][186]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.16:705][187]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.16:724][188]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.16:747][189]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.16:766][190]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.16:786][191]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.16:807][192]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.16:827][193]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.16:848][194]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.16:871][195]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.16:891][196]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.16:910][197]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.16:933][198]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.16:956][199]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.16:977][200]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.16:997][201]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.17:017][202]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.17:037][203]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.17:058][204]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.17:079][205]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.17:099][206]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.17:122][207]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.17:142][208]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.17:164][209]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.17:183][210]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.17:205][211]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.17:225][212]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.17:246][213]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.17:263][214]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.17:286][215]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.17:307][216]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.17:324][217]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.17:347][218]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.17:367][219]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.17:388][220]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.17:411][221]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.17:430][222]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.17:450][223]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.17:468][224]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.17:488][225]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.17:509][226]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.17:529][227]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.17:549][228]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.17:570][229]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.17:590][230]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.17:608][231]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.17:630][232]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.17:650][233]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.17:671][234]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.17:693][235]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.17:712][236]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.17:732][237]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.17:750][238]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.17:771][239]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.17:791][240]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.17:811][241]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.17:830][242]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.17:848][243]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.17:869][244]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.17:889][245]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.17:909][246]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.17:929][247]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.17:953][248]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.17:973][249]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.17:997][250]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.18:016][251]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.18:035][252]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.18:055][253]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.18:076][254]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.18:097][255]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.18:117][256]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.18:137][257]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.18:156][258]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.18:176][259]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.18:199][260]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.18:217][261]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.18:241][262]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.18:261][263]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.18:283][264]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.18:302][265]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.18:324][266]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.18:344][267]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.18:364][268]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.18:384][269]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.18:406][270]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.18:426][271]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.18:447][272]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.18:467][273]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.18:488][274]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.18:509][275]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.18:529][276]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.18:550][277]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.18:569][278]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.18:589][279]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.18:612][280]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.18:631][281]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.18:653][282]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.18:671][283]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.18:694][284]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.18:713][285]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.18:733][286]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.18:752][287]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.18:772][288]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.18:792][289]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.18:814][290]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.18:835][291]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.18:854][292]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.18:875][293]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.18:893][294]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.18:914][295]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.18:933][296]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.18:951][297]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.18:974][298]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.18:992][299]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.19:013][300]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.19:031][301]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.19:050][302]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.19:070][303]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.19:070][303]LogTemp: Warning: Reseting speed
+[2023.04.29-15.01.19:088][304]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.19:110][305]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.19:134][306]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.19:153][307]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.19:173][308]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.19:191][309]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.19:213][310]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.19:233][311]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.19:252][312]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.19:271][313]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.19:290][314]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.19:310][315]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.19:328][316]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.19:348][317]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.19:367][318]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.19:387][319]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.19:406][320]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.19:424][321]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.19:449][322]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.19:469][323]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.19:490][324]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.19:508][325]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.19:529][326]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.19:548][327]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.19:568][328]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.19:591][329]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.19:612][330]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.19:633][331]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.19:652][332]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.19:674][333]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.19:693][334]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.19:714][335]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.19:734][336]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.19:755][337]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.19:775][338]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.19:793][339]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.19:813][340]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.19:831][341]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.19:851][342]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.19:868][343]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.19:888][344]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.19:907][345]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.19:929][346]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.19:949][347]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.19:967][348]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.19:986][349]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.20:006][350]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.20:030][351]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.20:049][352]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.20:071][353]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.20:091][354]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.20:110][355]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.20:131][356]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.20:149][357]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.20:170][358]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.20:190][359]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.20:208][360]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.20:229][361]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.20:247][362]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.20:264][363]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.20:286][364]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.20:306][365]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.20:329][366]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.20:348][367]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.20:367][368]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.20:386][369]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.20:408][370]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.20:429][371]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.20:447][372]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.20:467][373]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.20:485][374]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.20:505][375]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.20:524][376]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.20:547][377]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.20:567][378]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.20:585][379]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.20:605][380]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.20:626][381]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.20:646][382]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.20:666][383]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.20:686][384]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.20:705][385]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.20:722][386]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.20:743][387]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.20:762][388]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.20:781][389]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.20:800][390]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.20:818][391]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.20:839][392]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.20:858][393]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.20:877][394]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.20:896][395]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.20:916][396]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.20:934][397]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.20:954][398]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.20:976][399]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.20:995][400]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.21:014][401]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.21:033][402]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.21:054][403]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.21:073][404]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.21:091][405]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.21:111][406]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.21:130][407]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.21:150][408]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.21:168][409]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.21:186][410]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.21:208][411]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.21:227][412]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.21:251][413]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.21:270][414]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.21:288][415]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.21:309][416]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.21:333][417]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.21:352][418]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.21:370][419]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.21:392][420]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.21:411][421]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.21:431][422]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.21:449][423]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.21:474][424]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.21:492][425]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.21:511][426]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.21:532][427]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.21:550][428]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.21:570][429]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.21:589][430]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.21:608][431]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.21:627][432]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.21:647][433]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.21:665][434]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.21:684][435]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.21:703][436]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.21:722][437]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.21:740][438]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.21:759][439]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.21:777][440]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.21:800][441]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.21:819][442]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.21:839][443]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.21:857][444]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.21:880][445]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.21:898][446]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.21:916][447]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.21:936][448]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.21:957][449]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.21:978][450]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.21:998][451]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.22:018][452]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.22:038][453]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.22:056][454]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.22:076][455]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.22:095][456]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.22:115][457]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.22:134][458]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.22:159][459]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.22:181][460]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.22:200][461]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.22:218][462]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.22:238][463]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.22:256][464]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.22:276][465]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.22:294][466]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.22:314][467]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.22:337][468]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.22:357][469]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.22:377][470]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.22:395][471]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.22:417][472]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.22:436][473]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.22:456][474]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.22:473][475]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.22:492][476]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.22:511][477]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.22:530][478]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.22:551][479]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.22:568][480]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.22:587][481]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.22:607][482]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.22:624][483]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.22:644][484]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.22:662][485]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.22:682][486]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.22:702][487]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.22:721][488]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.22:741][489]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.22:761][490]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.22:781][491]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.22:799][492]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.22:819][493]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.22:837][494]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.22:856][495]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.22:876][496]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.22:900][497]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.22:919][498]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.22:938][499]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.22:956][500]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.22:978][501]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.22:998][502]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.23:017][503]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.23:036][504]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.23:056][505]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.23:076][506]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.23:095][507]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.23:116][508]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.23:135][509]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.23:154][510]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.23:173][511]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.23:192][512]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.23:212][513]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.23:237][514]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.23:259][515]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.23:279][516]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.23:298][517]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.23:316][518]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.23:335][519]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.23:354][520]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.23:374][521]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.23:395][522]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.23:416][523]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.23:437][524]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.23:455][525]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.23:475][526]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.23:494][527]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.23:518][528]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.23:536][529]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.23:556][530]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.23:577][531]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.23:595][532]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.23:613][533]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.23:632][534]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.23:651][535]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.23:670][536]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.23:690][537]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.23:711][538]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.23:732][539]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.23:752][540]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.23:769][541]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.23:788][542]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.23:808][543]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.23:830][544]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.23:850][545]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.23:869][546]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.23:888][547]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.23:906][548]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.23:924][549]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.23:943][550]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.23:966][551]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.23:986][552]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.24:006][553]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.24:025][554]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.24:045][555]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.24:065][556]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.24:089][557]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.24:107][558]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.24:131][559]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.24:149][560]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.24:173][561]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.24:192][562]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.24:211][563]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.24:234][564]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.24:252][565]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.24:279][566]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.24:298][567]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.24:320][568]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.24:337][569]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.24:359][570]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.24:378][571]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.24:399][572]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.24:421][573]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.24:439][574]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.24:461][575]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.24:483][576]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.24:501][577]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.24:520][578]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.24:541][579]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.24:562][580]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.24:583][581]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.24:606][582]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.24:626][583]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.24:650][584]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.24:669][585]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.24:692][586]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.24:713][587]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.24:736][588]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.24:756][589]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.24:778][590]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.24:799][591]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.24:820][592]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.24:839][593]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.24:857][594]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.24:877][595]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.24:898][596]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.24:918][597]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.24:937][598]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.24:961][599]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.24:979][600]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.24:998][601]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.25:019][602]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.25:038][603]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.25:057][604]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.25:076][605]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.25:095][606]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.25:115][607]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.25:138][608]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.25:157][609]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.25:176][610]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.25:195][611]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.25:212][612]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.25:231][613]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.25:251][614]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.25:269][615]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.25:288][616]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.25:307][617]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.25:325][618]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.25:345][619]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.25:363][620]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.25:382][621]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.25:402][622]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.25:422][623]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.25:440][624]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.25:460][625]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.25:480][626]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.25:499][627]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.25:519][628]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.25:541][629]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.25:560][630]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.25:579][631]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.25:599][632]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.25:617][633]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.25:637][634]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.25:657][635]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.25:676][636]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.25:696][637]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.25:717][638]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.25:734][639]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.25:754][640]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.25:772][641]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.25:795][642]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.25:814][643]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.25:832][644]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.25:852][645]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.25:873][646]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.25:896][647]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.25:914][648]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.25:934][649]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.25:954][650]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.25:974][651]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.25:996][652]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.26:016][653]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.26:035][654]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.26:054][655]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.26:074][656]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.26:093][657]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.26:113][658]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.26:136][659]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.26:161][660]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.26:183][661]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.26:203][662]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.26:224][663]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.26:246][664]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.26:267][665]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.26:286][666]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.26:307][667]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.26:328][668]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.26:346][669]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.26:366][670]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.26:384][671]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.26:408][672]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.26:426][673]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.26:447][674]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.26:467][675]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.26:486][676]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.26:506][677]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.26:524][678]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.26:547][679]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.26:567][680]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.26:591][681]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.26:611][682]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.26:632][683]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.26:651][684]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.26:670][685]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.26:693][686]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.26:711][687]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.26:732][688]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.26:751][689]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.26:770][690]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.26:790][691]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.26:808][692]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.26:832][693]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.26:852][694]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.26:874][695]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.26:892][696]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.26:912][697]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.26:932][698]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.26:953][699]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.26:972][700]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.26:991][701]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.27:012][702]LogTemp: Warning: slope is 60
+[2023.04.29-15.01.27:030][703]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.27:050][704]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.27:068][705]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.27:089][706]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.27:110][707]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.27:130][708]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.27:149][709]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.27:170][710]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.27:191][711]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.27:210][712]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.27:228][713]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.27:253][714]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.27:272][715]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.27:293][716]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.27:312][717]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.27:332][718]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.27:351][719]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.27:370][720]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.27:390][721]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.27:411][722]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.27:430][723]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.27:449][724]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.27:468][725]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.27:488][726]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.27:508][727]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.27:528][728]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.27:548][729]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.27:568][730]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.27:588][731]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.27:607][732]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.27:627][733]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.27:644][734]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.27:665][735]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.27:684][736]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.27:706][737]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.27:725][738]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.27:745][739]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.27:764][740]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.27:782][741]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.27:804][742]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.27:826][743]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.27:847][744]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.27:867][745]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.27:886][746]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.27:906][747]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.27:924][748]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.27:944][749]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.27:964][750]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.27:985][751]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.28:004][752]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.28:025][753]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.28:043][754]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.28:063][755]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.28:083][756]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.28:103][757]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.28:124][758]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.28:143][759]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.28:163][760]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.28:182][761]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.28:201][762]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.28:223][763]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.28:242][764]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.28:263][765]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.28:283][766]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.28:305][767]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.28:325][768]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.28:343][769]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.28:362][770]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.28:380][771]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.28:400][772]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.28:419][773]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.28:437][774]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.28:458][775]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.28:476][776]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.28:498][777]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.28:517][778]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.28:538][779]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.28:559][780]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.28:578][781]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.28:599][782]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.28:617][783]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.28:638][784]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.28:658][785]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.28:676][786]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.28:695][787]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.28:714][788]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.28:736][789]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.28:755][790]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.28:777][791]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.28:795][792]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.28:813][793]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.28:835][794]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.28:855][795]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.28:874][796]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.28:892][797]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.28:913][798]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.28:934][799]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.28:956][800]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.28:975][801]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.28:994][802]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.29:014][803]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.29:034][804]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.29:054][805]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.29:073][806]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.29:093][807]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.29:118][808]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.29:137][809]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.29:158][810]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.29:176][811]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.29:195][812]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.29:213][813]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.29:232][814]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.29:252][815]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.29:272][816]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.29:291][817]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.29:308][818]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.29:327][819]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.29:347][820]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.29:366][821]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.29:384][822]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.29:404][823]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.29:423][824]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.29:442][825]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.29:462][826]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.29:482][827]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.29:500][828]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.29:522][829]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.29:543][830]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.29:566][831]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.29:587][832]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.29:605][833]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.29:624][834]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.29:640][835]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.29:662][836]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.29:683][837]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.29:701][838]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.29:724][839]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.29:747][840]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.29:766][841]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.29:784][842]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.29:802][843]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.29:824][844]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.29:846][845]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.29:866][846]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.29:885][847]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.29:905][848]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.29:923][849]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.29:942][850]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.29:961][851]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.29:980][852]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.29:999][853]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.30:019][854]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.30:040][855]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.30:059][856]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.30:078][857]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.30:097][858]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.30:116][859]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.30:135][860]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.30:153][861]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.30:172][862]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.30:193][863]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.30:211][864]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.30:230][865]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.30:251][866]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.30:271][867]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.30:290][868]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.30:308][869]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.30:328][870]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.30:348][871]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.30:376][872]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.30:396][873]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.30:420][874]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.30:444][875]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.30:466][876]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.30:486][877]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.30:506][878]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.30:526][879]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.30:548][880]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.30:569][881]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.30:592][882]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.30:614][883]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.30:637][884]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.30:658][885]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.30:685][886]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.30:716][887]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.30:742][888]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.30:768][889]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.30:798][890]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.30:820][891]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.30:843][892]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.30:864][893]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.30:885][894]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.30:906][895]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.30:928][896]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.30:950][897]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.30:975][898]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.30:998][899]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.31:022][900]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.31:046][901]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.31:068][902]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.31:093][903]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.31:114][904]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.31:134][905]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.31:156][906]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.31:176][907]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.31:196][908]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.31:216][909]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.31:235][910]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.31:255][911]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.31:275][912]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.31:300][913]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.31:320][914]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.31:349][915]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.31:370][916]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.31:395][917]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.31:418][918]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.31:440][919]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.31:460][920]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.31:481][921]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.31:499][922]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.31:519][923]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.31:541][924]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.31:560][925]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.31:582][926]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.31:600][927]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.31:621][928]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.31:641][929]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.31:663][930]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.31:682][931]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.31:702][932]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.31:721][933]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.31:740][934]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.31:762][935]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.31:785][936]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.31:806][937]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.31:828][938]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.31:848][939]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.31:872][940]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.31:893][941]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.31:915][942]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.31:940][943]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.31:964][944]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.31:991][945]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.32:016][946]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.32:042][947]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.32:064][948]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.32:092][949]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.32:117][950]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.32:145][951]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.32:169][952]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.32:194][953]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.32:224][954]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.32:253][955]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.32:279][956]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.32:302][957]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.32:327][958]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.32:349][959]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.32:372][960]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.32:396][961]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.32:424][962]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.32:446][963]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.32:474][964]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.32:496][965]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.32:519][966]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.32:540][967]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.32:561][968]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.32:582][969]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.32:603][970]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.32:621][971]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.32:642][972]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.32:662][973]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.32:683][974]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.32:706][975]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.32:725][976]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.32:746][977]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.32:764][978]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.32:787][979]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.32:808][980]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.32:831][981]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.32:855][982]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.32:875][983]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.32:895][984]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.32:915][985]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.32:937][986]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.32:956][987]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.32:982][988]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.33:003][989]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.33:029][990]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.33:050][991]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.33:077][992]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.33:099][993]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.33:122][994]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.33:141][995]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.33:160][996]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.33:179][997]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.33:198][998]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.33:218][999]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.33:239][  0]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.33:261][  1]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.33:286][  2]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.33:310][  3]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.33:335][  4]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.33:358][  5]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.33:378][  6]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.33:404][  7]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.33:425][  8]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.33:445][  9]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.33:466][ 10]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.33:489][ 11]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.33:510][ 12]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.33:535][ 13]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.33:559][ 14]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.33:584][ 15]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.33:605][ 16]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.33:627][ 17]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.33:651][ 18]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.33:671][ 19]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.33:688][ 20]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.33:707][ 21]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.33:729][ 22]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.33:749][ 23]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.33:769][ 24]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.33:788][ 25]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.33:807][ 26]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.33:827][ 27]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.33:848][ 28]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.33:868][ 29]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.33:888][ 30]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.33:910][ 31]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.33:929][ 32]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.33:950][ 33]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.33:969][ 34]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.33:988][ 35]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.34:008][ 36]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.34:027][ 37]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.34:050][ 38]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.34:070][ 39]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.34:090][ 40]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.34:108][ 41]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.34:130][ 42]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.34:149][ 43]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.34:168][ 44]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.34:188][ 45]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.34:209][ 46]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.34:231][ 47]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.34:253][ 48]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.34:275][ 49]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.34:297][ 50]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.34:321][ 51]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.34:343][ 52]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.34:364][ 53]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.34:383][ 54]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.34:405][ 55]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.34:427][ 56]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.34:448][ 57]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.34:469][ 58]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.34:490][ 59]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.34:510][ 60]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.34:530][ 61]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.34:551][ 62]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.34:572][ 63]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.34:594][ 64]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.34:615][ 65]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.34:637][ 66]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.34:658][ 67]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.34:679][ 68]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.34:700][ 69]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.34:719][ 70]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.34:739][ 71]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.34:759][ 72]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.34:779][ 73]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.34:798][ 74]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.34:817][ 75]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.34:839][ 76]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.34:858][ 77]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.34:878][ 78]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.34:897][ 79]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.34:918][ 80]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.34:938][ 81]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.34:959][ 82]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.34:979][ 83]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.35:003][ 84]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.35:030][ 85]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.35:059][ 86]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.35:081][ 87]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.35:107][ 88]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.35:132][ 89]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.35:156][ 90]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.35:181][ 91]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.35:209][ 92]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.35:233][ 93]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.35:264][ 94]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.35:291][ 95]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.35:318][ 96]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.35:345][ 97]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.35:375][ 98]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.35:406][ 99]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.35:450][100]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.35:477][101]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.35:510][102]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.35:543][103]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.35:569][104]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.35:594][105]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.35:618][106]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.35:643][107]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.35:668][108]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.35:689][109]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.35:717][110]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.35:742][111]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.35:766][112]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.35:787][113]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.35:813][114]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.35:835][115]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.35:859][116]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.35:887][117]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.35:914][118]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.35:934][119]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.35:961][120]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.35:991][121]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.36:016][122]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.36:040][123]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.36:064][124]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.36:089][125]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.36:113][126]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.36:145][127]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.36:170][128]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.36:193][129]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.36:219][130]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.36:242][131]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.36:266][132]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.36:289][133]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.36:327][134]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.36:360][135]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.36:387][136]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.36:420][137]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.36:451][138]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.36:476][139]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.36:507][140]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.36:546][141]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.36:577][142]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.36:607][143]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.36:637][144]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.36:662][145]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.36:687][146]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.36:715][147]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.36:743][148]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.36:769][149]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.36:792][150]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.36:817][151]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.36:840][152]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.36:865][153]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.36:893][154]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.36:918][155]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.36:948][156]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.36:974][157]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.37:001][158]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.37:028][159]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.37:054][160]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.37:081][161]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.37:107][162]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.37:135][163]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.37:167][164]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.37:193][165]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.37:217][166]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.37:244][167]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.37:266][168]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.37:290][169]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.37:311][170]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.37:334][171]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.37:356][172]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.37:382][173]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.37:404][174]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.37:425][175]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.37:443][176]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.37:470][177]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.37:494][178]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.37:521][179]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.37:542][180]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.37:569][181]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.37:599][182]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.37:628][183]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.37:654][184]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.37:681][185]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.37:704][186]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.37:727][187]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.37:747][188]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.37:766][189]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.37:789][190]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.37:811][191]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.37:831][192]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.37:851][193]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.37:870][194]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.37:891][195]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.37:911][196]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.37:932][197]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.37:950][198]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.37:971][199]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.37:996][200]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.38:016][201]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.38:036][202]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.38:057][203]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.38:077][204]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.38:098][205]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.38:126][206]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.38:157][207]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.38:177][208]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.38:197][209]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.38:221][210]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.38:240][211]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.38:262][212]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.38:284][213]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.38:306][214]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.38:327][215]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.38:349][216]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.38:372][217]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.38:396][218]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.38:416][219]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.38:438][220]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.38:460][221]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.38:485][222]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.38:509][223]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.38:534][224]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.38:559][225]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.38:582][226]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.38:604][227]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.38:628][228]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.38:650][229]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.38:675][230]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.38:700][231]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.38:723][232]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.38:746][233]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.38:767][234]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.38:790][235]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.38:812][236]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.38:836][237]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.38:859][238]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.38:880][239]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.38:900][240]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.38:925][241]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.38:943][242]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.38:964][243]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.38:988][244]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.39:012][245]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.39:035][246]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.39:059][247]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.39:082][248]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.39:105][249]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.39:127][250]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.39:148][251]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.39:172][252]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.39:193][253]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.39:217][254]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.39:241][255]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.39:269][256]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.39:295][257]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.39:315][258]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.39:337][259]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.39:360][260]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.39:382][261]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.39:403][262]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.39:424][263]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.39:445][264]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.39:470][265]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.39:490][266]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.39:510][267]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.39:531][268]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.39:554][269]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.39:576][270]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.39:596][271]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.39:626][272]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.39:656][273]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.39:683][274]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.39:706][275]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.39:730][276]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.39:757][277]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.39:783][278]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.39:810][279]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.39:839][280]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.39:860][281]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.39:884][282]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.39:905][283]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.39:929][284]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.39:951][285]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.39:975][286]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.39:997][287]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.40:021][288]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.40:043][289]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.40:062][290]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.40:084][291]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.40:105][292]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.40:128][293]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.40:149][294]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.40:174][295]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.40:194][296]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.40:217][297]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.40:237][298]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.40:258][299]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.40:279][300]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.40:300][301]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.40:320][302]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.40:341][303]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.40:362][304]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.40:386][305]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.40:414][306]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.40:436][307]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.40:455][308]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.40:474][309]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.40:494][310]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.40:512][311]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.40:531][312]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.40:550][313]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.40:569][314]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.40:589][315]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.40:609][316]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.40:628][317]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.40:647][318]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.40:667][319]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.40:685][320]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.40:703][321]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.40:725][322]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.40:747][323]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.40:768][324]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.40:787][325]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.40:807][326]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.40:829][327]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.40:849][328]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.40:868][329]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.40:890][330]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.40:909][331]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.40:929][332]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.40:950][333]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.40:972][334]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.40:993][335]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.41:012][336]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.41:031][337]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.41:049][338]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.41:068][339]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.41:088][340]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.41:107][341]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.41:126][342]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.41:145][343]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.41:164][344]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.41:183][345]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.41:201][346]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.41:220][347]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.41:244][348]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.41:264][349]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.41:283][350]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.41:301][351]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.41:322][352]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.41:341][353]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.41:360][354]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.41:383][355]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.41:403][356]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.41:421][357]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.41:441][358]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.41:460][359]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.41:479][360]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.41:499][361]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.41:523][362]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.41:544][363]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.41:567][364]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.41:586][365]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.41:605][366]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.41:624][367]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.41:645][368]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.41:667][369]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.41:687][370]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.41:705][371]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.41:724][372]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.41:749][373]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.41:767][374]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.41:788][375]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.41:808][376]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.41:827][377]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.41:849][378]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.41:867][379]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.41:887][380]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.41:905][381]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.41:928][382]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.41:950][383]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.41:970][384]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.41:992][385]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.42:010][386]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.42:034][387]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.42:053][388]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.42:078][389]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.42:099][390]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.42:121][391]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.42:140][392]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.42:160][393]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.42:178][394]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.42:198][395]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.42:216][396]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.42:235][397]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.42:257][398]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.42:276][399]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.42:295][400]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.42:317][401]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.42:335][402]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.42:355][403]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.42:375][404]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.42:397][405]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.42:418][406]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.42:437][407]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.42:456][408]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.42:475][409]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.42:495][410]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.42:514][411]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.42:536][412]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.42:556][413]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.42:579][414]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.42:598][415]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.42:620][416]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.42:641][417]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.42:664][418]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.42:684][419]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.42:707][420]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.42:726][421]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.42:745][422]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.42:767][423]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.42:785][424]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.42:805][425]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.42:825][426]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.42:843][427]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.42:865][428]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.42:886][429]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.42:907][430]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.42:924][431]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.42:944][432]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.42:964][433]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.42:985][434]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.43:007][435]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.43:026][436]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.43:045][437]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.43:063][438]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.43:082][439]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.43:105][440]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.43:124][441]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.43:143][442]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.43:162][443]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.43:182][444]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.43:205][445]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.43:224][446]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.43:244][447]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.43:265][448]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.43:284][449]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.43:303][450]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.43:322][451]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.43:343][452]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.43:364][453]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.43:384][454]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.43:406][455]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.43:428][456]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.43:446][457]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.43:467][458]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.43:486][459]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.43:505][460]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.43:524][461]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.43:546][462]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.43:565][463]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.43:588][464]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.43:612][465]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.43:632][466]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.43:654][467]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.43:676][468]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.43:696][469]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.43:715][470]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.43:735][471]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.43:756][472]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.43:775][473]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.43:797][474]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.43:816][475]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.43:837][476]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.43:856][477]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.43:876][478]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.43:895][479]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.43:914][480]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.43:934][481]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.43:953][482]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.43:976][483]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.44:001][484]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.44:025][485]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.44:044][486]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.44:063][487]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.44:083][488]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.44:103][489]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.44:123][490]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.44:143][491]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.44:162][492]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.44:183][493]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.44:202][494]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.44:222][495]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.44:244][496]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.44:265][497]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.44:288][498]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.44:308][499]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.44:325][500]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.44:345][501]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.44:367][502]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.44:388][503]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.44:407][504]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.44:425][505]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.44:444][506]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.44:465][507]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.44:486][508]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.44:506][509]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.44:525][510]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.44:546][511]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.44:568][512]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.44:588][513]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.44:610][514]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.44:631][515]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.44:651][516]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.44:670][517]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.44:690][518]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.44:709][519]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.44:728][520]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.44:746][521]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.44:769][522]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.44:788][523]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.44:809][524]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.44:828][525]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.44:848][526]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.44:867][527]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.44:887][528]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.44:908][529]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.44:927][530]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.44:948][531]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.44:968][532]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.44:989][533]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.45:009][534]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.45:029][535]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.45:050][536]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.45:069][537]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.45:090][538]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.45:107][539]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.45:127][540]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.45:147][541]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.45:166][542]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.45:186][543]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.45:206][544]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.45:228][545]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.45:249][546]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.45:270][547]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.45:288][548]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.45:308][549]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.45:329][550]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.45:347][551]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.45:369][552]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.45:388][553]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.45:409][554]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.45:429][555]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.45:447][556]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.45:468][557]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.45:488][558]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.45:509][559]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.45:529][560]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.45:548][561]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.45:568][562]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.45:589][563]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.45:610][564]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.45:631][565]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.45:649][566]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.45:669][567]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.45:691][568]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.45:710][569]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.45:728][570]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.45:749][571]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.45:767][572]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.45:789][573]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.45:807][574]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.45:828][575]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.45:848][576]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.45:867][577]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.45:889][578]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.45:908][579]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.45:930][580]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.45:950][581]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.45:972][582]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.45:991][583]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.46:010][584]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.46:031][585]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.46:050][586]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.46:072][587]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.46:092][588]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.46:111][589]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.46:129][590]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.46:149][591]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.46:171][592]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.46:189][593]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.46:208][594]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.46:228][595]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.46:247][596]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.46:266][597]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.46:288][598]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.46:307][599]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.46:327][600]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.46:347][601]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.46:367][602]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.46:387][603]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.46:406][604]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.46:425][605]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.46:444][606]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.46:463][607]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.46:483][608]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.46:503][609]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.46:523][610]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.46:544][611]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.46:564][612]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.46:587][613]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.46:606][614]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.46:626][615]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.46:646][616]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.46:664][617]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.46:685][618]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.46:705][619]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.46:725][620]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.46:744][621]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.46:765][622]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.46:783][623]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.46:806][624]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.46:824][625]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.46:842][626]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.46:862][627]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.46:883][628]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.46:903][629]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.46:922][630]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.46:940][631]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.46:963][632]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.46:984][633]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.47:004][634]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.47:024][635]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.47:044][636]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.47:066][637]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.47:089][638]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.47:109][639]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.47:127][640]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.47:146][641]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.47:165][642]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.47:189][643]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.47:206][644]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.47:226][645]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.47:248][646]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.47:268][647]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.47:289][648]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.47:310][649]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.47:330][650]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.47:348][651]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.47:367][652]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.47:387][653]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.47:409][654]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.47:428][655]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.47:447][656]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.47:467][657]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.47:485][658]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.47:505][659]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.47:522][660]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.47:541][661]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.47:563][662]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.47:582][663]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.47:602][664]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.47:622][665]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.47:644][666]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.47:664][667]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.47:682][668]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.47:701][669]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.47:721][670]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.47:741][671]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.47:759][672]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.47:778][673]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.47:798][674]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.47:819][675]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.47:838][676]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.47:855][677]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.47:879][678]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.47:899][679]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.47:918][680]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.47:937][681]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.47:955][682]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.47:974][683]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.47:993][684]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.48:011][685]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.48:031][686]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.48:049][687]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.48:069][688]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.48:089][689]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.48:107][690]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.48:126][691]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.48:144][692]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.48:165][693]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.48:186][694]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.48:204][695]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.48:223][696]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.48:244][697]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.48:264][698]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.48:284][699]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.48:304][700]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.48:322][701]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.48:340][702]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.48:359][703]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.48:380][704]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.48:406][705]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.48:426][706]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.48:445][707]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.48:464][708]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.48:485][709]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.48:503][710]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.48:524][711]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.48:545][712]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.48:563][713]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.48:582][714]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.48:601][715]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.48:626][716]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.48:646][717]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.48:664][718]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.48:684][719]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.48:704][720]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.48:727][721]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.48:748][722]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.48:767][723]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.48:786][724]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.48:804][725]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.48:825][726]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.48:846][727]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.48:868][728]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.48:886][729]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.48:908][730]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.48:926][731]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.48:949][732]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.48:967][733]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.48:988][734]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.49:009][735]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.49:027][736]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.49:046][737]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.49:064][738]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.49:084][739]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.49:108][740]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.49:126][741]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.49:146][742]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.49:166][743]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.49:188][744]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.49:205][745]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.49:224][746]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.49:244][747]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.49:263][748]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.49:282][749]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.49:301][750]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.49:319][751]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.49:338][752]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.49:356][753]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.49:376][754]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.49:393][755]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.49:420][756]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.49:438][757]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.49:459][758]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.49:478][759]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.49:497][760]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.49:518][761]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.49:536][762]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.49:555][763]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.49:575][764]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.49:593][765]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.49:614][766]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.49:636][767]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.49:655][768]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.49:674][769]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.49:692][770]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.49:713][771]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.49:734][772]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.49:754][773]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.49:772][774]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.49:793][775]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.49:812][776]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.49:832][777]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.49:852][778]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.49:873][779]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.49:892][780]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.49:911][781]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.49:931][782]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.49:950][783]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.49:968][784]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.49:989][785]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.50:010][786]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.50:031][787]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.50:049][788]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.50:069][789]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.50:089][790]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.50:108][791]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.50:131][792]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.50:149][793]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.50:172][794]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.50:191][795]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.50:214][796]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.50:232][797]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.50:251][798]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.50:272][799]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.50:292][800]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.50:314][801]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.50:334][802]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.50:354][803]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.50:371][804]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.50:391][805]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.50:411][806]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.50:428][807]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.50:449][808]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.50:469][809]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.50:490][810]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.50:508][811]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.50:528][812]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.50:547][813]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.50:566][814]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.50:585][815]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.50:604][816]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.50:624][817]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.50:644][818]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.50:663][819]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.50:685][820]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.50:703][821]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.50:721][822]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.50:742][823]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.50:762][824]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.50:782][825]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.50:800][826]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.50:820][827]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.50:840][828]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.50:869][829]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.50:889][830]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.50:909][831]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.50:931][832]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.50:950][833]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.50:970][834]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.50:989][835]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.51:010][836]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.51:029][837]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.51:047][838]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.51:067][839]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.51:089][840]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.51:109][841]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.51:133][842]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.51:160][843]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.51:178][844]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.51:199][845]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.51:217][846]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.51:242][847]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.51:262][848]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.51:283][849]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.51:303][850]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.51:324][851]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.51:345][852]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.51:371][853]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.51:401][854]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.51:444][855]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.51:465][856]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.51:487][857]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.51:507][858]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.51:529][859]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.51:548][860]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.51:570][861]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.51:592][862]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.51:614][863]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.51:637][864]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.51:662][865]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.51:708][866]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.51:729][867]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.51:751][868]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.51:772][869]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.51:794][870]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.51:821][871]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.51:916][876]LogTemp: Warning: slope is 30
+[2023.04.29-15.01.51:945][876]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.29-15.01.51:945][876]LogWorld: BeginTearingDown for /Game/UEDPIE_0_LevelBuild
+[2023.04.29-15.01.51:946][876]LogWorld: UWorld::CleanupWorld for LevelBuild, bSessionEnded=true, bCleanupResources=true
+[2023.04.29-15.01.51:950][876]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.29-15.01.51:950][876]LogContentBundle: [Container: LevelBuild] Deleting container.
+[2023.04.29-15.01.51:954][876]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.29-15.01.51:965][876]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.29-15.01.52:029][876]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.29-15.01.52:035][876]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2023.04.29-15.01.52:037][876]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2023.04.29-15.01.52:059][876]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2023.04.29-15.01.52:103][877]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2023.04.29-15.02.17:210][125]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2023.04.29-15.02.17:212][125]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/LevelBuild' took 0.061
+[2023.04.29-15.02.17:214][125]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/WT_Doomsday_Penguin] ([2] browsable assets)...
+[2023.04.29-15.02.17:219][125]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/WT_Doomsday_Penguin.WT_Doomsday_Penguin]
+[2023.04.29-15.02.17:219][125]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/WT_Doomsday_Penguin]
+[2023.04.29-15.02.17:253][125]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/WT_Doomsday_Penguin_Auto3
+[2023.04.29-15.02.17:253][125]LogSavePackage: Moving '../../../../../Programming_02/DoomsdayPenguins/Doomsday-Penguins/DoomsdayPenguins/Saved/WT_Doomsday_Penguin_Auto3EDBB00EB48ED6065BEEC3C852440B84C.tmp' to '../../../../../Programming_02/DoomsdayPenguins/Doomsday-Penguins/DoomsdayPenguins/Saved/Autosaves/Game/Blueprints/WT_Doomsday_Penguin_Auto3.uasset'
+[2023.04.29-15.02.17:254][125]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Font/Dommsdaypenguins-Regular] ([1] browsable assets)...
+[2023.04.29-15.02.17:254][125]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Font/Dommsdaypenguins-Regular]
+[2023.04.29-15.02.17:255][125]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Assets/Font/Dommsdaypenguins-Regular_Auto3
+[2023.04.29-15.02.17:255][125]LogSavePackage: Moving '../../../../../Programming_02/DoomsdayPenguins/Doomsday-Penguins/DoomsdayPenguins/Saved/Dommsdaypenguins-Regular_Auto3A329144F4FDEE14BDECB9D8F6E4B3F33.tmp' to '../../../../../Programming_02/DoomsdayPenguins/Doomsday-Penguins/DoomsdayPenguins/Saved/Autosaves/Game/Assets/Font/Dommsdaypenguins-Regular_Auto3.uasset'
+[2023.04.29-15.02.17:256][125]LogFileHelpers: Auto-saving content packages took 0.043
