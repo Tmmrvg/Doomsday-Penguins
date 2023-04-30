@@ -25,8 +25,6 @@ protected:
 public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-
-	
 	
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "SaveGame")
 		TSubclassOf<UMySaveGame> SaveGame_BP;

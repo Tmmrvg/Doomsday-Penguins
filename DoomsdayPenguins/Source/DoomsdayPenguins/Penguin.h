@@ -9,7 +9,7 @@
 #include "Penguin.generated.h"
 
 struct FInputActionValue;
-class UBoxComponent;
+
 
 UCLASS()
 class DOOMSDAYPENGUINS_API APenguin : public ACharacter
@@ -32,13 +32,13 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "PlayerVariables")
-		class USpringArmComponent* SpringArm{ nullptr };
+	class USpringArmComponent* SpringArm{ nullptr };
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "PlayerVariables")
-		class UCameraComponent* Camera{ nullptr };
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "PlayerVariables")
-		class UBoxComponent* Collider;
+	class UCameraComponent* Camera{ nullptr };
 
+	// UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "PlayerVariables")
+	// class UBoxComponent* Collider;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = GameState)
 	bool GameOver = false;
@@ -55,12 +55,15 @@ public:
 	
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
-		float Seconds;
+	float Seconds;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
-		float Minutes;
+	int Minutes;
 
+	//float Minutes;
+	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 		bool bHasGameStarted = false;
 =======
@@ -71,16 +74,25 @@ public:
 
 	//float Minutes;
 >>>>>>> Stashed changes
+=======
+	bool bHasGameStarted = true;
+	
+	UPROPERTY(meta = (AllowPrivateAccess = "true"), EditAnywhere, BlueprintReadWrite, Category = "My Variables")
+	bool IsSlowed;
+>>>>>>> main
 
 	UPROPERTY(meta = (AllowPrivateAccess = "true"), EditAnywhere, BlueprintReadWrite, Category = "My Variables")
-		bool IsSlowed;
+	float SpeedBoostTimer;
 
 	UPROPERTY(meta = (AllowPrivateAccess = "true"), EditAnywhere, BlueprintReadWrite, Category = "My Variables")
-		int SlowTime;
+	float bHasSpeedBoost;
+
+	UPROPERTY(meta = (AllowPrivateAccess = "true"), EditAnywhere, BlueprintReadWrite, Category = "My Variables")
+	int SlowTime;
 
 	//
 	UFUNCTION(BlueprintImplementableEvent)
-		void ToggleSettings();
+	void ToggleSettings();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "My Variables")
 	int Lives;
@@ -108,12 +120,12 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = InputSystem)
 	class UInputAction* MouseYInput;
+	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = InputSystem)
 	class UInputAction* RestartInput;
+	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = InputSystem)
-		class UInputAction* SettingsInput;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = InputSystem)
-		class UInputAction* PauseInput; 
+	class UInputAction* SettingsInput;
 
 	void Forward(const FInputActionValue& input);
 	void Right(const FInputActionValue& input);
@@ -126,11 +138,11 @@ public:
 	void Quit(const FInputActionValue& input);
 	void HitByTarget();
 	void SlowDuration();
+	void SpeedBoost();
+
 	void OnTrack();
 	bool OffTrack;
 
 	void SetGamePaused(bool bIsPaused);
 
-
-	
 };

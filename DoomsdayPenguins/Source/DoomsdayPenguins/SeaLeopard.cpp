@@ -8,6 +8,7 @@
 #include "AIController.h"
 #include "Engine/StaticMeshSocket.h"
 #include "Bullet.h"
+#include "BehaviorTree/Tasks/BTTask_PawnActionBase.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "Components/StaticMeshComponent.h"
 #include "Kismet/GameplayStatics.h"
@@ -25,13 +26,13 @@ ASeaLeopard::ASeaLeopard()
 	PrimaryActorTick.bCanEverTick = true;
 	Collider = CreateDefaultSubobject<UBoxComponent>(TEXT("Collider"));
 	SetRootComponent(Collider);
-	Collider->InitBoxExtent(FVector(100, 100, 100));
+	Collider->InitBoxExtent(FVector(90, 90, 90));
 	Collider->OnComponentBeginOverlap.AddDynamic(this, &ASeaLeopard::OnOverlap);
 
 	StaticMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("StaticMesh"));
 	StaticMesh->SetupAttachment(GetRootComponent());
 	StaticMesh->SetRelativeScale3D(FVector(0.1f, 1.f, 1.f));
-	StaticMesh->SetRelativeLocation(FVector(0.f, 0.f, 40));
+	StaticMesh->SetRelativeLocation(FVector(0.f, 0.f, 40.f));
 
 	// SkeletalMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("SkeletalMesh"));
 	// SkeletalMesh->SetupAttachment(GetRootComponent());
@@ -39,15 +40,14 @@ ASeaLeopard::ASeaLeopard()
 	// SkeletalMesh->SetRelativeLocation(FVector(0.f, 0.f, 40));
 	
 	PawnSensing = CreateDefaultSubobject<UPawnSensingComponent>(TEXT("PawnSensing"));
-	PawnSensing->SightRadius = 7000.f;
-	PawnSensing->SetPeripheralVisionAngle(45.f);
+	PawnSensing->SightRadius = 10000.f;
+	PawnSensing->SetPeripheralVisionAngle(35.f);
 	PawnSensing->bSeePawns = true;
-	PawnSensing->OnSeePawn.AddDynamic(this, &ASeaLeopard::PawnSeen);
+	//PawnSensing->OnSeePawn.AddDynamic(this, &ASeaLeopard::PawnSeen);
 	
-	MovementSpeed = 0;
-	RotationSpeed = 0.f;
-	ShootDelay = 3.f;
-	TimeSinceShooting = 3.f;
+	RotationSpeed = 10.f;
+	ShootDelay = 1.5f;
+	TimeSinceShooting = 1.f;
 	CanShoot = false;
 }
 
@@ -55,29 +55,37 @@ ASeaLeopard::ASeaLeopard()
 void ASeaLeopard::BeginPlay()
 {
 	Super::BeginPlay();
+	
+	if (PawnSensing)
+	{
+		// PawnSensing->OnSeePawn.AddDynamic(this, &ASeaLeopard::PawnSeen);
+	}
 }
 
 // Called every frame
 void ASeaLeopard::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
-	APawn* Player = UGameplayStatics::GetPlayerPawn(this, 0);
+	
+	ACharacter* Player = UGameplayStatics::GetPlayerCharacter(this, 0);
 	bool bCanSeePlayer = PawnSensing->HasLineOfSightTo(Player) && (GetDistanceTo(Player) <= PawnSensing->SightRadius);
 	if (bCanSeePlayer)
 	{
+		if (GetDistanceTo(Player) <= PawnSensing->SightRadius && PawnSensing->GetPeripheralVisionAngle())
+		{
+			// Get the player's location
+			FVector PlayerLocation = Player->GetActorLocation();
+
+			// Calculate the rotation needed to face the player
+			FRotator NewRotation = (PlayerLocation - GetActorLocation()).Rotation();
+
+			// Smoothly interpolate to the new rotation over time
+			FQuat StartRotation = GetActorRotation().Quaternion();
+			FQuat TargetRotation = NewRotation.Quaternion();
+			FQuat NewQuat = FMath::QInterpTo(StartRotation, TargetRotation, GetWorld()->DeltaTimeSeconds, RotationSpeed);
+			SetActorRotation(NewQuat.Rotator());
+		}
 		
-		// Get the player's location
-		FVector PlayerLocation = Player->GetActorLocation();
-
-		// Calculate the rotation needed to face the player
-		FRotator NewRotation = (PlayerLocation - GetActorLocation()).Rotation();
-
-		// Smoothly interpolate to the new rotation over time
-		FQuat StartRotation = GetActorRotation().Quaternion();
-		FQuat TargetRotation = NewRotation.Quaternion();
-		FQuat NewQuat = FMath::QInterpTo(StartRotation, TargetRotation, GetWorld()->DeltaTimeSeconds, RotationSpeed);
-		SetActorRotation(NewQuat.Rotator());
 		if (PawnSensing->HasLineOfSightTo(Player) && PawnSensing->SightRadius)
 		{
 			CanShoot = true;
@@ -90,9 +98,8 @@ void ASeaLeopard::Tick(float DeltaTime)
 	else
 	{
 		CanShoot = false;
-		
 	}
-
+	
 	if (CanShoot == true)
 	{
 		TimeSinceShooting += DeltaTime;
@@ -106,7 +113,7 @@ void ASeaLeopard::Tick(float DeltaTime)
 
 void ASeaLeopard::PawnSeen(APawn* SeenPawn)
 {
-	
+	UE_LOG(LogTemp, Warning, TEXT("Player Seen"));
 }
 
 void ASeaLeopard::OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
@@ -116,7 +123,7 @@ void ASeaLeopard::OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* Ot
 	{
 		Cast<APenguin>(OtherActor)->HitByTarget();
 
-		//DestroyTarget();
+		DestroyTarget();
 	}
 }
 
@@ -130,6 +137,9 @@ void ASeaLeopard::DestroyTarget()
 // Shoot towards the player
 void ASeaLeopard::Shoot()
 {
+	UE_LOG(LogTemp, Warning, TEXT("Shoot"));
+	ActorLocation = GetActorLocation();
+	NewSpawnLocation = FVector3d(ActorLocation.X, ActorLocation.Y, ActorLocation.Z + 50.f);
 	GetWorld()->SpawnActor<AActor>(BP_Bullet,		// What to spawn
-		GetActorLocation(), GetActorRotation());	// Location & Rotation
+	NewSpawnLocation, GetActorRotation());	// Location & Rotation
 }

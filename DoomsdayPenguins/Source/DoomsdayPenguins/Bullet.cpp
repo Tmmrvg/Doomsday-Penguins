@@ -22,7 +22,7 @@ ABullet::ABullet()
 	StaticMesh->SetupAttachment(GetRootComponent());
 	StaticMesh->SetRelativeScale3D(FVector(0.2f, 0.2f, 0.2f));
 
-	MovementSpeed = 3000.f;
+	MovementSpeed = 10000.f;
 	TimeLived = 0.f;
 	LifeSpan = 5.f;
 
@@ -43,8 +43,7 @@ void ABullet::Tick(float DeltaTime)
 	FVector NewLocation = GetActorLocation();
 	NewLocation += GetActorForwardVector() * MovementSpeed * DeltaTime;
 	SetActorLocation(NewLocation);
-
-
+	
 	TimeLived += DeltaTime;
 	if (TimeLived > LifeSpan)
 	{
@@ -56,6 +55,7 @@ void ABullet::OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherA
 {
 	if (OtherActor->IsA<APenguin>())
 	{
+		Cast<APenguin>(OtherActor)->HitByTarget();
 		
 		//Destroys bullet
 		DestroyBullet();
