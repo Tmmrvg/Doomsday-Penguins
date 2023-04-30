@@ -63,23 +63,13 @@ public:
 	//float Minutes;
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-<<<<<<< HEAD
-<<<<<<< Updated upstream
+
 		bool bHasGameStarted = false;
-=======
-	bool bHasGameStarted = false;
 	
 	UPROPERTY(meta = (AllowPrivateAccess = "true"), EditAnywhere, BlueprintReadWrite, Category = "My Variables")
 	bool IsSlowed;
 
 	//float Minutes;
->>>>>>> Stashed changes
-=======
-	bool bHasGameStarted = true;
-	
-	UPROPERTY(meta = (AllowPrivateAccess = "true"), EditAnywhere, BlueprintReadWrite, Category = "My Variables")
-	bool IsSlowed;
->>>>>>> main
 
 	UPROPERTY(meta = (AllowPrivateAccess = "true"), EditAnywhere, BlueprintReadWrite, Category = "My Variables")
 	float SpeedBoostTimer;

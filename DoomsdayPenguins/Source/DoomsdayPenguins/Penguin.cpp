@@ -209,15 +209,7 @@ void APenguin::Movement()
 	//Getting the direction we're looking, and the right vector = cross product of forward and up vectors
 	FVector ForwardVector = UKismetMathLibrary::GetForwardVector(ControlRotation);
 	FVector RightVector = UKismetMathLibrary::GetRightVector(ControlRotation);
-<<<<<<< HEAD
-<<<<<<< Updated upstream
 
-=======
-	FVector UPVector = UKismetMathLibrary::GetUpVector(ControlRotation);
->>>>>>> Stashed changes
-=======
-	
->>>>>>> main
 	ForwardVector *= XInput;
 	RightVector *= YInput;
 	

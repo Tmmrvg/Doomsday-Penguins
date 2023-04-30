@@ -17,30 +17,13 @@ void EmptyLinkFunctionForGeneratedCodeDoomsdayPenguins_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-				0xAD8F9C59,
-=======
-				0x27396DD0,
->>>>>>> Stashed changes
-				0x324FD99A,
-=======
-				0x085C2E6C,
+				0x629D4459,
 				0xDE7FCB17,
->>>>>>> main
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_DoomsdayPenguins.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_DoomsdayPenguins.OuterSingleton;
 	}
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_DoomsdayPenguins(Z_Construct_UPackage__Script_DoomsdayPenguins, TEXT("/Script/DoomsdayPenguins"), Z_Registration_Info_UPackage__Script_DoomsdayPenguins, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xAD8F9C59, 0x324FD99A));
-=======
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_DoomsdayPenguins(Z_Construct_UPackage__Script_DoomsdayPenguins, TEXT("/Script/DoomsdayPenguins"), Z_Registration_Info_UPackage__Script_DoomsdayPenguins, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x27396DD0, 0x324FD99A));
->>>>>>> Stashed changes
-=======
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_DoomsdayPenguins(Z_Construct_UPackage__Script_DoomsdayPenguins, TEXT("/Script/DoomsdayPenguins"), Z_Registration_Info_UPackage__Script_DoomsdayPenguins, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x085C2E6C, 0xDE7FCB17));
->>>>>>> main
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_DoomsdayPenguins(Z_Construct_UPackage__Script_DoomsdayPenguins, TEXT("/Script/DoomsdayPenguins"), Z_Registration_Info_UPackage__Script_DoomsdayPenguins, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x629D4459, 0xDE7FCB17));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
