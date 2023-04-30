@@ -408,9 +408,15 @@ void EmptyLinkFunctionForGeneratedCodePenguin() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_larss_Documents_Github_repositories_Inventory_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_Statics::ClassInfo[] = {
+<<<<<<< Updated upstream
 		{ Z_Construct_UClass_APenguin, APenguin::StaticClass, TEXT("APenguin"), &Z_Registration_Info_UClass_APenguin, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APenguin), 1720906104U) },
 	};
 	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_larss_Documents_Github_repositories_Inventory_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_2823161367(TEXT("/Script/DoomsdayPenguins"),
+=======
+		{ Z_Construct_UClass_APenguin, APenguin::StaticClass, TEXT("APenguin"), &Z_Registration_Info_UClass_APenguin, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APenguin), 3591348557U) },
+	};
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_larss_Documents_Github_repositories_Inventory_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_2374368570(TEXT("/Script/DoomsdayPenguins"),
+>>>>>>> Stashed changes
 		Z_CompiledInDeferFile_FID_Users_larss_Documents_Github_repositories_Inventory_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_larss_Documents_Github_repositories_Inventory_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

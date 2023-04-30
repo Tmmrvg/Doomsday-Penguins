@@ -41,14 +41,15 @@ public:
 
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = GameState)
-	bool GameOver;
+	bool GameOver = false;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = GameState)
-	bool GameWon;
+	bool GameWon = false;
 
 	float XInput;
 	float YInput;
 	float Yaw;
+	float Roll;
 	float Pitch;
 	float Clock;
 	
@@ -60,7 +61,16 @@ public:
 		float Minutes;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+<<<<<<< Updated upstream
 		bool bHasGameStarted = false;
+=======
+	bool bHasGameStarted = false;
+	
+	UPROPERTY(meta = (AllowPrivateAccess = "true"), EditAnywhere, BlueprintReadWrite, Category = "My Variables")
+	bool IsSlowed;
+
+	//float Minutes;
+>>>>>>> Stashed changes
 
 	UPROPERTY(meta = (AllowPrivateAccess = "true"), EditAnywhere, BlueprintReadWrite, Category = "My Variables")
 		bool IsSlowed;

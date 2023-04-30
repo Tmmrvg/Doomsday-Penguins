@@ -96,16 +96,23 @@ void APenguin::Tick(float DeltaTime)
 
 		AddControllerYawInput(Yaw);
 		AddControllerPitchInput(Pitch);
+	/*	AddControllerRollInput(Roll);*/
 	}
-
-	if (GetCharacterMovement()->IsFalling())
-	{
-		GetCharacterMovement()->bOrientRotationToMovement = false;
+	if (GetCharacterMovement()->Velocity.Size() >= 3000) {
+		GetCharacterMovement()->SetWalkableFloorAngle(65);
+		UE_LOG(LogTemp, Warning, TEXT("slope is 60"));
 	}
 	else
 	{
-		GetCharacterMovement()->bOrientRotationToMovement = true;
+		GetCharacterMovement()->SetWalkableFloorAngle(30);
+		UE_LOG(LogTemp, Warning, TEXT("slope is 30"));
 	}
+		
+
+	
+
+		GetCharacterMovement()->bOrientRotationToMovement = true;
+
 	
 	if (GameOver)
 	{
@@ -180,11 +187,16 @@ void APenguin::Movement()
 
 	ControlRotation.Roll = 0.f;
 	ControlRotation.Pitch = 0.f;
+	/*ControlRotation.Yaw = 0.f;*/
 	
 	//Getting the direction we're looking, and the right vector = cross product of forward and up vectors
 	FVector ForwardVector = UKismetMathLibrary::GetForwardVector(ControlRotation);
 	FVector RightVector = UKismetMathLibrary::GetRightVector(ControlRotation);
+<<<<<<< Updated upstream
 
+=======
+	FVector UPVector = UKismetMathLibrary::GetUpVector(ControlRotation);
+>>>>>>> Stashed changes
 	ForwardVector *= XInput;
 	RightVector *= YInput;
 	
