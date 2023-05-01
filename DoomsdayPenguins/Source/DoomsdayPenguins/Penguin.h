@@ -46,6 +46,12 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = GameState)
 	bool GameWon;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = GameState)
+	bool IsPaused;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = GameState)
+	bool bHasGameStarted = true;
+	
 	float XInput;
 	float YInput;
 	float Yaw;
@@ -58,11 +64,6 @@ public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	int Minutes;
-
-	//float Minutes;
-	
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	bool bHasGameStarted = true;
 	
 	UPROPERTY(meta = (AllowPrivateAccess = "true"), EditAnywhere, BlueprintReadWrite, Category = "My Variables")
 	bool IsSlowed;
@@ -71,7 +72,7 @@ public:
 	float SpeedBoostTimer;
 
 	UPROPERTY(meta = (AllowPrivateAccess = "true"), EditAnywhere, BlueprintReadWrite, Category = "My Variables")
-	float bHasSpeedBoost;
+	bool bHasSpeedBoost;
 
 	UPROPERTY(meta = (AllowPrivateAccess = "true"), EditAnywhere, BlueprintReadWrite, Category = "My Variables")
 	int SlowTime;
@@ -120,6 +121,7 @@ public:
 	void MouseY(const FInputActionValue& input);
 
 	void GameStateChange();
+	void GameLossState();
 	void Movement();
 	void Quit(const FInputActionValue& input);
 	void HitByTarget();

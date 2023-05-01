@@ -6,24 +6,20 @@
 #include "EnhancedInputSubsystems.h"
 #include "InputMappingContext.h"
 #include "Bullet.h"
+#include "Goal.h"
+#include "GameLoss.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "Kismet/KismetMathLibrary.h"
 #include "Kismet/KismetSystemLibrary.h"
 #include "InputTriggers.h"
-#include "Components/SphereComponent.h"
-#include "Components/BoxComponent.h"
 
 // Sets default values
 APenguin::APenguin()
 {
  //	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-
-	// Collider = CreateDefaultSubobject<UBoxComponent>(TEXT("Collider"));
-	// SetRootComponent(Collider);
-	// Collider->InitBoxExtent(FVector(50, 50, 50));
 	
 	SpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("SpringArm"));
 	SpringArm->SetupAttachment(GetRootComponent());
@@ -92,7 +88,7 @@ void APenguin::Tick(float DeltaTime)
 	{
 		SlowDuration();
 	}
-	if (GameOver == true || GameWon == false) 
+	if (IsPaused == true || GameWon == false) 
 	{
 		Movement();
 
@@ -109,7 +105,7 @@ void APenguin::Tick(float DeltaTime)
 		GetCharacterMovement()->bOrientRotationToMovement = true;
 	}
 	
-	if (GameOver)
+	if (IsPaused)
 	{
 		SetGamePaused(true);
 	}
@@ -117,12 +113,12 @@ void APenguin::Tick(float DeltaTime)
 	//Hinder player to go up steep slopes when their speed is too low.
 	if (GetCharacterMovement()->Velocity.Size() >= 4500) {
 		GetCharacterMovement()->SetWalkableFloorAngle(65);
-		UE_LOG(LogTemp, Warning, TEXT("slope is 60"));
+		//UE_LOG(LogTemp, Warning, TEXT("slope is 60"));
 	}
 	else
 	{
-		GetCharacterMovement()->SetWalkableFloorAngle(30);
-		UE_LOG(LogTemp, Warning, TEXT("slope is 30"));
+		GetCharacterMovement()->SetWalkableFloorAngle(45);
+		//UE_LOG(LogTemp, Warning, TEXT("slope is 30"));
 	}
 
 	//If SpeedBoostTimer is more than 0, timer starts. 
@@ -131,7 +127,7 @@ void APenguin::Tick(float DeltaTime)
 		SpeedBoostTimer -= DeltaTime;
 		if (SpeedBoostTimer <= 0) // Resets speed when timer is 0.
 		{
-				UE_LOG(LogTemp, Warning, TEXT("Reseting speed"));
+				//UE_LOG(LogTemp, Warning, TEXT("Reseting speed"));
 				GetCharacterMovement()->MaxWalkSpeed = 5000;
 				GetCharacterMovement()->MaxAcceleration = 1000;
 		}
@@ -149,7 +145,6 @@ void APenguin::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 		EnhanceInputCom->BindAction(RightInput, ETriggerEvent::Triggered, this, &APenguin::Right);
 		EnhanceInputCom->BindAction(ForwardInput, ETriggerEvent::Completed, this, &APenguin::Forward);
 		EnhanceInputCom->BindAction(RightInput, ETriggerEvent::Completed, this, &APenguin::Right);
-
 		
 		EnhanceInputCom->BindAction(MouseXInput, ETriggerEvent::Started, this, &APenguin::MouseX);
 		EnhanceInputCom->BindAction(MouseYInput, ETriggerEvent::Started, this, &APenguin::MouseY);
@@ -159,7 +154,6 @@ void APenguin::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 		EnhanceInputCom->BindAction(MouseYInput, ETriggerEvent::Completed, this, &APenguin::MouseY);
 		
 		EnhanceInputCom->BindAction(SettingsInput, ETriggerEvent::Triggered, this, &APenguin::Quit);
-
 		EnhanceInputCom->BindAction(SettingsInput, ETriggerEvent::Triggered, this, &APenguin::Quit);
 	}
 }
@@ -169,10 +163,14 @@ void APenguin::GameStateChange()
 	GameWon = true;
 }
 
+void APenguin::GameLossState()
+{
+	GameOver = true;
+}
+
 void APenguin::Forward(const FInputActionValue& input)
 {
 	XInput = input.Get<float>();
-	
 }
 
 void APenguin::Right(const FInputActionValue& input)
@@ -205,7 +203,6 @@ void APenguin::Movement()
 	ForwardVector *= XInput;
 	RightVector *= YInput;
 	
-	
 	if (!FMath::IsNearlyZero(XInput))
 	{
 		AddMovementInput(ForwardVector);
@@ -218,12 +215,12 @@ void APenguin::Movement()
 
 void APenguin::Quit(const FInputActionValue& input)
 {
-	if (GameOver && input.IsNonZero())
-		GameOver = false;
+	if (IsPaused && input.IsNonZero())
+		IsPaused = false;
 
-	GameOver = true;
+	IsPaused = true;
 	
-	UE_LOG(LogTemp, Warning, TEXT("Bool changed"));
+	//UE_LOG(LogTemp, Warning, TEXT("Bool changed"));
 }
 
 void APenguin::HitByTarget()
@@ -231,7 +228,7 @@ void APenguin::HitByTarget()
 	GetCharacterMovement()->MaxWalkSpeed = 2500;
 	GetCharacterMovement()->Velocity /= 2;
 	GetCharacterMovement()->MaxAcceleration = 500;
-	UE_LOG(LogTemp, Warning, TEXT("Player is slowed"));
+	//UE_LOG(LogTemp, Warning, TEXT("Player is slowed"));
 
 	SlowTime = 200;
 	IsSlowed = true;
@@ -243,7 +240,7 @@ void APenguin::SlowDuration()
 	{
 		GetCharacterMovement()->MaxWalkSpeed = 5000;
 		GetCharacterMovement()->MaxAcceleration = 1000;
-		UE_LOG(LogTemp, Warning, TEXT("Slowdown is gone"));
+		//UE_LOG(LogTemp, Warning, TEXT("Slowdown is gone"));
 		IsSlowed = false;
 	}
 }
@@ -252,7 +249,7 @@ void APenguin::SpeedBoost()
 {
 	SpeedBoostTimer = 5;
 	
-	UE_LOG(LogTemp, Warning, TEXT("Got speedboost"));
+	//UE_LOG(LogTemp, Warning, TEXT("Got speedboost"));
 	GetCharacterMovement()->MaxWalkSpeed = 6000;
 	GetCharacterMovement()->MaxAcceleration = 2000;
 }
