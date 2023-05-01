@@ -1118,3 +1118,527 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.05.01-10.06.32:705][629]MaterialEditorStats: Shader Count: 32
 [2023.05.01-10.07.22:881][869]LogDerivedDataCache: C:/Users/evaca/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:10.189 and deleted 0 files with total size 0 MiB. Scanned 5732 files in 5602 folders with total size 106 MiB.
 [2023.05.01-10.07.38:484][547]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2023.05.01-10.10.16:086][210]LogViewport: Scene viewport resized to 1066x449, mode Windowed.
+[2023.05.01-10.10.17:184][258]LogViewport: Scene viewport resized to 728x334, mode Windowed.
+[2023.05.01-10.10.20:892][371]LogViewport: Scene viewport resized to 727x334, mode Windowed.
+[2023.05.01-10.10.20:928][371]LogViewport: Scene viewport resized to 710x334, mode Windowed.
+[2023.05.01-10.10.20:961][371]LogViewport: Scene viewport resized to 645x334, mode Windowed.
+[2023.05.01-10.10.20:994][371]LogViewport: Scene viewport resized to 551x334, mode Windowed.
+[2023.05.01-10.10.21:028][371]LogViewport: Scene viewport resized to 463x334, mode Windowed.
+[2023.05.01-10.10.21:058][371]LogViewport: Scene viewport resized to 422x334, mode Windowed.
+[2023.05.01-10.10.21:084][371]LogViewport: Scene viewport resized to 414x334, mode Windowed.
+[2023.05.01-10.10.21:192][371]LogViewport: Scene viewport resized to 413x334, mode Windowed.
+[2023.05.01-10.10.21:221][371]LogViewport: Scene viewport resized to 412x334, mode Windowed.
+[2023.05.01-10.10.21:250][371]LogViewport: Scene viewport resized to 400x334, mode Windowed.
+[2023.05.01-10.10.21:285][371]LogViewport: Scene viewport resized to 380x334, mode Windowed.
+[2023.05.01-10.10.21:318][371]LogViewport: Scene viewport resized to 367x334, mode Windowed.
+[2023.05.01-10.10.21:347][371]LogViewport: Scene viewport resized to 364x334, mode Windowed.
+[2023.05.01-10.10.21:377][371]LogViewport: Scene viewport resized to 361x334, mode Windowed.
+[2023.05.01-10.10.21:410][371]LogViewport: Scene viewport resized to 355x334, mode Windowed.
+[2023.05.01-10.10.21:441][371]LogViewport: Scene viewport resized to 353x334, mode Windowed.
+[2023.05.01-10.11.27:195][564]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2023.05.01-10.11.27:198][564]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.01-10.11.27:226][564]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/9/ND/XD6VO0W4ZGX9IXWG9769ML
+[2023.05.01-10.11.27:226][564]LogSavePackage: Moving 'D:/school/hamar 22-25/hamar 23-V/Game Design/Racing Spill/Doomsday-Penguins/DoomsdayPenguins/Saved/XD6VO0W4ZGX9IXWG9769ML5348EDB5492623964F25BF88C3CCBAB3.tmp' to 'D:/school/hamar 22-25/hamar 23-V/Game Design/Racing Spill/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/9/ND/XD6VO0W4ZGX9IXWG9769ML.uasset'
+[2023.05.01-10.11.27:228][564]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/6/NC/N2CV8ESYXPSO71DUHQBEX1
+[2023.05.01-10.11.27:228][564]LogSavePackage: Moving 'D:/school/hamar 22-25/hamar 23-V/Game Design/Racing Spill/Doomsday-Penguins/DoomsdayPenguins/Saved/N2CV8ESYXPSO71DUHQBEX15FED5115464DAFF07530D1A349156BCD.tmp' to 'D:/school/hamar 22-25/hamar 23-V/Game Design/Racing Spill/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/6/NC/N2CV8ESYXPSO71DUHQBEX1.uasset'
+[2023.05.01-10.11.27:232][564]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/8/V9/B145DPK9WAWUHBL0SICQSM
+[2023.05.01-10.11.27:232][564]LogSavePackage: Moving 'D:/school/hamar 22-25/hamar 23-V/Game Design/Racing Spill/Doomsday-Penguins/DoomsdayPenguins/Saved/B145DPK9WAWUHBL0SICQSM7C0E8D854D94018B54F34897605BFD8A.tmp' to 'D:/school/hamar 22-25/hamar 23-V/Game Design/Racing Spill/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/8/V9/B145DPK9WAWUHBL0SICQSM.uasset'
+[2023.05.01-10.11.27:233][564]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/3/0W/AZGVB5MKN72NUAWZDSYBZS
+[2023.05.01-10.11.27:233][564]LogSavePackage: Moving 'D:/school/hamar 22-25/hamar 23-V/Game Design/Racing Spill/Doomsday-Penguins/DoomsdayPenguins/Saved/AZGVB5MKN72NUAWZDSYBZS93786823491FC1197F6EA1B45011E5AA.tmp' to 'D:/school/hamar 22-25/hamar 23-V/Game Design/Racing Spill/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/3/0W/AZGVB5MKN72NUAWZDSYBZS.uasset'
+[2023.05.01-10.11.27:235][564]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/1/TV/M1HPF2K07RT5JMU9ZYS3MH
+[2023.05.01-10.11.27:235][564]LogSavePackage: Moving 'D:/school/hamar 22-25/hamar 23-V/Game Design/Racing Spill/Doomsday-Penguins/DoomsdayPenguins/Saved/M1HPF2K07RT5JMU9ZYS3MH6FEF124E4873C63D226E67812AF7F425.tmp' to 'D:/school/hamar 22-25/hamar 23-V/Game Design/Racing Spill/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/1/TV/M1HPF2K07RT5JMU9ZYS3MH.uasset'
+[2023.05.01-10.11.27:237][564]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/E/V3/GS59X5G73PN3UNK7U2JZ2T
+[2023.05.01-10.11.27:238][564]LogSavePackage: Moving 'D:/school/hamar 22-25/hamar 23-V/Game Design/Racing Spill/Doomsday-Penguins/DoomsdayPenguins/Saved/GS59X5G73PN3UNK7U2JZ2T1F64562B4DBEB53046DE66A03400012B.tmp' to 'D:/school/hamar 22-25/hamar 23-V/Game Design/Racing Spill/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/E/V3/GS59X5G73PN3UNK7U2JZ2T.uasset'
+[2023.05.01-10.11.27:240][564]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/4/UY/X0L8AYPBHPJABLMIV90UN0
+[2023.05.01-10.11.27:240][564]LogSavePackage: Moving 'D:/school/hamar 22-25/hamar 23-V/Game Design/Racing Spill/Doomsday-Penguins/DoomsdayPenguins/Saved/X0L8AYPBHPJABLMIV90UN0252F658F4801F8B8518FDE9EE132ADF8.tmp' to 'D:/school/hamar 22-25/hamar 23-V/Game Design/Racing Spill/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/4/UY/X0L8AYPBHPJABLMIV90UN0.uasset'
+[2023.05.01-10.11.27:270][564]LogFileHelpers: InternalPromptForCheckoutAndSave took 72 ms (total: 8.93 sec)
+[2023.05.01-10.11.27:275][564]AssetCheck: New page: Asset Save: multiple assets
+[2023.05.01-10.11.27:275][564]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/LevelBuild.LevelBuild:PersistentLevel.StaticMeshActor_UAID_3497F68EB64B4E7A01_1129734728
+[2023.05.01-10.11.27:275][564]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/LevelBuild.LevelBuild:PersistentLevel.StaticMeshActor_UAID_3497F68EB64B4E7A01_1091651725
+[2023.05.01-10.11.27:275][564]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/LevelBuild.LevelBuild:PersistentLevel.StaticMeshActor_UAID_3497F68EB64B4E7A01_1164943729
+[2023.05.01-10.11.27:275][564]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/LevelBuild.LevelBuild:PersistentLevel.StaticMeshActor_UAID_3497F68EB64B4E7A01_1274944732
+[2023.05.01-10.11.27:275][564]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/LevelBuild.LevelBuild:PersistentLevel.StaticMeshActor_UAID_3497F68EB64B4D7A01_2047649548
+[2023.05.01-10.11.27:275][564]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/LevelBuild.LevelBuild:PersistentLevel.StaticMeshActor_UAID_3497F68EB64B4D7A01_1839394545
+[2023.05.01-10.11.27:276][564]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/LevelBuild.LevelBuild:PersistentLevel.StaticMeshActor_UAID_3497F68EB64B4E7A01_1228985731
+[2023.05.01-10.12.01:826][252]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Track/Import/Import/11127-normal.11127-normal
+[2023.05.01-10.12.01:948][252]LogViewport: Scene viewport resized to 479x668, mode Windowed.
+[2023.05.01-10.12.03:579][341]LogSlate: Window '11127-normal' being destroyed
+[2023.05.01-10.12.03:585][341]LogSlate: Window '11127-normal' being destroyed
+[2023.05.01-10.12.03:601][341]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2023.05.01-10.12.03:601][341]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.01-10.12.15:268][257]LogContentBrowser: Attempting asset rename: 11127-normal -> T_Ice_N
+[2023.05.01-10.12.15:299][257]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.01-10.12.15:370][257]LogDerivedDataCache: Display: C:/Users/evaca/AppData/Local/UnrealEngine/Common/DerivedDataCache: Cache put found non-deterministic value with new hash 0bd9f2b70335e0c5153550b5cfe2ebb4ec195868 and existing hash 2180dbe8004033d175388564cac8fa974e5e8344 for MaterialShaderMap/af17ae0211fbf308e0f7cc3a54edc76dd676feb3 from '/Game/Track/Import/Import/MAT_Ice.MAT_Ice [PCD3D_SM6, SM6, Num]'
+[2023.05.01-10.12.15:373][257]LogShaderCompilers: Display: ================================================
+[2023.05.01-10.12.15:373][257]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.01-10.12.15:373][257]LogShaderCompilers: Display: Total job queries 300, among them cache hits 34 (11.33%)
+[2023.05.01-10.12.15:373][257]LogShaderCompilers: Display: Tracking 266 distinct input hashes that result in 169 distinct outputs (63.53%)
+[2023.05.01-10.12.15:373][257]LogShaderCompilers: Display: RAM used: 2.18 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.13%
+[2023.05.01-10.12.15:373][257]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.01-10.12.15:373][257]LogShaderCompilers: Display: Shaders Compiled: 52
+[2023.05.01-10.12.15:373][257]LogShaderCompilers: Display: Jobs assigned 52, completed 52 (100.00%)
+[2023.05.01-10.12.15:373][257]LogShaderCompilers: Display: Average time worker was idle: 2.81 s
+[2023.05.01-10.12.15:373][257]LogShaderCompilers: Display: Time job spent in pending queue: average 2.57 s, longest 7.92 s
+[2023.05.01-10.12.15:373][257]LogShaderCompilers: Display: Job execution time: average 1.15 s, max 2.13 s
+[2023.05.01-10.12.15:373][257]LogShaderCompilers: Display: Job life time (pending + execution): average 3.72 s, max 8.63
+[2023.05.01-10.12.15:373][257]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 20.94 s
+[2023.05.01-10.12.15:373][257]LogShaderCompilers: Display: Jobs were issued in 51 batches (only local compilation was used), average 1.02 jobs/batch
+[2023.05.01-10.12.15:373][257]LogShaderCompilers: Display: Average processing rate: 2.48 jobs/sec
+[2023.05.01-10.12.15:373][257]LogShaderCompilers: Display: Total thread time: 48.07 s
+[2023.05.01-10.12.15:373][257]LogShaderCompilers: Display: Total thread preprocess time: 2.53 s
+[2023.05.01-10.12.15:373][257]LogShaderCompilers: Display: Percentage time preprocessing: 5.26%
+[2023.05.01-10.12.15:373][257]LogShaderCompilers: Display: Effective parallelization: 2.30 (times faster than compiling all shaders on one thread). Compare with number of workers: 3
+[2023.05.01-10.12.15:373][257]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.05.01-10.12.15:373][257]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    5 times, average 1.39 sec, max 1.98 sec, min 0.83 sec)
+[2023.05.01-10.12.15:373][257]LogShaderCompilers: Display:                                      FLandscapeGrassWeightVS (compiled    2 times, average 1.35 sec, max 1.44 sec, min 1.26 sec)
+[2023.05.01-10.12.15:373][257]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    5 times, average 1.22 sec, max 1.71 sec, min 0.72 sec)
+[2023.05.01-10.12.15:373][257]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    5 times, average 1.08 sec, max 1.46 sec, min 0.68 sec)
+[2023.05.01-10.12.15:373][257]LogShaderCompilers: Display:                                      FLandscapeGrassWeightPS (compiled    2 times, average 1.01 sec, max 1.02 sec, min 1.00 sec)
+[2023.05.01-10.12.15:373][257]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.05.01-10.12.15:373][257]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 14.43% of total time (compiled    5 times, average 1.39 sec, max 1.98 sec, min 0.83 sec)
+[2023.05.01-10.12.15:373][257]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 12.69% of total time (compiled    5 times, average 1.22 sec, max 1.71 sec, min 0.72 sec)
+[2023.05.01-10.12.15:373][257]LogShaderCompilers: Display:                                                 FLumenCardVS - 11.26% of total time (compiled    5 times, average 1.08 sec, max 1.46 sec, min 0.68 sec)
+[2023.05.01-10.12.15:373][257]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 7.19% of total time (compiled    5 times, average 0.69 sec, max 1.08 sec, min 0.40 sec)
+[2023.05.01-10.12.15:373][257]LogShaderCompilers: Display:                                               FNiagaraShader - 6.03% of total time (compiled    4 times, average 0.73 sec, max 1.19 sec, min 0.37 sec)
+[2023.05.01-10.12.15:373][257]LogShaderCompilers: Display: ================================================
+[2023.05.01-10.12.15:398][257]LogSavePackage: Moving output files for package: /Game/Track/Import/Import/MAT_Ice
+[2023.05.01-10.12.15:398][257]LogSavePackage: Moving 'D:/school/hamar 22-25/hamar 23-V/Game Design/Racing Spill/Doomsday-Penguins/DoomsdayPenguins/Saved/MAT_Ice3102106C4D999504AE4119BDD661B7DD.tmp' to 'D:/school/hamar 22-25/hamar 23-V/Game Design/Racing Spill/Doomsday-Penguins/DoomsdayPenguins/Content/Track/Import/Import/MAT_Ice.uasset'
+[2023.05.01-10.12.15:425][257]LogSavePackage: Moving output files for package: /Game/Track/Import/Import/T_Ice_N
+[2023.05.01-10.12.15:425][257]LogSavePackage: Moving 'D:/school/hamar 22-25/hamar 23-V/Game Design/Racing Spill/Doomsday-Penguins/DoomsdayPenguins/Saved/T_Ice_N5522EE1C41297E09C70BF19F88B28EA5.tmp' to 'D:/school/hamar 22-25/hamar 23-V/Game Design/Racing Spill/Doomsday-Penguins/DoomsdayPenguins/Content/Track/Import/Import/T_Ice_N.uasset'
+[2023.05.01-10.12.15:432][257]LogFileHelpers: InternalPromptForCheckoutAndSave took 133 ms (total: 9.07 sec)
+[2023.05.01-10.12.15:454][257]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.05.01-10.12.15:467][257]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2023.05.01-10.12.15:479][257]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2023.05.01-10.12.15:484][257]AssetCheck: New page: Asset Save: multiple assets
+[2023.05.01-10.12.15:484][257]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Track/Import/Import/T_Ice_N.T_Ice_N
+[2023.05.01-10.12.15:484][257]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Track/Import/Import/MAT_Ice.MAT_Ice
+[2023.05.01-10.12.25:563][ 51]LogContentBrowser: Attempting asset rename: 0a5d16795f52b45a22e3bee240d9376b -> T_Snow_N
+[2023.05.01-10.12.25:590][ 51]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.01-10.12.25:619][ 51]LogSavePackage: Moving output files for package: /Game/Track/Import/Import/MAT_Snow
+[2023.05.01-10.12.25:619][ 51]LogSavePackage: Moving 'D:/school/hamar 22-25/hamar 23-V/Game Design/Racing Spill/Doomsday-Penguins/DoomsdayPenguins/Saved/MAT_Snow8903868A40EBBDEE61FE73BCC4A7C5E2.tmp' to 'D:/school/hamar 22-25/hamar 23-V/Game Design/Racing Spill/Doomsday-Penguins/DoomsdayPenguins/Content/Track/Import/Import/MAT_Snow.uasset'
+[2023.05.01-10.12.25:623][ 51]LogSavePackage: Moving output files for package: /Game/Track/Import/Import/T_Snow_N
+[2023.05.01-10.12.25:623][ 51]LogSavePackage: Moving 'D:/school/hamar 22-25/hamar 23-V/Game Design/Racing Spill/Doomsday-Penguins/DoomsdayPenguins/Saved/T_Snow_NE021BFD74FE4BC78D24FDE82D343780C.tmp' to 'D:/school/hamar 22-25/hamar 23-V/Game Design/Racing Spill/Doomsday-Penguins/DoomsdayPenguins/Content/Track/Import/Import/T_Snow_N.uasset'
+[2023.05.01-10.12.25:631][ 51]LogFileHelpers: InternalPromptForCheckoutAndSave took 41 ms (total: 9.11 sec)
+[2023.05.01-10.12.25:651][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.05.01-10.12.25:665][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2023.05.01-10.12.25:677][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2023.05.01-10.12.25:681][ 51]AssetCheck: New page: Asset Save: multiple assets
+[2023.05.01-10.12.25:681][ 51]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Track/Import/Import/MAT_Snow.MAT_Snow
+[2023.05.01-10.12.25:681][ 51]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Track/Import/Import/T_Snow_N.T_Snow_N
+[2023.05.01-10.12.28:515][264]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2023.05.01-10.12.34:640][643]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Track/Import/Import/MAT_Snow.MAT_Snow
+[2023.05.01-10.12.34:645][643]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.01-10.12.34:779][643]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.01-10.12.34:779][643]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.01-10.12.34:779][643]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.01-10.12.34:779][643]MaterialEditorStats: Shader Count: 0
+[2023.05.01-10.12.34:786][643]LogViewport: Scene viewport resized to 353x334, mode Windowed.
+[2023.05.01-10.12.34:912][645]MaterialEditorStats: Base pass shader: 224 instructions
+[2023.05.01-10.12.34:912][645]MaterialEditorStats: Base pass vertex shader: 260 instructions
+[2023.05.01-10.12.34:912][645]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.01-10.12.34:912][645]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.01-10.12.34:912][645]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.01-10.12.34:912][645]MaterialEditorStats: Shader Count: 4
+[2023.05.01-10.12.39:813][938]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.01-10.12.39:813][938]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.01-10.12.39:813][938]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.01-10.12.39:813][938]MaterialEditorStats: Shader Count: 0
+[2023.05.01-10.12.39:866][940]MaterialEditorStats: Base pass shader: 224 instructions
+[2023.05.01-10.12.39:866][940]MaterialEditorStats: Base pass vertex shader: 260 instructions
+[2023.05.01-10.12.39:866][940]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.01-10.12.39:866][940]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.01-10.12.39:866][940]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.01-10.12.39:867][940]MaterialEditorStats: Shader Count: 4
+[2023.05.01-10.12.52:083][865]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.01-10.12.52:083][865]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.01-10.12.52:083][865]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.01-10.12.52:083][865]MaterialEditorStats: Shader Count: 0
+[2023.05.01-10.12.54:832][977]MaterialEditorStats: Base pass vertex shader: 260 instructions
+[2023.05.01-10.12.54:832][977]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.01-10.12.54:832][977]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.01-10.12.54:832][977]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.01-10.12.54:833][977]MaterialEditorStats: Shader Count: 2
+[2023.05.01-10.12.55:124][989]MaterialEditorStats: Base pass shader: 223 instructions
+[2023.05.01-10.12.55:124][989]MaterialEditorStats: Base pass vertex shader: 260 instructions
+[2023.05.01-10.12.55:124][989]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.01-10.12.55:124][989]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.01-10.12.55:124][989]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.01-10.12.55:124][989]MaterialEditorStats: Shader Count: 3
+[2023.05.01-10.12.55:360][  1]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.01-10.12.55:360][  1]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.01-10.12.55:360][  1]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.01-10.12.55:360][  1]MaterialEditorStats: Shader Count: 0
+[2023.05.01-10.12.55:454][  3]MaterialEditorStats: Base pass shader: 223 instructions
+[2023.05.01-10.12.55:454][  3]MaterialEditorStats: Base pass vertex shader: 260 instructions
+[2023.05.01-10.12.55:454][  3]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.01-10.12.55:454][  3]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.01-10.12.55:454][  3]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.01-10.12.55:454][  3]MaterialEditorStats: Shader Count: 3
+[2023.05.01-10.12.58:168][188]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.01-10.12.58:168][188]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.01-10.12.58:168][188]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.01-10.12.58:168][188]MaterialEditorStats: Shader Count: 0
+[2023.05.01-10.13.00:672][367]MaterialEditorStats: Base pass shader: 222 instructions
+[2023.05.01-10.13.00:672][367]MaterialEditorStats: Base pass vertex shader: 260 instructions
+[2023.05.01-10.13.00:672][367]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.01-10.13.00:672][367]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.01-10.13.00:672][367]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.01-10.13.00:672][367]MaterialEditorStats: Shader Count: 3
+[2023.05.01-10.13.02:509][498]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.01-10.13.02:509][498]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.01-10.13.02:509][498]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.01-10.13.02:509][498]MaterialEditorStats: Shader Count: 0
+[2023.05.01-10.13.02:622][501]MaterialEditorStats: Base pass shader: 222 instructions
+[2023.05.01-10.13.02:622][501]MaterialEditorStats: Base pass vertex shader: 260 instructions
+[2023.05.01-10.13.02:622][501]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.01-10.13.02:622][501]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.01-10.13.02:622][501]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.01-10.13.02:622][501]MaterialEditorStats: Shader Count: 4
+[2023.05.01-10.13.52:530][851]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2023.05.01-10.14.12:350][755]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.01-10.14.12:350][755]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.01-10.14.12:350][755]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.01-10.14.12:350][755]MaterialEditorStats: Shader Count: 0
+[2023.05.01-10.14.14:954][859]MaterialEditorStats: Base pass vertex shader: 260 instructions
+[2023.05.01-10.14.14:954][859]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.01-10.14.14:954][859]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.01-10.14.14:954][859]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.01-10.14.14:954][859]MaterialEditorStats: Shader Count: 1
+[2023.05.01-10.14.15:251][871]MaterialEditorStats: Base pass shader: 222 instructions
+[2023.05.01-10.14.15:251][871]MaterialEditorStats: Base pass vertex shader: 260 instructions
+[2023.05.01-10.14.15:251][871]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.01-10.14.15:251][871]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.01-10.14.15:251][871]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.01-10.14.15:251][871]MaterialEditorStats: Shader Count: 2
+[2023.05.01-10.14.20:156][115]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.01-10.14.20:157][115]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.01-10.14.20:157][115]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.01-10.14.20:157][115]MaterialEditorStats: Shader Count: 0
+[2023.05.01-10.14.20:271][118]MaterialEditorStats: Base pass shader: 222 instructions
+[2023.05.01-10.14.20:271][118]MaterialEditorStats: Base pass vertex shader: 260 instructions
+[2023.05.01-10.14.20:271][118]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.01-10.14.20:271][118]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.01-10.14.20:271][118]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.01-10.14.20:271][118]MaterialEditorStats: Shader Count: 6
+[2023.05.01-10.14.21:297][194]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.01-10.14.21:298][194]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.01-10.14.21:298][194]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.01-10.14.21:298][194]MaterialEditorStats: Shader Count: 0
+[2023.05.01-10.14.21:415][197]MaterialEditorStats: Base pass shader: 222 instructions
+[2023.05.01-10.14.21:415][197]MaterialEditorStats: Base pass vertex shader: 260 instructions
+[2023.05.01-10.14.21:415][197]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.01-10.14.21:415][197]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.01-10.14.21:415][197]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.01-10.14.21:415][197]MaterialEditorStats: Shader Count: 6
+[2023.05.01-10.14.23:201][310]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.01-10.14.23:201][310]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.01-10.14.23:201][310]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.01-10.14.23:201][310]MaterialEditorStats: Shader Count: 0
+[2023.05.01-10.14.25:331][440]MaterialEditorStats: Base pass vertex shader: 260 instructions
+[2023.05.01-10.14.25:331][440]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.01-10.14.25:331][440]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.01-10.14.25:331][440]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.01-10.14.25:331][440]MaterialEditorStats: Shader Count: 1
+[2023.05.01-10.14.25:480][446]MaterialEditorStats: Base pass shader: 216 instructions
+[2023.05.01-10.14.25:480][446]MaterialEditorStats: Base pass vertex shader: 260 instructions
+[2023.05.01-10.14.25:480][446]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.01-10.14.25:480][446]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.01-10.14.25:480][446]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.01-10.14.25:480][446]MaterialEditorStats: Shader Count: 2
+[2023.05.01-10.14.27:290][540]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.01-10.14.27:291][540]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.01-10.14.27:291][540]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.01-10.14.27:291][540]MaterialEditorStats: Shader Count: 0
+[2023.05.01-10.14.29:504][627]MaterialEditorStats: Base pass vertex shader: 260 instructions
+[2023.05.01-10.14.29:504][627]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.01-10.14.29:504][627]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.01-10.14.29:504][627]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.01-10.14.29:504][627]MaterialEditorStats: Shader Count: 2
+[2023.05.01-10.14.29:802][639]MaterialEditorStats: Base pass shader: 216 instructions
+[2023.05.01-10.14.29:802][639]MaterialEditorStats: Base pass vertex shader: 260 instructions
+[2023.05.01-10.14.29:802][639]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.01-10.14.29:802][639]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.01-10.14.29:802][639]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.01-10.14.29:802][639]MaterialEditorStats: Shader Count: 3
+[2023.05.01-10.14.34:665][851]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.01-10.14.34:665][851]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.01-10.14.34:665][851]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.01-10.14.34:665][851]MaterialEditorStats: Shader Count: 0
+[2023.05.01-10.14.36:704][938]MaterialEditorStats: Base pass vertex shader: 260 instructions
+[2023.05.01-10.14.36:704][938]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.01-10.14.36:704][938]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.01-10.14.36:704][938]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.01-10.14.36:704][938]MaterialEditorStats: Shader Count: 2
+[2023.05.01-10.14.36:900][946]MaterialEditorStats: Base pass shader: 217 instructions
+[2023.05.01-10.14.36:901][946]MaterialEditorStats: Base pass vertex shader: 260 instructions
+[2023.05.01-10.14.36:901][946]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.01-10.14.36:901][946]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.01-10.14.36:901][946]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.01-10.14.36:901][946]MaterialEditorStats: Shader Count: 3
+[2023.05.01-10.14.37:967][989]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.01-10.14.37:967][989]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.01-10.14.37:967][989]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.01-10.14.37:967][989]MaterialEditorStats: Shader Count: 0
+[2023.05.01-10.14.40:116][ 77]MaterialEditorStats: Base pass vertex shader: 260 instructions
+[2023.05.01-10.14.40:116][ 77]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.01-10.14.40:116][ 77]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.01-10.14.40:116][ 77]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.01-10.14.40:116][ 77]MaterialEditorStats: Shader Count: 2
+[2023.05.01-10.14.40:424][ 89]MaterialEditorStats: Base pass shader: 217 instructions
+[2023.05.01-10.14.40:425][ 89]MaterialEditorStats: Base pass vertex shader: 260 instructions
+[2023.05.01-10.14.40:425][ 89]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.01-10.14.40:425][ 89]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.01-10.14.40:425][ 89]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.01-10.14.40:425][ 89]MaterialEditorStats: Shader Count: 3
+[2023.05.01-10.14.41:722][148]LogMaterialEditor: Applying material MAT_Snow
+[2023.05.01-10.14.42:481][148]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2023.05.01-10.14.44:242][148]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2023.05.01-10.14.44:266][148]MaterialEditorStats: Texture samplers: 1/16
+[2023.05.01-10.14.44:267][148]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.01-10.14.44:267][148]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.01-10.14.44:267][148]MaterialEditorStats: Shader Count: 2
+[2023.05.01-10.14.44:282][149]MaterialEditorStats: Base pass shader: 217 instructions
+[2023.05.01-10.14.44:282][149]MaterialEditorStats: Base pass vertex shader: 260 instructions
+[2023.05.01-10.14.44:282][149]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.01-10.14.44:282][149]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.01-10.14.44:282][149]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.01-10.14.44:282][149]MaterialEditorStats: Shader Count: 6
+[2023.05.01-10.14.51:819][598]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.01-10.14.51:819][598]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.01-10.14.51:819][598]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.01-10.14.51:819][598]MaterialEditorStats: Shader Count: 0
+[2023.05.01-10.14.51:942][601]MaterialEditorStats: Base pass shader: 217 instructions
+[2023.05.01-10.14.51:943][601]MaterialEditorStats: Base pass vertex shader: 260 instructions
+[2023.05.01-10.14.51:943][601]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.01-10.14.51:943][601]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.01-10.14.51:943][601]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.01-10.14.51:943][601]MaterialEditorStats: Shader Count: 4
+[2023.05.01-10.14.52:520][626]LogSlate: Window 'Color Picker' being destroyed
+[2023.05.01-10.14.52:530][626]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.01-10.14.52:530][626]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.01-10.14.52:530][626]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.01-10.14.52:530][626]MaterialEditorStats: Shader Count: 0
+[2023.05.01-10.14.52:623][629]MaterialEditorStats: Base pass shader: 217 instructions
+[2023.05.01-10.14.52:623][629]MaterialEditorStats: Base pass vertex shader: 260 instructions
+[2023.05.01-10.14.52:623][629]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.01-10.14.52:623][629]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.01-10.14.52:623][629]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.01-10.14.52:623][629]MaterialEditorStats: Shader Count: 4
+[2023.05.01-10.14.53:802][680]LogMaterialEditor: Applying material MAT_Snow
+[2023.05.01-10.14.54:511][680]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2023.05.01-10.14.54:719][680]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2023.05.01-10.14.54:742][680]MaterialEditorStats: Texture samplers: 1/16
+[2023.05.01-10.14.54:742][680]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.01-10.14.54:742][680]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.01-10.14.54:742][680]MaterialEditorStats: Shader Count: 2
+[2023.05.01-10.14.54:758][681]MaterialEditorStats: Base pass shader: 217 instructions
+[2023.05.01-10.14.54:758][681]MaterialEditorStats: Base pass vertex shader: 260 instructions
+[2023.05.01-10.14.54:758][681]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.01-10.14.54:758][681]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.01-10.14.54:758][681]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.01-10.14.54:758][681]MaterialEditorStats: Shader Count: 6
+[2023.05.01-10.15.06:676][233]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.01-10.15.06:676][233]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.01-10.15.06:676][233]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.01-10.15.06:676][233]MaterialEditorStats: Shader Count: 0
+[2023.05.01-10.15.06:800][236]MaterialEditorStats: Base pass shader: 217 instructions
+[2023.05.01-10.15.06:801][236]MaterialEditorStats: Base pass vertex shader: 260 instructions
+[2023.05.01-10.15.06:801][236]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.01-10.15.06:801][236]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.01-10.15.06:801][236]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.01-10.15.06:801][236]MaterialEditorStats: Shader Count: 4
+[2023.05.01-10.15.07:438][262]LogSlate: Window 'Color Picker' being destroyed
+[2023.05.01-10.15.07:447][262]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.01-10.15.07:447][262]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.01-10.15.07:447][262]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.01-10.15.07:448][262]MaterialEditorStats: Shader Count: 0
+[2023.05.01-10.15.07:540][265]MaterialEditorStats: Base pass shader: 217 instructions
+[2023.05.01-10.15.07:540][265]MaterialEditorStats: Base pass vertex shader: 260 instructions
+[2023.05.01-10.15.07:540][265]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.01-10.15.07:540][265]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.01-10.15.07:540][265]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.01-10.15.07:540][265]MaterialEditorStats: Shader Count: 4
+[2023.05.01-10.15.08:467][303]LogMaterialEditor: Applying material MAT_Snow
+[2023.05.01-10.15.09:174][303]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2023.05.01-10.15.09:400][303]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2023.05.01-10.15.09:422][303]MaterialEditorStats: Texture samplers: 1/16
+[2023.05.01-10.15.09:422][303]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.01-10.15.09:422][303]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.01-10.15.09:422][303]MaterialEditorStats: Shader Count: 2
+[2023.05.01-10.15.09:438][304]MaterialEditorStats: Base pass shader: 217 instructions
+[2023.05.01-10.15.09:438][304]MaterialEditorStats: Base pass vertex shader: 260 instructions
+[2023.05.01-10.15.09:438][304]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.01-10.15.09:439][304]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.01-10.15.09:439][304]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.01-10.15.09:439][304]MaterialEditorStats: Shader Count: 6
+[2023.05.01-10.15.16:910][666]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.01-10.15.16:910][666]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.01-10.15.16:910][666]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.01-10.15.16:910][666]MaterialEditorStats: Shader Count: 0
+[2023.05.01-10.15.17:005][668]LogShaderCompilers: Display: ================================================
+[2023.05.01-10.15.17:005][668]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.01-10.15.17:005][668]LogShaderCompilers: Display: Total job queries 537, among them cache hits 228 (42.46%)
+[2023.05.01-10.15.17:005][668]LogShaderCompilers: Display: Tracking 304 distinct input hashes that result in 181 distinct outputs (59.54%)
+[2023.05.01-10.15.17:005][668]LogShaderCompilers: Display: RAM used: 2.42 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.15%
+[2023.05.01-10.15.17:005][668]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.01-10.15.17:005][668]LogShaderCompilers: Display: Shaders Compiled: 90
+[2023.05.01-10.15.17:005][668]LogShaderCompilers: Display: Jobs assigned 90, completed 90 (100.00%)
+[2023.05.01-10.15.17:005][668]LogShaderCompilers: Display: Average time worker was idle: 18.00 s
+[2023.05.01-10.15.17:005][668]LogShaderCompilers: Display: Time job spent in pending queue: average 1.74 s, longest 7.92 s
+[2023.05.01-10.15.17:005][668]LogShaderCompilers: Display: Job execution time: average 1.38 s, max 3.55 s
+[2023.05.01-10.15.17:005][668]LogShaderCompilers: Display: Job life time (pending + execution): average 3.12 s, max 8.63
+[2023.05.01-10.15.17:005][668]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 46.21 s
+[2023.05.01-10.15.17:005][668]LogShaderCompilers: Display: Jobs were issued in 89 batches (only local compilation was used), average 1.01 jobs/batch
+[2023.05.01-10.15.17:005][668]LogShaderCompilers: Display: Average processing rate: 1.95 jobs/sec
+[2023.05.01-10.15.17:005][668]LogShaderCompilers: Display: Total thread time: 99.22 s
+[2023.05.01-10.15.17:005][668]LogShaderCompilers: Display: Total thread preprocess time: 5.69 s
+[2023.05.01-10.15.17:005][668]LogShaderCompilers: Display: Percentage time preprocessing: 5.73%
+[2023.05.01-10.15.17:005][668]LogShaderCompilers: Display: Effective parallelization: 2.15 (times faster than compiling all shaders on one thread). Compare with number of workers: 3
+[2023.05.01-10.15.17:005][668]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.05.01-10.15.17:005][668]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   13 times, average 1.74 sec, max 2.44 sec, min 0.82 sec)
+[2023.05.01-10.15.17:005][668]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   13 times, average 1.53 sec, max 2.10 sec, min 0.72 sec)
+[2023.05.01-10.15.17:005][668]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled   13 times, average 1.34 sec, max 1.88 sec, min 0.66 sec)
+[2023.05.01-10.15.17:005][668]LogShaderCompilers: Display:                                      FLandscapeGrassWeightVS (compiled    3 times, average 1.29 sec, max 1.44 sec, min 1.16 sec)
+[2023.05.01-10.15.17:005][668]LogShaderCompilers: Display:                                      FLandscapeGrassWeightPS (compiled    3 times, average 0.96 sec, max 1.02 sec, min 0.87 sec)
+[2023.05.01-10.15.17:005][668]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.05.01-10.15.17:005][668]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 22.78% of total time (compiled   13 times, average 1.74 sec, max 2.44 sec, min 0.82 sec)
+[2023.05.01-10.15.17:005][668]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 20.01% of total time (compiled   13 times, average 1.53 sec, max 2.10 sec, min 0.72 sec)
+[2023.05.01-10.15.17:005][668]LogShaderCompilers: Display:                                                 FLumenCardVS - 17.50% of total time (compiled   13 times, average 1.34 sec, max 1.88 sec, min 0.66 sec)
+[2023.05.01-10.15.17:005][668]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 9.97% of total time (compiled   13 times, average 0.76 sec, max 1.08 sec, min 0.38 sec)
+[2023.05.01-10.15.17:005][668]LogShaderCompilers: Display:                                      FLandscapeGrassWeightVS - 3.90% of total time (compiled    3 times, average 1.29 sec, max 1.44 sec, min 1.16 sec)
+[2023.05.01-10.15.17:005][668]LogShaderCompilers: Display: ================================================
+[2023.05.01-10.15.17:037][669]MaterialEditorStats: Base pass shader: 217 instructions
+[2023.05.01-10.15.17:037][669]MaterialEditorStats: Base pass vertex shader: 260 instructions
+[2023.05.01-10.15.17:037][669]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.01-10.15.17:037][669]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.01-10.15.17:037][669]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.01-10.15.17:037][669]MaterialEditorStats: Shader Count: 4
+[2023.05.01-10.15.17:533][690]LogSlate: Window 'Color Picker' being destroyed
+[2023.05.01-10.15.17:543][690]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.01-10.15.17:543][690]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.01-10.15.17:543][690]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.01-10.15.17:543][690]MaterialEditorStats: Shader Count: 0
+[2023.05.01-10.15.17:636][693]MaterialEditorStats: Base pass shader: 217 instructions
+[2023.05.01-10.15.17:636][693]MaterialEditorStats: Base pass vertex shader: 260 instructions
+[2023.05.01-10.15.17:636][693]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.01-10.15.17:636][693]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.01-10.15.17:637][693]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.01-10.15.17:637][693]MaterialEditorStats: Shader Count: 4
+[2023.05.01-10.15.18:731][739]LogMaterialEditor: Applying material MAT_Snow
+[2023.05.01-10.15.19:451][739]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2023.05.01-10.15.19:688][739]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2023.05.01-10.15.19:710][739]MaterialEditorStats: Texture samplers: 1/16
+[2023.05.01-10.15.19:710][739]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.01-10.15.19:710][739]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.01-10.15.19:710][739]MaterialEditorStats: Shader Count: 2
+[2023.05.01-10.15.19:727][740]MaterialEditorStats: Base pass shader: 217 instructions
+[2023.05.01-10.15.19:727][740]MaterialEditorStats: Base pass vertex shader: 260 instructions
+[2023.05.01-10.15.19:727][740]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.01-10.15.19:727][740]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.01-10.15.19:727][740]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.01-10.15.19:727][740]MaterialEditorStats: Shader Count: 6
+[2023.05.01-10.15.42:944][818]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2023.05.01-10.15.42:945][818]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/LevelBuild' took 0.017
+[2023.05.01-10.15.42:946][818]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Track/Import/Import/MAT_Snow] ([1] browsable assets)...
+[2023.05.01-10.15.45:021][818]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2023.05.01-10.15.50:966][818]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.000058s (5.949843s overbudget)
+[2023.05.01-10.15.51:055][818]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Track/Import/Import/MAT_Snow.MAT_Snow]
+[2023.05.01-10.15.51:055][818]OBJ SavePackage: Finished generating thumbnails for package [/Game/Track/Import/Import/MAT_Snow]
+[2023.05.01-10.15.51:057][818]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Track/Import/Import/MAT_Snow_Auto1
+[2023.05.01-10.15.51:057][818]LogSavePackage: Moving 'D:/school/hamar 22-25/hamar 23-V/Game Design/Racing Spill/Doomsday-Penguins/DoomsdayPenguins/Saved/MAT_Snow_Auto17F6D4B4C4B0D75CFAB26628CAE7A6AC4.tmp' to 'D:/school/hamar 22-25/hamar 23-V/Game Design/Racing Spill/Doomsday-Penguins/DoomsdayPenguins/Saved/Autosaves/Game/Track/Import/Import/MAT_Snow_Auto1.uasset'
+[2023.05.01-10.15.51:058][818]LogFileHelpers: Auto-saving content packages took 8.112
+[2023.05.01-10.15.51:086][819]MaterialEditorStats: Base pass shader: 217 instructions
+[2023.05.01-10.15.51:086][819]MaterialEditorStats: Base pass vertex shader: 260 instructions
+[2023.05.01-10.15.51:086][819]MaterialEditorStats: MaxSampler: 262 instructions
+[2023.05.01-10.15.51:086][819]MaterialEditorStats: Texture samplers: 4/16
+[2023.05.01-10.15.51:086][819]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.01-10.15.51:086][819]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.01-10.15.51:086][819]MaterialEditorStats: Shader Count: 32
+[2023.05.01-10.18.59:724][262]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2023.05.01-10.18.59:727][262]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.01-10.18.59:756][262]LogSavePackage: Moving output files for package: /Game/Track/Import/Import/MAT_Snow
+[2023.05.01-10.18.59:756][262]LogSavePackage: Moving 'D:/school/hamar 22-25/hamar 23-V/Game Design/Racing Spill/Doomsday-Penguins/DoomsdayPenguins/Saved/MAT_SnowAA61C40F4021144E036AFC93D63CD8DE.tmp' to 'D:/school/hamar 22-25/hamar 23-V/Game Design/Racing Spill/Doomsday-Penguins/DoomsdayPenguins/Content/Track/Import/Import/MAT_Snow.uasset'
+[2023.05.01-10.18.59:764][262]LogFileHelpers: InternalPromptForCheckoutAndSave took 36 ms (total: 9.14 sec)
+[2023.05.01-10.18.59:770][262]AssetCheck: New page: Asset Save: MAT_Snow
+[2023.05.01-10.18.59:770][262]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Track/Import/Import/MAT_Snow.MAT_Snow
+[2023.05.01-10.20.17:321][848]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2023.05.01-10.21.18:547][881]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2023.05.01-10.21.18:551][881]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.01-10.21.18:581][881]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/5/MZ/0RPROAIMKMWD32PCNKT7YH
+[2023.05.01-10.21.18:581][881]LogSavePackage: Moving 'D:/school/hamar 22-25/hamar 23-V/Game Design/Racing Spill/Doomsday-Penguins/DoomsdayPenguins/Saved/0RPROAIMKMWD32PCNKT7YH7A8DEA31450C88D5302B17A51EE6522C.tmp' to 'D:/school/hamar 22-25/hamar 23-V/Game Design/Racing Spill/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/5/MZ/0RPROAIMKMWD32PCNKT7YH.uasset'
+[2023.05.01-10.21.18:583][881]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/9/DF/B82U1M83P2V0VBKUUEBQEW
+[2023.05.01-10.21.18:584][881]LogSavePackage: Moving 'D:/school/hamar 22-25/hamar 23-V/Game Design/Racing Spill/Doomsday-Penguins/DoomsdayPenguins/Saved/B82U1M83P2V0VBKUUEBQEWFB72079B41DBF1FF139309B573A982E1.tmp' to 'D:/school/hamar 22-25/hamar 23-V/Game Design/Racing Spill/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/9/DF/B82U1M83P2V0VBKUUEBQEW.uasset'
+[2023.05.01-10.21.18:585][881]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/3/TJ/HNRYNXSQUCBDN3K3KF2OQ2
+[2023.05.01-10.21.18:586][881]LogSavePackage: Moving 'D:/school/hamar 22-25/hamar 23-V/Game Design/Racing Spill/Doomsday-Penguins/DoomsdayPenguins/Saved/HNRYNXSQUCBDN3K3KF2OQ2387F69FB460414F30521C8A6010AF2AE.tmp' to 'D:/school/hamar 22-25/hamar 23-V/Game Design/Racing Spill/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/3/TJ/HNRYNXSQUCBDN3K3KF2OQ2.uasset'
+[2023.05.01-10.21.18:587][881]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/C/B3/5AHBSIDUS937XFIFCAMAEI
+[2023.05.01-10.21.18:588][881]LogSavePackage: Moving 'D:/school/hamar 22-25/hamar 23-V/Game Design/Racing Spill/Doomsday-Penguins/DoomsdayPenguins/Saved/5AHBSIDUS937XFIFCAMAEIFD7D54BD493BA0E99FB9DBBE46543650.tmp' to 'D:/school/hamar 22-25/hamar 23-V/Game Design/Racing Spill/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/C/B3/5AHBSIDUS937XFIFCAMAEI.uasset'
+[2023.05.01-10.21.18:590][881]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/LevelBuild/1/FF/5TTDDWCFVX6S8BFFTFGAWU
+[2023.05.01-10.21.18:590][881]LogSavePackage: Moving 'D:/school/hamar 22-25/hamar 23-V/Game Design/Racing Spill/Doomsday-Penguins/DoomsdayPenguins/Saved/5TTDDWCFVX6S8BFFTFGAWU65E10C6C4ED6B5C5A5E39B85D1D92931.tmp' to 'D:/school/hamar 22-25/hamar 23-V/Game Design/Racing Spill/Doomsday-Penguins/DoomsdayPenguins/Content/__ExternalActors__/LevelBuild/1/FF/5TTDDWCFVX6S8BFFTFGAWU.uasset'
+[2023.05.01-10.21.18:625][881]LogFileHelpers: InternalPromptForCheckoutAndSave took 74 ms (total: 9.22 sec)
+[2023.05.01-10.21.18:630][881]AssetCheck: New page: Asset Save: multiple assets
+[2023.05.01-10.21.18:630][881]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/LevelBuild.LevelBuild:PersistentLevel.StaticMeshActor_UAID_3497F68EB64B4E7A01_1102035726
+[2023.05.01-10.21.18:630][881]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/LevelBuild.LevelBuild:PersistentLevel.StaticMeshActor_UAID_3497F68EB64B4D7A01_1894341546
+[2023.05.01-10.21.18:630][881]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/LevelBuild.LevelBuild:PersistentLevel.StaticMeshActor_UAID_3497F68EB64B4F7A01_1471318933
+[2023.05.01-10.21.18:630][881]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/LevelBuild.LevelBuild:PersistentLevel.StaticMeshActor_UAID_3497F68EB64B4F7A01_1459696932
+[2023.05.01-10.21.18:630][881]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/LevelBuild.LevelBuild:PersistentLevel.StaticMeshActor_UAID_3497F68EB64B4F7A01_1436428931
+[2023.05.01-10.22.25:268][766]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2023.05.01-10.22.55:724][151]LogMaterialEditor: Applying material MAT_Snow
+[2023.05.01-10.22.56:484][151]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2023.05.01-10.22.56:675][151]LogShaderCompilers: Display: ================================================
+[2023.05.01-10.22.56:676][151]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.01-10.22.56:676][151]LogShaderCompilers: Display: Total job queries 641, among them cache hits 278 (43.37%)
+[2023.05.01-10.22.56:676][151]LogShaderCompilers: Display: Tracking 358 distinct input hashes that result in 202 distinct outputs (56.42%)
+[2023.05.01-10.22.56:676][151]LogShaderCompilers: Display: RAM used: 2.79 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.17%
+[2023.05.01-10.22.56:676][151]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.01-10.22.56:676][151]LogShaderCompilers: Display: Shaders Compiled: 116
+[2023.05.01-10.22.56:676][151]LogShaderCompilers: Display: Jobs assigned 116, completed 116 (100.00%)
+[2023.05.01-10.22.56:676][151]LogShaderCompilers: Display: Average time worker was idle: 15.38 s
+[2023.05.01-10.22.56:676][151]LogShaderCompilers: Display: Time job spent in pending queue: average 2.13 s, longest 7.92 s
+[2023.05.01-10.22.56:676][151]LogShaderCompilers: Display: Job execution time: average 1.27 s, max 3.55 s
+[2023.05.01-10.22.56:676][151]LogShaderCompilers: Display: Job life time (pending + execution): average 3.40 s, max 8.63
+[2023.05.01-10.22.56:676][151]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 54.16 s
+[2023.05.01-10.22.56:676][151]LogShaderCompilers: Display: Jobs were issued in 115 batches (only local compilation was used), average 1.01 jobs/batch
+[2023.05.01-10.22.56:676][151]LogShaderCompilers: Display: Average processing rate: 2.14 jobs/sec
+[2023.05.01-10.22.56:676][151]LogShaderCompilers: Display: Total thread time: 118.81 s
+[2023.05.01-10.22.56:676][151]LogShaderCompilers: Display: Total thread preprocess time: 6.77 s
+[2023.05.01-10.22.56:676][151]LogShaderCompilers: Display: Percentage time preprocessing: 5.69%
+[2023.05.01-10.22.56:676][151]LogShaderCompilers: Display: Effective parallelization: 2.19 (times faster than compiling all shaders on one thread). Compare with number of workers: 3
+[2023.05.01-10.22.56:676][151]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.05.01-10.22.56:676][151]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   14 times, average 1.67 sec, max 2.44 sec, min 0.82 sec)
+[2023.05.01-10.22.56:676][151]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   14 times, average 1.47 sec, max 2.10 sec, min 0.72 sec)
+[2023.05.01-10.22.56:676][151]LogShaderCompilers: Display:                                      FLandscapeGrassWeightVS (compiled    3 times, average 1.29 sec, max 1.44 sec, min 1.16 sec)
+[2023.05.01-10.22.56:676][151]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled   14 times, average 1.29 sec, max 1.88 sec, min 0.66 sec)
+[2023.05.01-10.22.56:676][151]LogShaderCompilers: Display:                                      FLandscapeGrassWeightPS (compiled    3 times, average 0.96 sec, max 1.02 sec, min 0.87 sec)
+[2023.05.01-10.22.56:676][151]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.05.01-10.22.56:676][151]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 19.73% of total time (compiled   14 times, average 1.67 sec, max 2.44 sec, min 0.82 sec)
+[2023.05.01-10.22.56:676][151]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 17.32% of total time (compiled   14 times, average 1.47 sec, max 2.10 sec, min 0.72 sec)
+[2023.05.01-10.22.56:677][151]LogShaderCompilers: Display:                                                 FLumenCardVS - 15.19% of total time (compiled   14 times, average 1.29 sec, max 1.88 sec, min 0.66 sec)
+[2023.05.01-10.22.56:677][151]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 8.69% of total time (compiled   14 times, average 0.74 sec, max 1.08 sec, min 0.38 sec)
+[2023.05.01-10.22.56:677][151]LogShaderCompilers: Display:                                      FLandscapeGrassWeightVS - 3.26% of total time (compiled    3 times, average 1.29 sec, max 1.44 sec, min 1.16 sec)
+[2023.05.01-10.22.56:677][151]LogShaderCompilers: Display: ================================================
+[2023.05.01-10.22.56:734][151]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2023.05.01-10.22.56:758][151]MaterialEditorStats: Texture samplers: 1/16
+[2023.05.01-10.22.56:759][151]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.01-10.22.56:759][151]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.01-10.22.56:759][151]MaterialEditorStats: Shader Count: 2
+[2023.05.01-10.22.56:776][152]MaterialEditorStats: Base pass shader: 217 instructions
+[2023.05.01-10.22.56:776][152]MaterialEditorStats: Base pass vertex shader: 260 instructions
+[2023.05.01-10.22.56:776][152]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.01-10.22.56:776][152]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.01-10.22.56:776][152]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.01-10.22.56:776][152]MaterialEditorStats: Shader Count: 6
+[2023.05.01-10.23.00:550][339]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2023.05.01-10.23.00:554][339]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.01-10.23.00:706][339]LogSavePackage: Moving output files for package: /Game/Track/Import/Import/MAT_Snow
+[2023.05.01-10.23.00:706][339]LogSavePackage: Moving 'D:/school/hamar 22-25/hamar 23-V/Game Design/Racing Spill/Doomsday-Penguins/DoomsdayPenguins/Saved/MAT_Snow71CB63664906F1F1C46A4BB1232C3F59.tmp' to 'D:/school/hamar 22-25/hamar 23-V/Game Design/Racing Spill/Doomsday-Penguins/DoomsdayPenguins/Content/Track/Import/Import/MAT_Snow.uasset'
+[2023.05.01-10.23.00:714][339]LogFileHelpers: InternalPromptForCheckoutAndSave took 160 ms (total: 9.38 sec)
+[2023.05.01-10.23.00:718][339]AssetCheck: New page: Asset Save: MAT_Snow
+[2023.05.01-10.23.00:718][339]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Track/Import/Import/MAT_Snow.MAT_Snow
+[2023.05.01-10.23.00:723][339]MaterialEditorStats: Base pass shader: 217 instructions
+[2023.05.01-10.23.00:723][339]MaterialEditorStats: Base pass vertex shader: 260 instructions
+[2023.05.01-10.23.00:723][339]MaterialEditorStats: MaxSampler: 262 instructions
+[2023.05.01-10.23.00:723][339]MaterialEditorStats: Texture samplers: 4/16
+[2023.05.01-10.23.00:723][339]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.01-10.23.00:723][339]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.01-10.23.00:723][339]MaterialEditorStats: Shader Count: 32
