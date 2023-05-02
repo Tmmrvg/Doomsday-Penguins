@@ -2,12 +2,20 @@
 	"Targets": [
 		{
 			"Name": "DoomsdayPenguins",
+<<<<<<< HEAD
 			"Path": "D:\\Programming_02\\DoomsdayPenguins\\Doomsday-Penguins\\DoomsdayPenguins\\Source\\DoomsdayPenguins.Target.cs",
+=======
+			"Path": "C:\\Users\\eilee\\OneDrive\\Dokumenter\\GitHub\\Doomsday-Penguins\\DoomsdayPenguins\\Source\\DoomsdayPenguins.Target.cs",
+>>>>>>> origin/Eileen_Work
 			"Type": "Game"
 		},
 		{
 			"Name": "DoomsdayPenguinsEditor",
+<<<<<<< HEAD
 			"Path": "D:\\Programming_02\\DoomsdayPenguins\\Doomsday-Penguins\\DoomsdayPenguins\\Source\\DoomsdayPenguinsEditor.Target.cs",
+=======
+			"Path": "C:\\Users\\eilee\\OneDrive\\Dokumenter\\GitHub\\Doomsday-Penguins\\DoomsdayPenguins\\Source\\DoomsdayPenguinsEditor.Target.cs",
+>>>>>>> origin/Eileen_Work
 			"Type": "Editor"
 		}
 	]

@@ -14,12 +14,20 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define DOOMSDAYPENGUINS_Penguin_generated_h
 
+<<<<<<< HEAD
 #define FID_Programming_02_DoomsdayPenguins_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_17_SPARSE_DATA
 #define FID_Programming_02_DoomsdayPenguins_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_17_RPC_WRAPPERS
 #define FID_Programming_02_DoomsdayPenguins_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_17_RPC_WRAPPERS_NO_PURE_DECLS
 #define FID_Programming_02_DoomsdayPenguins_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_17_ACCESSORS
 #define FID_Programming_02_DoomsdayPenguins_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_17_CALLBACK_WRAPPERS
 #define FID_Programming_02_DoomsdayPenguins_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_17_INCLASS_NO_PURE_DECLS \
+=======
+#define FID_Users_eilee_OneDrive_Dokumenter_GitHub_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_15_SPARSE_DATA
+#define FID_Users_eilee_OneDrive_Dokumenter_GitHub_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_15_RPC_WRAPPERS
+#define FID_Users_eilee_OneDrive_Dokumenter_GitHub_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Users_eilee_OneDrive_Dokumenter_GitHub_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_15_ACCESSORS
+#define FID_Users_eilee_OneDrive_Dokumenter_GitHub_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_15_INCLASS_NO_PURE_DECLS \
+>>>>>>> origin/Eileen_Work
 private: \
 	static void StaticRegisterNativesAPenguin(); \
 	friend struct Z_Construct_UClass_APenguin_Statics; \
@@ -28,7 +36,11 @@ public: \
 	DECLARE_SERIALIZER(APenguin)
 
 
+<<<<<<< HEAD
 #define FID_Programming_02_DoomsdayPenguins_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_17_INCLASS \
+=======
+#define FID_Users_eilee_OneDrive_Dokumenter_GitHub_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_15_INCLASS \
+>>>>>>> origin/Eileen_Work
 private: \
 	static void StaticRegisterNativesAPenguin(); \
 	friend struct Z_Construct_UClass_APenguin_Statics; \
@@ -37,7 +49,11 @@ public: \
 	DECLARE_SERIALIZER(APenguin)
 
 
+<<<<<<< HEAD
 #define FID_Programming_02_DoomsdayPenguins_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_17_STANDARD_CONSTRUCTORS \
+=======
+#define FID_Users_eilee_OneDrive_Dokumenter_GitHub_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_15_STANDARD_CONSTRUCTORS \
+>>>>>>> origin/Eileen_Work
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API APenguin(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(APenguin) \
@@ -51,7 +67,11 @@ public: \
 	NO_API virtual ~APenguin();
 
 
+<<<<<<< HEAD
 #define FID_Programming_02_DoomsdayPenguins_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_17_ENHANCED_CONSTRUCTORS \
+=======
+#define FID_Users_eilee_OneDrive_Dokumenter_GitHub_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_15_ENHANCED_CONSTRUCTORS \
+>>>>>>> origin/Eileen_Work
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API APenguin(APenguin&&); \
@@ -63,6 +83,7 @@ public: \
 	NO_API virtual ~APenguin();
 
 
+<<<<<<< HEAD
 #define FID_Programming_02_DoomsdayPenguins_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_14_PROLOG
 #define FID_Programming_02_DoomsdayPenguins_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_17_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
@@ -73,10 +94,22 @@ public: \
 	FID_Programming_02_DoomsdayPenguins_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_17_CALLBACK_WRAPPERS \
 	FID_Programming_02_DoomsdayPenguins_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_17_INCLASS \
 	FID_Programming_02_DoomsdayPenguins_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_17_STANDARD_CONSTRUCTORS \
+=======
+#define FID_Users_eilee_OneDrive_Dokumenter_GitHub_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_12_PROLOG
+#define FID_Users_eilee_OneDrive_Dokumenter_GitHub_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_15_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Users_eilee_OneDrive_Dokumenter_GitHub_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_15_SPARSE_DATA \
+	FID_Users_eilee_OneDrive_Dokumenter_GitHub_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_15_RPC_WRAPPERS \
+	FID_Users_eilee_OneDrive_Dokumenter_GitHub_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_15_ACCESSORS \
+	FID_Users_eilee_OneDrive_Dokumenter_GitHub_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_15_INCLASS \
+	FID_Users_eilee_OneDrive_Dokumenter_GitHub_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_15_STANDARD_CONSTRUCTORS \
+>>>>>>> origin/Eileen_Work
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
+<<<<<<< HEAD
 #define FID_Programming_02_DoomsdayPenguins_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
@@ -86,6 +119,16 @@ public: \
 	FID_Programming_02_DoomsdayPenguins_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_17_CALLBACK_WRAPPERS \
 	FID_Programming_02_DoomsdayPenguins_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_17_INCLASS_NO_PURE_DECLS \
 	FID_Programming_02_DoomsdayPenguins_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_17_ENHANCED_CONSTRUCTORS \
+=======
+#define FID_Users_eilee_OneDrive_Dokumenter_GitHub_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_15_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Users_eilee_OneDrive_Dokumenter_GitHub_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_15_SPARSE_DATA \
+	FID_Users_eilee_OneDrive_Dokumenter_GitHub_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Users_eilee_OneDrive_Dokumenter_GitHub_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_15_ACCESSORS \
+	FID_Users_eilee_OneDrive_Dokumenter_GitHub_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_15_INCLASS_NO_PURE_DECLS \
+	FID_Users_eilee_OneDrive_Dokumenter_GitHub_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_15_ENHANCED_CONSTRUCTORS \
+>>>>>>> origin/Eileen_Work
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -93,7 +136,11 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> DOOMSDAYPENGUINS_API UClass* StaticClass<class APenguin>();
 
 #undef CURRENT_FILE_ID
+<<<<<<< HEAD
 #define CURRENT_FILE_ID FID_Programming_02_DoomsdayPenguins_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h
+=======
+#define CURRENT_FILE_ID FID_Users_eilee_OneDrive_Dokumenter_GitHub_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h
+>>>>>>> origin/Eileen_Work
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
