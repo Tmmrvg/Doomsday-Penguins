@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="86da4983-8078-4244-b332-21d22d2189e0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Content/Assets/Map_Mesh/SM_MERGED_LandscapeSplineActor_UAID_002B67409D62EE7701_2142115715.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Content/BP_Track.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Content/Blueprints/Tiemr.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Content/__ExternalActors__/LevelBuild/0/6X/IZLN1403WMETPV7ZK71FWM.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Content/__ExternalActors__/LevelBuild/1/8G/RQNAY2K9T4LGZ23ULT8PAK.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Content/__ExternalActors__/LevelBuild/1/KI/XQKW3QJP6E9IHBQ4A425Y8.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Content/__ExternalActors__/LevelBuild/1/LA/A1DTKM4UOUIFIQK96IH5NC.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Content/__ExternalActors__/LevelBuild/2/2N/8X6255L0FHGOZYUO8M0ALD.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Content/__ExternalActors__/LevelBuild/3/FZ/1ASRTRPI6NT5BNTQXT08J8.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Content/__ExternalActors__/LevelBuild/3/GX/N5CERT1LSCAVONJZVTPYST.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Content/__ExternalActors__/LevelBuild/3/KC/RRLHHF1467QBWZY9J059Q2.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Content/__ExternalActors__/LevelBuild/4/S5/NMJX4GYZAICAVREPDO05QT.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Content/__ExternalActors__/LevelBuild/4/ZX/OYPZUWJZSOGTRHBM0LVYMU.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Content/__ExternalActors__/LevelBuild/5/G9/2PVMYTUZZZ4ILP0U52O9TY.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Content/__ExternalActors__/LevelBuild/5/SI/JA7O7JT59EY7MSRUYPAECD.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Content/__ExternalActors__/LevelBuild/5/TY/RBCF51MKBRU11XPNPLONUN.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Content/__ExternalActors__/LevelBuild/6/0T/K0D7V604T40CKH34IW8ORP.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Content/__ExternalActors__/LevelBuild/6/EM/2NOULICVU07PZWRJMCLA9Q.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Content/__ExternalActors__/LevelBuild/8/1P/OIU8O6DHHQ1IZJZYFG61ZX.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Content/__ExternalActors__/LevelBuild/9/4O/8ZF82N8Y6W0HP5Q765MR8L.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Content/__ExternalActors__/LevelBuild/9/BL/O915A8R4OXLAXGK9A2Q7OW.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Content/__ExternalActors__/LevelBuild/A/LJ/LE9BT5U5N0LD3HGUFUR9L3.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Content/__ExternalActors__/LevelBuild/A/MC/XBWQLR2VRA2LC9WJWWDQU8.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Content/__ExternalActors__/LevelBuild/B/WH/3IG6NVBSL8XEYWUGSGJMHQ.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Content/__ExternalActors__/LevelBuild/C/AZ/JX7XM0KL7N5T38YBFY7590.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Content/__ExternalActors__/LevelBuild/C/N4/76Q2PWQNTOKY5I67VISEK2.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Content/__ExternalActors__/LevelBuild/D/JP/RUNA66Q0VZT6W3Q5FMXUIV.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Content/__ExternalActors__/LevelBuild/D/RV/1NWM6JY8TNOL9JF2GGLYPF.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Content/__ExternalActors__/LevelBuild/F/1P/ZCPIQAJN81YUBARFLN0AEI.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Track_class.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Track_class.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Content/Blueprints/BP_HUD_Doomsday_Penguins.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/../../Content/Blueprints/BP_HUD_Doomsday_Penguins.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Content/Blueprints/Gameplay.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/../../Content/Blueprints/Gameplay.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Content/Blueprints/WT_Doomsday_Penguin.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/../../Content/Blueprints/WT_Doomsday_Penguin.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Content/Blueprints/WT_In_Level_Quit.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/../../Content/Blueprints/WT_In_Level_Quit.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Content/__ExternalActors__/LevelBuild/3/FN/F7Q3VLASECE7076R920SCY.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/../../Content/__ExternalActors__/LevelBuild/3/FN/F7Q3VLASECE7076R920SCY.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Intermediate/Build/BuildRules/DoomsdayPenguinsModuleRules.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Intermediate/Build/BuildRules/DoomsdayPenguinsModuleRules.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Intermediate/Build/SourceFileCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../Intermediate/Build/SourceFileCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Intermediate/Build/Win64/DoomsdayPenguinsEditor/Development/DoomsdayPenguinsEditor.uhtmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/../../Intermediate/Build/Win64/DoomsdayPenguinsEditor/Development/DoomsdayPenguinsEditor.uhtmanifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Intermediate/Build/Win64/UnrealEditor/Development/DoomsdayPenguins/UnrealEditor-DoomsdayPenguins.dll.response" beforeDir="false" afterPath="$PROJECT_DIR$/../../Intermediate/Build/Win64/UnrealEditor/Development/DoomsdayPenguins/UnrealEditor-DoomsdayPenguins.dll.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Intermediate/Build/Win64/UnrealEditor/Development/DoomsdayPenguins/UnrealEditor-DoomsdayPenguins.lib.response" beforeDir="false" afterPath="$PROJECT_DIR$/../../Intermediate/Build/Win64/UnrealEditor/Development/DoomsdayPenguins/UnrealEditor-DoomsdayPenguins.lib.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Intermediate/Build/Win64/UnrealEditor/Inc/DoomsdayPenguins/UHT/DoomsdayPenguins.init.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Intermediate/Build/Win64/UnrealEditor/Inc/DoomsdayPenguins/UHT/DoomsdayPenguins.init.gen.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Intermediate/Build/Win64/UnrealEditor/Inc/DoomsdayPenguins/UHT/Penguin.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Intermediate/Build/Win64/UnrealEditor/Inc/DoomsdayPenguins/UHT/Penguin.gen.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Intermediate/Build/Win64/UnrealEditor/Inc/DoomsdayPenguins/UHT/Penguin.generated.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Intermediate/Build/Win64/UnrealEditor/Inc/DoomsdayPenguins/UHT/Penguin.generated.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Intermediate/Build/Win64/UnrealEditor/Inc/DoomsdayPenguins/UHT/Timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Intermediate/Build/Win64/UnrealEditor/Inc/DoomsdayPenguins/UHT/Timestamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Saved/Config/WindowsEditor/Editor.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../../Saved/Config/WindowsEditor/Editor.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../../Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Saved/Config/WindowsEditor/Engine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../../Saved/Config/WindowsEditor/Engine.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Saved/Logs/DoomsdayPenguins.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Saved/Logs/DoomsdayPenguins.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Goal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Goal.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Penguin.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Penguin.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Penguin.h" beforeDir="false" afterPath="$PROJECT_DIR$/Penguin.h" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="2P0Xgvgb3Ovepbpeh5NQYZdApiG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\oetom\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache",
+      "C:\\Users\\oetom\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache",
+      "C:\\Users\\oetom\\AppData\\Local\\Symbols\\src"
+    ]
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="86da4983-8078-4244-b332-21d22d2189e0" name="Changes" comment="" />
+      <created>1682595088346</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682595088346</updated>
+      <workItem from="1682595091501" duration="159000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
