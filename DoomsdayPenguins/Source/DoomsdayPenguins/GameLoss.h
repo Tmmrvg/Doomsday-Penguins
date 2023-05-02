@@ -37,6 +37,6 @@ public:
 		UPrimitiveComponent* OtherComponent, int32 OtherBodyIndex,
 		bool bFromSweep, const FHitResult& SweepResult);
 	
-	UFUNCTION()
-	void NewGameState();
+	/*UFUNCTION()
+	void NewGameState();*/
 };
