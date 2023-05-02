@@ -418,7 +418,6 @@ void EmptyLinkFunctionForGeneratedCodeSeaLeopard() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ASeaLeopard);
 	ASeaLeopard::~ASeaLeopard() {}
-<<<<<<< HEAD
 	struct Z_CompiledInDeferFile_FID_Programming_02_DoomsdayPenguins_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_SeaLeopard_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
@@ -428,17 +427,6 @@ void EmptyLinkFunctionForGeneratedCodeSeaLeopard() {}
 	};
 	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Programming_02_DoomsdayPenguins_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_SeaLeopard_h_344869573(TEXT("/Script/DoomsdayPenguins"),
 		Z_CompiledInDeferFile_FID_Programming_02_DoomsdayPenguins_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_SeaLeopard_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Programming_02_DoomsdayPenguins_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_SeaLeopard_h_Statics::ClassInfo),
-=======
-	struct Z_CompiledInDeferFile_FID_Users_eilee_OneDrive_Dokumenter_GitHub_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_SeaLeopard_h_Statics
-	{
-		static const FClassRegisterCompiledInInfo ClassInfo[];
-	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_eilee_OneDrive_Dokumenter_GitHub_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_SeaLeopard_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ASeaLeopard, ASeaLeopard::StaticClass, TEXT("ASeaLeopard"), &Z_Registration_Info_UClass_ASeaLeopard, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASeaLeopard), 856094550U) },
-	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_eilee_OneDrive_Dokumenter_GitHub_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_SeaLeopard_h_3435298717(TEXT("/Script/DoomsdayPenguins"),
-		Z_CompiledInDeferFile_FID_Users_eilee_OneDrive_Dokumenter_GitHub_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_SeaLeopard_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_eilee_OneDrive_Dokumenter_GitHub_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_SeaLeopard_h_Statics::ClassInfo),
->>>>>>> origin/Eileen_Work
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

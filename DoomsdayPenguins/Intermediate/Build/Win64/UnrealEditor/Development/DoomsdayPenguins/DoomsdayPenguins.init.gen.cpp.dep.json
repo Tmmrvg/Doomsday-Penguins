@@ -1,11 +1,11 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\eilee\\onedrive\\dokumenter\\github\\doomsday-penguins\\doomsdaypenguins\\intermediate\\build\\win64\\unrealeditor\\inc\\doomsdaypenguins\\uht\\doomsdaypenguins.init.gen.cpp",
+        "Source": "d:\\programming ii\\doomsday-penguins\\doomsdaypenguins\\intermediate\\build\\win64\\unrealeditor\\inc\\doomsdaypenguins\\uht\\doomsdaypenguins.init.gen.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\eilee\\onedrive\\dokumenter\\github\\doomsday-penguins\\doomsdaypenguins\\intermediate\\build\\win64\\doomsdaypenguinseditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "PCH": "d:\\programming ii\\doomsday-penguins\\doomsdaypenguins\\intermediate\\build\\win64\\doomsdaypenguinseditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
         "Includes": [
-            "c:\\users\\eilee\\onedrive\\dokumenter\\github\\doomsday-penguins\\doomsdaypenguins\\intermediate\\build\\win64\\unrealeditor\\development\\doomsdaypenguins\\definitions.doomsdaypenguins.h"
+            "d:\\programming ii\\doomsday-penguins\\doomsdaypenguins\\intermediate\\build\\win64\\unrealeditor\\development\\doomsdaypenguins\\definitions.doomsdaypenguins.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

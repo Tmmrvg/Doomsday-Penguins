@@ -407,7 +407,6 @@ void EmptyLinkFunctionForGeneratedCodePenguin() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(APenguin);
 	APenguin::~APenguin() {}
-<<<<<<< HEAD
 	struct Z_CompiledInDeferFile_FID_Programming_02_DoomsdayPenguins_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
@@ -417,17 +416,6 @@ void EmptyLinkFunctionForGeneratedCodePenguin() {}
 	};
 	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Programming_02_DoomsdayPenguins_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_1180323017(TEXT("/Script/DoomsdayPenguins"),
 		Z_CompiledInDeferFile_FID_Programming_02_DoomsdayPenguins_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Programming_02_DoomsdayPenguins_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_Statics::ClassInfo),
-=======
-	struct Z_CompiledInDeferFile_FID_Users_eilee_OneDrive_Dokumenter_GitHub_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_Statics
-	{
-		static const FClassRegisterCompiledInInfo ClassInfo[];
-	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_eilee_OneDrive_Dokumenter_GitHub_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_APenguin, APenguin::StaticClass, TEXT("APenguin"), &Z_Registration_Info_UClass_APenguin, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APenguin), 1743987683U) },
-	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_eilee_OneDrive_Dokumenter_GitHub_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_215466933(TEXT("/Script/DoomsdayPenguins"),
-		Z_CompiledInDeferFile_FID_Users_eilee_OneDrive_Dokumenter_GitHub_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_eilee_OneDrive_Dokumenter_GitHub_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_Statics::ClassInfo),
->>>>>>> origin/Eileen_Work
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
