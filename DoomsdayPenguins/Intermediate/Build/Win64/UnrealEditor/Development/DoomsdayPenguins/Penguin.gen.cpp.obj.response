@@ -1,4 +1,4 @@
-"D:\Programming II\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.gen.cpp"
+D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT\Penguin.gen.cpp
 /I .
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\Engine\UHT
 /I Runtime
@@ -269,8 +269,8 @@
 /I Runtime\MovieSceneCapture\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationDataController\UHT
 /I Developer\AnimationDataController\Public
-/I "D:\Programming II\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT"
-/I "D:\Programming II\Doomsday-Penguins\DoomsdayPenguins\Source"
+/I D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Inc\DoomsdayPenguins\UHT
+/I D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Source
 /I ..\Plugins\EnhancedInput\Intermediate\Build\Win64\UnrealEditor\Inc\EnhancedInput\UHT
 /I ..\Plugins\EnhancedInput\Source
 /I ..\Plugins\EnhancedInput\Source\EnhancedInput\Public
@@ -278,17 +278,17 @@
 /external:I ThirdParty\mimalloc\include
 /external:I ThirdParty\LibTiff\Source\Win64
 /external:I ThirdParty\LibTiff\Source
-/external:I "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\INCLUDE"
-/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\ucrt"
-/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared"
-/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um"
-/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\winrt"
-/FI"D:\Programming II\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\DoomsdayPenguinsEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/FI"D:\Programming II\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Development\DoomsdayPenguins\Definitions.DoomsdayPenguins.h"
-/Yu"D:\Programming II\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\DoomsdayPenguinsEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"D:\Programming II\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\DoomsdayPenguinsEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-/Fo"D:\Programming II\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Development\DoomsdayPenguins\Penguin.gen.cpp.obj"
-/sourceDependencies "D:\Programming II\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Development\DoomsdayPenguins\Penguin.gen.cpp.dep.json"
+/external:I "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\INCLUDE"
+/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"
+/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
+/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
+/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
+/FI"D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\DoomsdayPenguinsEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/FI"D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Development\DoomsdayPenguins\Definitions.DoomsdayPenguins.h"
+/Yu"D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\DoomsdayPenguinsEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\DoomsdayPenguinsEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+/Fo"D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Development\DoomsdayPenguins\Penguin.gen.cpp.obj"
+/sourceDependencies D:\Programming_02\DoomsdayPenguins\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Development\DoomsdayPenguins\Penguin.gen.cpp.dep.json
 /Zc:inline
 /nologo
 /Oi

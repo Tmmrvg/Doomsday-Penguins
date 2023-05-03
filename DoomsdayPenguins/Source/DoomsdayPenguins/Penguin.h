@@ -37,14 +37,14 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "PlayerVariables")
 	class UCameraComponent* Camera{ nullptr };
 
-	// UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "PlayerVariables")
-	// class UBoxComponent* Collider;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = GameState)
+	bool GameOver = false;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = GameState)
-	bool GameOver;
+	bool GameWon = false;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = GameState)
-	bool GameWon;
+		bool GamePaused = false;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = GameState)
 	bool IsPaused;
@@ -55,6 +55,7 @@ public:
 	float XInput;
 	float YInput;
 	float Yaw;
+	float Roll;
 	float Pitch;
 	float Clock;
 	
@@ -64,6 +65,8 @@ public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	int Minutes;
+
+	//float Minutes;
 	
 	UPROPERTY(meta = (AllowPrivateAccess = "true"), EditAnywhere, BlueprintReadWrite, Category = "My Variables")
 	bool IsSlowed;
@@ -76,10 +79,6 @@ public:
 
 	UPROPERTY(meta = (AllowPrivateAccess = "true"), EditAnywhere, BlueprintReadWrite, Category = "My Variables")
 	int SlowTime;
-
-	//
-	UFUNCTION(BlueprintImplementableEvent)
-	void ToggleSettings();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "My Variables")
 	int Lives;

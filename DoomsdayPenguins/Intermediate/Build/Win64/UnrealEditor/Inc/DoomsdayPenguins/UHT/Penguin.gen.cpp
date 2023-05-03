@@ -18,36 +18,8 @@ void EmptyLinkFunctionForGeneratedCodePenguin() {}
 	ENHANCEDINPUT_API UClass* Z_Construct_UClass_UInputMappingContext_NoRegister();
 	UPackage* Z_Construct_UPackage__Script_DoomsdayPenguins();
 // End Cross Module References
-	static FName NAME_APenguin_ToggleSettings = FName(TEXT("ToggleSettings"));
-	void APenguin::ToggleSettings()
-	{
-		ProcessEvent(FindFunctionChecked(NAME_APenguin_ToggleSettings),NULL);
-	}
 	void APenguin::StaticRegisterNativesAPenguin()
 	{
-	}
-	struct Z_Construct_UFunction_APenguin_ToggleSettings_Statics
-	{
-#if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UECodeGen_Private::FFunctionParams FuncParams;
-	};
-#if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APenguin_ToggleSettings_Statics::Function_MetaDataParams[] = {
-		{ "Comment", "//\n" },
-		{ "ModuleRelativePath", "Penguin.h" },
-	};
-#endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_APenguin_ToggleSettings_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APenguin, nullptr, "ToggleSettings", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APenguin_ToggleSettings_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_APenguin_ToggleSettings_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_APenguin_ToggleSettings()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_APenguin_ToggleSettings_Statics::FuncParams);
-		}
-		return ReturnFunction;
 	}
 	IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(APenguin);
 	UClass* Z_Construct_UClass_APenguin_NoRegister()
@@ -57,7 +29,6 @@ void EmptyLinkFunctionForGeneratedCodePenguin() {}
 	struct Z_Construct_UClass_APenguin_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
-		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -79,6 +50,11 @@ void EmptyLinkFunctionForGeneratedCodePenguin() {}
 #endif
 		static void NewProp_GameWon_SetBit(void* Obj);
 		static const UECodeGen_Private::FBoolPropertyParams NewProp_GameWon;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_GamePaused_MetaData[];
+#endif
+		static void NewProp_GamePaused_SetBit(void* Obj);
+		static const UECodeGen_Private::FBoolPropertyParams NewProp_GamePaused;
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_IsPaused_MetaData[];
 #endif
@@ -167,9 +143,6 @@ void EmptyLinkFunctionForGeneratedCodePenguin() {}
 		(UObject* (*)())Z_Construct_UClass_ACharacter,
 		(UObject* (*)())Z_Construct_UPackage__Script_DoomsdayPenguins,
 	};
-	const FClassFunctionLinkInfo Z_Construct_UClass_APenguin_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_APenguin_ToggleSettings, "ToggleSettings" }, // 1986827783
-	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APenguin_Statics::Class_MetaDataParams[] = {
 		{ "HideCategories", "Navigation" },
@@ -196,9 +169,7 @@ void EmptyLinkFunctionForGeneratedCodePenguin() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APenguin_Statics::NewProp_GameOver_MetaData[] = {
 		{ "Category", "GameState" },
-		{ "Comment", "// UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = \"PlayerVariables\")\n// class UBoxComponent* Collider;\n" },
 		{ "ModuleRelativePath", "Penguin.h" },
-		{ "ToolTip", "UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = \"PlayerVariables\")\nclass UBoxComponent* Collider;" },
 	};
 #endif
 	void Z_Construct_UClass_APenguin_Statics::NewProp_GameOver_SetBit(void* Obj)
@@ -217,6 +188,17 @@ void EmptyLinkFunctionForGeneratedCodePenguin() {}
 		((APenguin*)Obj)->GameWon = 1;
 	}
 	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_APenguin_Statics::NewProp_GameWon = { "GameWon", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(APenguin), &Z_Construct_UClass_APenguin_Statics::NewProp_GameWon_SetBit, METADATA_PARAMS(Z_Construct_UClass_APenguin_Statics::NewProp_GameWon_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APenguin_Statics::NewProp_GameWon_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APenguin_Statics::NewProp_GamePaused_MetaData[] = {
+		{ "Category", "GameState" },
+		{ "ModuleRelativePath", "Penguin.h" },
+	};
+#endif
+	void Z_Construct_UClass_APenguin_Statics::NewProp_GamePaused_SetBit(void* Obj)
+	{
+		((APenguin*)Obj)->GamePaused = 1;
+	}
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_APenguin_Statics::NewProp_GamePaused = { "GamePaused", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(APenguin), &Z_Construct_UClass_APenguin_Statics::NewProp_GamePaused_SetBit, METADATA_PARAMS(Z_Construct_UClass_APenguin_Statics::NewProp_GamePaused_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APenguin_Statics::NewProp_GamePaused_MetaData)) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APenguin_Statics::NewProp_IsPaused_MetaData[] = {
 		{ "Category", "GameState" },
@@ -257,7 +239,9 @@ void EmptyLinkFunctionForGeneratedCodePenguin() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APenguin_Statics::NewProp_IsSlowed_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "My Variables" },
+		{ "Comment", "//float Minutes;\n" },
 		{ "ModuleRelativePath", "Penguin.h" },
+		{ "ToolTip", "float Minutes;" },
 	};
 #endif
 	void Z_Construct_UClass_APenguin_Statics::NewProp_IsSlowed_SetBit(void* Obj)
@@ -375,6 +359,7 @@ void EmptyLinkFunctionForGeneratedCodePenguin() {}
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APenguin_Statics::NewProp_Camera,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APenguin_Statics::NewProp_GameOver,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APenguin_Statics::NewProp_GameWon,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APenguin_Statics::NewProp_GamePaused,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APenguin_Statics::NewProp_IsPaused,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APenguin_Statics::NewProp_bHasGameStarted,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APenguin_Statics::NewProp_Seconds,
@@ -403,11 +388,11 @@ void EmptyLinkFunctionForGeneratedCodePenguin() {}
 		"Game",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		FuncInfo,
+		nullptr,
 		Z_Construct_UClass_APenguin_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
-		UE_ARRAY_COUNT(FuncInfo),
+		0,
 		UE_ARRAY_COUNT(Z_Construct_UClass_APenguin_Statics::PropPointers),
 		0,
 		0x009000A4u,
@@ -427,15 +412,15 @@ void EmptyLinkFunctionForGeneratedCodePenguin() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(APenguin);
 	APenguin::~APenguin() {}
-	struct Z_CompiledInDeferFile_FID_Programming_II_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_Statics
+	struct Z_CompiledInDeferFile_FID_Programming_02_DoomsdayPenguins_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Programming_II_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_APenguin, APenguin::StaticClass, TEXT("APenguin"), &Z_Registration_Info_UClass_APenguin, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APenguin), 2579283341U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Programming_02_DoomsdayPenguins_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_APenguin, APenguin::StaticClass, TEXT("APenguin"), &Z_Registration_Info_UClass_APenguin, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APenguin), 536221035U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Programming_II_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_1743111894(TEXT("/Script/DoomsdayPenguins"),
-		Z_CompiledInDeferFile_FID_Programming_II_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Programming_II_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Programming_02_DoomsdayPenguins_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_1643389829(TEXT("/Script/DoomsdayPenguins"),
+		Z_CompiledInDeferFile_FID_Programming_02_DoomsdayPenguins_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Programming_02_DoomsdayPenguins_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_Penguin_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

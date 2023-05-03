@@ -73,7 +73,8 @@ void APenguin::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	if (GameWon) SetGamePaused(true);
+	if (GamePaused || GameWon) 
+		SetGamePaused(true);
 
 	if (!bHasGameStarted) return;
 	Seconds = Seconds + DeltaTime;
@@ -94,16 +95,13 @@ void APenguin::Tick(float DeltaTime)
 
 		AddControllerYawInput(Yaw);
 		AddControllerPitchInput(Pitch);
+	/*	AddControllerRollInput(Roll);*/
 	}
+	
+	
 
-	if (GetCharacterMovement()->IsFalling())
-	{
-		GetCharacterMovement()->bOrientRotationToMovement = false;
-	}
-	else
-	{
 		GetCharacterMovement()->bOrientRotationToMovement = true;
-	}
+
 	
 	if (IsPaused)
 	{
@@ -111,14 +109,20 @@ void APenguin::Tick(float DeltaTime)
 	}
 
 	//Hinder player to go up steep slopes when their speed is too low.
-	if (GetCharacterMovement()->Velocity.Size() >= 4500) {
-		GetCharacterMovement()->SetWalkableFloorAngle(65);
-		//UE_LOG(LogTemp, Warning, TEXT("slope is 60"));
+	//if (GetCharacterMovement()->Velocity.Size() >= 4500) {
+	//	GetCharacterMovement()->SetWalkableFloorAngle(65);
+	//	//UE_LOG(LogTemp, Warning, TEXT("slope is 60"));
+
+	if (GetCharacterMovement()->Velocity.Size() >= 3000) {
+		GetCharacterMovement()->SetWalkableFloorAngle(75);
+		//UE_LOG(LogTemp, Warning, TEXT("slope is 75"));
 	}
 	else
 	{
 		GetCharacterMovement()->SetWalkableFloorAngle(45);
 		//UE_LOG(LogTemp, Warning, TEXT("slope is 30"));
+
+		//UE_LOG(LogTemp, Warning, TEXT("slope is 45"));
 	}
 
 	//If SpeedBoostTimer is more than 0, timer starts. 
@@ -145,7 +149,7 @@ void APenguin::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 		EnhanceInputCom->BindAction(RightInput, ETriggerEvent::Triggered, this, &APenguin::Right);
 		EnhanceInputCom->BindAction(ForwardInput, ETriggerEvent::Completed, this, &APenguin::Forward);
 		EnhanceInputCom->BindAction(RightInput, ETriggerEvent::Completed, this, &APenguin::Right);
-		
+
 		EnhanceInputCom->BindAction(MouseXInput, ETriggerEvent::Started, this, &APenguin::MouseX);
 		EnhanceInputCom->BindAction(MouseYInput, ETriggerEvent::Started, this, &APenguin::MouseY);
 		EnhanceInputCom->BindAction(MouseXInput, ETriggerEvent::Triggered, this, &APenguin::MouseX);
@@ -154,6 +158,7 @@ void APenguin::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 		EnhanceInputCom->BindAction(MouseYInput, ETriggerEvent::Completed, this, &APenguin::MouseY);
 		
 		EnhanceInputCom->BindAction(SettingsInput, ETriggerEvent::Triggered, this, &APenguin::Quit);
+
 		EnhanceInputCom->BindAction(SettingsInput, ETriggerEvent::Triggered, this, &APenguin::Quit);
 	}
 }
@@ -195,11 +200,12 @@ void APenguin::Movement()
 	
 	ControlRotation.Roll = 0.f;
 	ControlRotation.Pitch = 0.f;
+	/*ControlRotation.Yaw = 0.f;*/
 	
 	//Getting the direction we're looking, and the right vector = cross product of forward and up vectors
 	FVector ForwardVector = UKismetMathLibrary::GetForwardVector(ControlRotation);
 	FVector RightVector = UKismetMathLibrary::GetRightVector(ControlRotation);
-	
+
 	ForwardVector *= XInput;
 	RightVector *= YInput;
 	
@@ -219,6 +225,9 @@ void APenguin::Quit(const FInputActionValue& input)
 		IsPaused = false;
 
 	IsPaused = true;
+
+		GamePaused = !GamePaused;
+
 	
 	//UE_LOG(LogTemp, Warning, TEXT("Bool changed"));
 }

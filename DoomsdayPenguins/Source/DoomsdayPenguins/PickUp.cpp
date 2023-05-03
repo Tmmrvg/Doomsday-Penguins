@@ -40,5 +40,8 @@ void APickUp::OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherA
 	UPrimitiveComponent* OtherComponent, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
 	Cast<APenguin>(OtherActor)->SpeedBoost();
+	SetActorHiddenInGame(true);
+	SetActorEnableCollision(false);
+	this->Destroy();
 }
 
