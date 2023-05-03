@@ -77,7 +77,8 @@ void APenguin::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	if (GameWon) SetGamePaused(true);
+	if (GamePaused || GameWon) 
+		SetGamePaused(true);
 
 	if (!bHasGameStarted) return;
 	Seconds = Seconds + DeltaTime;
@@ -100,17 +101,7 @@ void APenguin::Tick(float DeltaTime)
 		AddControllerPitchInput(Pitch);
 	/*	AddControllerRollInput(Roll);*/
 	}
-	if (GetCharacterMovement()->Velocity.Size() >= 3000) {
-		GetCharacterMovement()->SetWalkableFloorAngle(65);
-		UE_LOG(LogTemp, Warning, TEXT("slope is 60"));
-	}
-	else
-	{
-		GetCharacterMovement()->SetWalkableFloorAngle(30);
-		UE_LOG(LogTemp, Warning, TEXT("slope is 30"));
-	}
-		
-
+	
 	
 
 		GetCharacterMovement()->bOrientRotationToMovement = true;
@@ -122,14 +113,14 @@ void APenguin::Tick(float DeltaTime)
 	}
 
 	//Hinder player to go up steep slopes when their speed is too low.
-	if (GetCharacterMovement()->Velocity.Size() >= 4500) {
-		GetCharacterMovement()->SetWalkableFloorAngle(65);
-		UE_LOG(LogTemp, Warning, TEXT("slope is 60"));
+	if (GetCharacterMovement()->Velocity.Size() >= 3000) {
+		GetCharacterMovement()->SetWalkableFloorAngle(75);
+		UE_LOG(LogTemp, Warning, TEXT("slope is 75"));
 	}
 	else
 	{
-		GetCharacterMovement()->SetWalkableFloorAngle(30);
-		UE_LOG(LogTemp, Warning, TEXT("slope is 30"));
+		GetCharacterMovement()->SetWalkableFloorAngle(45);
+		UE_LOG(LogTemp, Warning, TEXT("slope is 45"));
 	}
 
 	//If SpeedBoostTimer is more than 0, timer starts. 
@@ -157,15 +148,13 @@ void APenguin::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 		EnhanceInputCom->BindAction(ForwardInput, ETriggerEvent::Completed, this, &APenguin::Forward);
 		EnhanceInputCom->BindAction(RightInput, ETriggerEvent::Completed, this, &APenguin::Right);
 
-		
+
 		EnhanceInputCom->BindAction(MouseXInput, ETriggerEvent::Started, this, &APenguin::MouseX);
 		EnhanceInputCom->BindAction(MouseYInput, ETriggerEvent::Started, this, &APenguin::MouseY);
 		EnhanceInputCom->BindAction(MouseXInput, ETriggerEvent::Triggered, this, &APenguin::MouseX);
 		EnhanceInputCom->BindAction(MouseYInput, ETriggerEvent::Triggered, this, &APenguin::MouseY);
 		EnhanceInputCom->BindAction(MouseXInput, ETriggerEvent::Completed, this, &APenguin::MouseX);
 		EnhanceInputCom->BindAction(MouseYInput, ETriggerEvent::Completed, this, &APenguin::MouseY);
-		
-		EnhanceInputCom->BindAction(SettingsInput, ETriggerEvent::Triggered, this, &APenguin::Quit);
 
 		EnhanceInputCom->BindAction(SettingsInput, ETriggerEvent::Triggered, this, &APenguin::Quit);
 	}
@@ -226,10 +215,10 @@ void APenguin::Movement()
 
 void APenguin::Quit(const FInputActionValue& input)
 {
-	if (GameOver && input.IsNonZero())
-		GameOver = false;
+	
+		GamePaused = !GamePaused;
 
-	GameOver = true;
+	
 	
 	UE_LOG(LogTemp, Warning, TEXT("Bool changed"));
 }

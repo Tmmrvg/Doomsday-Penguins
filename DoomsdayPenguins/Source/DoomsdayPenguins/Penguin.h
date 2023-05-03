@@ -46,6 +46,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = GameState)
 	bool GameWon = false;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = GameState)
+		bool GamePaused = false;
+
 	float XInput;
 	float YInput;
 	float Yaw;
@@ -63,8 +66,7 @@ public:
 	//float Minutes;
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-
-		bool bHasGameStarted = false;
+	bool bHasGameStarted = false;
 	
 	UPROPERTY(meta = (AllowPrivateAccess = "true"), EditAnywhere, BlueprintReadWrite, Category = "My Variables")
 	bool IsSlowed;
