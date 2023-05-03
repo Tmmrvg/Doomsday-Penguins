@@ -98,21 +98,14 @@ void APenguin::Tick(float DeltaTime)
 	/*	AddControllerRollInput(Roll);*/
 	}
 	
-	
-
 		GetCharacterMovement()->bOrientRotationToMovement = true;
-
 	
 	if (IsPaused)
 	{
 		SetGamePaused(true);
 	}
 
-	//Hinder player to go up steep slopes when their speed is too low.
-	//if (GetCharacterMovement()->Velocity.Size() >= 4500) {
-	//	GetCharacterMovement()->SetWalkableFloorAngle(65);
-	//	//UE_LOG(LogTemp, Warning, TEXT("slope is 60"));
-
+	//Hinder player to go up steep slopes when their speed is too slow.
 	if (GetCharacterMovement()->Velocity.Size() >= 3000) {
 		GetCharacterMovement()->SetWalkableFloorAngle(75);
 		//UE_LOG(LogTemp, Warning, TEXT("slope is 75"));
@@ -137,7 +130,6 @@ void APenguin::Tick(float DeltaTime)
 		}
 	}
 }
-
 
 // Called to bind functionality to input
 void APenguin::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
@@ -226,8 +218,7 @@ void APenguin::Quit(const FInputActionValue& input)
 
 	IsPaused = true;
 
-		GamePaused = !GamePaused;
-
+	GamePaused = !GamePaused;
 	
 	//UE_LOG(LogTemp, Warning, TEXT("Bool changed"));
 }
@@ -259,16 +250,14 @@ void APenguin::SpeedBoost()
 	SpeedBoostTimer = 5;
 	
 	//UE_LOG(LogTemp, Warning, TEXT("Got speedboost"));
-	GetCharacterMovement()->MaxWalkSpeed = 6000;
-	GetCharacterMovement()->MaxAcceleration = 2000;
+	GetCharacterMovement()->MaxWalkSpeed = 7000;
+	GetCharacterMovement()->MaxAcceleration = 2500;
 }
 
 void APenguin::OnTrack()
 {
 	GetCharacterMovement()->MaxWalkSpeed = 5000.f;
 }
-
-
 
 void APenguin::SetGamePaused(bool bIsPaused)
 {

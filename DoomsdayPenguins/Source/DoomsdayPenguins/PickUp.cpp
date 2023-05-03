@@ -14,7 +14,7 @@ APickUp::APickUp()
 
 	Collider = CreateDefaultSubobject<USphereComponent>(TEXT("Collider"));
 	SetRootComponent(Collider);
-	Collider->InitSphereRadius(100.f);
+	Collider->InitSphereRadius(250.f);
 	Collider->OnComponentBeginOverlap.AddDynamic(this, &APickUp::OnOverlap);
 
 	StaticMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("StaticMesh"));
@@ -34,6 +34,9 @@ void APickUp::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	FRotator Rotation = GetActorRotation();
+	Rotation.Yaw += 100.f * DeltaTime;
+	SetActorRotation(Rotation);
 }
 
 void APickUp::OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
