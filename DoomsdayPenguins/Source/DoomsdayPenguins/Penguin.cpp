@@ -98,9 +98,7 @@ void APenguin::Tick(float DeltaTime)
 	/*	AddControllerRollInput(Roll);*/
 	}
 	
-	
-
-		GetCharacterMovement()->bOrientRotationToMovement = true;
+	GetCharacterMovement()->bOrientRotationToMovement = true;
 
 	
 	if (IsPaused)
@@ -137,7 +135,6 @@ void APenguin::Tick(float DeltaTime)
 		}
 	}
 }
-
 
 // Called to bind functionality to input
 void APenguin::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
@@ -227,7 +224,6 @@ void APenguin::Quit(const FInputActionValue& input)
 	IsPaused = true;
 
 		GamePaused = !GamePaused;
-
 	
 	//UE_LOG(LogTemp, Warning, TEXT("Bool changed"));
 }
@@ -267,8 +263,6 @@ void APenguin::OnTrack()
 {
 	GetCharacterMovement()->MaxWalkSpeed = 5000.f;
 }
-
-
 
 void APenguin::SetGamePaused(bool bIsPaused)
 {

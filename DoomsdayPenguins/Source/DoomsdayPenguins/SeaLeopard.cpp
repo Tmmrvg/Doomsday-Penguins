@@ -113,7 +113,7 @@ void ASeaLeopard::Tick(float DeltaTime)
 
 void ASeaLeopard::PawnSeen(APawn* SeenPawn)
 {
-	UE_LOG(LogTemp, Warning, TEXT("Player Seen"));
+	//UE_LOG(LogTemp, Warning, TEXT("Player Seen"));
 }
 
 void ASeaLeopard::OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
@@ -137,7 +137,7 @@ void ASeaLeopard::DestroyTarget()
 // Shoot towards the player
 void ASeaLeopard::Shoot()
 {
-	UE_LOG(LogTemp, Warning, TEXT("Shoot"));
+	//UE_LOG(LogTemp, Warning, TEXT("Shoot"));
 	ActorLocation = GetActorLocation();
 	NewSpawnLocation = FVector3d(ActorLocation.X, ActorLocation.Y, ActorLocation.Z + 50.f);
 	GetWorld()->SpawnActor<AActor>(BP_Bullet,		// What to spawn
