@@ -26,14 +26,12 @@ AGameLoss::AGameLoss()
 void AGameLoss::BeginPlay()
 {
 	Super::BeginPlay();
-	
 }
 
 // Called every frame
 void AGameLoss::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
 }
 
 void AGameLoss::OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,

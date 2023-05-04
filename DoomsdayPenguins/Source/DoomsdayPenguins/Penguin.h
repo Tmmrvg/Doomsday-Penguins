@@ -44,7 +44,7 @@ public:
 	bool GameWon = false;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = GameState)
-		bool GamePaused = false;
+	bool GamePaused = false;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = GameState)
 	bool IsPaused;

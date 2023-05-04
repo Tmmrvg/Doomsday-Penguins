@@ -98,12 +98,7 @@ void APenguin::Tick(float DeltaTime)
 	/*	AddControllerRollInput(Roll);*/
 	}
 	
-<<<<<<< HEAD
 	GetCharacterMovement()->bOrientRotationToMovement = true;
-
-=======
-		GetCharacterMovement()->bOrientRotationToMovement = true;
->>>>>>> f3bd75e9f6429b004b241e5c0da7add713bff2a5
 	
 	if (IsPaused)
 	{
@@ -223,11 +218,7 @@ void APenguin::Quit(const FInputActionValue& input)
 
 	IsPaused = true;
 
-<<<<<<< HEAD
-		GamePaused = !GamePaused;
-=======
 	GamePaused = !GamePaused;
->>>>>>> f3bd75e9f6429b004b241e5c0da7add713bff2a5
 	
 	//UE_LOG(LogTemp, Warning, TEXT("Bool changed"));
 }
