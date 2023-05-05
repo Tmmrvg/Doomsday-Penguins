@@ -89,7 +89,8 @@ void APenguin::Tick(float DeltaTime)
 	{
 		SlowDuration();
 	}
-	if (IsPaused == true || GameWon == false) 
+	
+	if (IsPaused == true || GameWon == false || GameOver == false) 
 	{
 		Movement();
 
@@ -163,6 +164,7 @@ void APenguin::GameStateChange()
 void APenguin::GameLossState()
 {
 	GameOver = true;
+	SetGamePaused(true);
 }
 
 void APenguin::Forward(const FInputActionValue& input)

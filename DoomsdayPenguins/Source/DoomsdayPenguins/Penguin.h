@@ -59,14 +59,11 @@ public:
 	float Pitch;
 	float Clock;
 	
-
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	float Seconds;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	int Minutes;
-
-	//float Minutes;
 	
 	UPROPERTY(meta = (AllowPrivateAccess = "true"), EditAnywhere, BlueprintReadWrite, Category = "My Variables")
 	bool IsSlowed;
