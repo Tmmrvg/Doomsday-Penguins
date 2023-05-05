@@ -29,15 +29,15 @@ ASeaLeopard::ASeaLeopard()
 	Collider->InitBoxExtent(FVector(90, 90, 90));
 	Collider->OnComponentBeginOverlap.AddDynamic(this, &ASeaLeopard::OnOverlap);
 
-	StaticMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("StaticMesh"));
+	/*StaticMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("StaticMesh"));
 	StaticMesh->SetupAttachment(GetRootComponent());
 	StaticMesh->SetRelativeScale3D(FVector(0.1f, 1.f, 1.f));
-	StaticMesh->SetRelativeLocation(FVector(0.f, 0.f, 40.f));
+	StaticMesh->SetRelativeLocation(FVector(0.f, 0.f, 40.f));*/
 
-	// SkeletalMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("SkeletalMesh"));
-	// SkeletalMesh->SetupAttachment(GetRootComponent());
-	// SkeletalMesh->SetRelativeScale3D(FVector(0.1f, 1.f, 1.f));
-	// SkeletalMesh->SetRelativeLocation(FVector(0.f, 0.f, 40));
+	 SkeletalMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("SkeletalMesh"));
+	 SkeletalMesh->SetupAttachment(GetRootComponent());
+	 SkeletalMesh->SetRelativeScale3D(FVector(0.1f, 1.f, 1.f));
+	 SkeletalMesh->SetRelativeLocation(FVector(0.f, 0.f, 40));
 	
 	PawnSensing = CreateDefaultSubobject<UPawnSensingComponent>(TEXT("PawnSensing"));
 	PawnSensing->SightRadius = 10000.f;
@@ -123,7 +123,6 @@ void ASeaLeopard::OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* Ot
 	{
 		Cast<APenguin>(OtherActor)->HitByTarget();
 
-		DestroyTarget();
 	}
 }
 

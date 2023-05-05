@@ -45,7 +45,7 @@ void APenguin::BeginPlay()
 	
 	GetCharacterMovement()->MaxWalkSpeed = 5000.f;
 	GetCharacterMovement()->MaxAcceleration = 1000.f;
-	GetCharacterMovement()->GroundFriction = 0.5f;
+	GetCharacterMovement()->GroundFriction = 0.7f;
 	GetCharacterMovement()->RotationRate = FRotator(0.f, 90.0f, 0.0f);
 	GetCharacterMovement()->AirControl = 0.2;
 	GetCharacterMovement()->GravityScale = 10;
@@ -110,13 +110,20 @@ void APenguin::Tick(float DeltaTime)
 	if (GetCharacterMovement()->Velocity.Size() >= 3000) {
 		GetCharacterMovement()->SetWalkableFloorAngle(75);
 		//UE_LOG(LogTemp, Warning, TEXT("slope is 75"));
+
+		UE_LOG(LogTemp, Warning, TEXT("slope is 75"));
+		GetCharacterMovement()->GroundFriction = 0.5f;
 	}
 	else
 	{
 		GetCharacterMovement()->SetWalkableFloorAngle(45);
+
 		//UE_LOG(LogTemp, Warning, TEXT("slope is 30"));
 
 		//UE_LOG(LogTemp, Warning, TEXT("slope is 45"));
+
+		UE_LOG(LogTemp, Warning, TEXT("slope is 45"));
+		GetCharacterMovement()->GroundFriction = 0.7f;
 	}
 
 	//If SpeedBoostTimer is more than 0, timer starts. 
