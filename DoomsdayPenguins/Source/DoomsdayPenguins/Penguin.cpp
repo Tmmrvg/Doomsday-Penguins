@@ -73,7 +73,7 @@ void APenguin::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	if (GamePaused || GameWon) 
+	if (GamePaused) //  || GameWon
 		SetGamePaused(true);
 
 	if (!bHasGameStarted) return;
@@ -129,13 +129,7 @@ void APenguin::Tick(float DeltaTime)
 	//If SpeedBoostTimer is more than 0, timer starts. 
 	if (SpeedBoostTimer > 0)
 	{
-		SpeedBoostTimer -= DeltaTime;
-		if (SpeedBoostTimer <= 0) // Resets speed when timer is 0.
-		{
-				//UE_LOG(LogTemp, Warning, TEXT("Reseting speed"));
-				GetCharacterMovement()->MaxWalkSpeed = 5000;
-				GetCharacterMovement()->MaxAcceleration = 1000;
-		}
+		BoostTimer(1);
 	}
 }
 
@@ -166,6 +160,7 @@ void APenguin::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 void APenguin::GameStateChange()
 {
 	GameWon = true;
+	SetGamePaused(true);
 }
 
 void APenguin::GameLossState()
@@ -263,6 +258,17 @@ void APenguin::SpeedBoost()
 	GetCharacterMovement()->MaxAcceleration = 2500;
 }
 
+void APenguin::BoostTimer(float DeltaTime)
+{
+	SpeedBoostTimer -= DeltaTime;
+	if (SpeedBoostTimer <= 0) // Resets speed when timer is 0.
+		{
+		//UE_LOG(LogTemp, Warning, TEXT("Reseting speed"));
+		GetCharacterMovement()->MaxWalkSpeed = 5000;
+		GetCharacterMovement()->MaxAcceleration = 1000;
+		}
+}
+
 void APenguin::OnTrack()
 {
 	GetCharacterMovement()->MaxWalkSpeed = 5000.f;
@@ -270,6 +276,7 @@ void APenguin::OnTrack()
 
 void APenguin::SetGamePaused(bool bIsPaused)
 {
+	GamePaused = true;
 	APlayerController* const MyPlayer = Cast<APlayerController>(GEngine->GetFirstLocalPlayerController(GetWorld()));
 	if (MyPlayer != NULL)
 	{

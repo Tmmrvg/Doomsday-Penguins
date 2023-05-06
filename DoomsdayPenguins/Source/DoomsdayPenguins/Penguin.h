@@ -123,6 +123,7 @@ public:
 	void HitByTarget();
 	void SlowDuration();
 	void SpeedBoost();
+	void BoostTimer(float DeltaTime);
 
 	void OnTrack();
 	bool OffTrack;
