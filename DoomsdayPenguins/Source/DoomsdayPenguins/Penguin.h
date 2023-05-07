@@ -47,7 +47,7 @@ public:
 	bool GameWon = false;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = GameState)
-		bool GamePaused = false;
+	bool GamePaused = false;
 
 	float XInput;
 	float YInput;
@@ -126,6 +126,7 @@ public:
 	void MouseY(const FInputActionValue& input);
 
 	void GameStateChange();
+	void GameLossState();
 	void Movement();
 	void Quit(const FInputActionValue& input);
 	void HitByTarget();

@@ -167,6 +167,12 @@ void APenguin::GameStateChange()
 	GameWon = true;
 }
 
+void APenguin::GameLossState()
+{
+	GameOver = true;
+	SetGamePaused(true);
+}
+
 void APenguin::Forward(const FInputActionValue& input)
 {
 	XInput = input.Get<float>();
