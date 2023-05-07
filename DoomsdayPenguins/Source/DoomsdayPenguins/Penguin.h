@@ -74,7 +74,7 @@ public:
 	//float Minutes;
 
 	UPROPERTY(meta = (AllowPrivateAccess = "true"), EditAnywhere, BlueprintReadWrite, Category = "My Variables")
-	float SpeedBoostTimer;
+	float SpeedBoostTimer{};
 
 	UPROPERTY(meta = (AllowPrivateAccess = "true"), EditAnywhere, BlueprintReadWrite, Category = "My Variables")
 	float bHasSpeedBoost;

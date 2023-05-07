@@ -115,13 +115,13 @@ void APenguin::Tick(float DeltaTime)
 	//Hinder player to go up steep slopes when their speed is too low.
 	if (GetCharacterMovement()->Velocity.Size() >= 3000) {
 		GetCharacterMovement()->SetWalkableFloorAngle(75);
-		UE_LOG(LogTemp, Warning, TEXT("slope is 75"));
+		
 		GetCharacterMovement()->GroundFriction = 0.5f;
 	}
 	else
 	{
 		GetCharacterMovement()->SetWalkableFloorAngle(45);
-		UE_LOG(LogTemp, Warning, TEXT("slope is 45"));
+		
 		GetCharacterMovement()->GroundFriction = 0.7f;
 	}
 
@@ -222,7 +222,7 @@ void APenguin::Quit(const FInputActionValue& input)
 
 	
 	
-	UE_LOG(LogTemp, Warning, TEXT("Bool changed"));
+	
 }
 
 void APenguin::HitByTarget()
