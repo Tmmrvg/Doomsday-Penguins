@@ -96,7 +96,7 @@ void APenguin::Tick(float DeltaTime)
 	if (GameOver == true || GameWon == false) 
 	{
 		Movement();
-
+		
 		AddControllerYawInput(Yaw);
 		AddControllerPitchInput(Pitch);
 	/*	AddControllerRollInput(Roll);*/
@@ -105,7 +105,7 @@ void APenguin::Tick(float DeltaTime)
 	
 
 		GetCharacterMovement()->bOrientRotationToMovement = true;
-
+		
 	
 	if (GameOver)
 	{

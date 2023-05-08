@@ -33,7 +33,9 @@ void APickUp::BeginPlay()
 void APickUp::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
+	FRotator Rotation = GetActorRotation();
+	Rotation.Yaw += 100.f * DeltaTime;
+	SetActorRotation(Rotation);
 }
 
 void APickUp::OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
