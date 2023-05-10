@@ -8,6 +8,7 @@
 /NODEFAULTLIB
 "C:\Users\larss\Documents\Github repositories\Inventory\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\DoomsdayPenguinsEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
 "C:\Users\larss\Documents\Github repositories\Inventory\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Development\DoomsdayPenguins\Bullet.gen.cpp.obj"
+"C:\Users\larss\Documents\Github repositories\Inventory\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Development\DoomsdayPenguins\DDP_Widget.gen.cpp.obj"
 "C:\Users\larss\Documents\Github repositories\Inventory\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Development\DoomsdayPenguins\DoomsdayPenguins.init.gen.cpp.obj"
 "C:\Users\larss\Documents\Github repositories\Inventory\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Development\DoomsdayPenguins\DoomsdayPenguinsGameModeBase.gen.cpp.obj"
 "C:\Users\larss\Documents\Github repositories\Inventory\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Development\DoomsdayPenguins\GameLoss.gen.cpp.obj"
@@ -20,6 +21,7 @@
 "C:\Users\larss\Documents\Github repositories\Inventory\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Development\DoomsdayPenguins\SeaLeopard.gen.cpp.obj"
 "C:\Users\larss\Documents\Github repositories\Inventory\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Development\DoomsdayPenguins\Track_class.gen.cpp.obj"
 "C:\Users\larss\Documents\Github repositories\Inventory\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Development\DoomsdayPenguins\Bullet.cpp.obj"
+"C:\Users\larss\Documents\Github repositories\Inventory\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Development\DoomsdayPenguins\DDP_Widget.cpp.obj"
 "C:\Users\larss\Documents\Github repositories\Inventory\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Development\DoomsdayPenguins\DoomsdayPenguins.cpp.obj"
 "C:\Users\larss\Documents\Github repositories\Inventory\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Development\DoomsdayPenguins\DoomsdayPenguinsGameModeBase.cpp.obj"
 "C:\Users\larss\Documents\Github repositories\Inventory\Doomsday-Penguins\DoomsdayPenguins\Intermediate\Build\Win64\UnrealEditor\Development\DoomsdayPenguins\GameLoss.cpp.obj"

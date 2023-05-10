@@ -6,7 +6,7 @@
 #include "GameFramework/GameModeBase.h"
 #include "DoomsdayPenguinsGameModeBase.generated.h"
 
-
+class UUserWidget;
 class AGoal;
 class UMySaveGame;
 /**
@@ -31,6 +31,8 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Goal")
 		TSubclassOf<AGoal> BP_Goal;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Widget")
+		TSubclassOf<UUserWidget> Widget_BP;
 
 	UFUNCTION(BlueprintCallable)
 	void Restart();

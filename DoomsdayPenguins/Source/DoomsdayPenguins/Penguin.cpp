@@ -32,6 +32,7 @@ APenguin::APenguin()
 
 	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 	Camera->SetupAttachment(SpringArm, USpringArmComponent::SocketName);
+	Camera->bUsePawnControlRotation = true;
 
 	bUseControllerRotationYaw = false;
 	bUseControllerRotationPitch = false;
@@ -136,7 +137,7 @@ void APenguin::Tick(float DeltaTime)
 		SpeedBoostTimer -= DeltaTime;
 		if (SpeedBoostTimer <= 0) // Resets speed when timer is 0.
 		{
-			bHasSpeedBoost = false;
+				bHasSpeedBoost = false;
 				UE_LOG(LogTemp, Warning, TEXT("Reseting speed"));
 				GetCharacterMovement()->MaxWalkSpeed = 5000;
 				GetCharacterMovement()->MaxAcceleration = 1000;
@@ -165,12 +166,13 @@ void APenguin::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 		EnhanceInputCom->BindAction(MouseYInput, ETriggerEvent::Completed, this, &APenguin::MouseY);
 
 		EnhanceInputCom->BindAction(SettingsInput, ETriggerEvent::Triggered, this, &APenguin::Quit);
+		EnhanceInputCom->BindAction(SettingsInput, ETriggerEvent::Completed, this, &APenguin::GameStateChange);
 	}
 }
 
 void APenguin::GameStateChange()
 {
-	GameWon = true;
+	SetGamePaused(false);
 }
 
 void APenguin::GameLossState()

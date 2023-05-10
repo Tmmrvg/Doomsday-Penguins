@@ -15,6 +15,7 @@ void EmptyLinkFunctionForGeneratedCodeDoomsdayPenguinsGameModeBase() {}
 	DOOMSDAYPENGUINS_API UClass* Z_Construct_UClass_AGoal_NoRegister();
 	DOOMSDAYPENGUINS_API UClass* Z_Construct_UClass_UMySaveGame_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AGameModeBase();
+	UMG_API UClass* Z_Construct_UClass_UUserWidget_NoRegister();
 	UPackage* Z_Construct_UPackage__Script_DoomsdayPenguins();
 // End Cross Module References
 	DEFINE_FUNCTION(ADoomsdayPenguinsGameModeBase::execLoadGame)
@@ -134,6 +135,10 @@ void EmptyLinkFunctionForGeneratedCodeDoomsdayPenguinsGameModeBase() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_BP_Goal_MetaData[];
 #endif
 		static const UECodeGen_Private::FClassPropertyParams NewProp_BP_Goal;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_Widget_BP_MetaData[];
+#endif
+		static const UECodeGen_Private::FClassPropertyParams NewProp_Widget_BP;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -170,9 +175,17 @@ void EmptyLinkFunctionForGeneratedCodeDoomsdayPenguinsGameModeBase() {}
 	};
 #endif
 	const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_ADoomsdayPenguinsGameModeBase_Statics::NewProp_BP_Goal = { "BP_Goal", nullptr, (EPropertyFlags)0x0014000000000015, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ADoomsdayPenguinsGameModeBase, BP_Goal), Z_Construct_UClass_UClass, Z_Construct_UClass_AGoal_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ADoomsdayPenguinsGameModeBase_Statics::NewProp_BP_Goal_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ADoomsdayPenguinsGameModeBase_Statics::NewProp_BP_Goal_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ADoomsdayPenguinsGameModeBase_Statics::NewProp_Widget_BP_MetaData[] = {
+		{ "Category", "Widget" },
+		{ "ModuleRelativePath", "DoomsdayPenguinsGameModeBase.h" },
+	};
+#endif
+	const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_ADoomsdayPenguinsGameModeBase_Statics::NewProp_Widget_BP = { "Widget_BP", nullptr, (EPropertyFlags)0x0014000000000015, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ADoomsdayPenguinsGameModeBase, Widget_BP), Z_Construct_UClass_UClass, Z_Construct_UClass_UUserWidget_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ADoomsdayPenguinsGameModeBase_Statics::NewProp_Widget_BP_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ADoomsdayPenguinsGameModeBase_Statics::NewProp_Widget_BP_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ADoomsdayPenguinsGameModeBase_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADoomsdayPenguinsGameModeBase_Statics::NewProp_SaveGame_BP,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADoomsdayPenguinsGameModeBase_Statics::NewProp_BP_Goal,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADoomsdayPenguinsGameModeBase_Statics::NewProp_Widget_BP,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ADoomsdayPenguinsGameModeBase_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ADoomsdayPenguinsGameModeBase>::IsAbstract,
@@ -211,9 +224,9 @@ void EmptyLinkFunctionForGeneratedCodeDoomsdayPenguinsGameModeBase() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_larss_Documents_Github_repositories_Inventory_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_DoomsdayPenguinsGameModeBase_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ADoomsdayPenguinsGameModeBase, ADoomsdayPenguinsGameModeBase::StaticClass, TEXT("ADoomsdayPenguinsGameModeBase"), &Z_Registration_Info_UClass_ADoomsdayPenguinsGameModeBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ADoomsdayPenguinsGameModeBase), 1250557508U) },
+		{ Z_Construct_UClass_ADoomsdayPenguinsGameModeBase, ADoomsdayPenguinsGameModeBase::StaticClass, TEXT("ADoomsdayPenguinsGameModeBase"), &Z_Registration_Info_UClass_ADoomsdayPenguinsGameModeBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ADoomsdayPenguinsGameModeBase), 823635449U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_larss_Documents_Github_repositories_Inventory_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_DoomsdayPenguinsGameModeBase_h_2892204120(TEXT("/Script/DoomsdayPenguins"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_larss_Documents_Github_repositories_Inventory_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_DoomsdayPenguinsGameModeBase_h_3425828717(TEXT("/Script/DoomsdayPenguins"),
 		Z_CompiledInDeferFile_FID_Users_larss_Documents_Github_repositories_Inventory_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_DoomsdayPenguinsGameModeBase_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_larss_Documents_Github_repositories_Inventory_Doomsday_Penguins_DoomsdayPenguins_Source_DoomsdayPenguins_DoomsdayPenguinsGameModeBase_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
