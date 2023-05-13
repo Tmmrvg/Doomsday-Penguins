@@ -14,6 +14,7 @@
 #include "Kismet/KismetMathLibrary.h"
 #include "Kismet/KismetSystemLibrary.h"
 #include "InputTriggers.h"
+#include "NiagaraComponent.h"
 
 // Sets default values
 APenguin::APenguin()
@@ -28,6 +29,11 @@ APenguin::APenguin()
 
 	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 	Camera->SetupAttachment(SpringArm, USpringArmComponent::SocketName);
+
+	RocketFX = CreateDefaultSubobject<UNiagaraComponent>(TEXT("RocketFX"));
+	RocketFX->SetupAttachment(RootComponent);
+	RocketBoostFX = CreateDefaultSubobject<UNiagaraComponent>(TEXT("RocketBoostFX"));
+	RocketBoostFX->SetupAttachment(RootComponent);
 
 	bUseControllerRotationYaw = false;
 	bUseControllerRotationPitch = false;
@@ -56,6 +62,20 @@ void APenguin::BeginPlay()
 	IsSlowed = false;
 	Seconds = 0;
 	Minutes = 0;
+
+	UNiagaraSystem* RocketFXAsset = LoadObject<UNiagaraSystem>(nullptr, TEXT("Doomsday-Penguins/DoomsdayPenguins/Content/Assets/VFX/NS_Rakett.uasset"));
+	if (RocketFXAsset)
+	{
+		RocketFX->SetAsset(RocketFXAsset);
+		RocketFX->Deactivate();
+	}
+	
+	UNiagaraSystem* RocketBoostFXAsset = LoadObject<UNiagaraSystem>(nullptr, TEXT("Doomsday-Penguins/DoomsdayPenguins/Content/Assets/VFX/NS_RakettBoost.uasset"));
+	if (RocketBoostFXAsset)
+	{
+		RocketBoostFX->SetAsset(RocketBoostFXAsset);
+		RocketBoostFX->Deactivate();
+	}
 	
 	APlayerController* PlayerController = Cast<APlayerController>(Controller);
 	if (PlayerController)
@@ -253,9 +273,12 @@ void APenguin::SpeedBoost()
 {
 	SpeedBoostTimer = 5;
 	
-	//UE_LOG(LogTemp, Warning, TEXT("Got speedboost"));
+	//UE_LOG(LogTemp, Warning, TEXT("Got speed boost"));
 	GetCharacterMovement()->MaxWalkSpeed = 7000;
 	GetCharacterMovement()->MaxAcceleration = 2500;
+
+	RocketBoostFX->Activate();
+	RocketFX->Deactivate();
 }
 
 void APenguin::BoostTimer(float DeltaTime)
@@ -266,6 +289,9 @@ void APenguin::BoostTimer(float DeltaTime)
 		//UE_LOG(LogTemp, Warning, TEXT("Reseting speed"));
 		GetCharacterMovement()->MaxWalkSpeed = 5000;
 		GetCharacterMovement()->MaxAcceleration = 1000;
+
+		RocketBoostFX->Deactivate();
+		RocketFX->Activate();
 		}
 }
 

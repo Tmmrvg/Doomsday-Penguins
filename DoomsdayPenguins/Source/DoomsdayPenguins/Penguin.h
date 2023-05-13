@@ -10,7 +10,9 @@
 
 struct FInputActionValue;
 
-
+class UInputAction;
+class UNiagaraSystem;
+class UNiagaraComponent;
 UCLASS()
 class DOOMSDAYPENGUINS_API APenguin : public ACharacter
 {
@@ -84,31 +86,52 @@ public:
 	class UInputMappingContext* MappingContext;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = InputSystem)
-	class UInputAction* ForwardInput;
+	UInputAction* ForwardInput;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = InputSystem)
-	class UInputAction* UpInput;
+	UInputAction* UpInput;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = InputSystem)
-	class UInputAction* RightInput;
+	UInputAction* RightInput;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = InputSystem)
-	class UInputAction* ShootInput;
+	UInputAction* ShootInput;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = InputSystem)
-	class UInputAction* ReloadInput;
+	UInputAction* ReloadInput;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = InputSystem)
-	class UInputAction* MouseXInput;
+	UInputAction* MouseXInput;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = InputSystem)
-	class UInputAction* MouseYInput;
+	UInputAction* MouseYInput;
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = InputSystem)
-	class UInputAction* RestartInput;
+	UInputAction* RestartInput;
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = InputSystem)
-	class UInputAction* SettingsInput;
+	UInputAction* SettingsInput;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Particles")
+	UNiagaraComponent* RocketFX;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Particles")
+	UNiagaraComponent* RocketFX2;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Particles")
+	UNiagaraComponent* RocketBoostFX;
+	
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Particles")
+	UNiagaraComponent* RocketBoostFX2;
+	
+	// UPROPERTY(EditAnywhere, Category = "Rockets")
+	// UNiagaraSystem* NormalSpeed;
+	//
+	// UPROPERTY(EditAnywhere, Category = "Rockets")
+	// UNiagaraSystem* EnhancedSpeed;
+	//
+	// UPROPERTY(meta = (AllowPrivateAccess = "true"), EditAnywhere, BlueprintReadWrite, Category = "My Variables")
+	// float CoefStrength;
 
 	void Forward(const FInputActionValue& input);
 	void Right(const FInputActionValue& input);
