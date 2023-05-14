@@ -125,7 +125,7 @@ void APenguin::Tick(float DeltaTime)
 	{
 		SetGamePaused(true);
 	}
-
+	
 	//Hinder player to go up steep slopes when their speed is too slow.
 	if (GetCharacterMovement()->Velocity.Size() >= 3000) {
 		GetCharacterMovement()->SetWalkableFloorAngle(75);
@@ -151,6 +151,15 @@ void APenguin::Tick(float DeltaTime)
 	{
 		BoostTimer(1);
 	}
+
+	/*if (GetCharacterMovement()->Velocity == 0)
+	{
+		RocketFX->Deactivate();
+	}
+	else
+	{
+		RocketFX->Activate();
+	}*/
 }
 
 // Called to bind functionality to input
