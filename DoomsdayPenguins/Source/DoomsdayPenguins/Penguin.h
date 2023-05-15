@@ -116,13 +116,13 @@ public:
 	UNiagaraComponent* RocketFX;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Particles")
-	UNiagaraComponent* RocketFX2;
-
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Particles")
 	UNiagaraComponent* RocketBoostFX;
 	
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Particles")
-	UNiagaraComponent* RocketBoostFX2;
+	UFUNCTION(BlueprintImplementableEvent)
+	void Rocket();
+	
+	UFUNCTION(BlueprintImplementableEvent)
+	void RocketBoost();
 	
 	// UPROPERTY(EditAnywhere, Category = "Rockets")
 	// UNiagaraSystem* NormalSpeed;

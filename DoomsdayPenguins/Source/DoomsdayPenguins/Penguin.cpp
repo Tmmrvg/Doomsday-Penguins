@@ -57,6 +57,7 @@ void APenguin::BeginPlay()
 	GetCharacterMovement()->GravityScale = 10;
 	
 	bHasGameStarted = false;
+	bHasSpeedBoost = false;
 	SlowTime = 0;
 	SpeedBoostTimer = 10000;
 	IsSlowed = false;
@@ -151,15 +152,6 @@ void APenguin::Tick(float DeltaTime)
 	{
 		BoostTimer(1);
 	}
-
-	/*if (GetCharacterMovement()->Velocity == 0)
-	{
-		RocketFX->Deactivate();
-	}
-	else
-	{
-		RocketFX->Activate();
-	}*/
 }
 
 // Called to bind functionality to input
@@ -280,14 +272,14 @@ void APenguin::SlowDuration()
 
 void APenguin::SpeedBoost()
 {
-	SpeedBoostTimer = 5;
+	SpeedBoostTimer = 500;
+	bHasSpeedBoost = true;
 	
 	//UE_LOG(LogTemp, Warning, TEXT("Got speed boost"));
 	GetCharacterMovement()->MaxWalkSpeed = 7000;
 	GetCharacterMovement()->MaxAcceleration = 2500;
 
-	RocketBoostFX->Activate();
-	RocketFX->Deactivate();
+	RocketBoost();
 }
 
 void APenguin::BoostTimer(float DeltaTime)
@@ -299,8 +291,8 @@ void APenguin::BoostTimer(float DeltaTime)
 		GetCharacterMovement()->MaxWalkSpeed = 5000;
 		GetCharacterMovement()->MaxAcceleration = 1000;
 
-		RocketBoostFX->Deactivate();
-		RocketFX->Activate();
+		bHasSpeedBoost = false;
+		RocketBoost();
 		}
 }
 
