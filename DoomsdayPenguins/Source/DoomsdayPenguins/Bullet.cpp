@@ -6,6 +6,7 @@
 #include "SeaLeopard.h"
 #include "Components/StaticMeshComponent.h"
 #include "Penguin.h"
+#include "NiagaraSystem.h"
 
 
 // Sets default values
@@ -22,6 +23,9 @@ ABullet::ABullet()
 	StaticMesh->SetupAttachment(GetRootComponent());
 	StaticMesh->SetRelativeScale3D(FVector(0.2f, 0.2f, 0.2f));
 
+	ProjectileVFX = CreateDefaultSubobject<UNiagaraComponent>(TEXT("ProjectileVFX"));
+	ProjectileVFX->SetupAttachment(RootComponent);
+	
 	MovementSpeed = 10000.f;
 	TimeLived = 0.f;
 	LifeSpan = 5.f;
@@ -33,6 +37,11 @@ void ABullet::BeginPlay()
 {
 	Super::BeginPlay();
 
+	UNiagaraSystem* ProjectileVFXAsset = LoadObject<UNiagaraSystem>(nullptr, TEXT("Doomsday-Penguins/DoomsdayPenguins/Content/Assets/VFX/NS_GunkBlast.uasset"));
+	if (ProjectileVFXAsset)
+	{
+		ProjectileVFX->SetAsset(ProjectileVFXAsset);
+	}
 }
 
 // Called every frame

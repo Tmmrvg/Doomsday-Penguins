@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "NiagaraComponent.h"
 #include "GameFramework/Actor.h"
 #include "Bullet.generated.h"
 
@@ -37,8 +38,11 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "My Variables")
 		float LifeSpan;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Particles")
+	UNiagaraComponent* ProjectileVFX;
 
-
+	UFUNCTION(BlueprintImplementableEvent)
+	void PlayProjectileVFX();
 
 	/** Public Functions */
 
