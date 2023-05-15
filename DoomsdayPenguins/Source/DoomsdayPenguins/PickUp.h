@@ -22,9 +22,6 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Body")
 	class USphereComponent* Collider;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Body")
-	UStaticMeshComponent* StaticMesh;
-
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -33,4 +30,13 @@ public:
 	void OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
 		UPrimitiveComponent* OtherComponent, int32 OtherBodyIndex,
 			bool bFromSweep, const FHitResult& SweepResult);
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Body")
+	class UStaticMeshComponent* StaticMesh;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Particles")
+	class UNiagaraComponent* PickUpVFX;
+	
+	UFUNCTION(BlueprintImplementableEvent)
+	void PlayPickUpVFX();
 };
