@@ -29,6 +29,7 @@ APenguin::APenguin()
 
 	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 	Camera->SetupAttachment(SpringArm, USpringArmComponent::SocketName);
+	Camera->bUsePawnControlRotation = true;
 
 	RocketFX = CreateDefaultSubobject<UNiagaraComponent>(TEXT("RocketFX"));
 	RocketFX->SetupAttachment(RootComponent);
@@ -114,7 +115,7 @@ void APenguin::Tick(float DeltaTime)
 	if (IsPaused == true || GameWon == false || GameOver == false) 
 	{
 		Movement();
-
+		
 		AddControllerYawInput(Yaw);
 		AddControllerPitchInput(Pitch);
 	/*	AddControllerRollInput(Roll);*/
@@ -122,7 +123,12 @@ void APenguin::Tick(float DeltaTime)
 	
 	GetCharacterMovement()->bOrientRotationToMovement = true;
 	
+
 	if (IsPaused)
+		GetCharacterMovement()->bOrientRotationToMovement = true;
+		
+	
+	if (GameOver)
 	{
 		SetGamePaused(true);
 	}
@@ -130,27 +136,48 @@ void APenguin::Tick(float DeltaTime)
 	//Hinder player to go up steep slopes when their speed is too slow.
 	if (GetCharacterMovement()->Velocity.Size() >= 3000) {
 		GetCharacterMovement()->SetWalkableFloorAngle(75);
+
 		//UE_LOG(LogTemp, Warning, TEXT("slope is 75"));
 
 		UE_LOG(LogTemp, Warning, TEXT("slope is 75"));
+
+		
+
 		GetCharacterMovement()->GroundFriction = 0.5f;
 	}
 	else
 	{
 		GetCharacterMovement()->SetWalkableFloorAngle(45);
 
+
 		//UE_LOG(LogTemp, Warning, TEXT("slope is 30"));
 
 		//UE_LOG(LogTemp, Warning, TEXT("slope is 45"));
 
-		UE_LOG(LogTemp, Warning, TEXT("slope is 45"));
+		//UE_LOG(LogTemp, Warning, TEXT("slope is 45"));
+		
 		GetCharacterMovement()->GroundFriction = 0.7f;
 	}
+	if (bHasSpeedBoost)
+	{
+		SpeedBoostTimer = 5;
+	}
+		
 
 	//If SpeedBoostTimer is more than 0, timer starts. 
 	if (SpeedBoostTimer > 0)
 	{
+
 		BoostTimer(1);
+		
+		SpeedBoostTimer -= DeltaTime;
+		if (SpeedBoostTimer <= 0) // Resets speed when timer is 0.
+		{
+				bHasSpeedBoost = false;
+				UE_LOG(LogTemp, Warning, TEXT("Reseting speed"));
+				GetCharacterMovement()->MaxWalkSpeed = 5000;
+				GetCharacterMovement()->MaxAcceleration = 1000;
+		}
 	}
 }
 
@@ -175,6 +202,7 @@ void APenguin::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 		EnhanceInputCom->BindAction(SettingsInput, ETriggerEvent::Triggered, this, &APenguin::Quit);
 
 		EnhanceInputCom->BindAction(SettingsInput, ETriggerEvent::Triggered, this, &APenguin::Quit);
+		EnhanceInputCom->BindAction(SettingsInput, ETriggerEvent::Completed, this, &APenguin::GameStateChange);
 	}
 }
 
@@ -182,6 +210,8 @@ void APenguin::GameStateChange()
 {
 	GameWon = true;
 	SetGamePaused(true);
+
+	SetGamePaused(false);
 }
 
 void APenguin::GameLossState()
@@ -244,8 +274,6 @@ void APenguin::Quit(const FInputActionValue& input)
 	IsPaused = true;
 
 	GamePaused = !GamePaused;
-	
-	//UE_LOG(LogTemp, Warning, TEXT("Bool changed"));
 }
 
 void APenguin::HitByTarget()
@@ -272,7 +300,9 @@ void APenguin::SlowDuration()
 
 void APenguin::SpeedBoost()
 {
-	SpeedBoostTimer = 500;
+
+	SpeedBoostTimer = 5;
+
 	bHasSpeedBoost = true;
 	
 	//UE_LOG(LogTemp, Warning, TEXT("Got speed boost"));
