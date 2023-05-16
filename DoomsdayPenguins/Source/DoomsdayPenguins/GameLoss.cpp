@@ -4,6 +4,7 @@
 #include "GameLoss.h"
 #include "Components/BoxComponent.h"
 #include "Sound/AmbientSound.h"
+#include "Kismet/GameplayStatics.h"
 #include "Penguin.h"
 
 // Sets default values
@@ -21,6 +22,8 @@ AGameLoss::AGameLoss()
 	StaticMesh->SetupAttachment(GetRootComponent());
 	StaticMesh->SetRelativeScale3D(FVector(0.1f, 1.f, 1.f));
 	StaticMesh->SetRelativeLocation(FVector(0.f, 0.f, 40));
+
+	//Sizzle->GetAudioComponent();
 }
 
 // Called when the game starts or when spawned
@@ -33,6 +36,7 @@ void AGameLoss::BeginPlay()
 void AGameLoss::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	//Sizzle->Play();
 }
 
 void AGameLoss::OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,

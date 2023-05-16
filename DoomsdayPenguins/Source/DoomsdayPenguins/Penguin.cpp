@@ -162,27 +162,27 @@ void APenguin::Tick(float DeltaTime)
 		
 		GetCharacterMovement()->GroundFriction = 0.7f;
 	}
-	if (bHasSpeedBoost)
-	{
-		SpeedBoostTimer = 5;
-	}
-		
+	
+		if(bHasSpeedBoost)
+		{
+			BoostTimer(DeltaTime);
+		}
 
 	//If SpeedBoostTimer is more than 0, timer starts. 
-	if (SpeedBoostTimer > 0)
-	{
+	//if (SpeedBoostTimer > 0)
+	//{
 
-		BoostTimer(1);
-		
-		SpeedBoostTimer -= DeltaTime;
-		if (SpeedBoostTimer <= 0) // Resets speed when timer is 0.
-		{
-				bHasSpeedBoost = false;
-				UE_LOG(LogTemp, Warning, TEXT("Reseting speed"));
-				GetCharacterMovement()->MaxWalkSpeed = 5000;
-				GetCharacterMovement()->MaxAcceleration = 1000;
-		}
-	}
+	//	BoostTimer(1);
+	//	
+	//	SpeedBoostTimer -= DeltaTime;
+	//	if (SpeedBoostTimer <= 0) // Resets speed when timer is 0.
+	//	{
+	//			bHasSpeedBoost = false;
+	//			UE_LOG(LogTemp, Warning, TEXT("Reseting speed"));
+	//			GetCharacterMovement()->MaxWalkSpeed = 5000;
+	//			GetCharacterMovement()->MaxAcceleration = 1000;
+	//	}
+	//}
 }
 
 // Called to bind functionality to input
@@ -305,10 +305,10 @@ void APenguin::SlowDuration()
 void APenguin::SpeedBoost()
 {
 
-	SpeedBoostTimer = 5;
+	
 
 	bHasSpeedBoost = true;
-	
+	SpeedBoostTimer = 5;
 	//UE_LOG(LogTemp, Warning, TEXT("Got speed boost"));
 	GetCharacterMovement()->MaxWalkSpeed = 7000;
 	GetCharacterMovement()->MaxAcceleration = 2500;
