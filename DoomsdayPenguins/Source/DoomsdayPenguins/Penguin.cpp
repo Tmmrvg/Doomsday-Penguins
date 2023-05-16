@@ -43,7 +43,6 @@ APenguin::APenguin()
 
 	AutoPossessPlayer = EAutoReceiveInput::Player0;
 
-	OffTrack = false;
 }
 
 // Called when the game starts or when spawned
