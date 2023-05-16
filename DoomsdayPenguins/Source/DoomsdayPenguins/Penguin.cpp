@@ -142,17 +142,12 @@ void APenguin::Tick(float DeltaTime)
 
 		//UE_LOG(LogTemp, Warning, TEXT("slope is 75"));
 
-		UE_LOG(LogTemp, Warning, TEXT("slope is 75"));
-
-		
-
 		GetCharacterMovement()->GroundFriction = 0.5f;
 	}
 	else
 	{
 		GetCharacterMovement()->SetWalkableFloorAngle(45);
-
-
+		
 		//UE_LOG(LogTemp, Warning, TEXT("slope is 30"));
 
 		//UE_LOG(LogTemp, Warning, TEXT("slope is 45"));
@@ -280,7 +275,7 @@ void APenguin::SlowDuration()
 void APenguin::SpeedBoost()
 {
 	bHasSpeedBoost = true;
-	SpeedBoostTimer = 5;
+	SpeedBoostTimer = 3;
 	//UE_LOG(LogTemp, Warning, TEXT("Got speed boost"));
 	GetCharacterMovement()->MaxWalkSpeed = 7000;
 	GetCharacterMovement()->MaxAcceleration = 2500;
@@ -293,10 +288,9 @@ void APenguin::BoostTimer(float DeltaTime)
 	SpeedBoostTimer -= DeltaTime;
 	if (SpeedBoostTimer <= 0) // Resets speed when timer is 0.
 		{
-		//UE_LOG(LogTemp, Warning, TEXT("Reseting speed"));
 		GetCharacterMovement()->MaxWalkSpeed = 5000;
 		GetCharacterMovement()->MaxAcceleration = 1000;
-
+		//UE_LOG(LogTemp, Warning, TEXT("Reseting speed"));
 		bHasSpeedBoost = false;
 		RocketBoost();
 		}
