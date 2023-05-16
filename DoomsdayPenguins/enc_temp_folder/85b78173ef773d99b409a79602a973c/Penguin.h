@@ -33,18 +33,17 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-	//Basic class setup
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "PlayerVariables")
 	class USpringArmComponent* SpringArm{ nullptr };
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "PlayerVariables")
 	class UCameraComponent* Camera{ nullptr };
-	//Bool setup
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = GameState)
 	bool GameOver = false;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = GameState)
-	bool ShowSettings = false;
+		bool ShowSettings = false;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = GameState)
 	bool GameWon = false;
@@ -57,22 +56,20 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = GameState)
 	bool bHasGameStarted;
-
-	//float setup
+	
 	float XInput;
 	float YInput;
 	float Yaw;
 	float Roll;
 	float Pitch;
 	float Clock;
-
-	//Timer Setup
+	
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	float Seconds;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	int Minutes;
-	//Slow and Speed boost setup
+	
 	UPROPERTY(meta = (AllowPrivateAccess = "true"), EditAnywhere, BlueprintReadWrite, Category = "My Variables")
 	bool IsSlowed;
 
@@ -85,7 +82,9 @@ public:
 	UPROPERTY(meta = (AllowPrivateAccess = "true"), EditAnywhere, BlueprintReadWrite, Category = "My Variables")
 	int SlowTime;
 
-	//Input Mapping setup
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "My Variables")
+	int Lives;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = InputSystem)
 	class UInputMappingContext* MappingContext;
 
@@ -115,23 +114,34 @@ public:
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = InputSystem)
 	UInputAction* SettingsInput;
-	//VFX setup
+
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Particles")
 	UNiagaraComponent* RocketFX;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Particles")
 	UNiagaraComponent* RocketBoostFX;
-	//Functions
+	
 	UFUNCTION(BlueprintImplementableEvent)
 	void Rocket();
 	
 	UFUNCTION(BlueprintImplementableEvent)
 	void RocketBoost();
+	
+	// UPROPERTY(EditAnywhere, Category = "Rockets")
+	// UNiagaraSystem* NormalSpeed;
+	//
+	// UPROPERTY(EditAnywhere, Category = "Rockets")
+	// UNiagaraSystem* EnhancedSpeed;
+	//
+	// UPROPERTY(meta = (AllowPrivateAccess = "true"), EditAnywhere, BlueprintReadWrite, Category = "My Variables")
+	// float CoefStrength;
 
 	void Forward(const FInputActionValue& input);
 	void Right(const FInputActionValue& input);
+
 	void MouseX(const FInputActionValue& input);
 	void MouseY(const FInputActionValue& input);
+
 	void GameStateChange();
 	void GameLossState();
 	void Movement();
@@ -140,7 +150,10 @@ public:
 	void SlowDuration();
 	void SpeedBoost();
 	void BoostTimer(float DeltaTime);
+
 	void OnTrack();
+	bool OffTrack;
+
 	void SetGamePaused(bool bIsPaused);
 
 };

@@ -22,21 +22,21 @@ APenguin::APenguin()
 {
  //	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-	//Springarm
+	
 	SpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("SpringArm"));
 	SpringArm->SetupAttachment(GetRootComponent());
 	SpringArm->TargetArmLength = 400.f; // Distance from player
 	SpringArm->bUsePawnControlRotation = true; // Rotate arm based on controller
-	//Camera
+
 	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 	Camera->SetupAttachment(SpringArm, USpringArmComponent::SocketName);
 	Camera->bUsePawnControlRotation = true;
-	//VFX
+
 	RocketFX = CreateDefaultSubobject<UNiagaraComponent>(TEXT("RocketFX"));
 	RocketFX->SetupAttachment(RootComponent);
 	RocketBoostFX = CreateDefaultSubobject<UNiagaraComponent>(TEXT("RocketBoostFX"));
 	RocketBoostFX->SetupAttachment(RootComponent);
-	//Rotation
+
 	bUseControllerRotationYaw = false;
 	bUseControllerRotationPitch = false;
 	bUseControllerRotationRoll = false;
@@ -50,14 +50,14 @@ APenguin::APenguin()
 void APenguin::BeginPlay()
 {
 	Super::BeginPlay();
-	//Movement
+	
 	GetCharacterMovement()->MaxWalkSpeed = 5000.f;
 	GetCharacterMovement()->MaxAcceleration = 1000.f;
 	GetCharacterMovement()->GroundFriction = 0.7f;
 	GetCharacterMovement()->RotationRate = FRotator(0.f, 90.0f, 0.0f);
 	GetCharacterMovement()->AirControl = 0.2;
 	GetCharacterMovement()->GravityScale = 10;
-	//Setup
+	
 	bHasGameStarted = false;
 	bHasSpeedBoost = false;
 	SlowTime = 0;
@@ -65,7 +65,7 @@ void APenguin::BeginPlay()
 	IsSlowed = false;
 	Seconds = 0;
 	Minutes = 0;
-	//Rocket Setup
+
 	UNiagaraSystem* RocketFXAsset = LoadObject<UNiagaraSystem>(nullptr, TEXT("Doomsday-Penguins/DoomsdayPenguins/Content/Assets/VFX/NS_Rakett.uasset"));
 	UNiagaraSystem* RocketBoostFXAsset = LoadObject<UNiagaraSystem>(nullptr, TEXT("Doomsday-Penguins/DoomsdayPenguins/Content/Assets/VFX/NS_RakettBoost.uasset"));
 	if (RocketBoostFXAsset)
@@ -75,11 +75,17 @@ void APenguin::BeginPlay()
 	}
 	else if (RocketFXAsset)
 	{
+	/*	ACharacter* character = UGameplayStatics::GetPlayerCharacter(GetWorld(), 0);
+		if (character == nullptr) return;
+
+		APenguin* player = Cast<APenguin>(character);
+		if (player == nullptr) return;*/
+		//RocketFX->AttachToComponent(player, FAttachmentTransformRules::SnapToTargetNotIncludingScale);
 	
 		RocketFX->SetAsset(RocketFXAsset);
 		RocketFX->Deactivate();
 	}
-	//Controller Setup
+	
 	APlayerController* PlayerController = Cast<APlayerController>(Controller);
 	if (PlayerController)
 	{
@@ -95,12 +101,12 @@ void APenguin::BeginPlay()
 void APenguin::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	//Start and pause
+
 	if (GamePaused) //  || GameWon
 		SetGamePaused(true);
 	if (bHasSpeedBoost)
 		BoostTimer(DeltaTime);
-	//Timer
+
 	if (!bHasGameStarted) return;
 	Seconds = Seconds + DeltaTime;
 	if (Seconds > 59)
@@ -109,12 +115,12 @@ void APenguin::Tick(float DeltaTime)
 		Seconds = 0;
 		Minutes++;
 	}
-	//Slow
+
 	if (IsSlowed == true)
 	{
 		SlowDuration();
 	}
-	//Condition for Movement
+	
 	if (IsPaused == true || GameWon == false || GameOver == false) 
 	{
 		Movement();
@@ -123,24 +129,42 @@ void APenguin::Tick(float DeltaTime)
 		AddControllerPitchInput(Pitch);
 	/*	AddControllerRollInput(Roll);*/
 	}
-	//Paused movement
+	
 	GetCharacterMovement()->bOrientRotationToMovement = true;
+	
+
 	if (IsPaused)
 		GetCharacterMovement()->bOrientRotationToMovement = true;
-
+		
+	
 	if (GameOver)
 	{
 		SetGamePaused(true);
 	}
+	
 	//Hinder player to go up steep slopes when their speed is too slow.
-	if (GetCharacterMovement()->Velocity.Size() >= 3000)
-	{
+	if (GetCharacterMovement()->Velocity.Size() >= 3000) {
 		GetCharacterMovement()->SetWalkableFloorAngle(75);
+
+		//UE_LOG(LogTemp, Warning, TEXT("slope is 75"));
+
+		UE_LOG(LogTemp, Warning, TEXT("slope is 75"));
+
+		
+
 		GetCharacterMovement()->GroundFriction = 0.5f;
 	}
 	else
 	{
 		GetCharacterMovement()->SetWalkableFloorAngle(45);
+
+
+		//UE_LOG(LogTemp, Warning, TEXT("slope is 30"));
+
+		//UE_LOG(LogTemp, Warning, TEXT("slope is 45"));
+
+		//UE_LOG(LogTemp, Warning, TEXT("slope is 45"));
+		
 		GetCharacterMovement()->GroundFriction = 0.7f;
 	}
 	
