@@ -16,6 +16,7 @@
 #include "InputTriggers.h"
 #include "NiagaraComponent.h"
 
+
 // Sets default values
 APenguin::APenguin()
 {
@@ -29,6 +30,7 @@ APenguin::APenguin()
 
 	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 	Camera->SetupAttachment(SpringArm, USpringArmComponent::SocketName);
+	Camera->SetRelativeRotation(FRotator(0, 0, -30));
 	Camera->bUsePawnControlRotation = true;
 
 	RocketFX = CreateDefaultSubobject<UNiagaraComponent>(TEXT("RocketFX"));
@@ -77,6 +79,7 @@ void APenguin::BeginPlay()
 		RocketFX->SetAsset(RocketFXAsset);
 		RocketFX->Deactivate();
 	}
+	
 	
 	
 	

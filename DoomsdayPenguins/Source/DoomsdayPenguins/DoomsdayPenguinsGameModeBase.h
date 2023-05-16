@@ -6,6 +6,7 @@
 #include "GameFramework/GameModeBase.h"
 #include "DoomsdayPenguinsGameModeBase.generated.h"
 
+class UAudioComponent;
 class UUserWidget;
 class AGoal;
 class UMySaveGame;
@@ -33,6 +34,9 @@ public:
 		TSubclassOf<AGoal> BP_Goal;
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Widget")
 		TSubclassOf<UUserWidget> Widget_BP;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Audio")
+		UAudioComponent* BG_Music;
 
 	UFUNCTION(BlueprintCallable)
 	void Restart();

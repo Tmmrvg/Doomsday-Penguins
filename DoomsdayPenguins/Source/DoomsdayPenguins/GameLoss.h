@@ -6,6 +6,8 @@
 #include "GameFramework/Actor.h"
 #include "GameLoss.generated.h"
 
+class AAmbientSound;
+
 UCLASS()
 class DOOMSDAYPENGUINS_API AGameLoss : public AActor
 {
@@ -28,6 +30,8 @@ public:
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	class UStaticMeshComponent* StaticMesh;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		AAmbientSound* Sizzle;
 
 
 	UFUNCTION()

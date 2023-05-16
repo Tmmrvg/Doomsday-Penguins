@@ -148,6 +148,7 @@ public:
 	void Quit(const FInputActionValue& input);
 	void HitByTarget();
 	void SlowDuration();
+	UFUNCTION(meta = (AllowPrivateAccess = true))
 	void SpeedBoost();
 	void BoostTimer(float DeltaTime);
 

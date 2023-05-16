@@ -3,6 +3,7 @@
 
 #include "GameLoss.h"
 #include "Components/BoxComponent.h"
+#include "Sound/AmbientSound.h"
 #include "Penguin.h"
 
 // Sets default values
