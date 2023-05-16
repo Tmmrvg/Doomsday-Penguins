@@ -24,8 +24,8 @@ APickUp::APickUp()
 	StaticMesh->SetupAttachment(GetRootComponent());
 	StaticMesh->SetRelativeScale3D(FVector(1.f, 1.f, 1.f));
 
-	PickUpVFX = CreateDefaultSubobject<UNiagaraComponent>(TEXT("PickUpVFX"));
-	PickUpVFX->SetupAttachment(RootComponent);
+	// PickUpVFX = CreateDefaultSubobject<UNiagaraComponent>(TEXT("PickUpVFX"));
+	// PickUpVFX->SetupAttachment(RootComponent);
 }
 
 // Called when the game starts or when spawned
@@ -33,11 +33,11 @@ void APickUp::BeginPlay()
 {
 	Super::BeginPlay();
 
-	UNiagaraSystem* PickUpVFXAsset = LoadObject<UNiagaraSystem>(nullptr, TEXT("Doomsday-Penguins/DoomsdayPenguins/Content/Assets/VFX/MAT_Boost.uasset"));
-	if (PickUpVFXAsset)
-	{
-		PickUpVFX->SetAsset(PickUpVFXAsset);
-	}
+	// UNiagaraSystem* PickUpVFXAsset = LoadObject<UNiagaraSystem>(nullptr, TEXT("Doomsday-Penguins/DoomsdayPenguins/Content/Assets/VFX/MAT_Boost.uasset"));
+	// if (PickUpVFXAsset)
+	// {
+	// 	PickUpVFX->SetAsset(PickUpVFXAsset);
+	// }
 }
 
 // Called every frame
@@ -49,7 +49,7 @@ void APickUp::Tick(float DeltaTime)
 	Rotation.Yaw += 100.f * DeltaTime;
 	SetActorRotation(Rotation);
 
-	PlayPickUpVFX();
+	// PlayPickUpVFX();
 }
 
 void APickUp::OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,

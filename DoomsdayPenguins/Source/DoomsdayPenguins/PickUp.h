@@ -34,9 +34,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Body")
 	class UStaticMeshComponent* StaticMesh;
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Particles")
-	class UNiagaraComponent* PickUpVFX;
-	
-	UFUNCTION(BlueprintImplementableEvent)
-	void PlayPickUpVFX();
+	// UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Particles")
+	// class UNiagaraComponent* PickUpVFX;
+	//
+	// UFUNCTION(BlueprintImplementableEvent)
+	// void PlayPickUpVFX();
 };
