@@ -43,6 +43,9 @@ public:
 	bool GameOver = false;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = GameState)
+		bool ShowSettings = false;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = GameState)
 	bool GameWon = false;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = GameState)

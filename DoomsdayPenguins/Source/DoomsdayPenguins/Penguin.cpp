@@ -66,18 +66,19 @@ void APenguin::BeginPlay()
 	Minutes = 0;
 
 	UNiagaraSystem* RocketFXAsset = LoadObject<UNiagaraSystem>(nullptr, TEXT("Doomsday-Penguins/DoomsdayPenguins/Content/Assets/VFX/NS_Rakett.uasset"));
-	if (RocketFXAsset)
-	{
-		RocketFX->SetAsset(RocketFXAsset);
-		RocketFX->Deactivate();
-	}
-	
 	UNiagaraSystem* RocketBoostFXAsset = LoadObject<UNiagaraSystem>(nullptr, TEXT("Doomsday-Penguins/DoomsdayPenguins/Content/Assets/VFX/NS_RakettBoost.uasset"));
 	if (RocketBoostFXAsset)
 	{
 		RocketBoostFX->SetAsset(RocketBoostFXAsset);
 		RocketBoostFX->Deactivate();
 	}
+	else if (RocketFXAsset)
+	{
+		RocketFX->SetAsset(RocketFXAsset);
+		RocketFX->Deactivate();
+	}
+	
+	
 	
 	APlayerController* PlayerController = Cast<APlayerController>(Controller);
 	if (PlayerController)
