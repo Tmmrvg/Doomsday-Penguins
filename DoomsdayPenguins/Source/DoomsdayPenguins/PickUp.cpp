@@ -8,6 +8,7 @@
 #include "Components/StaticMeshComponent.h"
 #include "Penguin.h"
 #include "NiagaraSystem.h"
+#include "Kismet/GameplayStatics.h"
 
 // Sets default values
 APickUp::APickUp()
@@ -38,6 +39,7 @@ void APickUp::BeginPlay()
 	// {
 	// 	PickUpVFX->SetAsset(PickUpVFXAsset);
 	// }
+	
 }
 
 // Called every frame
@@ -49,13 +51,22 @@ void APickUp::Tick(float DeltaTime)
 	Rotation.Yaw += 100.f * DeltaTime;
 	SetActorRotation(Rotation);
 
+
 	// PlayPickUpVFX();
 }
 
 void APickUp::OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
 	UPrimitiveComponent* OtherComponent, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
-	Cast<APenguin>(OtherActor)->SpeedBoost();
+
+	//Cast<APenguin>(OtherActor)->SpeedBoost();
+	
+
+	APenguin* player = Cast<APenguin>(OtherActor);
+	if (player == nullptr) return;
+
+	player->SpeedBoost();
+
 	SetActorHiddenInGame(true);
 	SetActorEnableCollision(false);
 	this->Destroy();

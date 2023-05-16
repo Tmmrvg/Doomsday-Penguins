@@ -55,7 +55,7 @@ public:
 	bool IsPaused;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = GameState)
-	bool bHasGameStarted = true;
+	bool bHasGameStarted;
 	
 	float XInput;
 	float YInput;

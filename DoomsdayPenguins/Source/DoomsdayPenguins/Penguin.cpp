@@ -98,6 +98,8 @@ void APenguin::Tick(float DeltaTime)
 
 	if (GamePaused) //  || GameWon
 		SetGamePaused(true);
+	if (bHasSpeedBoost)
+		BoostTimer(DeltaTime);
 
 	if (!bHasGameStarted) return;
 	Seconds = Seconds + DeltaTime;
@@ -159,27 +161,7 @@ void APenguin::Tick(float DeltaTime)
 		
 		GetCharacterMovement()->GroundFriction = 0.7f;
 	}
-	if (bHasSpeedBoost)
-	{
-		SpeedBoostTimer = 5;
-	}
-		
-
-	//If SpeedBoostTimer is more than 0, timer starts. 
-	if (SpeedBoostTimer > 0)
-	{
-
-		BoostTimer(1);
-		
-		SpeedBoostTimer -= DeltaTime;
-		if (SpeedBoostTimer <= 0) // Resets speed when timer is 0.
-		{
-				bHasSpeedBoost = false;
-				UE_LOG(LogTemp, Warning, TEXT("Reseting speed"));
-				GetCharacterMovement()->MaxWalkSpeed = 5000;
-				GetCharacterMovement()->MaxAcceleration = 1000;
-		}
-	}
+	
 }
 
 // Called to bind functionality to input
@@ -202,17 +184,13 @@ void APenguin::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 		
 		EnhanceInputCom->BindAction(SettingsInput, ETriggerEvent::Triggered, this, &APenguin::Quit);
 
-		EnhanceInputCom->BindAction(SettingsInput, ETriggerEvent::Triggered, this, &APenguin::Quit);
-		EnhanceInputCom->BindAction(SettingsInput, ETriggerEvent::Completed, this, &APenguin::GameStateChange);
+		
 	}
 }
 
 void APenguin::GameStateChange()
 {
-	GameWon = true;
-	SetGamePaused(true);
-
-	SetGamePaused(false);
+	
 }
 
 void APenguin::GameLossState()
@@ -301,11 +279,8 @@ void APenguin::SlowDuration()
 
 void APenguin::SpeedBoost()
 {
-
-	SpeedBoostTimer = 5;
-
 	bHasSpeedBoost = true;
-	
+	SpeedBoostTimer = 5;
 	//UE_LOG(LogTemp, Warning, TEXT("Got speed boost"));
 	GetCharacterMovement()->MaxWalkSpeed = 7000;
 	GetCharacterMovement()->MaxAcceleration = 2500;
