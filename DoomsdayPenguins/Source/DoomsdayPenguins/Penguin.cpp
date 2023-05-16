@@ -261,7 +261,7 @@ void APenguin::SlowDuration()
 void APenguin::SpeedBoost()
 {
 	bHasSpeedBoost = true;
-	SpeedBoostTimer = 5;
+	SpeedBoostTimer = 3;
 	//UE_LOG(LogTemp, Warning, TEXT("Got speed boost"));
 	GetCharacterMovement()->MaxWalkSpeed = 7000;
 	GetCharacterMovement()->MaxAcceleration = 2500;
