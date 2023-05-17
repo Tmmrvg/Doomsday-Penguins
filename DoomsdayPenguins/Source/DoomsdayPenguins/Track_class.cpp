@@ -42,19 +42,19 @@ void ATrack_class::OverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor
 {
 	if (OtherActor->IsA<APenguin>())
 	{
-		UE_LOG(LogTemp, Warning, TEXT("On track"));
-		//Destroys bullet
-		
-		Cast<APenguin>(OtherActor)->OffTrack=false;
+		//UE_LOG(LogTemp, Warning, TEXT("On track"));
+		////Destroys bullet
+		//
+		//Cast<APenguin>(OtherActor)->OffTrack=false;
 	}
 }
 
 void ATrack_class::OverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
 {
-	if (OtherActor->IsA<APenguin>())
+	/*if (OtherActor->IsA<APenguin>())
 	{
 		UE_LOG(LogTemp, Warning, TEXT("Off track"));
 		Cast<APenguin>(OtherActor)->OffTrack = true;
-	}
+	}*/
 }
 
