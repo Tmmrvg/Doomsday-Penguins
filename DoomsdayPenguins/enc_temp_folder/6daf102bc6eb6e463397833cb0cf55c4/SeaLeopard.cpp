@@ -13,8 +13,6 @@
 #include "Components/StaticMeshComponent.h"
 #include "Kismet/GameplayStatics.h"
 #include "Kismet/KismetMathLibrary.h"
-#include "Components/AudioComponent.h"
-#include "Sound/SoundCue.h"
 #include "GameFramework/Pawn.h"
 #include "Math/UnitConversion.h"
 
@@ -51,26 +49,13 @@ ASeaLeopard::ASeaLeopard()
 	ShootDelay = 1.5f;
 	TimeSinceShooting = 1.f;
 	CanShoot = false;
-
-	static ConstructorHelpers::FObjectFinder<USoundCue>ShootObject(TEXT("/Script/Engine.SoundCue'/Game/Assets/Sounds/RocketCue.RocketCue'"));
-	if (ShootObject.Succeeded())
-	{
-		Shootsound = ShootObject.Object;
-		DefaultSound = CreateDefaultSubobject<UAudioComponent>(TEXT("AudioComponent"));
-		DefaultSound->SetupAttachment(RootComponent);
-
-	}
 }
 
 // Called when the game starts or when spawned
 void ASeaLeopard::BeginPlay()
 {
 	Super::BeginPlay();
-	if (DefaultSound && Shootsound)
-	{
-		DefaultSound->SetSound(Shootsound);
-
-	}
+	
 	if (PawnSensing)
 	{
 		// PawnSensing->OnSeePawn.AddDynamic(this, &ASeaLeopard::PawnSeen);
@@ -156,5 +141,4 @@ void ASeaLeopard::Shoot()
 	NewSpawnLocation = FVector3d(ActorLocation.X, ActorLocation.Y, ActorLocation.Z + 50.f);
 	GetWorld()->SpawnActor<AActor>(BP_Bullet,		// What to spawn
 	NewSpawnLocation, GetActorRotation());	// Location & Rotation
-	DefaultSound->Play(0.5f);
 }
