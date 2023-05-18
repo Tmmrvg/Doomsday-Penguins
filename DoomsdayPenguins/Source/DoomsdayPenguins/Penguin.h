@@ -39,6 +39,10 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "PlayerVariables")
 	class UCameraComponent* Camera{ nullptr };
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Audio")
+		class USoundCue* Rocketsound;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Audio")
+	class UAudioComponent* DefaultSound;
 	//Bool setup
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = GameState)
 	bool GameOver = false;
