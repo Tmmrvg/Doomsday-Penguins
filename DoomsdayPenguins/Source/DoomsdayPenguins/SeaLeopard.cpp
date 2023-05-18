@@ -52,7 +52,7 @@ ASeaLeopard::ASeaLeopard()
 	TimeSinceShooting = 1.f;
 	CanShoot = false;
 
-	static ConstructorHelpers::FObjectFinder<USoundCue>ShootObject(TEXT("/Script/Engine.SoundCue'/Game/Assets/Sounds/RocketCue.RocketCue'"));
+	static ConstructorHelpers::FObjectFinder<USoundCue>ShootObject(TEXT("/Script/Engine.SoundCue'/Game/Assets/Sounds/Shoot_Sound_Cue.Shoot_Sound_Cue'"));
 	if (ShootObject.Succeeded())
 	{
 		Shootsound = ShootObject.Object;
