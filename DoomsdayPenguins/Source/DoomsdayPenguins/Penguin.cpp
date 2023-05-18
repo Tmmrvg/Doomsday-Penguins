@@ -15,7 +15,9 @@
 #include "Kismet/KismetSystemLibrary.h"
 #include "InputTriggers.h"
 #include "NiagaraComponent.h"
+#include "Components/AudioComponent.h"
 #include "Kismet/GameplayStatics.h"
+#include "Sound/SoundCue.h"
 
 // Sets default values
 APenguin::APenguin()
@@ -42,6 +44,14 @@ APenguin::APenguin()
 	bUseControllerRotationRoll = false;
 
 	AutoPossessPlayer = EAutoReceiveInput::Player0;
+	static ConstructorHelpers::FObjectFinder<USoundCue>RocketObject(TEXT("/Script/Engine.SoundCue'/Game/Assets/Sounds/RocketCue.RocketCue'"));
+	if(RocketObject.Succeeded())
+	{
+		Rocketsound = RocketObject.Object;
+		DefaultSound = CreateDefaultSubobject<UAudioComponent>(TEXT("AudioComponent"));
+		DefaultSound->SetupAttachment(RootComponent);
+		
+	}
 
 }
 
@@ -87,6 +97,11 @@ void APenguin::BeginPlay()
 		{
 			subsystem->AddMappingContext(MappingContext, 0);
 		}
+	}
+	if(DefaultSound && Rocketsound)
+	{
+		DefaultSound->SetSound(Rocketsound);
+
 	}
 }
 
@@ -142,6 +157,14 @@ void APenguin::Tick(float DeltaTime)
 		GetCharacterMovement()->SetWalkableFloorAngle(45);
 		GetCharacterMovement()->GroundFriction = 0.7f;
 	}
+	
+		
+	
+	/*if(GetCharacterMovement()->Velocity.Size() > 0)
+	{
+		if (DefaultSound)
+			DefaultSound->Play(0.f);
+	}*/
 	
 }
 
@@ -220,10 +243,12 @@ void APenguin::Movement()
 	if (!FMath::IsNearlyZero(XInput))
 	{
 		AddMovementInput(ForwardVector);
+		
 	}
 	if (!FMath::IsNearlyZero(YInput))
 	{
 		AddMovementInput(RightVector);
+		
 	}
 }
 
@@ -266,7 +291,11 @@ void APenguin::SpeedBoost()
 	//UE_LOG(LogTemp, Warning, TEXT("Got speed boost"));
 	GetCharacterMovement()->MaxWalkSpeed = 7000;
 	GetCharacterMovement()->MaxAcceleration = 2500;
-
+	if(DefaultSound)
+	{
+		DefaultSound->Play(1.f);
+	}
+	
 	RocketBoost();
 }
 
