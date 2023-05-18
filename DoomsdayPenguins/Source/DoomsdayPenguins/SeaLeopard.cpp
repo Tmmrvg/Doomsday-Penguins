@@ -56,8 +56,8 @@ ASeaLeopard::ASeaLeopard()
 	if (ShootObject.Succeeded())
 	{
 		Shootsound = ShootObject.Object;
-		DefaultSound = CreateDefaultSubobject<UAudioComponent>(TEXT("AudioComponent"));
-		DefaultSound->SetupAttachment(RootComponent);
+		LeopardSound = CreateDefaultSubobject<UAudioComponent>(TEXT("AudioComponent"));
+		LeopardSound->SetupAttachment(RootComponent);
 
 	}
 }
@@ -66,9 +66,9 @@ ASeaLeopard::ASeaLeopard()
 void ASeaLeopard::BeginPlay()
 {
 	Super::BeginPlay();
-	if (DefaultSound && Shootsound)
+	if (LeopardSound && Shootsound)
 	{
-		DefaultSound->SetSound(Shootsound);
+		LeopardSound->SetSound(Shootsound);
 
 	}
 	if (PawnSensing)
@@ -156,5 +156,5 @@ void ASeaLeopard::Shoot()
 	NewSpawnLocation = FVector3d(ActorLocation.X, ActorLocation.Y, ActorLocation.Z + 50.f);
 	GetWorld()->SpawnActor<AActor>(BP_Bullet,		// What to spawn
 	NewSpawnLocation, GetActorRotation());	// Location & Rotation
-	DefaultSound->Play(0.5f);
+	LeopardSound->Play(0.5f);
 }

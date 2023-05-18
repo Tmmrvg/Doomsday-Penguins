@@ -29,11 +29,6 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	class UStaticMeshComponent* StaticMesh;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Audio")
-		class USoundCue* Sizzle;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Audio")
-		class UAudioComponent* lakeSound;
-
 
 	UFUNCTION()
 	void OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,

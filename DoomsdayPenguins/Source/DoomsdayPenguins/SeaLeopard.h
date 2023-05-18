@@ -44,7 +44,7 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Audio")
 		class USoundCue* Shootsound;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Audio")
-		class UAudioComponent* DefaultSound;
+		class UAudioComponent* LeopardSound;
 
 	UFUNCTION()
 		void OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,

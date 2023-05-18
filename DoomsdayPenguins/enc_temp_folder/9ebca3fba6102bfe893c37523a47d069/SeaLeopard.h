@@ -41,6 +41,11 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	UStaticMeshComponent* StaticMesh;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Audio")
+		class USoundCue* Shootsound;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Audio")
+		class UAudioComponent* DefaultSound;
+
 	UFUNCTION()
 		void OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
 			UPrimitiveComponent* OtherComponent, int32 OtherBodyIndex,
