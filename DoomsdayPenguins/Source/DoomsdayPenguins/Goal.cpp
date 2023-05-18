@@ -15,10 +15,10 @@ AGoal::AGoal()
 	Collider->InitBoxExtent(FVector(100, 100, 100));
 	Collider->OnComponentBeginOverlap.AddDynamic(this, &AGoal::OnOverlap);
 
-	StaticMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("StaticMesh"));
-	StaticMesh->SetupAttachment(GetRootComponent());
-	StaticMesh->SetRelativeScale3D(FVector(0.1f, 1.f, 1.f));
-	StaticMesh->SetRelativeLocation(FVector(0.f, 0.f, 40));
+	// StaticMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("StaticMesh"));
+	// StaticMesh->SetupAttachment(GetRootComponent());
+	// StaticMesh->SetRelativeScale3D(FVector(0.1f, 1.f, 1.f));
+	// StaticMesh->SetRelativeLocation(FVector(0.f, 0.f, 40));
 	
 	GoalReached = false;
 	
@@ -45,13 +45,9 @@ void AGoal::OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherAct
 		Cast<APenguin>(OtherActor)->GameStateChange();
 		GoalReached = true;
 	}
-
-	
-
 }
 
 void AGoal::NewGameState()
 {
 	GoalReached = true;
-
 }

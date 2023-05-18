@@ -171,7 +171,8 @@ void APenguin::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 
 void APenguin::GameStateChange()
 {
-	
+	GameWon = true;
+	SetGamePaused(true);
 }
 
 void APenguin::GameLossState()
@@ -279,7 +280,7 @@ void APenguin::BoostTimer(float DeltaTime)
 		GetCharacterMovement()->MaxAcceleration = 1000;
 
 		bHasSpeedBoost = false;
-		RocketBoost();
+		//RocketBoost();
 		}
 }
 
@@ -290,10 +291,12 @@ void APenguin::OnTrack()
 
 void APenguin::SetGamePaused(bool bIsPaused)
 {
-	GamePaused = true;
 	APlayerController* const MyPlayer = Cast<APlayerController>(GEngine->GetFirstLocalPlayerController(GetWorld()));
 	if (MyPlayer != NULL)
 	{
 		MyPlayer->SetPause(bIsPaused);
 	}
+
+	if (GameWon == false || GameOver == false) return;
+		GamePaused = true;
 }
